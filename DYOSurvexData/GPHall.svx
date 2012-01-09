@@ -1,0 +1,38 @@
+; Surveyed by D M Judson & "HAL" on 1st Sep 1969 ("Day 24")
+*Data normal from to compass clino tape
+*Calibrate Declination 7.691	
+*begin GPHall
+;From        To Compass   Clino    Tape Rise/Fall
+1a	2ax	85.0	5.0	19.40	
+2ax	2a	-	UP	0.0	
+1a	1a1	85.0	5.0	5.00	
+1a	1a2	85.0	5.0	10.00	
+1a	1a3	85.0	5.0	15.00	
+1a	1a4	85.0	5.0	18.50	
+2a	2bx	170.0	-2.5	10.50	
+2bx	2b	-	UP	0.2	
+2a	2a1	170.0	-2.5	5.00	
+2a	2a2	170.0	-2.5	6.00	
+2a	2a3	170.0	-2.5	8.00	
+2a	2a4	170.0	-2.5	10.00	
+2b	2c	260.0	0.0	1.50	
+2c	2d	175.0	0.0	4.30	
+2c	2c1	175.0	0.0	1.00	
+2a	3ax	57.0	12.0	15.65	
+3ax	3a	-	UP	0.6	
+2a	2a5	57.0	12.0	5.00	
+2a	2a6	57.0	12.0	8.00	
+2a	2a7	57.0	12.0	11.50	
+2a	2a8	57.0	12.0	15.00	
+3a	3aix	157.0	-5.0	17.30	
+3aix	3ai	-	UP	0.4	
+3a	3a1	157.0	-5.0	5.00	
+3a	3a2	157.0	-5.0	8.00	
+3ai	3aiix	86.0	-4.0	7.15	
+3aiix	3aii	-	UP	0.4	
+3ai	3ai1	86.0	-4.0	2.80	
+3ai	3ai2	86.0	-4.0	6.00	
+3aii	4x	170.0	0.0	7.50	
+4x	4	-	UP	0.2	
+3aii	3aii1	170.0	0.0	3.00	
+*end GPHall

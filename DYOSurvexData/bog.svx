@@ -1,0 +1,53 @@
+; Surveyed by D M Judson & A C Coase
+; 4/4/69 ("Day 21")
+;
+*Data normal from to compass clino tape
+*calibrate declination 7.724
+*begin bog
+;From        To Compass   Clino    Tape Rise/Fall
+x	x1	114.00	0.00	13.30	
+x	xa	114.00	0.00	9.00	
+x	xb	114.00	0.00	12.80	
+x1	x2	25.00	0.00	2.30	
+x1	x1a	25.00	0.00	1.00	
+x2	x3	82.00	0.00	3.80	
+x2	x2a	82.00	0.00	1.40	
+x	xi	17.00	0.00	9.70	
+x	xc	17.00	0.00	3.00	
+xi	xii	17.00	0.00	5.90	
+xi	xia	17.00	0.00	2.70	
+xii	xiii	14.00	0.00	10.50	;Brg could be "4"
+xii	xiia	14.00	0.00	3.50	
+xiii	xiv	81.00	0.00	10.00	
+xiii	xiiia	81.00	0.00	3.00	
+xiii	xiiib	81.00	0.00	7.00	
+xiv	xv	22.50	0.00	30.00	
+xiv	xiva	22.50	0.00	7.00	
+xiv	xivb	22.50	0.00	13.00	
+xiv	xivc	22.50	0.00	23.00	
+xv	xvi	15.00	0.00	25.50	
+xv	xva	15.00	0.00	10.00	
+xvi	xvii	350.00	0.00	18.20	
+xvi	xvia	350.00	0.00	6.00	
+xvi	xvib	350.00	0.00	12.00	
+xvii	xviii	118.00	0.00	20.00	
+xvii	xviia	118.00	0.00	4.50	
+xvii	xviib	118.00	0.00	7.50	
+xvii	xviic	118.00	0.00	10.50	
+xvii	xviid	118.00	0.00	18.00	
+xviii	xix	13.00	0.00	10.00	
+xviii	xviiia	13.00	0.00	4.00	
+xviii	xviiib	13.00	0.00	7.00	
+xix	x4	8.00	0.00	7.70	
+xix	xx	30.00	0.00	16.30	
+xix	xixa	30.00	0.00	1.50	
+xix	xixb	30.00	0.00	5.00	
+xix	xixc	30.00	0.00	11.00	
+xx	xx1	18.00	0.00	12.60	
+xx	xxa	18.00	0.00	8.00	
+xx1	xxi	20.00	0.00	26.00	;Offset to left?
+xx1	xx1a	20.00	0.00	2.00	;Sidepassage ?
+xx1	xx1b	20.00	0.00	14.00	
+xxi	xxii	2.00	0.00	10.50	
+xxi	xxia	2.00	0.00	3.00	
+*end bog

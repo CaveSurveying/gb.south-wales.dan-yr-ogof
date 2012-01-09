@@ -1,0 +1,29 @@
+;
+; Surveyed 15/6/2003
+; Instruments:	Mike McCombe
+; Tape:	 	Martin Peck
+; Book:		Jon Jones
+;
+; Compass 	S/N 636826
+; Clino 		S/N 716189
+;
+;
+;
+*Units length    metres
+*Units bearing   degrees
+*Units gradient  degrees
+*calibrate declination 2.791	
+*equate AugustRight.10  Boulder.13
+*Data Normal From To Length Bearing Gradient
+*begin AugustRight
+1	2	3.30	203.5	+6.0
+3	2	4.25	71.0	-9.0
+3	4	7.20	22.0	+17.5
+3	5	4.40	220.0	-4.0
+6	5	2.90	351.0	+27.0
+6	7	7.00	178.0	-11.0
+3	8	5.95	279.0	+32.0
+8	8a	0.40	279.0	-	;Dummy leg
+9	7	0.75	12.0	+5.0
+9	10	3.15	86.0	-1.0
+*end   AugustRight

@@ -1,0 +1,73 @@
+;
+; Master Survex file for DYO
+;
+; Grid North at the entrance is calculated as 1.326 degrees West of True North
+;
+; Lat = 51.830165 Long = -3.686333
+;
+*fix showcave.24 283812 216012 227 ; Estimated
+*equate lower.0 dyo.90
+*equate dyo.0 lakes.1
+*equate lower.24 dyo.54
+*equate dyo.b11 rhs.300
+;*equate lakes.a boulder.2
+*equate wigmoreSF.41 dyo.2
+*equate dyo.61 elliptic.b
+*equate mazeways.a lower.m
+*equate windows.1 dyo.107	;very unclear if this is right
+*equate longer.1 dyo.20
+*equate GPHall.1a dyo.53
+*equate Flabbergasm.i Dyo.56
+*equate Monk.A Dyo.73
+*equate cloud.a dyo.74
+*equate lower.b dali.1
+*equate dyo.115 bog.xi
+*equate dyo.96  surprise.a
+*equate dyo.77e hanger.a
+*equate wigmoreSF.15 boulder.13
+*equate showcave.0 lakes.T
+*equate showcave.0 alfrebag.1
+*equate boulder.7 pearl2.0
+*equate boulder.a0 underboulder.1
+*equate boulder.a0 boulderchamber.0
+*equate showcave.24 Barbarians.11
+*equate dyo.0 below_wigmore.0
+*equate pot_upper.00 lakes.f
+*equate dyo.wigmore.1.0 dyo.0
+
+*include lower.svx
+*include main.svx
+*include lakes.svx
+*include rhs
+*include boulder
+*include elliptic
+*include mazeways
+*include windows
+*include longer
+*include gphall
+*include flabbergasm
+*include monk
+*include cloud
+*include dali
+*include bog
+*include showcave
+*include surprise
+*include hanger
+*include wigmoreSF
+*include pearl2
+*include alfrebag
+*include underboulder
+*include boulderchamber
+*include augustright
+;*include terrain
+*include Barbarians
+*include belowwigmore
+*include potsump
+*include wigmore
+;*include sinks
+
+
+
+
+
+

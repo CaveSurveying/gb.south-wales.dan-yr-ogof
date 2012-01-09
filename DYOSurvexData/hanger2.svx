@@ -1,0 +1,21 @@
+; Surveyed by G Edwards
+; 23/5/70 ("Day 29")
+*Data normal from to compass clino tape
+*Calibrate Declination 7.624	 
+*begin hanger2
+;From        To Compass   Clino    Tape Rise/Fall
+a	b	217.00	-10.00	4.50	
+b	c	260.00	0.00	1.20	
+c	d	218.00	10.00	3.20	
+d	e	201.00	13.00	2.80	
+e	f	207.00	5.00	4.50	
+f	g	193.00	9.00	3.90	
+g	h	206.00	4.00	4.00	
+h	I	216.00	17.00	2.20	
+I	j	233.00	0.00	4.10	
+j	kx	202.00	0.00	5.50	
+kx	k	-	DOWN	0.8	
+k	l	180.00	0.00	1.90	
+l	mx	200.00	0.00	4.00	
+mx	m	-	UP	1.2	
+*end hanger2

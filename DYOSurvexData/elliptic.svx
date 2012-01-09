@@ -1,0 +1,34 @@
+; Surveyed by D M Judson & "CB"
+; 18/8/68 ("Day 20")
+*Data normal from to compass clino tape
+*Calibrate Declination 7.774	
+*begin elliptic
+;From      To Compass Clino   Tape    Rise/Fall
+a	1	250.0	0	4.15	
+a	a1	250.0	0	2.00	
+a	a2	250.0	0	3.00	
+a	b	278.0	0	4.50	
+a	a3	278.0	0	2.00	
+a	a4	278.0	0	3.40	
+b	c	185.0	0	24.00	
+b	b1	185.0	0	1.50	
+b	b2	185.0	0	6.00	
+b	b3	185.0	0	21.00	
+b	b4	185.0	0	24.00	
+c	d	220.5	0	6.00	
+c	c1	220.5	0	0.80	
+c	c2	220.5	0	2.00	
+c	c3	220.5	0	4.00	
+c	c4	220.5	0	5.00	
+d	e	252.0	0	6.85	
+d	d1	252.0	0	1.50	
+e	f	205.0	0	4.15	
+e	e1	205.0	0	2.40	
+f	g	193.0	0	6.20	
+f	f1	193.0	0	1.50	
+f	f2	193.0	0	4.00	
+f	f3	193.0	0	5.50	
+g	h	218.0	0	3.45	
+g	g1	218.0	0	1.70	
+h	I	182.0	0	4.50	
+*end elliptic

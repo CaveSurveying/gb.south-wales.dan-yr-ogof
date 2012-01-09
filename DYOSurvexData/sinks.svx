@@ -1,0 +1,20 @@
+*begin sinks
+*fix SYG 81030 17900 444
+*fix SYG2 81030 17900 800
+*fix WFF 82780 17650 493
+* fix WFF2 82780 17650 800
+*fix resurgence 83810 16000 220
+*fix res2 83810 16000 800
+*data nosurvey station
+*flags surface
+SYG
+SYG2
+
+WFF
+WFF2
+
+resurgence
+res2
+
+*flags not surface
+*end sinks

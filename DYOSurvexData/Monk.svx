@@ -1,0 +1,21 @@
+;Surveyed by David Judson & "HAL"
+; 1/9/69 "Day 24"
+;
+*Calibrate Declination 7.691
+*Data normal from to compass clino tape
+*begin Monk
+;From        To Compass   Clino    Tape Rise/Fall
+A	Bx	173.0	7.3	30.00	
+Bx	B	-	UP	0.4	
+A	A1	173.0	7.3	12.00	
+A	A2	173.0	7.3	20.00	
+A	A3	173.0	7.3	22.50	 
+B	Cx	90.0	18.0	19.60	
+Cx	C	-	UP	0.4	
+B	B1	90.0	18.0	4.00	
+B	B2	90.0	18.0	13.00	
+B	B3	90.0	18.0	15.50	
+B	B4	90.0	18.0	18.00	
+C	Dx	58.0	17.5	12.50	
+Dx	D	-	UP	1.5	
+*end Monk

@@ -1,0 +1,43 @@
+;
+; Master Survex file for DYO
+;
+; Grid North at the entrance is calculated as 1.326 degrees West of True North
+;
+; Lat = 51.830165 Long = -3.686333
+;
+*fix showcave.24 83812 16012 227 ; Estimated
+*equate dyo.0 lakes.1
+;*equate lakes.a boulder.2
+*equate wigmoreSF.41 dyo.2
+*equate wigmoreSF.15 boulder.13
+*equate showcave.0 lakes.T
+*equate showcave.0 alfrebag.1
+*equate boulder.7 pearl2.0
+*equate boulder.a0 underboulder.1
+*equate boulder.a0 boulderchamber.0
+*equate showcave.24 Barbarians.11
+*equate dyo.0 below_wigmore.0
+*equate dyo.wigmore.1.0 dyo.0
+*equate pot_upper.00 lakes.f
+
+*include nearmain.svx
+*include lakes.svx
+*include boulder
+*include showcave
+*include wigmoreSF
+*include pearl2
+*include alfrebag
+*include underboulder
+*include boulderchamber
+*include augustright
+*include Barbarians
+*include belowwigmore
+*include potsump
+*include wigmore
+;*include sinks
+
+
+
+
+
+

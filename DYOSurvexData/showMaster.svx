@@ -1,0 +1,18 @@
+;
+; Master Survex file for DYO
+;
+; Grid North at the entrance is calculated as 1.326 degrees West of True North
+;
+; Lat = 51.830165 Long = -3.686333
+;
+*fix showcave.24 83812 16012 227 ; Estimated
+*equate showcave.24 Barbarians.11
+
+*include showcave
+*include Barbarians
+
+
+
+
+
+

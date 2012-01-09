@@ -1,0 +1,103 @@
+*data normal from to tape compass clino
+;
+; > Wigmore Hall / Mud Hall / Boulder Chamber
+;
+*calibrate declination 3.69
+*calibrate clino 0.0
+*begin WigmoreSF
+;*equate wigmoreSF.1 MudHall
+;
+; Sat 10 July 1999 Stuart France
+; Mud Hall choke to top of climb out of Boulder Chamber...
+; 1=delta on wall at head height near SE corner of Mud Hall
+; 4=dig at SW corner of Mud Hall
+2       1       06.20   250     +03
+2       3       10.30   357     -11
+4       3       17.18   039     -06
+5       3       05.12   121     -08
+5       6       11.03   044     +07
+7       6       06.38   208     +01
+7       8       07.95   343     -32
+; 8=start of overpass of Boulder Chamber in August Series
+; 19&20=chokes in RH branch of AS just before canal section
+9       8       07.37   145     +04
+9       10      03.72   300     +01
+11      10      01.30   175     -21
+11      12      06.20   295     +06
+12      13      00.30    -      Up
+14      13      05.10   138     +13
+14      15      02.70   349     +07
+16      15      03.02   087     -11
+16      17      07.43   006     +08
+18      17      06.07   174     -30
+18      19      03.34   250     +33
+18      20      06.00   032     +14
+; 23=delta on wall at head height leaving BC towards Syphon inlet
+; 33=top of calcite slope at end of Wigmore (before Donovan dig)
+21      8       05.50   320     -20
+21      22      05.58    -      Down
+23      22      10.95   072     +29
+23      24      25.15   003     -05
+25      24      08.95   231     +05
+25      26      04.10   000     -16
+27      26      07.45   134     -15
+27      28      13.90   017     +03
+29      28      05.40   234     +05
+29      30      29.90   344     -07
+30      31      01.00    -      Up
+32      31      19.95   157     -01
+32      33      19.12   339     +17
+;
+; Sat 17 July 1999
+; Boulder Chamber to Corbels Chamber digs
+*calibrate declination 4.0
+*calibrate clino 0.0
+;
+23      40      1.20    -       Down
+40      41      8.25    178     +01
+42      41      8.92    064.5   -08
+42      43      7.25    209     +04.5
+; 43=branch off 1937 series towards Straw Chamber
+43      44      5.00    209     +00
+45      43      4.91    125     -01
+45      46      7.70    196     +07
+47      46      13.60   006     -04
+47      48      3.75    240     -25
+49      48      2.48    087     -15
+49      50      5.35    205     +07
+50      51      0.50    -       Up
+52      51      5.32    003     -08
+52      53      4.95    224     -27
+54      53      8.55    035     -02
+54      55      4.97    220     -04
+55      56      0.50    -       Up
+57      56      11.52   091     -04
+; 57=West side of first taped area in SC
+; 58=Start of grovel into Corbels
+; 61=Emerged into Corbels
+57      58      14.25   014     -10
+59      58      7.40    201     +02
+59      60      4.60    022.5   +03
+61      60      4.42    211     -48
+61      62      2.45    063     +37
+63      62      5.43    350     -45
+; 63=top of rope climb to Corbels digs
+63      64      10.25   166     +22
+64      65      1.00    -       Down
+66      65      2.13    326     -10
+66      67      2.75    125     +07
+68      67      2.76    310     -50
+68      69      10.20   256     +36
+; 69=delta on wall near SRT rope in Corbels digs
+68      70      3.28    271     +41
+71      70      5.73    340     -03
+71      72      4.30    135     -01
+73      72      3.55    251     -07
+; 73=start of timbering in Jopo's dig
+; 74=delta at start of bedding plane below Jopo's dig
+68      74      6.85    153     -10
+;
+; Jopo's dig lines up well with Mud Chamber choke and appears to be
+; the other side of it and the stuff in the August Series.
+; The SRT rope dig seems to be continuation of this level into unknown.
+*end wigmoreSF

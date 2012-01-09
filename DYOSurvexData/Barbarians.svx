@@ -1,0 +1,71 @@
+; Surveyed 22/4/06
+; Instruments:	Mike McCombe
+; Tape:	 	Bernie Woodley
+; Digital compass/clino
+;
+;
+*Units length    metres
+*Units bearing   degrees
+*Units gradient  degrees
+*calibrate declination 2.34
+*calibrate compass -4.0
+*equate barbarians.9 barbarians2.9
+
+*Data Normal From To Length Bearing Gradient
+
+*begin Barbarians
+1	2	5.60	112	+1.8	; 1 = stal mound at start of new passage
+2	3	5.00	194.2	+10.2	; Estimated leg into too small passage ahead
+1	4	9.70	348.5	-15.0	;
+5	4	2.25	17.7	+36.1	;
+5	6	2.00	308.0	-28.7	;
+7	6	6.25	186.9	+0.9	; 7 = small stall boss in roof
+7	7a	0.30	-	DOWN	;
+7a	8	8.20	62.1	-3.7	; 8 = centre of small stall bridge near floor
+9	8	0.90	268.1	-26.7	;
+9	10	5.2	116.8	-13.8	; 10 = point on showcave wall below light
+11	10	20.0	209.5	+0.5	; 11 = centre of outer showcave door 1.5m above floor
+*end Barbarians
+; Surveyed 13/5/06
+; Instruments:	Bernie Woodley
+; Tape:	 	Keith Goodhead
+; 
+;
+;
+*Units length    metres
+*Units bearing   degrees
+*Units gradient  degrees
+*calibrate declination 2.34
+*calibrate compass 0.0
+
+
+*Data Normal From To Length Bearing Gradient
+
+*begin Barbarians2
+1	2	5.60	107	+0.5	; 1 = stal mound at start of new passage
+1	4	9.70	354	-15.0	;
+5	4	2.25	17.7	+36.1	;
+5	6	2.00	308.0	-28.7	;
+7	6	6.25	185	+2.0	; 7 = small stall boss in roof
+7	7a	0.30	-	DOWN	;
+7a	8	8.20	61	-5.5	; 8 = centre of small stall bridge near floor
+9	8	0.90	268.1	-26.7	;
+;9	10	5.2	103.5	-15; 	;10 = point on showcave wall below light
+A	1	3	161.4	-	; Dummy point
+12	2	5.20	2.0	-11.5
+12	13	6.63	76	+50	;
+14	13	8.00	121	-11.0	;	
+14	15	6.14	243	-4.0
+15	16	4	167	+5	;
+*data passage station left right up down ignoreall
+8	0.6	0.5	1.1	0.2
+7	1.25	0.4	0.3	0.0
+6	-	-	0.3	0
+
+*data passage station left right up down ignoreall
+1	0.7	0.5	0.45	0
+2	0.2	0.7	0.55	0
+12	0.6	1.1	4.0	0
+13	1.2	0.2	0.8	0.7
+
+*end barbarians2

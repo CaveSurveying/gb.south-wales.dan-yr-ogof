@@ -1,0 +1,40 @@
+; Surveyed by David Judson & "HAL"
+; 1/9/69 "Day 24"
+;
+*Data normal from to compass clino tape
+*Calibrate Declination 7.832
+*begin cloud
+;From        To Compass   Clino    Tape Rise/Fall
+a	bx	169.0	3.0	9.20	
+bx	b	-	UP	1.6	
+a	a1	169.0	3.0	6.20	
+b	cx	81.0	0.0	8.50	
+cx	c	-	UP	0.05	
+b	b1	81.0	0.0	4.00	 
+b	b2	81.0	0.0	8.00	
+c	dx	131.0	0.0	6.80	
+dx	d	-	UP	0.6	
+c	c1	131.0	0.0	2.00	
+c	c2	131.0	0.0	5.00	
+d	ex	72.0	14.0	4.00	
+ex	e	-	DOWN	0.3	
+d	d1	72.0	14.0	2.50	
+e	fx	200.0	10.0	3.30	
+fx	f	-	UP	0.25	
+e	e1	200.0	10.0	1.50	
+f	gx	226.0	8.0	11.50	
+gx	g	-	UP	0.35	
+f	f1	226.0	8.0	3.50	
+f	f2	226.0	8.0	6.00	
+f	f3	226.0	8.0	7.50	
+f	f4	226.0	8.0	11.50	
+g	hx	231.0	-8.0	6.00	
+hx	h	-	UP	0.05	
+g	g1	231.0	-8.0	3.50	
+h	j	270.0	20.0	8.00	
+h	h1	270.0	20.0	2.50	
+h	Ix	195.0	23.0	4.15	
+Ix	I	-	UP	0.05	
+h	h2	195.0	23.0	2.00	
+I	k	285.0	0.0	3.00	
+*end cloud

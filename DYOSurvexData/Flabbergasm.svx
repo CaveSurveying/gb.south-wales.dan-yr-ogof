@@ -1,0 +1,30 @@
+;Surveyed by D M Judson & "HAL"
+; 1/9/69 "Day 24"
+;
+*Data normal from to compass clino tape
+*Calibrate Declination 7.691
+*begin Flabbergasm
+;From        To Compass   Clino    Tape Rise/Fall
+I	iix	273.00	5.00	30.00	
+iix	ii	-	UP	1.6	
+I	Ia	273.00	5.00	8.00	
+I	Ib	273.00	5.00	8.80	
+I	Ic	273.00	5.00	12.00	 
+I	Id	273.00	5.00	18.00	
+I	Ie	273.00	5.00	26.00	
+ii	iiix	266.00	2.00	14.50	
+iiix	iii	-	UP	0.4	
+ii	iia	266.00	2.00	8.00	
+iii	ivx	197.00	2.00	10.00	
+ivx	iv	-	UP	0.05	
+iii	iiia	197.00	2.00	6.00	
+iv	v	225.00	8.00	22.00	
+iv	iva	225.00	8.00	8.00	
+iv	ivb	225.00	8.00	17.00	
+v	vi	181.00	0.00	31.00	
+v	va	181.00	0.00	6.50	
+v	vb	181.00	0.00	15.50	
+v	vc	181.00	0.00	22.40	
+v	vd	181.00	0.00	28.00	
+vi	vii	-	Down	5.50	
+*end Flabbergasm

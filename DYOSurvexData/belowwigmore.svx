@@ -1,0 +1,134 @@
+; Crawl below Wigmore Hall
+; Surveyed 19/7/08 by MJM (book) and JPJ (instruments)
+; Lat +51.830 Lon -3.688 Grid convergence 1.326
+;
+*calibrate declination 2.00
+*data normal from to tape compass clino
+*begin below_wigmore
+1	0	8.20	175	+31.6	; 0=cross scratched below Boulder Chamber
+1	2	4.80	004	-29.7
+3	2	5.62	196	+7.2
+3	4	7.11	014	+20.0
+5	4	5.30	152	-0.9
+5	6	3.84	353.4	-2.2
+7	6a	2.06	206.8	+19.2
+6a	6	0.30	-	down
+7	8	2.99	018	-10.7
+9	8	2.20	154	-5.6	;  9=Junction
+9	10	5.24	066	+5.8	; 10=stal pillar
+11	10	3.49	207.4	+3.6
+11	12	2.29	057	+14.3
+;12	13	5.00	096	0.0	; guess at ongoing passage
+; 22/11/08 - Jon, Mike & Damian
+12	13	2.65	90	0
+13	14	3.40	28	+1
+14	15	2.95	84	0
+15	16	3.50	73	0
+16	17	4.05	80	0
+17	18	1.25	240	0
+18	18a	0.80	-	up 
+18a	19	2.80	-	up
+19	20	2.95	268	0
+20	21	2.50	338	0
+21	22	3.70	4	0
+22	23	3.60	355	0
+23	24	2.50	286	-27
+24	25	1.20	188	-2
+25	26	2.20	281	0
+26	27	2.47	355	+34
+27	28	2.52	273	0
+28	29	1.5	208	0
+29	30	2.35	293	0
+30	31	1.60	290	-45
+31	32	1.70	226	-34
+32	33	3.00	307	-32
+33	34	2.20	255	0
+34	35	1.70	322	0
+35	36	2.25	248	0
+36	37	3.60	316	0
+37	38	2.35	245	0
+38	39	2.33	192	0
+39	40	3.37	248	0
+40	41	1.53	310	0
+41	42	6.67	193	0
+42	43	2.60	293	0
+43	44	2.09	210	0
+44	45	5.45	293	0
+45	46	2.03	305	+1
+46	47	2.00	325	0
+47	48	3.25	258	+1 ;Inlet in roof approx 4m above
+44	49	0.8	182	0
+49	50	2.85	-	down
+49	51	2.04	-	down
+50	52	4.25	343	0
+52	53	4.30	350	-1
+53	54	3.90	70	-1 ; stream disappears
+54	55	2.50	302	+17
+55	56	2.90	74	+1 ; 56 = first blasted bend
+*end below_wigmore
+;Surveyed 9/12/08 by Richard Frost, Jon Jones & Mike McCombe
+*equate wigmore_hall.0 below_wigmore.0
+*begin wigmore_hall
+0	1	7.68	318.5	+32.7 ;
+2	1	5.00	136.0	0
+2	2a	1.0	-	up
+2a	3	9.14	355.0	-
+4	3	14.08	209.5	-
+4	4a	1.5	-	down
+4a	5	23.0	337.0	-
+6	5	14.90	184.5	-
+6	7	16.70	311.0	-	; 7=small stall above main hole in floor
+*end wigmore_hall
+; Surveyed 25/4/09 by Jon Jones & Mike McCombe
+;*equate wigmore_cellar.0 below_wigmore.0
+;*begin wigmore_cellar
+;1	0	7.36	142.0	-37
+;1	2	1.09	-	down
+;2	3	6.64	319.5	+14
+;4	3	8.15	182.0	-7
+;4	5	15.45	30.0	-1	; 5=roof flake mid-passage near
+;6	5	15.47	151.0	+11	;emergency box
+;6	7	13.90	359.0	+2
+;8	7	17.92	138.0	+2
+;8	9	3.83	343.0	-19	;9=lip of hole
+;9	10	2.27	-	down
+;11	10	4.01	273.0	-7
+;11	11a	7.00	5.0	-6	;11a=pretty side passage
+;11	12	2.36	172.0	-18	;12=rock opposite start of crawl
+;13	12	4.37	256.0	0
+;13	14	1.42	155.0	+4
+;14	15	2.52	75.0	-8
+;15	16	1.92	138.0	-2
+;17	16	2.45	171.0	+19	;16=junction x mark
+;17	18	1.90	0	+11
+;17a	16	1.94	170.0	+25
+;17a	17b	4	80.0	-35	;17b=ongoing below_wigmore
+;18	19	0.83	312	+20	;19=bolt at top of climb down
+;19	20	2.74	-	down
+;21	20	3.78	206.0	-22
+;21	22	0.80	-	up
+;23	22a	1.80	212.0	-8
+;22a	22	0.30	-	down
+;23	24	3.55	66.0	+2
+;25	24	1.45	180.0	+14
+;25	26	2.71	12.0	+9
+;27	26	1.10	105.0	-7
+;27	28	1.24	1.0	-4
+;29	28	3.13	263	-5
+;29	30	4	88.0	0	;ongoing trend
+;29a	28	1.81	268	0
+;29a	29b	1.91	320	0
+;29b	29c	3	10.0	0	;"Richard's Hole"
+;*end wigmore_cellar
+; Surveyed 3/5/09 by Bernie Woodley & Mike McCombe
+;*equate wigmore_cellar.9 wigmore_aven.7
+;*begin wigmore_aven
+;0	A	2.40	-	up	;laser shot up through boulders
+;1	0	2.42	277	+45
+;2	1	2.07	117	+70
+;3	2	2.80	216	+20
+;3	4	3.60	258	-39
+;5	4	1.64	224	+41
+;6	5	7.46	252	+13
+;6	7	1.14	231	0
+;*end wigmore_aven

@@ -1,0 +1,116 @@
+; Surveyed 3/8/68
+; Surveyors not recorded but handwriting is as other "Judson" sheets
+*Calibrate Declination 7.774
+*Data normal from to compass clino tape
+*begin lower
+;From   To      Compass Clino   Tape    Rise/Fall
+0	ax	286.0	0.0	30.00	;189
+ax	a	-	UP	0.02	;189
+a	a1	314.0	27.0	28.10	
+a	a2x	246.0	0.0	13.00	;190a
+a2x	a2	-	DOWN	0.16	;190a
+a	b	241.5	0.0	23.50	
+a2	cx	165.0	-38.7	28.40	;191a
+cx	c	-	DOWN	0.35	;191a
+c	dx	213.0	0.0	6.80	;192a
+dx	d	-	DOWN	0.43	;192a
+d	d1	172.0	0.0	16.50	;Elevation figures added in pencil
+d	ex	133.0	5.0	18.30	;193a
+ex	e	-	DOWN	0.9	;193a
+e	fx	132.0	-32.5	12.50	;194a
+fx	f	-	UP	0.9	;194a
+f	gx	183.5	0.0	26.40	;195a
+gx	g	-	DOWN	0.08	;195a
+g	hx	84.0	0.0	24.70	;196a
+hx	h	-	DOWN	0.45	;196a
+h	Ix	56.0	0.0	29.50	
+Ix	I	-	DOWN	0.2	
+I	jx	85.5	0.0	33.00	;Traverse shown as "-" Clino as "33.0"
+jx	j	-	DOWN	0.65	;Traverse shown as "-" Clino as "33.0"
+j	kx	60.0	0.0	18.90	
+kx	k	-	UP	0.35	
+k	lx	88.0	0.0	29.00	
+lx	l	-	DOWN	0.64	
+l	mx	188.5	-7.7	13.00	
+mx	m	-	UP	0.07	
+m	nx	55.0	-2.0	16.30	
+nx	n	-	DOWN	0.45	
+n	ox	26.0	0.0	8.60	
+ox	o	-	DOWN	0.4	
+o	px	73.0	7.6	13.40	
+px	p	-	DOWN	0.3	
+p	qx	116.0	0.0	6.00	
+qx	q	-	UP	0.36	
+q	rx	70.0	0.0	15.50	
+rx	r	-	UP	0.4	
+r	sx	298.0	-10.0	6.60	
+sx	s	-	UP	0.44	
+s	tx	61.5	-5.0	10.00	;208a
+; "Day 18" 9/8/68
+; Surveyed by D M Judson & M C Day
+;
+*calibrate declination 7.774
+tx	t	-	DOWN	2.2	;208a
+t	t1	261.0	0.0	7.50	
+t	ux	61.0	1.5	30.00	;209a
+ux	u	-	DOWN	0.43	;209a
+u	vx	45.5	0.0	30.00	
+vx	v	-	UP	0.6	
+v	wx	359.0	0.0	16.50	;211a
+wx	w	-	UP	1.08	;211a
+w	x	7.0	0.0	25.00	
+w	yx	47.0	2.6	21.00	;212a
+yx	y	-	UP	0.6	;212a
+;y	y1	-	UP	26.00	
+y	zx	45.0	0.0	28.00	;213a
+zx	z	-	UP	0.28	;213a
+z	1x	350.0	0.0	8.00	
+1x	1	-	UP	0.2	
+1	2x	83.0	-11.8	12.75	
+2x	2	-	UP	0.55	
+2	3x	12.0	0.0	10.20	
+3x	3	-	UP	0.1	
+3	4x	97.5	0.0	3.80	
+4x	4	-	UP	0.04	
+4	5x	180.5	0.0	4.05	
+5x	5	-	DOWN	0.17	
+5	6x	81.5	3.0	8.40	
+6x	6	-	DOWN	0.2	
+6	7x	140.0	-23.5	13.60	
+7x	7	-	UP	0.89	
+7	7.1	250.0	0.0	11.10	
+7	8x	63.0	12.0	12.50	
+8x	8	-	DOWN	0.08	
+8	9x	45.0	22.5	17.10	
+9x	9	-	UP	0.6	
+9	10x	145.0	-7.0	11.80	
+10x	10	-	DOWN	1.25	
+10	11x	39.0	5.0	8.10	
+11x	11	-	DOWN	0.95
+11	12x	72.5	0.0	5.00	
+12x	12	-	UP	0.6	
+12	13x	21.0	0.0	6.65	
+13x	13	-	UP	0.83
+13	14x	50.0	0.0	10.50	;227a
+14x	14	-	UP	0.07	;227a
+14	15x	40.0	0.0	11.60	
+15x	15	-	DOWN	0.03	
+15	16x	20.0	0.0	6.70	
+16x	16	-	UP	0.64	
+16	17x	98.0	-6.7	14.00	
+17x	17	-	UP	0.29	
+17	18x	356.5	1.5	15.00	;231a
+18x	18	-	DOWN	0.26	;231a
+18	19x	4.0	-1.7	15.50	
+19x	19	-	DOWN	0.3	
+19	20x	245.0	37.0	9.05	
+20x	20	-	DOWN	0.35
+20	21x	276.0	0.0	9.30	
+21x	21	-	UP	0.04	
+21	22x	353.0	0.0	9.50	
+22x	22	-	UP	0.24	
+22	23x	302.0	14.0	5.00	
+23x	23	-	UP	0.26	
+23	24	29.0	17.7	12.80	
+24	25	193.0	12.0	5.8	
+*end lower
