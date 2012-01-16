@@ -5,7 +5,7 @@
 ;
 ; Lat = 51.830165 Long = -3.686333
 ;
-*fix showcave.24 283812 216012 227 ; Estimated
+*fix showcave.24 83812 16012 227 ; Estimated
 *equate lower.0 dyo.90
 *equate dyo.0 lakes.1
 *equate lower.24 dyo.54
@@ -59,7 +59,7 @@
 *include underboulder
 *include boulderchamber
 *include augustright
-;*include terrain
+*include terrain
 *include Barbarians
 *include belowwigmore
 *include potsump
