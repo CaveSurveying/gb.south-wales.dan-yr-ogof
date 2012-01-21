@@ -12,12 +12,12 @@
      1.6      1.7  23.584 348.67  -5.08 ; 
      1.7      1.8   8.057 329.46   4.30 ; 
      1.8      1.9  15.755 327.82  -4.85 ; 
-*END DYO.Wigmore
+;*END DYO.Wigmore
 ;Trip #2
 *DATE 2010.04.03
 *CALIBRATE declination   1.74
 
-*BEGIN DYO.Wigmore
+;*BEGIN DYO.Wigmore
      1.8      1.9  15.749 328.23  -4.63 ; "small stal boss at top of pit"
      1.9     1.10   0.611  69.32 -85.07 ; 
     1.10     1.11   4.308 211.96 -49.83 ; 
@@ -54,12 +54,12 @@
     1.36     1.37   0.855   5.99   5.13 ; 
     1.37     1.38   1.265  81.57   6.79 ; 
     1.38     1.39   3.610  46.51  20.30 ; 
-*END DYO.Wigmore
+;*END DYO.Wigmore
 ;Trip #3
 *DATE 2010.04.14
 *CALIBRATE declination   1.74
 
-*BEGIN DYO.Wigmore
+;*BEGIN DYO.Wigmore
      6.1      6.2   2.490 279.93  15.73 ; 
      6.2      6.3   1.090 222.30  -6.96 ; 
      6.3      6.4   1.600 175.48  70.31 ; 
@@ -72,23 +72,23 @@
     6.10     6.11   1.017 131.57  -7.58 ; "Middle of big nose"
     6.11     6.12   2.976 115.00  23.45 ; 
     6.13     6.11   2.883 173.70  -6.49 ; 
-*END DYO.Wigmore
+;*END DYO.Wigmore
 ;Trip #4
 *DATE 2010.04.24
 *CALIBRATE declination   1.74
 
-*BEGIN DYO.Wigmore
+;*BEGIN DYO.Wigmore
     6.11      8.0   0.000   0.00   0.00 ; 
      8.0      8.1   3.632 295.25  22.06 ; 
      8.1      8.2   3.023 187.04  13.33 ; 
      8.2      8.3   1.351 260.14  -9.35 ; 
      8.3      8.4   2.453 255.76   3.53 ; "2nd stal boss "
-*END DYO.Wigmore
+;*END DYO.Wigmore
 ;Trip #5
 *DATE 2010.05.01
 *CALIBRATE declination   1.74
 
-*BEGIN DYO.Wigmore
+;*BEGIN DYO.Wigmore
     1.39     1.40   3.538   3.70  39.15 ; 
     1.40     1.41   5.232 225.89  79.30 ; 
     1.42     1.41   1.484 288.69 -48.39 ; 
