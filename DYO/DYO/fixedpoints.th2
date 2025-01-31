@@ -1,0 +1,17 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -138.0 -138.0 1738.0 416.0
+##XTHERION## xth_me_area_zoom_to 50
+
+
+
+scrap scrap1 -projection plan -scale [0 0 1600 0 -3232 1678 -1212 1678 m]
+
+point 1600.0 -0.0 sink
+
+point 341.0 119 sink
+
+point 0.0 277.0 sink
+
+endscrap
+
+

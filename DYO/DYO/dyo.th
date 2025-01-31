@@ -1,0 +1,472 @@
+encoding  utf-8
+survey dyo -title "Dan yr Ogof"
+input boulder
+input alfrebag
+input alfrebag2
+input maindrag
+input mainroute
+input shower3
+input ashfordprices
+input lr_in_1
+input link
+input lr_out_1
+input lr_out_2
+input lr_out_3
+input lr_out_4
+input lr_out_6
+input lr_out_7
+input lr_out_8
+input lr_out_9
+input lr_out_10
+input initials
+input initials2
+input longcrawl
+input nomansland
+input solstice
+input link2
+input gplink
+input lr_in_2
+input lr_in_3
+input lr_in_4
+input longercrawlside
+input wigmore
+input S_boulder2
+input S_pearl2
+input boulder3
+input boulder4
+input mudhall
+input mudhall2
+input gpupper
+input gphall
+input gpside
+#input S_longer
+#input J_day4
+#input J_flabbergasm
+input flabbergasm
+input canyon
+input monk
+input monk2
+input cloud
+input cloud2
+input cloud3
+input cloud4
+input hanger1
+input hanger2
+input longerend
+input longerend2
+input longerend3
+input nearend
+input corbels
+input shower
+input lakes
+#input S_augustright
+#input S_augustleft
+input S_potsump
+input lakes2
+input redchamber
+#input S_belowwigmore
+input bypass4
+input bypass2
+input bypass
+input bypass3
+input bypassbits
+input siphon1
+input siphon2
+input black
+input black2
+input shower2
+input august
+input august2
+input august3
+input august4
+input august5
+input august6
+input august7
+input august8
+input august9
+input august10
+input august11
+input august12
+input august13
+input august14
+input wigmore1a
+input wigmore2a
+input wigmore3
+input wigmore4a
+input wigmore5a
+input wigmore6a
+input wigmore8
+input wigmore9
+input wigmore10
+input cauldron2
+input showcaveTopo
+input showcaveTopo2
+input showcaveTopo3
+input showcaveTopo4
+input barbarians1
+input barbarians2
+input barbarians3
+input barbarians4
+input showcaveTopo5
+input showcaveTopo6
+input showcaveTopo8
+input shaver1
+input shaver2
+input showcaveTopo9
+input showcaveTopo10
+input showcaveTopo11
+input showcaveTopo12
+   centerline
+     equate 1.24@link2 27.0@longercrawlside
+     equate 1.0@gplink 28.8@gphall
+     equate 2.0@gpside 1.0@canyon
+     equate 14.23@bypass4 14.23@alfrebag
+     equate 1.30@alfrebag 3.0@alfrebag2
+     equate 19.10@lr_in_1 27.0@longercrawlside
+# Join in re-survey of Shower Aven to Longer Crawl link 
+     equate 19.0@lr_in_1 5.3@link
+     equate 19.10@lr_in_1 5.16@link
+     equate 5.0@link 20.0@longcrawl
+     equate 5.0@link 6.27@shower3
+     equate 6.0@shower3 16.0@mainroute
+#     equate 43.19@shower2 5.48@nearend
+     equate 5.48@nearend 6.8@shower3
+     equate 6.0@shower3 6.28@shower3
+# End of re-survey     
+     equate  16.0@mainroute 15.6@ashfordprices
+#     equate  19.0@lr_in_1 16.28@mainroute
+#     equate  20.0@longcrawl 16.23@mainroute
+     equate  21.0@nomansland 20.29@longcrawl
+     equate 12.8@solstice 15.8@ashfordprices
+     equate  9.22@wigmore 15.0@ashfordprices
+     equate 14.0@boulder 1.0@wigmore
+     equate 32.0@boulder4 1.0@wigmore
+     equate 42.0@lakes 1.0@wigmore
+#     equate 32.8@boulder4 31.6@mudhall2
+     equate 31.7@mudhall2 23.0@mudhall
+     equate 23.0@mudhall 22.11@boulder3
+     equate 32.9@boulder4 22.11@boulder3
+     equate 22.7@boulder3 32.5@boulder4
+     equate 9.4@wigmore 32.5@boulder4
+#     equate 4.0@boulder2 1.0@wigmore
+#     equate 19.10@lr_out_1 19.10@lr_in_1
+     equate 1.0@boulder3 1.0@wigmore
+     equate 24.0@lr_out_1 19.14@lr_in_1
+     equate 24.1@lr_out_1 24.1@lr_out_2
+     equate 25.0@gpupper 20.29@longcrawl
+     equate 19.46@lr_in_2 19.46@lr_in_3
+     equate 19.56@lr_in_3 19.56@lr_in_4
+     equate 19.10@lr_in_2 19.10@lr_in_1
+     equate 28.0@gphall 20.29@longcrawl
+     equate 24.26@lr_out_1 24.26@lr_out_3
+  equate 1000.12@S_boulder2 1.6@august
+#     equate 1000.6@S_boulder2 31.0@mudhall2
+     equate 22.12@boulder3 1004.2@S_pearl2
+     equate 24.53@lr_out_3 24.53@lr_out_4
+     equate 24.61@lr_out_4 29.0@initials
+     equate 29.6@initials2 29.3@initials
+     equate 24.65@lr_out_4 24.65@lr_out_6
+     equate 24.65@lr_out_4 24.65@lr_out_8
+     equate 24.64@lr_out_4 24.64@lr_out_7
+     equate 24.80@lr_out_6 24.80@lr_out_7
+     equate 30.17@lr_out_9 30.17@lr_out_8
+#     equate 1005.42@S_longer 24.48@lr_out_3
+#    equate 1005.20@S_longer 5.20@nearend
+
+     equate 24.86@lr_out_7 24.86@lr_out_10
+#     equate 28.19@gphall 1009.23@J_day4
+#     equate 1010.0@J_flabbergasm 1009.14@J_day4
+     equate 35.0@corbels 9.26@wigmore
+#     equate 41.1@shower 16.29@mainroute
+     equate 43.9@shower2 16.12@mainroute
+#     equate 1000.13@S_boulder2 1.8@S_augustright
+#     equate 1000.12@S_boulder2 1.4@S_augustleft
+     equate 1.1@S_potsump 42.36@lakes
+     equate 42.46@lakes 1.33@lakes2
+     equate 1.0@black 1.33@lakes2
+     equate 1.2a@lakes2 34.8@redchamber
+#     equate 1.1@S_belowwigmore 1.0@wigmore
+     equate 1.10@lakes2 2.0@bypass
+     equate 2.3@bypass 2.3@bypass2
+     equate 2.30@bypass2 1.14@lakes2
+     equate 2.24@bypass2 2.24@bypass3
+     equate 2.9@bypass2 2.9@bypass3
+     equate 2.40@bypass3 2.0@bypass
+     equate 2.24@bypass4 2.24@bypass2
+     equate 2.2@bypass 1.0@bypassbits
+     equate 14.11@bypass4 1.1@bypassbits
+     equate 1.28@lakes2 1.0@siphon1
+     equate 1.5@black2  1.5@black
+     equate 1.16@black2 42.31@lakes
+     equate 1.13@black2 1.3@black
+     equate 1.5@siphon1 1.5@siphon2
+     equate 41.0@shower 43.0@shower2
+     equate 1.0@august 31.0@mudhall2
+     equate 1.8@august 1.8@august2
+     equate 1.5@august 1.5@august2
+     equate 1.25@august 1.25@august3
+     equate 2.19@august2 2.19@august4
+     equate 2.32@august4 2.32@august5
+     equate 8.11@august5 8.11@august6
+      equate 8.12@august6 8.12@august7
+    equate 1.31@august3 1.31@august8
+     equate 1.35@august3 13.0@august11
+     equate 1.35@august3 12.0@august10
+     equate 1.41@august3 1.41@august9
+     equate 11.1@august9 11.1@august14
+     equate 1.33@august13 1.33@august3
+     equate 1.25@august12 1.25@august3
+     equate 1.27@august12 1.27@august3
+     equate 9.18@wigmore 1.0@maindrag
+     equate 1.0@wigmore 1.0@wigmore1a
+     equate 1.0@wigmore 1.0@wigmore2a
+     equate 1.9@wigmore1a 17.5@august14
+     equate 18.4@wigmore2a 18.4@wigmore3
+     equate 19.20@wigmore3 20.0@wigmore4a
+     equate 20.3@wigmore4a 20.3@wigmore5a
+     equate 1.14@wigmore5a 11.1@wigmore8
+     equate 11.6@wigmore8 1.0@wigmore6a
+     equate 1.0@wigmore9 1.10@wigmore6a
+     equate 1.34@wigmore9 1.34@wigmore10
+     equate 1.7@lakes2 2.0@showcaveTopo
+     equate 1.0@cauldron2 2.0@showcaveTopo
+     equate 1.11@cauldron2 4.33@showcaveTopo3
+     equate  2.34@showcaveTopo 2.34@showcaveTopo2
+     equate  3.5@showcaveTopo2 3.5@showcaveTopo3
+     equate  1.0@lakes2 4.34@showcaveTopo3
+     equate 2.34@showcaveTopo 5.0@showcaveTopo4
+     equate 5.23@showcaveTopo4 1.0@barbarians1
+     equate 1.9@barbarians1 1.9@barbarians2
+     equate 1.10@barbarians2 1.10@barbarians3
+     equate 1.14@barbarians2 1.14@barbarians4
+     equate 2.11@showcaveTopo 2.11@showcaveTopo5
+     equate 2.7@showcaveTopo 2.7@showcaveTopo6
+     equate 7.6@showcaveTopo6 7.6@showcaveTopo8
+     equate 10.12@showcaveTopo8 4.0@shaver1
+     equate 4.4@shaver1 4.4@shaver2
+     equate 6.5@showcaveTopo5 6.5@showcaveTopo9
+     equate 6.18@showcaveTopo9 2.21@showcaveTopo
+     equate 1.0@flabbergasm 28.10@gphall
+     equate 1.16@flabbergasm 28.18@gphall
+     equate 1.14@flabbergasm 1.0@canyon
+     equate 7.2@showcaveTopo6 7.2@showcaveTopo10
+     equate 5.4@showcaveTopo4 5.4@showcaveTopo11
+     equate 5.14@showcaveTopo4 16.25@showcaveTopo11
+     equate 6.18@showcaveTopo12 16.18@showcaveTopo11
+     equate 6.18@showcaveTopo12 6.20@showcaveTopo12
+     equate 1.21@canyon 1.0@monk
+     equate 1.0@monk 2.0@longerend
+     equate 1.16@monk 1.16@longerend2
+     equate 1.16@monk2 1.16@canyon
+     equate 2.0@monk2 2.0@cloud
+     equate 2.0@cloud 2.18@cloud
+     equate 2.11@cloud 2.11@cloud2
+     equate 3.7@cloud3 3.7@cloud2
+     equate 3.8@cloud3 3.8@cloud2
+     equate 3.32@cloud3 3.32@cloud4
+     equate 3.33@cloud3 3.33@cloud4
+     equate 3.14@cloud2 8.0@hanger1
+     equate 8.10@hanger1 8.10@hanger2
+     equate 3.6@longerend2 3.7@longerend2
+     equate 3.9@longerend2 4.11@longerend3
+     equate 26.10@lr_in_4 4.0@longerend3
+     equate 2.1@longerend 1.20@canyon
+     equate 24.87@lr_out_7 5.0@nearend
+ #    equate 43.19@shower2 5.48@nearend
+   endcenterline
+  join st@ashfordprices:0 st@mainroute:end -smooth on
+  join l6-38-306@ashfordprices:end  ap@mainroute:end
+  join rh@nomansland:0 rh@gpupper:0
+  join first@longcrawl:0 last@mainroute:end -smooth on
+  join strawlh@wigmore:0 st@ashfordprices:end
+  join strawrh@wigmore:end left@ashfordprices:0
+  join wigstart@wigmore:end nearleft@boulder:end
+  join farleft@boulder:end topleft@boulder3:0
+  join bwest@boulder:0 wigwest@wigmore:end
+  join ll@lr_in_1:end ul@lr_out_1:0
+  join ll@lr_out_2:0 ul@lr_out_1:end
+  join rl@lr_out_2:0 left2@lr_out_1:0
+  join rl@lr_out_2:end left2@lr_out_1:end
+  join ll@lr_out_2:end left3@lr_out_1:0
+  join lr@lr_in_1:0 ur@lr_out_1:0
+  join left3@lr_out_1:end sl@lr_out_1:0
+  join ur@lr_out_1:end sr@lr_out_1:0
+  join gpback@gphall:0 gpback@gpupper:0
+  join gpback@gpupper:end lh@nomansland:0
+  join far@gpupper:0 far@gphall:0
+  join lh@lr_out_3:0 lh@lr_out_1:end
+  join rh@lr_out_3:0 rh@lr_out_1:end
+  join left@lr_out_3:end left@lr_out_4:0
+  join right@lr_out_3:end right@lr_out_4:0
+  join rh@lr_out_7:end rh@lr_out_8:0
+  join lh@lr_out_7:end lh@lr_out_8:0
+  join sw@boulder4:0 lowside@wigmore:0
+  join sw@boulder4:end sw@wigmore:end
+  join lowereast@boulder:0 lowereast@lakes:end
+  join bpfar@bypass2:end bpfar@lakes2:end
+  join rw3@bypass2:end bpfarright@lakes2:0
+  join bpnear@bypass:0 bpfarright@lakes2:end
+  join bpnear@bypass:end bplower@bypass3:end
+#  join rhw@S_boulder2:0 rhw@S_augustright:end
+#  join trw@S_boulder2:0 trw@S_augustright:0
+  join bll@lakes:end bll@lakes2:end
+  join blr@lakes:end blr@lakes2:0
+  join ssl@lakes2:0 ssl@siphon1:end
+  join ssr@siphon1:0 ssr@lakes2:end
+  join blr@lakes:0 blr@black:end
+  join bll@black:end bls@lakes:0
+  join bll@black:0 blw@black2:0
+  join linkr@showcaveTopo:end linkr@showcaveTopo3:0
+  join linkl@showcaveTopo:0 linkl@showcaveTopo3:end
+  join linkl@showcaveTopo:end linkl@showcaveTopo3:0
+  join linkm@showcaveTopo:0 shortl@showcaveTopo3:end
+  join lrh@showcaveTopo2:end backr@showcaveTopo:end
+  join rw@showcaveTopo4:end rw@showcaveTopo2:0
+  join lw@showcaveTopo2:end ew@showcaveTopo:0
+  join lhw@showcaveTopo5:end lhw@showcaveTopo:0
+  join rhw@showcaveTopo5:0 rhw@showcaveTopo:end
+  join rw2@bypass2:0 rhu@bypass4:0  
+  join rw1@bypass2:end lhu@bypass4:end
+  join rw2@bypass2:end abl@bypass4:end
+  join rw3@bypass2:0 abr@bypass4:0
+  join lh1@showcaveTopo:0 rh1@showcaveTopo9:end
+  join lh2@showcaveTopo:end lh1@showcaveTopo9:0
+  join rh1@showcaveTopo6:end rh@showcaveTopo10:0
+  join rh2@showcaveTopo6:0 lh@showcaveTopo10:end
+  join rh1@showcaveTopo:end rh1@showcaveTopo6:0
+  join rh2@showcaveTopo:0 lh1@showcaveTopo6:end
+  join rh3@showcaveTopo6:end rh1@showcaveTopo8:0
+  join lh1@showcaveTopo6:0 lh1@showcaveTopo8:end
+  join lh1@showcaveTopo11:end lh1@showcaveTopo4:0
+  join rh1@showcaveTopo11:0 lh2@showcaveTopo4:end
+  join nrh1@showcaveTopo11:0 lh3@showcaveTopo4:end
+  join nlh1@showcaveTopo11:end lh2@showcaveTopo4:0
+  join wl1@wigmore1a:0 wl1@wigmore:end -smooth on
+  join wr1@wigmore1a:end wr1@wigmore:end -smooth on
+#  join syl@siphon2:0 syl@siphon1:end
+  join barb2rh@barbarians2:end barb4rh@barbarians4:0
+  join barb2lh@barbarians2:0 barb4lh@barbarians4:end
+  join barb2rh@barbarians2:0 barb3rh@barbarians3:end
+  join barb2alh@barbarians2:end barb3lh@barbarians3:0
+  join show4rh@showcaveTopo4:0 barb1lh@barbarians1:end
+map main -proj plan
+  mainlayer
+  bypassplan
+endmap
+map mainlayer
+ solstice@solstice
+ ashfordprices@ashfordprices
+ S_potsump@S_potsump
+ S_pearl2@S_pearl2
+ S_boulder2@S_boulder2
+ black2top@black2
+ alfrebag@alfrebag
+ alfrebag2@alfrebag2
+ lakes@lakes
+august10@august10
+august9@august9
+august12@august12
+august13@august13
+august14@august14
+ august7@august7
+ august6@august6
+ august5@august5
+ august4@august4
+ august3@august3
+ august8@august8
+august11@august11
+ august2@august2
+ august@august
+ boulder@boulder
+ boulder3@boulder3
+ boulder4@boulder4
+ #S_augustleft@S_augustleft
+ #S_augustright@S_augustright
+ corbels@corbels
+ longercrawlside@longercrawlside
+ lr_in_1@lr_in_1
+ lr_in_2@lr_in_2
+ lr_in_3@lr_in_3
+ lr_in_4@lr_in_4
+ link2@link2
+ lr_out_1@lr_out_1
+ lr_out_2@lr_out_2
+ lr_out_3@lr_out_3
+ lr_out_4@lr_out_4
+ lr_out_6@lr_out_6
+ lr_out_7@lr_out_7
+ lr_out_8@lr_out_8
+ lr_out_9@lr_out_9
+ lr_out_10@lr_out_10
+ nearend@nearend
+ #S_longer@S_longer
+ mainroute@mainroute
+ shower@shower
+ shower2@shower2
+ mudhall2@mudhall2
+ longcrawl@longcrawl
+ gphall@gphall
+ flabbergasm@flabbergasm
+ canyon@canyon
+ gpside@gpside
+ longerend3@longerend3
+ longerend2@longerend2
+longerend@longerend
+monk2@monk2
+ monk@monk
+ cloud@cloud
+ cloud2@cloud2
+ cloud3@cloud3
+ cloud4@cloud4
+ hanger2@hanger2
+ hanger1@hanger1
+  gpupper@gpupper
+ nomansland@nomansland
+ initials@initials
+ initials2@initials2
+   black@black
+  black2@black2
+ lakes2@lakes2
+ siphon1@siphon1
+ siphon2@siphon2
+ redchamber@redchamber
+ wigmore1a@wigmore1a
+ corbelsLower@corbels
+ wigmore@wigmore
+ wigmore8@wigmore8
+ wigmore5a@wigmore5a
+ wigmore3@wigmore3
+ wigmore2a@wigmore2a
+ wigmore4a@wigmore4a
+ wigmore6a@wigmore6a
+ maindrag@maindrag
+ wigmore9@wigmore9
+ wigmore10@wigmore10
+ #S_belowwigmore@S_belowwigmore
+ barbarians4@barbarians4
+ barbarians3@barbarians3
+ barbarians2@barbarians2
+ barbarians1@barbarians1
+ showcaveTopo4@showcaveTopo4
+ showcaveTopo3@showcaveTopo3
+ showcaveTopo9@showcaveTopo9
+ showcaveTopo2@showcaveTopo2
+ showcaveTopo6@showcaveTopo6
+ showcaveTopo10@showcaveTopo10
+ showcaveTopo8@showcaveTopo8
+ shaver1@shaver1
+ shaver2@shaver2
+ showcaveTopo5@showcaveTopo5
+ showcaveUpper@showcaveTopo
+ showcaveTopo@showcaveTopo
+ showcaveTopo11@showcaveTopo11
+ showcaveTopo12@showcaveTopo12
+endmap
+map bypassplan
+ bypass4@bypass4
+ bypass@bypass
+ bypass2@bypass2
+ bypass3@bypass3
+endmap
+endsurvey
+

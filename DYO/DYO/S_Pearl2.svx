@@ -1,0 +1,210 @@
+; Surveyed 10/06/01
+; Instruments:	Martin Peck
+; Tape:	 	
+; Book:		Dudley Thorp
+;
+; Compass 	S/N 636826
+; Clino 		S/N 716189
+;
+;
+;
+*Units length    metres
+*Units bearing   degrees
+*Units gradient  degrees
+*calibrate declination 3.107	
+*equate 8mm.1 pearl2.A12
+*equate 8mm.C7 Xmas.1
+*equate 8mm.C7 Santa.1
+
+*Data Normal From To Length Bearing Gradient
+
+*begin pearl2
+0	1	8.38	145.0	15.0
+;1	0	8.38	325.0	-15.0
+1	2	6.46	205.0	 57.0
+; Surveyed 14/7/01
+; Instruments:	Mike McCombe
+; Tape:	 	Dudley Thorp
+; Book:		Mike McCombe
+;
+; Compass 	S/N 636826
+; Clino 	S/N 716189
+;
+;
+;
+*Units length    metres
+*Units bearing   degrees
+*Units gradient  degrees
+*calibrate declination 3.091
+*Data Normal From To Length Bearing Gradient
+A1	2	4.50	106	-2.0
+A2	A1	1.91	193	-3.0
+A3	A2	8.20	079	2.5
+A4	A3	7.28	085.5	3.0
+A5	A4	2.50	069.5	2.0
+A6	A5	3.25	178	5.0
+A7	A6	1.28	268	24.0
+A8	A7	2.99	137.5	0
+A9	A8	3.79	161	10.0
+A9	A9a	7.50	-	down
+A10	A9	2.04	43.5	-44.0
+A11	A10	1.62	165	-12.0
+A12	A11	0.95	081	-9.0
+;A12	A12A	5.00	009	-
+A12	A12B	2.20	260.5	-
+
+*data passage station left right up down ignoreall
+2 1.8 0.0 0.3 1.8 
+A1 0.2 0.5 0.1 0.8  ;
+A2 0.6 0.0 0.3 0.8  ;
+A3 0.4 0.0 0.3 0.3 ;
+A4 0.4 0.3 0.2 0.4  ;
+A5 0.4 0.4 0.2 0.5  ;
+A6 0.5 0.7 0.0 0.8  ;
+A7 0.4 0.4 0.2 0.6  ;
+A8 0.5 0.3 0.2 0.6 ;
+A9 0.4 0.0 3.5 0.7 ;
+A10 0.0 0.3 2.7 3.0  ;
+A11 0.0 0.3 1.5 1.7  ;
+A12 0.6 0.0 1.5 1.7 ;
+*end pearl2
+; Surveyed 3/3/02
+; Instruments:	Mike McCombe
+; Book:		Jon Jones
+;
+; Compass 	S/N 636826
+; Clino 	S/N 716189
+;
+;
+;
+*calibrate declination 2.991	
+*Data Normal From To Length Bearing Gradient
+*begin 8mm
+2	1	4.75	187	-10
+3	2	1.70	221	1
+4	3	4.10	245	4
+5	4	1.75	299	-17
+6	5	2.10	231	-8
+7	6	4.65	191	12
+8	7	1.90	246	-22
+9	8	2.70	183	-27
+10	9	2.90	274	-22
+10	11	2.50	240	0
+10	12	1.50	026	0
+7	7a	1.5	-	DOWN
+7a	R1	1.85	246	0
+R2	R1	16.5	-	DOWN
+C1	R2	3.50	126	-49
+R2	R3	6.20	-	DOWN	;Opposite hole down
+C1	C2	4.2	014	36
+C2	C3	3.0	003	-2
+C4	C3	5.8	86	36
+C4	C5	1.45	171	-3
+C5	C6	4.60	266	21
+C4	C7	3.90	129	44
+C7	C2	3.00	122	17
+C2	C8	3.50	263	-8
+C1	C8	4.10	320	25
+C1	C9	6.00	187	-	;Rift continues too tight for 3m
+
+*data passage station left right up down ignoreall
+2 0.0 0.6 2.0 1.2  ;
+3 0.0 0.6 1.5 1.0  ;
+4 0.7 0.0 1.2 1.8 square ;
+5 0.5 0.0 0.6 0.7  ;
+6 0.45 0.0 0.5 0.7  ;
+7 1.2 1.5 2.0 1.2  ;
+7 0.0 1.8 1.2 0.0  ;
+8 0.4 0.4 0.6 0.3  ;
+9 0.5 0.0 1.2 0.3 8mm_9 ;
+10 0.3 0.3 0.35 0.3 round ;
+7 0.2 0.8 17.0 1.2 square ;
+r1 0.0 1.0 17.0 1.2  ;
+
+10 1.8 1.0 18.0 1.0 square ;
+11 0.4 0.5 18.0 1.0  ;
+*end 8mm
+; Surveyed 13/3/04
+; Instruments & book:	Jon Jones
+; Tape			Martin Peck
+;
+; Compass 	S/N 636826
+; Clino 		S/N 716189
+;
+;
+;
+*calibrate declination 2.674	
+*Data Normal From To Length Bearing Gradient
+*begin xmas
+1	2	3.90	280	-42
+3	2	2.20	333	69
+3	4	3.65	240	-33
+5	4	3.60	340	-27
+5	6	1.85	188	-39
+7	6	3.50	10	17
+7	8	6.60	194	-18
+*end xmas
+
+; Surveyed 13/3/04
+; Instruments:	Jon Jones
+; Tape 		Martin Peck
+; Book:		Mike McCombe
+;
+; Compass 	S/N 636826
+; Clino 		S/N 716189
+;
+;
+;
+*calibrate declination 2.674
+*Data Normal From To Length Bearing Gradient
+*begin Santa
+1	2	1.8	19.5	0.0
+3	2	1.7	-	Down
+4	3	1.8	158.5	-55.0
+4	5	2.7	248.0	3.0
+5	6	2.4	251.0	-15.0
+7	6	2.1	80.0	12.0
+8	7	1.9	105.5	13.0
+9	8	2.3	42.0	18.0
+10	9	1.4	80.0	1.0
+; Surveyed 
+;
+1A	2A	3.0	53.0	-3.0
+2A	3A	1.4	41.0	1.0
+3A	4A	2.4	74.0	12
+4A	5A	3.1	60.0	7.0
+5A	10	1.7	53.0	1.0
+A	1A	2.9	93.0	17.0
+A	B	4.9	337.0	-2.0
+;
+; Surveyed 13/3/04
+;
+12	1A	2.4	323.0	-5.0
+13	12	2.8	15.0	0.0
+13	14	2.25	173	14
+15	14	1.5	30.0	-15.0
+16	15	1.6	298.0	-1.0
+17	16	3.6	12.0	-3.0
+18	17	5.25	354.0	-20.0
+18	18a	2.5	100.0	0.0
+18	18b	8.0	274	10.0	
+
+*data passage station left right up down ignoreall
+4 0 1.5 1.5 0.6 square
+5 0.5 0.5 1.0 0
+6 0.4 0 1.0 1.0
+7 0.35 0 2.5 1.5
+8 0 0.35 1.5 0.3
+9 0 0.3 1.5 0.3
+10 0 0.35 0.8 0.25
+5a 0.35 0 1.4 0.3
+4a  0.35 0 1.6 0.3
+3a 0 0.4 2.15 0.25
+2a 0.5 0 2.0 0.4
+1a 1.1 0.0 2.0 0.4
+;11 	0 	0.5 	0.6 	0.4 square
+12 	0.5 	0 	0.9 	0.3
+13	0.0	0.3	0.7	0.2
+
+
+*end Santa

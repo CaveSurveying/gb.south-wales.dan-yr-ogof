@@ -1,0 +1,13 @@
+encoding  utf-8
+# fixed points for survey (not connected to network)
+survey fixedpoints
+input fixedpoints.th2
+centreline
+  fix carreglem -3232 2028 0
+  fix wff -1212 1678 0
+  fix syg -2802 1828 0
+endcentreline
+map fixedpoints -proj plan
+  scrap1
+endmap
+endsurvey

@@ -1,0 +1,24 @@
+encoding  utf-8
+survey bypassbits
+input bypassbits.th2
+centreline
+  declination 1.30 deg
+  team "Mike McCombe"
+  team "Jon Jones"
+  date 2013.02.23
+  data normal from to compass clino tape
+  extend right
+  1.0 - 156.58 -32.54 1.887
+  1.0 - 25.01 -19.71 2.825
+  1.0 - 139.06 -22.53 2.377
+  1.0 - 95.15 -56.75 1.153
+  1.0 - 235.54 -48.26 1.563
+  1.0 - 87.05 -21.96 1.799
+  1.0 - 46.18 -16.57 2.065
+  1.0 - 29.90 -13.54 2.581
+  1.0 - 132.64 -12.83 2.801
+  1.0 1.1 156.24 21.06 2.785
+endcentreline
+endsurvey
+
+

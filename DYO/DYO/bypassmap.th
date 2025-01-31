@@ -1,0 +1,8 @@
+encoding  utf-8
+input bypass
+input bypass2
+map bypassmap -proj plan
+  scrap1@bypass2
+  scrap1@bypass
+endmap
+
