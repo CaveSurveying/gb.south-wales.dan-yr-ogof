@@ -1,10 +1,10 @@
 encoding  utf-8
 source dyo
-cs epsg:27700
 #Common features of layout
 layout dyo_layout
   symbol-hide group cave-centerline
-  scale 1 500
+  north grid
+  scale 1 1000
   transparency on
   opacity 50
   language en
@@ -13,7 +13,7 @@ layout dyo_layout
   legend on
   map-header 130  0 se
   layers on
-  symbol-assign point station:temporary SKBB
+  symbol-assign point station:temporary BCRA
   #Redefine symbols etc.
   code mpost
   verbatimtex \def\thheightpos{C}\def\thheightneg{P} etex
@@ -108,6 +108,7 @@ text en "line u:ledge" "ledge"
 text en "line u:judson" "Judson & Coase"
 layout my_layout
   copy dyo_layout
+  scale 1 1000
 endlayout 
 layout atlas
 copy dyo_layout
@@ -123,6 +124,7 @@ colour map-bg 90
   legend on
 endlayout
 select main@dyo
-export map   -proj plan -o map.pdf   -layout my_layout
+export model -o dyo.lox
 export model -o dyo.3d -format survex
 export atlas -o atlas.pdf -layout atlas
+#export map   -proj plan -o map.pdf   -layout my_layout

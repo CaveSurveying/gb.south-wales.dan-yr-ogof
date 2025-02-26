@@ -1,5 +1,11 @@
 encoding  utf-8
 survey dyo -title "Dan yr Ogof"
+centerline
+   cs EPSG:27700
+   fix 5.26@showcaveTopo4 283810 216023 232
+endcenterline
+import surface.3d
+#input surface
 input boulder
 input alfrebag
 input alfrebag2
@@ -116,8 +122,8 @@ input showcaveTopo9
 input showcaveTopo10
 input showcaveTopo11
 input showcaveTopo12
-   centerline
-     equate 1.24@link2 27.0@longercrawlside
+  centerline
+      equate 1.24@link2 27.0@longercrawlside
      equate 1.0@gplink 28.8@gphall
      equate 2.0@gpside 1.0@canyon
      equate 14.23@bypass4 14.23@alfrebag
