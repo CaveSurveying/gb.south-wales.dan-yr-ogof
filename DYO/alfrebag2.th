@@ -1,6 +1,16 @@
 encoding  utf-8
 survey alfrebag2
 input alfrebag2.th2
+map alf2MP1
+  alf2SP1
+endmap
+map alf2MP2
+  alf2SP2
+endmap
+map alf2MP
+  alf2MP1
+  alf2MP2
+endmap
 centreline
   team "Mike McCombe"
   team "Jon Jones"
@@ -248,9 +258,5 @@ centreline
   3.19 - 303.07 2.11 1.411
   3.19 - 299.49 2.45 1.427
 endcentreline
-map alfrebag2 -proj plan
-  scrap1
-  scrap2
-endmap
 endsurvey
 

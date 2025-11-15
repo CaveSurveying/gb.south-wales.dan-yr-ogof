@@ -1,10 +1,10 @@
 encoding  utf-8
 survey dyo -title "Dan yr Ogof"
-centerline
-   cs EPSG:27700
-   fix 5.26@showcaveTopo4 283810 216023 232
-endcenterline
-import surface.3d
+#centerline
+#   cs EPSG:27700
+#   fix 5.26@showcaveTopo4 283810 216023 232
+#endcenterline
+#import surface.3d
 #input surface
 input boulder
 input alfrebag
@@ -139,7 +139,7 @@ input showcaveTopo12
      equate 5.48@nearend 6.8@shower3
      equate 6.0@shower3 6.28@shower3
 # End of re-survey     
-     equate  16.0@mainroute 15.6@ashfordprices
+     equate  6.0@shower3 15.6@ashfordprices
 #     equate  19.0@lr_in_1 16.28@mainroute
 #     equate  20.0@longcrawl 16.23@mainroute
      equate  21.0@nomansland 20.29@longcrawl
@@ -183,8 +183,8 @@ input showcaveTopo12
 #     equate 28.19@gphall 1009.23@J_day4
 #     equate 1010.0@J_flabbergasm 1009.14@J_day4
      equate 35.0@corbels 9.26@wigmore
-#     equate 41.1@shower 16.29@mainroute
-     equate 43.9@shower2 16.12@mainroute
+     equate 41.1@shower 16.29@mainroute
+#     equate 43.9@shower2 16.12@mainroute
 #     equate 1000.13@S_boulder2 1.8@S_augustright
 #     equate 1000.12@S_boulder2 1.4@S_augustleft
      equate 1.1@S_potsump 42.36@lakes
@@ -367,7 +367,7 @@ map mainlayer
  S_boulder2@S_boulder2
  black2top@black2
  alfrebag@alfrebag
- alfrebag2@alfrebag2
+ alf2MP@alfrebag2
  lakes@lakes
 august10@august10
 august9@august9

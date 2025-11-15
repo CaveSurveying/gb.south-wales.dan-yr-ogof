@@ -4,7 +4,7 @@ source dyo
 layout dyo_layout
   symbol-hide group cave-centerline
   north grid
-  scale 1 1000
+  scale 1 500
   transparency on
   opacity 50
   language en
@@ -127,4 +127,4 @@ select main@dyo
 export model -o dyo.lox
 export model -o dyo.3d -format survex
 export atlas -o atlas.pdf -layout atlas
-#export map   -proj plan -o map.pdf   -layout my_layout
+export map   -proj plan -o map.pdf   -layout my_layout
