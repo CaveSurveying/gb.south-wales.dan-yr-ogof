@@ -9,7 +9,7 @@ centreline
 endcentreline
 
 centreline
-  declination 1.71 deg
+#  declination 1.71 deg
   date 2010.06.19
   team "Mike McCombe"
   team "Jon Jones"

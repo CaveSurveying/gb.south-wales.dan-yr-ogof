@@ -1,11 +1,11 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 528.5 757.921259843
+##XTHERION## xth_me_area_adjust -128.0000000000009 -128.0000000000009 528.0 757.9212598431991
 ##XTHERION## xth_me_area_zoom_to 200
-##XTHERION## xth_me_image_insert {63.3852756 1 1.0} {114.16937009 24.0} longercrawl2Therion_p.xvi 0 {}
+##XTHERION## xth_me_image_insert {63.38527559999966 1 1.0} {114.16937008999957 24.0} longercrawl2Therion_p.xvi 0 {}
 
 
 
-scrap scrap1 -scale [-128.0 -128.0 521.700787402 -128.0 0.0 0.0 16.5024 0.0 m]
+scrap lrout1SP1 -projection plan -scale [-128.0 -128.0 521.700787402 -128.0 0.0 0.0 16.5024 0.0 m]
 
 line pit
   107.0 204.0

@@ -2,7 +2,7 @@ encoding  utf-8
 survey bypassbits
 input bypassbits.th2
 centreline
-  declination 1.30 deg
+#  declination 1.30 deg
   team "Mike McCombe"
   team "Jon Jones"
   date 2013.02.23
@@ -20,5 +20,4 @@ centreline
   1.0 1.1 156.24 21.06 2.785
 endcentreline
 endsurvey
-
 

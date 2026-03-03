@@ -3,7 +3,7 @@ survey august13
 input august13.th2
 centreline
   date 2015.05.16
-  declination 0.83 deg
+#  declination 0.83 deg
   team "Mike McCombe"
   team "Jon Jones"
   data normal from to compass clino tape
@@ -20,5 +20,4 @@ map august13 -proj plan
   scrap1
 endmap
 endsurvey
-
 

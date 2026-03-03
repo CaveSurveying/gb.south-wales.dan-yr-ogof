@@ -3,7 +3,7 @@ survey monk2
 input monk2.th2
 centreline
   date 2013.11.16
-  declination 1.17 deg
+#  declination 1.17 deg
   team "Mike McCombe"
   team "Jon Jones"
   data normal from to compass clino tape

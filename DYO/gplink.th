@@ -1,7 +1,7 @@
 encoding  utf-8
 survey gplink
 centreline
-  declination 0.65 deg
+#  declination 0.65 deg
   team "Mike McCombe"
   team "Jon Jones"
   date 2016.08.06
@@ -36,5 +36,4 @@ centreline
   1.1 - 343.97 -31.00 1.310
 endcentreline
 endsurvey
-
 

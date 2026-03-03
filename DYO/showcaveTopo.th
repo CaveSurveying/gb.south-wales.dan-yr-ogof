@@ -3,7 +3,7 @@ survey showcaveTopo
 input showcaveTopo.th2
 centreline
   date 2012.12.15
-  declination 1.32 deg
+#  declination 1.32 deg
   team "Mike McCombe"
   team "Jon Jones"
   data normal from to compass clino tape
@@ -309,8 +309,8 @@ centreline
   2.32 2.34 6.60 15.70 5.436
 endcentreline
 map showcaveTopo -proj plan
-  scrap1
-  scrap65
+  showcavetopoSP1
+  showcavetopoSP2
 endmap
 map showcaveUpper -proj plan
   scrap28

@@ -2,7 +2,7 @@ encoding  utf-8
 survey barbarians1
 input barbarians1.th2
   centreline
-  declination 0.56 deg
+# declination 0.56 deg
   team "Mike McCombe"
   team "Jon Jones"
   date 2017.03.19
@@ -136,9 +136,10 @@ input barbarians1.th2
   1.8 - 353.59 7.66 4.435
   1.8 1.9 171.36 19.26 2.992
 endcentreline
-map barbarians1 -proj plan
-#  scrap21
-  scrap1
+map barbarians1MP -proj plan
+  barbarians1SP2
+#  break
+  barbarians1SP1
 endmap
 endsurvey
 

@@ -1,18 +1,18 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -129.0 -129.0 487.75 482.33070866141725
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_adjust -128.0 -128.0 489.0 482.33070866141725
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {335.1574803149606 1 1.0} {247.04724409448815 1.0} wigmore6aTherion_p.xvi 0 {}
 
 
 
-scrap scrap1 -scale [-128.0 -128.0 1112.251968503937 -128.0 0.0 0.0 31.502399999999998 0.0 m]
+scrap wigmore6aSP1 -projection plan -scale [-128.0 -128.0 1112.251968503937 -128.0 0.0 0.0 31.502399999999998 0.0 m]
 
 line label -text "Fault Plane"
   50.0 154.0
   57.0 232.0
 endline
 
-line wall -close on -subtype unsurveyed
+line wall -close on -reverse on -subtype unsurveyed -outline in
   176.5 185.0
   176.5 185.0 167.5 185.5 167.5 182.0
   167.5 178.5 171.5 172.0 174.0 170.5

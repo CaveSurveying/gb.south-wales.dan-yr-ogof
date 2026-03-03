@@ -2,7 +2,7 @@ encoding  utf-8
 survey bypass4
 input bypass4.th2
 centreline
-  declination 1.30 deg
+#  declination 1.30 deg
   team "Mike McCombe"
   team "Jon Jones"
   date 2013.02.23
@@ -204,5 +204,4 @@ map bypass4 -proj plan
   scrap1
 endmap
 endsurvey
-
 

@@ -2,7 +2,7 @@ encoding  utf-8
 survey showcaveTopo5
 input showcaveTopo5.th2
 centreline
-  declination 1.32 deg
+#  declination 1.32 deg
   team "Mike McCombe"
   date 2013.02.09
   data normal from to compass clino tape
@@ -114,5 +114,4 @@ map showcaveTopo5 -proj plan
   scrap1
 endmap
 endsurvey
-
 

@@ -1,11 +1,11 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 3002.01574803 1742.17322835
+##XTHERION## xth_me_area_adjust -128.0000000000009 -128.0 3002.0157480345993 1742.1732283482
 ##XTHERION## xth_me_area_zoom_to 100
-##XTHERION## xth_me_image_insert {2175.6280315 1 1.0} {1266.69472442 19.0} longer2part2Therion_p.xvi 0 {}
+##XTHERION## xth_me_image_insert {2175.6280314999995 1 1.0} {1266.69472442 19.0} longer2part2Therion_p.xvi 0 {}
 
 
 
-scrap scrap1 -scale [-128.0 -128.0 978.393700789 -128.0 0.0 0.0 28.1024 0.0 m]
+scrap lrin3SP1 -projection plan -scale [-128.0 -128.0 978.393700789 -128.0 0.0 0.0 28.1024 0.0 m]
 
 point 390.0 1162.0 label -text "Hole down"
 
@@ -14,7 +14,7 @@ line arrow
   534.75 1027.5
 endline
 
-line wall -id lh
+line wall -id lh -reverse on
   728.0 1046.5
   728.0 1046.5 718.0 996.5 718.5 979.0
   719.0 961.5 724.0 944.0 718.5 936.5
@@ -47,7 +47,7 @@ line wall -id rh
   smooth off
 endline
 
-line wall
+line wall -reverse on
   488.0 901.5
   488.0 901.5 483.0 907.5 480.5 897.5
   478.0 887.5 458.0 842.5 454.5 836.0
@@ -123,7 +123,7 @@ line wall
   smooth off
 endline
 
-line border -id l24-150-200 -close on -reverse on
+line border -id l24-150-200 -close on
   138.25 195.25
   138.25 195.25 136.75 187.0 138.25 184.75
   139.75 182.5 140.5 179.25 144.0 178.5
@@ -159,7 +159,7 @@ line pit -close on -reverse on
   smooth off
 endline
 
-line rock-border -close on
+line rock-border -close on -reverse on
   572.5 1105.5
   572.5 1105.5 594.0 1089.5 589.5 1083.5
   585.0 1077.5 573.0 1074.5 570.0 1070.5
@@ -170,16 +170,9 @@ line rock-border -close on
   smooth off
 endline
 
-line floor-step
-  496.0 1008.5
-  491.0 996.5 487.5 978.5 485.5 971.0
-  483.5 963.5 477.5 931.5 486.5 905.5
-  smooth off
-endline
-
 line wall
-  486.5 905.5
-  495.5 879.5 497.5 870.5 497.5 870.5
+  488.0 901.5
+  497.0 875.5 501.5 871.0 501.5 871.0
   smooth off
 endline
 
@@ -191,13 +184,20 @@ point 225.2780315 693.54472442 station -name 19.54
 
 point 405.4380315 714.21472442 station -name 19.53
 
+line floor-step
+  496.0 1008.5
+  496.0 1008.5 477.0 957.0 478.0 945.0
+  479.0 933.0 488.0 901.5 488.0 901.5
+  smooth off
+endline
+
 point 385.9880315 746.45472442 station -name 19.52
 
 point 494.0980315 940.86472442 station -name 19.51
 
 point 548.6580315 1075.90472442 station -name 19.50
 
-point 551.4980315 1052.28472442 station -name 19.48
+point 551.4980314999993 1052.2847244200002 station -name 19.48
 
 point 657.4780315 991.49472442 station -name 19.47
 

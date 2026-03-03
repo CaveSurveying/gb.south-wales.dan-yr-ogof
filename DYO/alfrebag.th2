@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128.0 -128.0 1112.25196851 928.25
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {533.62417323 1 1.0} {758.03047244 1.0} alfrebagTherion_p.xvi 0 {}
 
 
@@ -412,6 +412,7 @@ line wall
   113.5 188.25 122.75 173.25 125.5 165.75
   128.25 158.25 130.0 137.25 133.75 132.0
   137.5 126.75 145.25 121.25 147.0 113.25
+  smooth off
 endline
 
 point 126.53417323 81.46047244 station -name 1.30

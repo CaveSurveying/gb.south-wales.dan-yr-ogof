@@ -3,7 +3,7 @@ encoding  utf-8
 survey showcaveTopo9
 input showcaveTopo9.th2
 centreline
-  declination 1.30 deg
+#  declination 1.30 deg
   team "Mike McCombe"
   team "Bernie Woodley"
   date 2013.02.05
@@ -125,5 +125,4 @@ map showcaveTopo9 -proj plan
   scrap1
 endmap
 endsurvey
-
 

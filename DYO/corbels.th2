@@ -1,11 +1,11 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -136.0 -140.0 1336.0 1968.0
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -128.0 -134.0 1329.0 1936.5
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {491.771653544 1 1.0} {1099.21259843 35.0} corbelsTherion_p.xvi 0 {}
 
 
 
-scrap scrap1 -scale [-128.0 -128.0 1309.10236221 -128.0 0.0 0.0 36.5024000001 0.0 m]
+scrap corbelsSP1 -projection plan -scale [-128.0 -128.0 1309.10236221 -128.0 0.0 0.0 36.5024000001 0.0 m]
 
 line label -text "Corbel's Chamber"
   426.0 1086.0
@@ -105,18 +105,6 @@ line rock-edge -close on
   487.5 1113.5
 endline
 
-line wall:unsurveyed
-  614.5 1741.5
-  717.0 1831.0
-  717.0 1831.0 728.0 1795.0 727.0 1785.0
-  726.0 1775.0 732.0 1717.0 732.5 1704.0
-  733.0 1691.0 734.0 1632.5 733.0 1612.0
-  732.0 1591.5 738.5 1551.5 735.5 1504.5
-  732.5 1457.5 713.0 1273.0 712.0 1269.0
-  711.0 1265.0 698.5 1226.0 698.5 1226.0
-  smooth off
-endline
-
 line rock-border -close on
   367.5 996.5
   375.5 997.0
@@ -197,18 +185,18 @@ area water
   l116-101-1765
 endarea
 
-line wall:presumed -id l116-101-1765
+line wall -id l116-101-1765 -subtype presumed
   88.5 1747.0
   109.5 1776.0
 endline
 
-line wall:presumed -id l115-76-1790
+line wall -id l115-76-1790 -reverse on -subtype presumed
   64.5 1775.0
   64.5 1775.0 84.0 1799.0 86.5 1801.5
   smooth off
 endline
 
-line border -id l67-80-1773
+line border -id l67-80-1773 -reverse on
   86.5 1801.5
   86.5 1801.5 108.5 1811.5 111.5 1804.5
   114.5 1797.5 109.5 1776.0 109.5 1776.0
@@ -227,13 +215,6 @@ area water
   l63-362-1591
 endarea
 
-line wall:invisible
-  613.5 1690.0
-  613.5 1690.0 719.0 1680.0 718.0 1633.0
-  717.0 1586.0 698.5 1226.0 698.5 1226.0
-  smooth off
-endline
-
 line floor-step
   483.5 1611.5
   483.5 1611.5 482.0 1604.0 482.0 1600.0
@@ -243,7 +224,7 @@ line floor-step
   smooth off
 endline
 
-line ceiling-step -id l3-54-1760
+line ceiling-step -id l3-54-1760 -reverse on
   34.5 1734.5
   34.5 1734.5 41.0 1745.0 47.0 1753.0
   53.0 1761.0 64.5 1775.0 64.5 1775.0
@@ -262,14 +243,14 @@ line ceiling-step
   396.0 971.0
 endline
 
-line wall:unsurveyed
+line wall -reverse on -subtype unsurveyed
   586.0 1710.0
   586.0 1710.0 591.0 1717.5 596.5 1720.5
   602.0 1723.5 614.5 1741.5 614.5 1741.5
   smooth off
 endline
 
-line wall:unsurveyed
+line wall -subtype unsurveyed
   615.5 1679.0
   613.5 1690.0
   613.5 1690.0 612.5 1700.0 617.0 1709.5
@@ -277,7 +258,7 @@ line wall:unsurveyed
   smooth off
 endline
 
-line ceiling-step
+line wall -reverse on -subtype blocks
   615.5 1679.0
   615.5 1679.0 617.0 1666.5 616.5 1654.0
   616.0 1641.5 613.5 1600.0 612.0 1586.5
@@ -291,7 +272,7 @@ line ceiling-step
   639.5 1347.5 651.0 1352.0 651.0 1352.0
   smooth off
   651.0 1352.0 676.0 1310.0 679.5 1299.0
-  683.0 1288.0 698.5 1226.0 698.5 1226.0
+  683.0 1288.0 695.0 1241.0 695.0 1241.0
   smooth off
 endline
 
@@ -306,7 +287,7 @@ line border -id l63-362-1591 -close on
   390.0 1627.0
 endline
 
-line wall
+line wall -reverse on
   371.75 984.25
   371.75 984.25 363.04 986.61 358.5 988.25
   346.0 992.75 328.25 1003.5 325.75 1003.5
@@ -324,7 +305,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -reverse on
   487.5 960.0
   487.5 960.0 486.0 966.5 481.5 972.5
   477.0 978.5 474.0 984.0 474.0 984.0
@@ -334,9 +315,9 @@ line wall
   smooth off
 endline
 
-line wall
-  698.5 1226.0
-  698.5 1226.0 708.0 1246.5 714.0 1246.0
+line wall -reverse on
+  695.0 1241.0
+  695.0 1241.0 708.0 1246.5 714.0 1246.0
   720.0 1245.5 723.5 1232.0 723.0 1223.0
   722.5 1214.0 708.5 1197.0 708.0 1190.0
   707.5 1183.0 691.0 1156.5 686.0 1157.0
@@ -376,7 +357,7 @@ line wall -id l13-159-1700
   smooth off
 endline
 
-line wall -id l14-404-1625
+line wall -id l14-404-1625 -reverse on
   98.0 1733.5
   98.0 1733.5 107.5 1754.0 113.5 1757.5
   119.5 1761.0 159.0 1774.5 165.0 1774.0
@@ -416,7 +397,7 @@ endscrap
 
 
 
-scrap scrap22 -scale [-128.0 -128.0 1309.10236221 -128.0 0.0 0.0 36.5024000001 0.0 m]
+scrap corbelsSP2 -projection plan -scale [-128.0 -128.0 1309.10236221 -128.0 0.0 0.0 36.5024000001 0.0 m]
 
 line rock-edge -close on
   584.5 971.0
@@ -656,7 +637,17 @@ line wall
   1056.5 236.0
 endline
 
-point 768.541653544 340.43259843 station -name 35.22
+point 768.5416535439999 340.4325984300001 station -name 35.22
+
+point 818.861653544 371.14259843 station -name 35.20
+
+point 837.011653544 380.8225984300001 station -name 35.16
+
+point 877.1216535440001 133.4225984300001 station -name 35.17
+
+point 1055.271653544 134.2925984300001 station -name 35.19
+
+point 920.161653544 157.87259843000004 station -name 35.18
 
 point 584.531653544 343.74259843 station -name 35.21
 
@@ -1011,7 +1002,7 @@ endscrap
 
 
 
-scrap scrap55 -scale [-128.0 -128.0 1309.10236221 -128.0 0.0 0.0 36.5024000001 0.0 m]
+scrap corbelsSP3 -projection plan -scale [-128.0 -128.0 1309.10236221 -128.0 0.0 0.0 36.5024000001 0.0 m]
 
 line wall
   1117.0 45.5

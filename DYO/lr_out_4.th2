@@ -1,11 +1,11 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 375.5 474.5
+##XTHERION## xth_me_area_adjust -128.0 -127.99999999999955 375.5 474.0
 ##XTHERION## xth_me_area_zoom_to 200
-##XTHERION## xth_me_image_insert {45.27795276 1 1.0} {131.05858268 24.54} lr_out_4Therion_p.xvi 0 {}
+##XTHERION## xth_me_image_insert {45.27795275999961 1 1.0} {131.0585826800002 24.54} lr_out_4Therion_p.xvi 0 {}
 
 
 
-scrap scrap1 -scale [-128.0 -128.0 364.220472441 -128.0 0.0 0.0 12.5024 0.0 m]
+scrap lrout4SP1 -projection plan -scale [-128.0 -128.0 364.220472441 -128.0 0.0 0.0 12.5024 0.0 m]
 
 line floor-step
   173.75 188.5
@@ -149,10 +149,9 @@ point 158.89795276 123.34858268 station -name 24.58
 
 point 132.67795276 170.15858268 station -name 24.57
 
-point 43.30795276 207.55858268 station -name 24.56
+point 43.30795276000026 207.5585826800002 station -name 24.56
 
 point 104.72795276 144.36858268 station
 
 endscrap
-
 

@@ -1,11 +1,11 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 2372.09448819 1348.47244095
-##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {1539.28944883 1 1.0} {870.2380315 19.0} longercrawlTherion_p3.xvi 0 {}
+##XTHERION## xth_me_area_adjust -128.0 -128.0 2372.0944881914 1348.4724409462
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {1539.2894488299999 1 1.0} {870.2380315 19.0} longercrawlTherion_p3.xvi 0 {}
 
 
 
-scrap scrap1 -scale [-128.0 -128.0 978.393700789 -128.0 0.0 0.0 28.1024 0.0 m]
+scrap lrin2SP1 -projection plan -scale [-128.0 -128.0 978.393700789 -128.0 0.0 0.0 28.1024 0.0 m]
 
 line ceiling-step -reverse on
   568.0 655.0
@@ -19,16 +19,6 @@ line ceiling-step
   445.0 608.0
   445.0 608.0 442.0 602.0 439.0 598.5
   436.0 595.0 428.5 589.5 428.5 589.5
-  smooth off
-endline
-
-line pit -close on
-  867.0 587.5
-  867.0 587.5 865.5 593.0 867.0 596.5
-  868.5 600.0 871.5 610.0 871.5 610.0
-  smooth off
-  871.5 610.0 872.5 603.5 872.5 600.5
-  872.5 597.5 867.0 587.5 867.0 587.5
   smooth off
 endline
 
@@ -104,7 +94,7 @@ line floor-step
   smooth off
 endline
 
-point 751.57944883 696.2180315 station -name 19.10
+point 751.5794488299998 696.2180315000005 station -name 19.10
 
 point 611.17944883 670.3980315 station -name 19.35
 
@@ -134,7 +124,7 @@ line wall
   797.0 612.0
 endline
 
-line wall
+line wall -reverse on
   568.0 655.0
   575.0 659.0
   575.0 659.0 581.0 666.0 575.0 682.0
@@ -161,7 +151,7 @@ line wall
   455.5 548.0
 endline
 
-line wall
+line wall -reverse on
   445.0 608.0
   452.0 586.0
   462.0 556.0
@@ -207,7 +197,7 @@ line wall
   528.0 615.0
 endline
 
-line wall -id rh
+line wall -id rh -reverse on
   300.0 152.0
   300.0 152.0 270.0 201.0 264.0 216.0
   258.0 231.0 236.0 297.0 249.0 325.0
@@ -242,6 +232,8 @@ line wall -id rh
   541.0 682.0 568.0 655.0 568.0 655.0
   smooth off
 endline
+
+point 348.3094488299994 816.3780315000004 station -name 19.38
 
 point 525.23944883 636.5780315 station -name 19.37
 

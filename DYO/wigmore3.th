@@ -9,7 +9,7 @@ centreline
 endcentreline
 
 centreline
-  declination 0.83 deg
+#  declination 0.83 deg
   team "Mike McCombe"
   team "Jon Jones"
   date 2015.06.20
@@ -236,10 +236,7 @@ centreline
   19.19 19.20 43.71 5.78 2.730
 endcentreline
 map wigmore3 -proj plan
-  scrap1
-  scrap48
+  wigmore3SP1
 endmap
 endsurvey
-
-
 

@@ -3,7 +3,7 @@ survey boulder3
 input boulder3.th2
 centreline
   team "Mike McCombe"
-  declination 1.54 deg
+#  declination 1.54 deg
   date 2011.07.23
   data normal from to compass clino tape
   extend right
@@ -275,7 +275,8 @@ centreline
   22.17 22.18 43.05 33.46 0.584
 endcentreline
 map boulder3 -proj plan
-  scrap1
+  boulder3SP2
+  boulder3SP1
 endmap
 endsurvey
 

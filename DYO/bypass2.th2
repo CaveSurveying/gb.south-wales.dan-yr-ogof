@@ -1,16 +1,16 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.000000004 1722.0 2726.42519685
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_adjust -127.99999999999983 -128.00000000399996 1724.0 2726.4251968492
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {1353.77472441 1 1.0} {1073.66173228 2.4} bypass2Therion_p.xvi 0 {}
 
 
 
-scrap scrap1 -scale [-128.0 -128.0 521.700787402 -128.0 0.0 0.0 16.5024 0.0 m]
+scrap bypass2SP1 -projection plan -scale [-128.0 -128.0 521.700787402 -128.0 0.0 0.0 16.5024 0.0 m]
 
 line wall
 endline
 
-line wall -close on
+line wall -close on -outline in
   1380.0 1025.0
   1380.0 1025.0 1376.0 1032.0 1376.25 1034.0
   1376.5 1036.0 1380.25 1039.0 1383.25 1039.75
@@ -103,7 +103,7 @@ line floor-step -close on
   smooth off
 endline
 
-line wall -close on
+line wall -close on -outline in
   1342.25 1126.0
   1342.25 1126.0 1346.25 1131.75 1351.5 1131.75
   1356.75 1131.75 1369.25 1133.25 1372.75 1130.0
@@ -116,7 +116,7 @@ line wall -close on
   smooth off
 endline
 
-line wall -close on
+line wall -close on -outline in
   1375.25 1181.25
   1375.25 1181.25 1374.0 1181.25 1373.0 1184.0
   1372.0 1186.75 1372.0 1188.5 1372.5 1191.5
@@ -149,6 +149,9 @@ line ceiling-step
   1484.5 2458.75 1487.75 2465.0 1490.25 2466.0
   1492.75 2467.0 1497.0 2470.0 1497.0 2470.0
   smooth off
+endline
+
+line wall
 endline
 
 line wall
@@ -433,7 +436,21 @@ line ceiling-step -reverse on
   smooth off
 endline
 
-line wall -id rw3
+line wall
+  687.0 995.0
+  687.0 995.0 687.5 1010.5 687.5 1015.0
+  687.5 1019.5 675.0 1029.0 675.0 1029.0
+  smooth off
+endline
+
+line wall -reverse on
+  669.5 953.5
+  669.5 953.5 665.0 970.0 662.0 976.0
+  659.0 982.0 649.0 1004.5 649.0 1004.5
+  smooth off
+endline
+
+line wall -id rw3 -reverse on
   649.0 1004.5
   641.5 1010.0 627.0 1004.0 622.0 1002.5
   617.0 1001.0 598.0 995.0 598.0 995.0
@@ -460,7 +477,7 @@ line wall -id rw3
   smooth off
 endline
 
-line wall -id rw1
+line wall -id rw1 -reverse on
   1319.5 869.0
   1319.5 869.0 1281.5 879.5 1273.5 887.0
   1265.5 894.5 1257.0 905.0 1261.5 917.5
@@ -485,9 +502,10 @@ line wall -id rw1
   1112.0 1337.0 1117.5 1313.0 1115.0 1304.5
   1112.5 1296.0 1059.0 1247.0 1054.5 1236.5
   1050.0 1226.0 1043.0 1190.5 1042.5 1177.5
+  smooth off
 endline
 
-line wall -id rw2
+line wall -id rw2 -reverse on
   994.5 1106.5
   984.5 1108.5 970.5 1113.5 970.5 1113.5
   smooth off
@@ -502,6 +520,7 @@ line wall -id rw2
   686.0 1095.0 675.5 1089.0 673.5 1085.5
   671.5 1082.0 665.0 1060.5 666.5 1056.5
   668.0 1052.5 672.5 1034.5 674.5 1032.0
+  smooth off
 endline
 
 line wall -id bpfar

@@ -3,7 +3,7 @@ survey lr_out_9
 input lr_out_9.th2
 centreline
   team "Mike McCombe"
-  declination 1.44 deg
+#  declination 1.44 deg
   date 2012.03.05
   data normal from to compass clino tape
   extend right

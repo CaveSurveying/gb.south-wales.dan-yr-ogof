@@ -4,7 +4,7 @@ input gpupper.th2
 centreline
 team "Mike McCombe"
 team "Jon Jones"
-declination 1.54 deg 
+#declination 1.54 deg 
   date 2011.08.08
   data normal from to compass clino tape
   extend right
@@ -160,7 +160,7 @@ declination 1.54 deg
   25.10 - 78.17 50.11 1.667
 endcentreline
 map gpupper -proj plan
-  scrap1
+  gpupperSP1
 endmap
 endsurvey
 

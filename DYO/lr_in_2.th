@@ -2,9 +2,10 @@ encoding  utf-8
 survey lr_in_2
 input lr_in_2.th2
 centreline
+  cs osgb:sn
   date 2011.07.12
   team "Mike McCombe"
-  declination 1.54 deg
+#  declination 1.54 deg
   data normal from to compass clino tape
   extend right
   19.10 - 299.91 2.03 0.934
@@ -252,8 +253,8 @@ centreline
   19.45 - 199.85 -4.25 5.101
   19.45 19.46 196.86 -0.80 6.629
 endcentreline
-map lr_in_2 -proj plan
-  scrap1
+map lrin2MP1 -proj plan
+  lrin2SP1
 endmap
 endsurvey
 

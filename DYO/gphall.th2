@@ -1,11 +1,11 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 4183.11811024 3218.0
+##XTHERION## xth_me_area_adjust -128.0000000000009 -128.0000000000009 4183.118110240599 3218.0
 ##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {3304.32976379 1 1.0} {1187.20700788 28.0} gphallTherion_p.xvi 0 {}
+##XTHERION## xth_me_image_insert {3304.3297637899996 1 1.0} {1187.2070078799998 28.0} gphallTherion_p.xvi 0 {}
 
 
 
-scrap scrap1 -scale [-128.0 -128.0 4183.11811024 -128.0 0.0 0.0 109.5024 0.0 m]
+scrap gphallSP1 -projection plan -scale [-128.0 -128.0 4183.11811024 -128.0 0.0 0.0 109.5024 0.0 m]
 
 line border -id l54-2628-2236
   2689.0 1904.0

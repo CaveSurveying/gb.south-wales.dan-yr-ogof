@@ -12,6 +12,7 @@ line slope
   194.0 366.0 185.0 342.0 189.0 333.0
   l-size 10.0
   193.0 324.0 210.0 319.0 215.0 317.0
+  smooth off
 endline
 
 line slope -reverse on

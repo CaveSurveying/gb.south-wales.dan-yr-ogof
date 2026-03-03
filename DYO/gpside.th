@@ -4,7 +4,7 @@ input gpside.th2
 # Survey abandoned when it became obvious that forward and back bearings did
 # not align. This section needs to be resurveyed.
 centreline
-  declination 0.65 deg
+#  declination 0.65 deg
   team "Mike McCombe"
   team "Jon Jones"
   date 2016.08.06
@@ -90,5 +90,4 @@ map gpside -proj plan
   scrap1
 endmap
 endsurvey
-
 

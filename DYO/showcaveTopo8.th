@@ -4,7 +4,7 @@ input showcaveTopo8.th2
 centreline
   team "Bernie Woodley"
   team "Mike McCombe"
-  declination 1.31 deg
+#  declination 1.31 deg
   date 2013.01.11
   data normal from to compass clino tape
   extend right
@@ -156,8 +156,8 @@ centreline
   10.12 - 358.81 -9.20 1.946
 endcentreline
 map showcaveTopo8
-  scrap1
+  showcavetopo8SP1
+  showcavetopoSP2
 endmap
 endsurvey
-
 

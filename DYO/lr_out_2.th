@@ -3,7 +3,7 @@ survey lr_out_2
 input lr_out_2.th2
 centreline
   date 2011.08.20
-  declination 1.54 deg
+#  declination 1.54 deg
   team "Mike McCombe"
   data normal from to compass clino tape
   extend right
@@ -32,7 +32,7 @@ centreline
   24.8 - 184.33 -21.02 1.079
 endcentreline
 map lr_out_2 -proj plan
-  scrap1
+  lrout2SP1
 endmap
 endsurvey
 

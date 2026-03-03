@@ -2,7 +2,7 @@ encoding  utf-8
 survey alfrebag
 input alfrebag.th2
 centreline
-declination 1.22 deg
+#declination 1.22 deg
 team "Mike McCombe"
 team "Jon Jones"
 team "Blanca Usuga"

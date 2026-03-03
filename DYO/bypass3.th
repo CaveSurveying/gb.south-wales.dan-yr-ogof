@@ -3,7 +3,7 @@ survey bypass3
 input bypass3.th2
 centreline
   date 2012.08.16
-  declination 1.38 deg
+#  declination 1.38 deg
   team "Mike McCombe"
   team "Bernie Woodley"
   data normal from to compass clino tape
@@ -224,5 +224,4 @@ map bypass3 -proj plan
   scrap12
 endmap
 endsurvey
-
 

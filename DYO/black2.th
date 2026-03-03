@@ -4,7 +4,7 @@ input black2.th2
 centreline
   team "Mike McCombe"
   team "Bernie Woodley"
-  declination 1.38 deg
+#  declination 1.38 deg
   date 2012.08.26
   data normal from to compass clino tape
   extend right
@@ -100,5 +100,4 @@ map black2top -proj plan
   scrap13
 endmap
 endsurvey
-
 

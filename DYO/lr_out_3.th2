@@ -1,11 +1,11 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 637.5 1947.0
-##XTHERION## xth_me_area_zoom_to 200
-##XTHERION## xth_me_image_insert {117.83913386 1 1.0} {169.37125985 24.27} lr_out_3Therion_p.xvi 0 {}
+##XTHERION## xth_me_area_adjust -127.99999999999909 -128.0 639.0 1950.0
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {117.8391338600004 1 1.0} {169.37125984999966 24.27} lr_out_3Therion_p.xvi 0 {}
 
 
 
-scrap scrap1 -scale [-128.0 -128.0 600.440944882 -128.0 0.0 0.0 18.5024 0.0 m]
+scrap lrout3SP1 -projection plan -scale [-128.0 -128.0 600.440944882 -128.0 0.0 0.0 18.5024 0.0 m]
 
 line u:ledge
   161.0 233.0
@@ -76,8 +76,10 @@ point 189.0 1621.0 label -text "Helictites"
 
 line arrow
   193.0 1593.5
-  203.5 1479.0
+  190.0 1490.0
 endline
+
+point 187.0 1464.0 helictite
 
 point 330.0 1816.5 label -text "Initials<br>Chamber"
 
@@ -96,18 +98,11 @@ line water-flow
   smooth off
 endline
 
-line water-flow
-  138.25 1538.25
-  138.25 1538.25 137.75 1509.25 137.75 1505.75
-  137.75 1502.25 139.25 1484.25 139.25 1484.25
-  smooth off
-endline
-
 area water
   l49-168-1269
 endarea
 
-line border -id l49-168-1269 -close on
+line border -id l49-168-1269 -close on -reverse on -subtype invisible
   126.25 1210.75
   126.25 1210.75 120.5 1233.25 121.75 1240.5
   123.0 1247.75 124.75 1258.0 132.25 1262.25
@@ -123,8 +118,8 @@ line border -id l49-168-1269 -close on
   131.25 1398.5 135.0 1425.75 135.0 1428.75
   135.0 1431.75 132.0 1444.0 131.25 1447.5
   130.5 1451.0 124.47 1470.34 129.60913386 1475.67125985
-  134.75 1481.0 142.25 1485.0 147.25 1485.0
-  152.25 1485.0 160.0 1484.25 160.0 1484.25
+  135.68 1481.97 151.0 1492.0 156.0 1492.0
+  161.0 1492.0 160.0 1484.25 160.0 1484.25
   smooth off
   160.0 1484.25 163.25 1479.0 162.5 1475.0
   161.75 1471.0 158.25 1463.75 158.25 1463.75
@@ -145,7 +140,7 @@ line border -id l49-168-1269 -close on
   126.25 1210.75
 endline
 
-line border -id l47-150-659 -close on
+line border -id l47-150-659 -close on -subtype invisible
   133.5 639.25
   133.5 639.25 145.5 646.75 147.75 651.5
   150.0 656.25 150.5 669.75 148.5 672.75
@@ -200,7 +195,7 @@ line border -id l47-150-659 -close on
   129.5 699.0 126.75 695.75 126.25 691.5
   125.75 687.25 124.0 681.0 124.0 681.0
   smooth off
-  129.0 655.75
+  124.25 651.0
   133.5 639.25
 endline
 
@@ -219,35 +214,24 @@ line chimney -close on
   smooth off
 endline
 
-line wall:unsurveyed
+line wall -subtype unsurveyed
   123.5 454.5
   123.5 454.5 125.75 469.0 126.0 471.0
   126.25 473.0 127.75 484.5 127.75 484.5
   smooth off
 endline
 
-line wall:unsurveyed
-  113.75 459.5
-  113.75 459.5 116.0 466.5 116.75 468.25
+line wall -reverse on -subtype unsurveyed
+  106.0 437.0
+  106.0 437.0 106.0 441.75 106.25 446.5
+  106.5 451.25 116.0 466.5 116.75 468.25
   117.5 470.0 119.0 473.5 119.75 475.25
   120.5 477.0 121.25 480.0 121.25 481.25
   121.25 482.5 122.5 485.75 122.5 485.75
   smooth off
 endline
 
-line wall:unsurveyed
-  144.0 1486.0
-  142.0 1506.0
-  142.0 1539.0
-endline
-
-line wall:unsurveyed
-  135.0 1482.0
-  135.0 1504.0
-  135.0 1539.0
-endline
-
-line wall:unsurveyed
+line wall -subtype unsurveyed
 endline
 
 line wall -id right
@@ -320,9 +304,8 @@ line wall -id right
   smooth off
 endline
 
-line wall -id left
-  118.0 462.0
-  118.0 462.0 124.5 459.5 123.5 454.5
+line wall -reverse on
+  123.5 454.5
   122.5 449.5 127.75 451.0 127.75 451.0
   smooth off
   127.75 451.0 130.06 450.44 134.0 458.0
@@ -374,9 +357,28 @@ line wall -id left
   smooth off
   140.0 1375.0 135.0 1389.0 132.0 1395.0
   129.0 1401.0 136.0 1425.0 134.0 1434.0
-  132.0 1443.0 123.22 1465.34 129.60913386 1475.67125985
-  136.0 1486.0 145.0 1485.0 152.0 1485.0
-  159.0 1485.0 192.0 1482.0 192.0 1482.0
+  132.0 1443.0 120.73 1475.13 130.0 1483.0
+  138.25 1490.0 133.75 1533.5 134.25 1541.5
+  smooth off
+endline
+
+line water-flow -reverse on
+  136.75 1485.25
+  137.25 1540.25
+endline
+
+line ceiling-step
+  130.0 1483.0
+  130.0 1483.0 134.25 1485.0 136.75 1485.25
+  139.25 1485.5 141.5 1486.0 141.5 1486.0
+  smooth off
+endline
+
+line wall -reverse on
+  140.0 1541.0
+  141.5 1486.0
+  141.5 1486.0 147.5 1486.5 152.5 1486.5
+  159.53 1486.5 192.0 1482.0 192.0 1482.0
   smooth off
   192.0 1482.0 199.0 1475.0 205.0 1476.0
   211.0 1477.0 224.0 1491.0 231.0 1495.0
@@ -424,7 +426,7 @@ line wall -id rh
   smooth off
 endline
 
-line wall -id lh
+line wall -id lh -reverse on
   56.0 125.0
   56.0 125.0 50.0 153.0 55.0 163.0
   60.0 173.0 77.0 190.0 86.0 190.0
@@ -444,8 +446,6 @@ line wall -id lh
   105.91 366.55 105.0 386.0 105.0 394.0
   105.0 402.0 106.0 437.0 106.0 437.0
   smooth off
-  106.0 437.0 110.0 463.0 118.0 462.0
-  smooth off
 endline
 
 point 500.42913386 1671.46125985 station -name 24.53
@@ -460,7 +460,7 @@ point 209.24913386 1458.11125985 station -name 24.49
 
 point 129.60913386 1475.67125985 station -name 24.48
 
-point 147.0 1369.0 station -name 24.47
+point 143.06913386000087 1371.4212598499998 station -name 24.47
 
 point 127.20913386 1314.61125985 station -name 24.46
 

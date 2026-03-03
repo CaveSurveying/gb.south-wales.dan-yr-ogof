@@ -5,7 +5,7 @@ centreline
   date 2013.05.19
   team "Mike McCombe"
   team "Jon Jones"
-  declination 1.25 deg
+#  declination 1.25 deg
   data normal from to compass clino tape
   extend right
   1.0 - 91.67 -4.41 1.925
@@ -80,7 +80,7 @@ centreline
   date 2013.05.25
   team "Mike McCombe"
   team "Jon Jones"
-  declination 1.25 deg
+#  declination 1.25 deg
   data normal from to compass clino tape
   extend right
   1.3 - 75.72 -0.93 5.010
@@ -500,9 +500,8 @@ centreline
   1.21 - 110.63 3.87 4.582
 endcentreline
 map canyon -proj plan
-  scrap1
-  scrap2
+ canyonSP1
+ canyonSP2
 endmap
 endsurvey
-
 

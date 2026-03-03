@@ -1,6 +1,6 @@
 encoding  utf-8
 survey 8mm
-declination 0.70 deg
+#declination 0.70 deg
 team "Mike McCombe"
 team "Jon Jones"
 centreline

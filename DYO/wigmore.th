@@ -2,10 +2,11 @@ encoding  utf-8
 survey wigmore
 input wigmore.th2
 centreline
+  cs osgb:sn
   date 2010.04.03
   team "Mike McCombe"
   team "Jon Jones"
-  declination 1.74 deg
+#  declination 1.74 deg
   data normal from to compass clino tape
   extend right
   1.1 1.0 142.50 -26.66 5.917
@@ -1225,19 +1226,20 @@ map wigmore -proj plan
   wigmorelower
 endmap
 map wigmoremain -proj plan
-  scrap1
+  wigSP5
+  wigSP4
+  wigSP3
+  wigSP2
+  wigSP1
   scrap151
   scrap17
   scrap105
   scrap114
   scrap99
   scrap25
-  scrap79
   scrap43
   scrap51
-  scrap58
   scrap167
-#  scrap156
 endmap
 map wigmorelower -proj plan
   scrap32

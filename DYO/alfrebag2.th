@@ -1,20 +1,8 @@
 encoding  utf-8
 survey alfrebag2
-input alfrebag2.th2
-map alf2MP1
-  alf2SP1
-endmap
-map alf2MP2
-  alf2SP2
-endmap
-map alf2MP
-  alf2MP1
-  alf2MP2
-endmap
+input alfrebag2.th2 
 centreline
-  team "Mike McCombe"
-  team "Jon Jones"
-  declination 1.20 deg
+  cs osgb:sn
   date 2013.10.19
   data normal from to compass clino tape
   extend right
@@ -258,5 +246,8 @@ centreline
   3.19 - 303.07 2.11 1.411
   3.19 - 299.49 2.45 1.427
 endcentreline
+map alf2MP1 -proj plan
+  alf2SP1
+  alf2SP2
+endmap
 endsurvey
-

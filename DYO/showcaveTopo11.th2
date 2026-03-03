@@ -1,11 +1,19 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -136.0 -136.0 1690.0 1608.0
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -128.0 -127.99999999999909 1663.4330708678 1599.0
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {122.56055117999995 1 1.0} {31.373070870000447 5.4} showcaveTopo11Therion_p.xvi 0 {}
 
 
 
-scrap scrap1 -projection plan -scale [-128.0 -128.0 1663.43307087 -128.0 0.0 0.0 45.5024000001 0.0 m]
+scrap showcavetopo11SP1 -projection plan -scale [-128.0 -128.0 1663.43307087 -128.0 0.0 0.0 45.5024000001 0.0 m]
+
+point 729.6505511800001 1404.963070870001 station -name 16.18
+
+point 634.6105511800001 1085.5530708700007 station -name 16.10
+
+point 704.25055118 1142.3230708700012 station -name 16.11
+
+point 752.0905511800001 1338.0730708700007 station -name 16.16
 
 line floor-step -close on
   661.0 1336.0
@@ -62,9 +70,9 @@ area water
   l37-246-158
 endarea
 
-line border:invisible -id l37-246-158 -close on
-  323.0 118.0
-  323.0 118.0 299.0 207.0 306.0 228.0
+line border -id l37-246-158 -close on -subtype invisible
+  314.0 176.0
+  314.0 176.0 299.0 207.0 306.0 228.0
   313.0 249.0 356.0 291.0 359.0 301.0
   362.0 311.0 429.0 365.0 421.0 372.0
   413.0 379.0 392.0 400.0 386.0 405.0
@@ -72,8 +80,8 @@ line border:invisible -id l37-246-158 -close on
   353.0 437.0 333.0 405.0 326.0 396.0
   319.0 387.0 294.0 345.0 285.0 334.0
   276.0 323.0 277.0 270.0 266.0 256.0
-  255.0 242.0 246.0 186.0 237.0 171.0
-  228.0 156.0 323.0 118.0 323.0 118.0
+  255.0 242.0 249.0 196.0 240.0 181.0
+  231.0 166.0 314.0 176.0 314.0 176.0
   smooth off
 endline
 
@@ -85,7 +93,7 @@ line rock-border -close on
   smooth off
 endline
 
-line rock-border -close on
+line rock-border -close on -reverse on
   676.0 760.0
   676.0 760.0 680.0 760.0 689.0 764.0
   698.0 768.0 695.0 778.0 700.0 784.0
@@ -115,7 +123,7 @@ line border:invisible -id l33-988-886 -close on
   792.0 716.0
 endline
 
-line wall -close on -subtype unsurveyed
+line wall -close on -outline in
   650.0 1203.0
   650.0 1203.0 625.0 1155.0 618.0 1148.0
   611.0 1141.0 611.0 1138.0 597.0 1141.0
@@ -137,7 +145,7 @@ line wall
   smooth off
 endline
 
-line wall -close on -reverse on
+line wall -close on -reverse on -outline in
   713.0 1034.0
   713.0 1034.0 695.0 1035.0 688.0 1028.0
   681.0 1021.0 675.0 1007.0 673.0 991.0
@@ -163,7 +171,8 @@ line wall -id lh1
   531.0 1098.0 560.0 1050.0 572.0 1037.0
   584.0 1024.0 595.0 1011.0 597.0 1002.0
   599.0 993.0 602.0 967.0 601.0 958.0
-  600.0 949.0 607.0 878.0 608.0 863.0
+  600.0 949.0 591.17 894.87 594.5 887.0
+  600.0 874.0 607.0 878.0 608.0 863.0
   609.0 848.0 622.0 833.0 622.0 833.0
   smooth off
   622.0 833.0 546.0 717.0 526.0 699.0
@@ -185,7 +194,7 @@ area water
   l49-1350-1195
 endarea
 
-line border:invisible -id l49-1350-1195 -close on
+line border -id l49-1350-1195 -close on -subtype invisible
   1299.0 1147.0
   1299.0 1147.0 1315.0 1131.0 1328.0 1132.0
   1341.0 1133.0 1358.0 1137.0 1361.0 1145.0
@@ -272,7 +281,7 @@ line floor-step
   smooth off
 endline
 
-line wall -close on -reverse on
+line wall -close on -reverse on -outline in
   814.0 1108.0
   814.0 1108.0 792.0 1144.0 790.0 1155.0
   788.0 1166.0 794.0 1173.0 787.0 1185.0
@@ -290,7 +299,7 @@ line wall -close on -reverse on
   smooth off
 endline
 
-line wall -close on
+line wall -close on -reverse on -outline in
   993.0 1124.0
   989.0 1130.0 995.0 1145.0 985.0 1144.0
   975.0 1143.0 940.0 1152.0 929.0 1152.0
@@ -420,8 +429,6 @@ line wall -id rh1
   smooth off
 endline
 
-point 1552.64055118 1275.19307087 station -name 16.25
-
 point 1528.46055118 1224.80307087 station -name 16.24
 
 point 1281.22055118 1156.57307087 station -name 16.23
@@ -462,7 +469,7 @@ endscrap
 
 
 
-scrap scrap2 -scale [-128.0 -128.0 1663.43307087 -128.0 0.0 0.0 45.5024000001 0.0 m]
+scrap showcavetopo11SP2 -projection plan -scale [-128.0 -128.0 1663.43307087 -128.0 0.0 0.0 45.5024000001 0.0 m]
 
 area water
   l61-1052-1278

@@ -2,7 +2,7 @@ encoding  utf-8
 survey bypass
 input bypass.th2
 centreline
-  declination 1.38 deg
+#  declination 1.38 deg
   team "Mike McCombe"
   team "Bernie Woodley"
   team "Jon Jones"

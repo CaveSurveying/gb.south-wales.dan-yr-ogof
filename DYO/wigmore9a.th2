@@ -1,11 +1,11 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -129.0 -129.0 1505.9527559055118 639.8110236220472
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {1382.399842519685 1 1.0} {201.6147244094488 1.0} wigmore9aTherion_p.xvi 0 {}
 
 
 
-scrap scrap17 -projection plan -scale [-128.0 -128.0 521.7007874015748 -128.0 0.0 0.0 16.502399999999998 0.0 m]
+scrap wigmore9aSP1 -projection plan -scale [-128.0 -128.0 521.7007874015748 -128.0 0.0 0.0 16.502399999999998 0.0 m]
 
 line overhang
   110.0 265.75

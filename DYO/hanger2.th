@@ -3,7 +3,7 @@ survey hanger2
 input hanger2.th2
 centreline
   date 2015.10.11
-  declination 0.76 deg
+#  declination 0.76 deg
   team "Mike McCombe"
   team "Jon Jones"
   data normal from to compass clino tape
@@ -203,8 +203,7 @@ centreline
   8.21 - 314.27 1.00 5.215
 endcentreline
 map hanger2 -proj plan
-  scrap1
+  hanger2SP1
 endmap
 endsurvey
-
 

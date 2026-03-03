@@ -1,11 +1,18 @@
 encoding  utf-8
+
 survey august6
 input august6.th2
 centreline
   date 2015.04.18
   team "Mike McCombe"
   team "Jon Jones"
-  declination 0.83 deg
+  data normal from to compass clino tape
+endcentreline
+
+centreline
+  date 2015.02.11
+  team "Mike McCombe"
+  team "Jon Jones"
   data normal from to compass clino tape
   extend right
   8.11 - 346.98 30.30 0.636
@@ -29,8 +36,8 @@ centreline
   8.12 - 186.69 -4.40 2.344
   8.12 8.13 13.11 -4.79 4.777
 endcentreline
-map august6 -proj plan
-  scrap1
+map august6
+  august6SP1
 endmap
 endsurvey
 

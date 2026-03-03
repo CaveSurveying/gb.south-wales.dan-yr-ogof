@@ -2,7 +2,7 @@ encoding  utf-8
 survey wigmore5a
 input wigmore5a.th2
 centreline
-  declination 0.81 deg
+#  declination 0.81 deg
   team "Mike McCombe"
   team "Jon Jones"
   date 2015.07.04
@@ -35,5 +35,4 @@ map wigmore5a -proj plan
   scrap1
 endmap
 endsurvey
-
 

@@ -2,7 +2,7 @@ encoding  utf-8
 survey mudhall
 #input mudhall.th2
 centreline
-  declination 1.54 deg
+#  declination 1.54 deg
   date 2011.07.30
   team "Mike McCombe"
   team "Bernie Woodley"

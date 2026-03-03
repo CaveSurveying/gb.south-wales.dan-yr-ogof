@@ -3,7 +3,7 @@ survey wigmore6a
 input wigmore6a.th2
 centreline
   date 2015.07.04
-  declination 0.81 deg
+#  declination 0.81 deg
   team "Mike McCombe"
   team "Jon Jones"
   data normal from to compass clino tape
@@ -103,7 +103,7 @@ centreline
   1.10 - 117.76 82.73 2.430
 endcentreline
 map wigmore6a -proj plan
-  scrap1
+  wigmore6aSP1
 endmap
 endsurvey
 

@@ -2,7 +2,7 @@ encoding  utf-8
 survey longerend3
 input longerend3.th2
 centreline
-  declination 1.24 deg
+#  declination 1.24 deg
   team "Mike McCombe"
   team "Jon Jones"
   team "Blanca Usuga"
@@ -152,5 +152,4 @@ map longerend3 -proj plan
   scrap1
 endmap
 endsurvey
-
 

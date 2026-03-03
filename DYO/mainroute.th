@@ -5,7 +5,7 @@ centreline
   date 2011.06.09
   team "Mike McCombe"
   team "Richard Frost"
-  declination 1.56 deg
+#  declination 1.56 deg
   data normal from to compass clino tape
   extend right
   16.0 16.1 268.52 -0.08 9.498
@@ -457,17 +457,9 @@ centreline
   16.31 16.32 49.99 -8.97 4.228
   16.33 16.32 293.16 -1.23 4.146
 endcentreline
-
-centreline
-  date 2011.06.14
-  data normal from to compass clino tape
-  extend right
-  16.33 16.4 0.00 0.00 0.000
-endcentreline
 map mainroute -proj plan
-  scrap1
-  scrap10
-  scrap22
+  mainrtSP1
+  mainrtSP2
 endmap
 endsurvey
 

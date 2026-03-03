@@ -1,11 +1,11 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 2923.27559055 1820.91338583
-##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {343.34551182 1 1.0} {889.766063 25.0} gpupperTherion_p.xvi 0 {}
+##XTHERION## xth_me_area_adjust -128.0 -128.0000000000009 2923.2755905542 1820.913385828599
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {343.34551181999996 1 1.0} {889.766063 25.0} gpupperTherion_p.xvi 0 {}
 
 
 
-scrap scrap1 -scale [-128.0 -128.0 2923.27559055 -128.0 0.0 0.0 77.5024 0.0 m]
+scrap gpupperSP1 -projection plan -scale [-128.0 -128.0 2923.27559055 -128.0 0.0 0.0 77.5024 0.0 m]
 
 line water-flow
   1222.0 864.0
@@ -16,6 +16,7 @@ line water-flow
   964.0 1050.0 930.0 1036.0 922.0 1024.0
   914.0 1012.0 860.0 936.0 820.0 940.0
   780.0 944.0 764.0 918.0 734.0 912.0
+  smooth off
 endline
 
 area blocks
@@ -28,12 +29,23 @@ area blocks
   l27-1854-1482
 endarea
 
-line wall:invisible -id l27-1854-1482 -close on
+line slope -reverse on
+  1602.0 1428.0
+  l-size 40.0
+  1602.0 1428.0 1598.0 1408.0 1638.0 1400.0
+  1678.0 1392.0 1700.0 1414.0 1712.0 1440.0
+  1724.0 1466.0 1730.0 1496.0 1730.0 1496.0
+  smooth off
+endline
+
+line wall
+endline
+
+line wall -id l27-1854-1482 -subtype blocks
   1853.5 1476.0
-  1912.5 1572.0
-  1785.0 1599.0
-  1796.0 1476.0
-  1853.5 1476.0
+  1880.5 1547.0
+  1805.5 1568.0
+  1785.0 1484.0
 endline
 
 line wall
@@ -44,13 +56,8 @@ endline
 
 line wall
   1854.0 1439.0
-  1853.0 1445.5
-  1894.5 1447.5
-endline
-
-line wall
-  1854.0 1439.0
-  1965.0 1438.5
+  1865.0 1444.0
+  1899.0 1444.5
 endline
 
 line wall
@@ -58,7 +65,7 @@ line wall
   1964.0 1428.0
 endline
 
-line wall
+line wall -reverse on
   2182.5 1143.0
   2181.0 1079.5
   2181.0 1079.5 2194.0 1076.0 2202.5 1068.0
@@ -98,7 +105,7 @@ line ceiling-step
   smooth off
 endline
 
-line wall
+line wall -reverse on
   1841.0 1426.5
   1841.0 1426.5 1806.0 1380.0 1804.0 1358.0
   1802.0 1336.0 1798.0 1304.0 1798.0 1304.0
@@ -126,7 +133,7 @@ line wall
   smooth off
 endline
 
-line wall -id rh
+line wall -id rh -reverse on
   1256.0 896.0
   1278.0 806.0
   1278.0 806.0 1290.0 848.0 1300.0 864.0
@@ -145,7 +152,7 @@ line wall -id rh
   smooth off
 endline
 
-line wall -id far
+line wall -id far -reverse on
   698.0 1180.0
   746.0 1190.0 916.0 1206.0 930.0 1210.0
   944.0 1214.0 1068.0 1270.0 1114.0 1280.0
@@ -155,7 +162,7 @@ line wall -id far
   1500.0 1428.0 1544.0 1418.0 1574.0 1428.0
   1604.0 1438.0 1636.0 1520.0 1636.0 1520.0
   smooth off
-  1796.0 1476.0
+  1785.0 1484.0
 endline
 
 line wall -id gpback

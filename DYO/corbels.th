@@ -3,7 +3,7 @@ survey corbels
 input corbels.th2
 centreline
   date 2012.05.16
-  declination 1.42 deg
+#  declination 1.42 deg
   team "Mike McCombe"
   team "Bernie Woodley"
   data normal from to compass clino tape
@@ -497,11 +497,11 @@ centreline
   35.28 35.27 202.68 -13.44 2.379
 endcentreline
 map corbels -proj plan
-  scrap22
-  scrap55
+  corbelsSP3
+  corbelsSP2
 endmap
 map corbelsLower -proj plan
-  scrap1
+  corbelsSP1
 endmap
 endsurvey
 

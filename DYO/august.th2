@@ -1,11 +1,11 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 1393.5 1659.5
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -128.0 -128.0 1395.0 1661.0
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {836.811023623 1 1.0} {54.5275590552 1.0} augustTherion_p.xvi 0 {}
 
 
 
-scrap scrap1 -scale [-128.0 -128.0 1269.73228347 -128.0 0.0 0.0 35.5024000001 0.0 m]
+scrap augustSP1 -projection plan -scale [-128.0 -128.0 1269.73228347 -128.0 0.0 0.0 35.5024000001 0.0 m]
 
 line gradient -close on
   829.5 79.5
@@ -19,8 +19,6 @@ line gradient -close on
   smooth off
 endline
 
-
-
 point 561.5 425.0 section -scrap section1.6
 
 line section -reverse on -direction both
@@ -28,9 +26,6 @@ line section -reverse on -direction both
   408.0 421.5 364.97 404.74 263.5 364.5
   smooth off
 endline
-
-
-
 
 line rock-border -close on
   108.5 1053.5
@@ -507,7 +502,7 @@ endscrap
 
 
 
-scrap scrap39 -scale [-128.0 -128.0 1269.73228347 -128.0 0.0 0.0 35.5024000001 0.0 m]
+scrap augustSP2 -projection plan -scale [-128.0 -128.0 1269.73228347 -128.0 0.0 0.0 35.5024000001 0.0 m]
 
 line rock-border -close on
   1143.0 1499.0
@@ -597,7 +592,7 @@ area water
   l56-511-1177
 endarea
 
-line border:invisible -id l56-511-1177 -close on
+line border -id l56-511-1177 -close on -subtype invisible
   511.5 1184.5
   511.5 1184.5 512.5 1193.5 518.0 1197.0
   523.5 1200.5 535.0 1199.5 541.0 1201.0
@@ -627,7 +622,7 @@ line border:invisible -id l56-511-1177 -close on
   smooth off
 endline
 
-line wall -close on
+line wall -close on -outline in
   1147.5 1429.25
   1147.5 1429.25 1146.5 1430.0 1146.25 1431.75
   1146.0 1433.5 1148.5 1439.75 1148.5 1439.75
@@ -705,7 +700,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -reverse on
   450.25 1110.25
   450.25 1110.25 450.25 1114.0 450.75 1117.75
   451.25 1121.5 457.0 1148.25 457.0 1150.75
@@ -817,4 +812,5 @@ line section -close on
 endline
 
 endscrap
+
 

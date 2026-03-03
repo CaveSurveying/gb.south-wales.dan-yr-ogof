@@ -5,7 +5,7 @@ centreline
   date 2012.09.15
   team "Bernie Woodley"
   team "Mike McCombe"
-  declination 1.36 deg
+#  declination 1.36 deg
   data normal from to compass clino tape
   extend right
   41.0 43.0 0.00 0.00 0.000
@@ -307,6 +307,4 @@ map shower2 -proj plan
   scrap1
 endmap
 endsurvey
-
-
 

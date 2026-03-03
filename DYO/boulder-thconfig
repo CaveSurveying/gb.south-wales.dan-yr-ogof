@@ -2,7 +2,7 @@ encoding  utf-8
 source bouldermain
 #Common features of layout
 layout dyo_layout
-  symbol-hide group cave-centerline
+  symbol-show group cave-centerline
   scale 1 500
   transparency on
   opacity 50
@@ -109,10 +109,12 @@ text en "line u:ledge" "ledge"
 text en "line u:judson" "Judson & Coase"
 layout my_layout
   copy dyo_layout
+  debug  station-names
 endlayout 
 layout atlas
 copy dyo_layout
-debug off
+  symbol-show group cave-centerline
+  debug  station-names
 scale 1 200
 colour map-fg 100
 colour map-bg 90
@@ -126,4 +128,4 @@ endlayout
 select mainmap@dyo
 export map   -o boulder.pdf   -layout my_layout
 export model -o boulder.3d -format survex
-#export atlas -o boulder-atlas.pdf -layout atlas
+export atlas -o boulder-atlas.pdf -layout atlas

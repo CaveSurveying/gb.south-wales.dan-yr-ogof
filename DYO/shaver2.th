@@ -9,7 +9,7 @@ centreline
 endcentreline
 
 centreline
-  declination 0.51 deg
+#  declination 0.51 deg
   team "Mike McCombe"
   team "Jon Jones"
   date 2017.06.24
@@ -98,5 +98,4 @@ map shaver2 -proj plan
   scrap1
 endmap
 endsurvey
-
 

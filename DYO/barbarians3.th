@@ -7,7 +7,7 @@ centreline
   extend right
   team "Mike McCombe"
   team "Jon Jones"
-  declination 0.54 deg
+#  declination 0.54 deg
   1.10 1.15 311.60 -11.53 5.021
   1.15 - 274.80 15.90 0.949
   1.15 - 195.44 13.79 1.381
@@ -78,10 +78,8 @@ centreline
   1.18 - 166.54 2.79 3.430
   1.18 - 241.48 -82.33 0.271
 endcentreline
-map barbarians3 -proj plan
-  scrap1
+map barbarians3MP -proj plan
+  barbarians3SP1
 endmap
 endsurvey
-
-
 

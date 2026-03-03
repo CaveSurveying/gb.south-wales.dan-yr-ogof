@@ -5,7 +5,6 @@ input wigmore9a.th2
 centreline
   team "Mike McCombe"
   team "Jon Jones"
-  declination 0.77 deg  
   date 2015.09.26
   data normal from to compass clino tape
   extend right
@@ -233,7 +232,7 @@ centreline
   date 2015.10.03
   team "Mike McCombe"
   team "Jon Jones"
-  declination 0.77 deg  
+#  #declination 0.77 deg  
   data normal from to compass clino tape
   extend right
   1.25 - 307.32 -80.50 0.962
@@ -348,9 +347,9 @@ centreline
 endcentreline
 
 map wigmore9 -proj plan
-  scrap41
-  scrap1
-  scrap17
+  wigmore9SP2
+  wigmore9SP1
+  wigmore9aSP1
 endmap
 endsurvey
 

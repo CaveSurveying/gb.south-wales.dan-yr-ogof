@@ -1,5 +1,8 @@
 encoding  utf-8
 survey dyo -title "Boulder Chamber Detail"
+centreline
+  cs osgb:sn
+endcentreline
 input boulder
 input alfrebag
 input alfrebag2
@@ -257,32 +260,32 @@ input showcaveTopo12
   join st@ashfordprices:0 st@mainroute:end -smooth on
   join l6-38-306@ashfordprices:end  ap@mainroute:end
   join rh@nomansland:0 rh@gpupper:0
-  join first@longcrawl:0 last@mainroute:end -smooth on
+###  join first@longcrawl:0 last@mainroute:end -smooth on
   join strawlh@wigmore:0 st@ashfordprices:end
-  join strawrh@wigmore:end left@ashfordprices:0
+###  join strawrh@wigmore:end left@ashfordprices:0
   join wigstart@wigmore:end nearleft@boulder:end
-  join farleft@boulder:end topleft@boulder3:0
+###  join farleft@boulder:end topleft@boulder3:0
   join bwest@boulder:0 wigwest@wigmore:end
-  join ll@lr_in_1:end ul@lr_out_1:0
-  join ll@lr_out_2:0 ul@lr_out_1:end
-  join rl@lr_out_2:0 left2@lr_out_1:0
-  join rl@lr_out_2:end left2@lr_out_1:end
-  join ll@lr_out_2:end left3@lr_out_1:0
-  join lr@lr_in_1:0 ur@lr_out_1:0
-  join left3@lr_out_1:end sl@lr_out_1:0
-  join ur@lr_out_1:end sr@lr_out_1:0
+###  join ll@lr_in_1:end ul@lr_out_1:0
+###  join ll@lr_out_2:0 ul@lr_out_1:end
+###  join rl@lr_out_2:0 left2@lr_out_1:0
+###  join rl@lr_out_2:end left2@lr_out_1:end
+     join lrout2SP1@lr_out_2:end lrout1SP1@lr_out_1:0
+###  join lr@lr_in_1:0 ur@lr_out_1:0
+###  join left3@lr_out_1:end sl@lr_out_1:0
+###  join ur@lr_out_1:end sr@lr_out_1:0
   join gpback@gphall:0 gpback@gpupper:0
   join gpback@gpupper:end lh@nomansland:0
   join far@gpupper:0 far@gphall:0
   join lh@lr_out_3:0 lh@lr_out_1:end
   join rh@lr_out_3:0 rh@lr_out_1:end
-  join left@lr_out_3:end left@lr_out_4:0
-  join right@lr_out_3:end right@lr_out_4:0
+  join lrout3SP1@lr_out_3 lrout4SP1@lr_out_4
+###  join right@lr_out_3:end right@lr_out_4:0
   join rh@lr_out_7:end rh@lr_out_8:0
   join lh@lr_out_7:end lh@lr_out_8:0
   join sw@boulder4:0 lowside@wigmore:0
-  join sw@boulder4:end sw@wigmore:end
-  join lowereast@boulder:0 lowereast@lakes:end
+###  join sw@boulder4:end sw@wigmore:end
+#  join lowereast@boulder:0 lowereast@lakes:end
   join bpfar@bypass2:end bpfar@lakes2:end
   join rw3@bypass2:end bpfarright@lakes2:0
   join bpnear@bypass:0 bpfarright@lakes2:end
@@ -294,7 +297,7 @@ input showcaveTopo12
   join ssl@lakes2:0 ssl@siphon1:end
   join ssr@siphon1:0 ssr@lakes2:end
   join blr@lakes:0 blr@black:end
-  join bll@black:end bls@lakes:0
+#  join bll@black:end bls@lakes:0
   join bll@black:0 blw@black2:0
   join linkr@showcaveTopo:end linkr@showcaveTopo3:0
   join linkl@showcaveTopo:0 linkl@showcaveTopo3:end
@@ -316,13 +319,13 @@ input showcaveTopo12
   join rh1@showcaveTopo:end rh1@showcaveTopo6:0
   join rh2@showcaveTopo:0 lh1@showcaveTopo6:end
   join rh3@showcaveTopo6:end rh1@showcaveTopo8:0
-  join lh1@showcaveTopo6:0 lh1@showcaveTopo8:end
+### join lh1@showcaveTopo6:0 lh1@showcaveTopo8:end
   join lh1@showcaveTopo11:end lh1@showcaveTopo4:0
   join rh1@showcaveTopo11:0 lh2@showcaveTopo4:end
   join nrh1@showcaveTopo11:0 lh3@showcaveTopo4:end
   join nlh1@showcaveTopo11:end lh2@showcaveTopo4:0
-  join wl1@wigmore1a:0 wl1@wigmore:end -smooth on
-  join wr1@wigmore1a:end wr1@wigmore:end -smooth on
+###  join wl1@wigmore1a:0 wl1@wigmore:end -smooth on
+###  join wr1@wigmore1a:end wr1@wigmore:end -smooth on
 #  join syl@siphon2:0 syl@siphon1:end
 map mainmap -proj plan 
   lowerboulder 
@@ -335,20 +338,20 @@ map most -proj plan
   aboveboulder [-65 20 m] below
 endmap
 map mainboulder -proj plan
-  scrap25@boulder
+  boulderSP2@boulder
   scrap167@wigmore
   scrap105@wigmore
   scrap114@wigmore
   scrap17@wigmore
-  scrap1@boulder3
-  scrap96@boulder4
+  boulder3SP1@boulder3
+  boulder4SP2@boulder4
 endmap
 map lowerboulder -proj plan
-  scrap142@boulder4
-  scrap1@boulder
-  scrap1@lakes
-  scrap69@lakes
-  scrap1@boulder4
+  boulderSP1@boulder
+  lakesSP1@lakes
+  lakesSP2@lakes
+  lakesSP3@lakes
+  boulder4SP1@boulder4
 endmap
 map aboveboulder -proj plan
   augustlayer

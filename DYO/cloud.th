@@ -3,7 +3,7 @@ survey cloud
 input cloud.th2
 centreline
   date 2013.11.16
-  declination 1.17 deg
+#  declination 1.17 deg
   team "Mike McCombe"
   team "Jon Jones"
   data normal from to compass clino tape
@@ -112,7 +112,7 @@ centreline
   2.18 2.17 336.01 -35.39 2.252
 endcentreline
 map cloud -proj plan
-  scrap1
+  cloudSP1
 endmap
 endsurvey
 

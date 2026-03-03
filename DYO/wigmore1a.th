@@ -2,9 +2,9 @@ encoding  utf-8
 survey wigmore1a
 input wigmore1a.th2
 centreline
-  date 2015.06.06
-  declination 0.83 deg
+  date 2015.05.16
   team "Mike McCombe"
+  team "Jon Jones"
   data normal from to compass clino tape
   extend right
   1.1 1.0 136.21 -37.75 6.967
@@ -114,8 +114,8 @@ endcentreline
 
 centreline
   date 2015.06.06
-  declination 0.83 deg
   team "Mike McCombe"
+  team "Jon Jones"
   data normal from to compass clino tape
   extend right
   1.6 - 142.70 20.33 4.036
@@ -127,9 +127,8 @@ centreline
   1.11 - 211.02 84.91 3.715
   1.11 - 321.85 -18.77 5.895
 endcentreline
-map wigmore1a -proj plan
-  scrap1
+map wigmore1a
+  wigmore1aSP1
 endmap
 endsurvey
-
 

@@ -4,7 +4,7 @@ input maindrag.th2
 centreline
   team "Mike McCombe"
   team "Jon Jones"
-  declination 0.50 deg
+#  declination 0.50 deg
   date 2017.04.16
   data normal from to compass clino tape
   extend right

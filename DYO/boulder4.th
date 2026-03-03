@@ -3,7 +3,7 @@ survey boulder4
 input boulder4.th2
 centreline
   date 2012.04.05
-  declination 1.44 deg
+#  declination 1.44 deg
   team "Mike McCombe"
   team "Bernie Woodley"
   data normal from to compass clino tape
@@ -497,15 +497,9 @@ centreline
   32.36 32.37 111.35 -6.69 1.887
 endcentreline
 
-centreline
-  date 2012.04.06
-  data normal from to compass clino tape
-  extend right
-  32.37 32.27 0.00 0.00 0.000
-endcentreline
 map boulder4 -proj plan
-  scrap1
-  scrap96
+  boulder4SP2
+  boulder4SP1
 endmap
 endsurvey
 

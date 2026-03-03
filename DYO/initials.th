@@ -3,7 +3,7 @@ survey initials
 input initials.th2
 centreline
   date 2012.02.14
-  declination 1.44 deg
+# declination 1.44 deg
   team "Mike McCombe"
   team "Richard Frost"
   data normal from to compass clino tape

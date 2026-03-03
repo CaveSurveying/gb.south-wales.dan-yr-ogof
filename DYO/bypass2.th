@@ -2,7 +2,7 @@ encoding  utf-8
 survey bypass2
 input bypass2.th2
 centreline
-  declination 1.38 deg
+#  declination 1.38 deg
   team "Mike McCombe"
   team "Bernie Woodley"
   team "Jon Jones"
@@ -520,7 +520,7 @@ centreline
   2.30 - 36.45 -1.81 5.183
 endcentreline
 map bypass2 -proj plan
-  scrap1
+  bypass2SP1
 endmap
 endsurvey
 

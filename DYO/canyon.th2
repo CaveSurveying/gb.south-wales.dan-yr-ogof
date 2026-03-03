@@ -1,15 +1,11 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 4537.4488189 5009.88976378
+##XTHERION## xth_me_area_adjust -128.0 -128.0 4537.4488189024 5009.8897637848
 ##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {3572.0472441 1 1.0} {4574.80314961 1.0} canyonTherion_p.xvi 0 {}
 
 
 
-scrap scrap1 -scale [-128.0 -128.0 4537.4488189 -128.0 0.0 0.0 118.5024 0.0 m]
-
-point 586.0 1224.0 soda-straw
-
-point 846.0 1268.0 soda-straw
+scrap canyonSP1 -projection plan -scale [-128.0 -128.0 4537.4488189 -128.0 0.0 0.0 118.5024 0.0 m]
 
 line water-flow
   3302.0 3734.0
@@ -265,6 +261,12 @@ line wall
 endline
 
 line wall
+endline
+
+line border
+endline
+
+line wall
   960.0 1056.0
   960.0 1056.0 1068.0 1048.0 1112.0 1060.0
   1156.0 1072.0 1200.0 1080.0 1212.0 1068.0
@@ -279,14 +281,13 @@ line wall
   smooth off
 endline
 
-line wall
-  700.0 820.0
-  656.0 856.0
-  656.0 856.0 672.0 904.0 672.0 932.0
-  672.0 960.0 680.0 1048.0 716.0 1052.0
-  752.0 1056.0 960.0 1056.0 960.0 1056.0
-  smooth off
-endline
+point 1960.0 3126.0 helictite
+
+point 1964.0 2982.0 soda-straw
+
+point 1972.0 2942.0 soda-straw
+
+point 1984.0 2902.0 soda-straw
 
 line wall
   3588.0 3928.0
@@ -324,12 +325,6 @@ line wall
   smooth off
 endline
 
-point 480.3972441 818.66314961 station -name 1.17
-
-point 631.4972441 860.23314961 station -name 1.16
-
-point 622.8372441 1126.89314961 station -name 1.15
-
 point 1072.1672441 1256.14314961 station -name 1.14
 
 point 1713.3872441 1173.34314961 station -name 1.13
@@ -358,13 +353,11 @@ point 3705.1972441 3628.38314961 station -name 1.2
 
 point 3731.7372441 3918.34314961 station -name 1.1
 
-point 3572.0472441 4574.80314961 station -name 1.0
-
 endscrap
 
 
 
-scrap scrap2 -scale [-128.0 -128.0 4537.4488189 -128.0 0.0 0.0 118.5024 0.0 m]
+scrap canyonSP2 -projection plan -scale [-128.0 -128.0 4537.4488189 -128.0 0.0 0.0 118.5024 0.0 m]
 
 line floor-step -reverse on
   700.0 820.0

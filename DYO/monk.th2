@@ -1,11 +1,11 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 2456.0 1970.0
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -128.0 -128.0 2411.4645669316 1974.0
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {90.5511811025 1 1.0} {249.409448819 1.0} monkTherion_p.xvi 0 {}
 
 
 
-scrap scrap1 -scale [-128.0 -128.0 2411.46456693 -128.0 0.0 0.0 64.5024 0.0 m]
+scrap monkSP1 -projection plan -scale [-128.0 -128.0 2411.46456693 -128.0 0.0 0.0 64.5024 0.0 m]
 
 point 880.0 660.0 section -scrap SX1.10
 
@@ -23,7 +23,7 @@ line section -direction both
   smooth off
 endline
 
-point 360.0 504.5 section -scrap SX1.6
+point 530.0 496.5 section -scrap SX1.6
 
 line section -direction both
   173.5 568.0
@@ -39,13 +39,6 @@ line wall
   164.0 168.5 190.0 145.5 190.0 145.5
   smooth off
   236.0 157.5
-endline
-
-line wall
-  258.5 323.5
-  258.5 323.5 270.0 314.5 273.0 312.0
-  276.0 309.5 287.0 304.0 287.0 304.0
-  smooth off
 endline
 
 point 742.25 783.5 soda-straw
@@ -68,7 +61,7 @@ line wall:invisible
   smooth off
 endline
 
-line wall:invisible
+line wall -subtype invisible
   1851.0 1531.0
   1851.0 1531.0 1842.5 1500.5 1860.5 1498.0
   1878.5 1495.5 1902.5 1485.0 1911.5 1490.0
@@ -227,33 +220,6 @@ line ceiling-step -reverse on
   smooth off
 endline
 
-line wall:unsurveyed
-  2191.5 1713.0
-  2186.0 1705.0 2171.0 1690.0 2171.0 1690.0
-  smooth off
-endline
-
-line wall:unsurveyed
-  2322.5 1676.5
-  2322.5 1676.5 2300.5 1678.0 2284.0 1683.5
-  2267.5 1689.0 2250.0 1698.5 2244.0 1705.0
-  2238.0 1711.5 2232.5 1714.5 2229.5 1718.5
-  smooth off
-endline
-
-line wall:unsurveyed
-  2162.5 1628.5
-  2162.5 1628.5 2173.0 1628.5 2179.5 1635.0
-  2186.0 1641.5 2190.0 1665.0 2193.5 1672.0
-  2197.0 1679.0 2197.5 1684.5 2197.5 1684.5
-  smooth off
-  2213.0 1685.0
-  2213.0 1685.0 2231.0 1654.5 2232.5 1643.0
-  2234.0 1631.5 2238.5 1582.5 2242.0 1574.0
-  2245.5 1565.5 2253.5 1554.0 2257.0 1549.5
-  smooth off
-endline
-
 line rock-edge
 endline
 
@@ -299,7 +265,7 @@ line rock-edge -close on
   1608.0 1178.5
 endline
 
-line wall:invisible
+line wall -subtype invisible
   1610.0 1187.0
   1590.5 1161.5
   1612.5 1145.0
@@ -574,21 +540,6 @@ line wall
 endline
 
 line wall
-  334.0 337.0
-  334.0 337.0 317.0 315.0 307.0 309.0
-  297.0 303.0 287.0 304.0 287.0 304.0
-  smooth off
-endline
-
-line wall
-  238.0 214.0
-  238.0 214.0 256.0 206.0 271.0 213.0
-  286.0 220.0 291.0 246.0 301.0 260.0
-  311.0 274.0 314.0 294.0 319.0 297.0
-  smooth off
-endline
-
-line wall
   118.0 307.0
   118.0 307.0 101.0 302.0 83.0 291.0
   65.0 280.0 44.0 266.0 44.0 266.0
@@ -638,7 +589,7 @@ line wall
   smooth off
   266.0 345.0 263.0 325.0 251.0 317.0
   239.0 309.0 190.0 311.0 169.0 303.0
-  148.0 295.0 128.0 290.0 128.0 290.0
+  148.0 295.0 118.0 307.0 118.0 307.0
   smooth off
 endline
 
@@ -677,6 +628,8 @@ point 526.851181103 777.839448819 station -name 1.8
 point 353.231181102 653.939448819 station -name 1.7
 
 point 199.721181103 544.839448819 station -name 1.6
+
+point 257.7911811025 360.509448819 station -name 1.5
 
 point 306.491181102 439.369448819 station -name 1.4
 
@@ -800,7 +753,7 @@ endscrap
 
 
 
-scrap scrap2 -scale [-128.0 -128.0 2411.46456693 -128.0 0.0 0.0 64.5024 0.0 m]
+scrap monkSP2 -projection plan -scale [-128.0 -128.0 2411.46456693 -128.0 0.0 0.0 64.5024 0.0 m]
 
 point 289.0 129.0 soda-straw
 

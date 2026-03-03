@@ -3,7 +3,7 @@ survey black
 input black.th2
 centreline
   date 2012.08.23
-  declination 1.38 deg
+#  declination 1.38 deg
   team "Mike McCombe"
   team "Bernie Woodley"
   data normal from to compass clino tape
@@ -129,5 +129,4 @@ map black -proj plan
   scrap1
 endmap
 endsurvey
-
 

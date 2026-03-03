@@ -2,7 +2,7 @@ encoding  utf-8
 survey august14
 input august14.th2
 centreline
-  declination 0.83 deg
+#  declination 0.83 deg
   team "Mike McCombe"
   team "Jon Jones"
   date 2015.05.16
@@ -89,6 +89,4 @@ map august14 -proj plan
   scrap1
 endmap
 endsurvey
-
-
 

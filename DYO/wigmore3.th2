@@ -1,11 +1,13 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -130.0 -130.0 1125.0 1230.3622047244094
+##XTHERION## xth_me_area_adjust -128.0 -128.0 1124.5 1230.3622047244094
 ##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {270.711811023622 1 1.0} {19.685826771653637 19.0} wigmore3Therion_p.xvi 0 {}
 
 
 
-scrap scrap1 -scale [-128.0 -128.0 1112.251968503937 -128.0 0.0 0.0 31.502399999999998 0.0 m]
+scrap wigmore3SP1 -scale [-128.0 -128.0 1112.251968503937 -128.0 0.0 0.0 31.502399999999998 0.0 m]
+
+point 331.53181102362197 353.8558267716537 station -name 19.8
 
 line ceiling-step
   190.0 449.0
@@ -46,7 +48,7 @@ line ceiling-step
   smooth off
 endline
 
-line wall
+line wall -outline in
   153.0 442.0
   153.0 442.0 157.0 432.75 159.25 429.25
   161.5 425.75 166.25 418.25 166.25 418.25
@@ -263,7 +265,7 @@ line wall
   smooth off
 endline
 
-line wall -subtype unsurveyed
+line wall -subtype unsurveyed -outline in
   153.0 442.0
   153.0 442.0 161.0 444.0 170.0 447.0
   179.0 450.0 190.0 449.0 190.0 449.0
@@ -376,36 +378,6 @@ point 226.93181102362198 174.09582677165372 station -name 19.2
 point 238.27181102362198 125.27582677165378 station -name 19.1
 
 point 270.711811023622 19.685826771653637 station -name 19.0
-
-endscrap
-
-
-
-scrap scrap48 -scale [-128.0 -128.0 1112.251968503937 -128.0 0.0 0.0 31.502399999999998 0.0 m]
-
-line wall
-  154.0 234.0
-  154.0 234.0 135.0 239.5 131.0 238.0
-  127.0 236.5 101.5 225.0 99.0 220.0
-  smooth off
-endline
-
-line wall
-  152.25 164.0
-  153.0 178.0
-  149.0 182.0
-  154.0 192.5
-  154.0 192.5 154.5 194.5 154.5 197.5
-  154.5 200.5 160.0 200.5 160.0 200.5
-  smooth off
-  160.0 200.5 164.0 191.5 167.0 188.5
-  170.0 185.5 177.75 174.5 177.75 174.5
-  smooth off
-endline
-
-point 168.821811023622 221.53582677165377 clay-choke
-
-point 226.93181102362198 174.09582677165372 clay-choke
 
 endscrap
 

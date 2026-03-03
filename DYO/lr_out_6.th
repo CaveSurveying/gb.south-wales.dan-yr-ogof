@@ -2,6 +2,9 @@ encoding  utf-8
 survey lr_out_6
 input lr_out_6.th2
 centreline
+  cs osgb:sn
+  team "Mike McCombe"
+  team "Jon Jones"
   date 2012.02.19
   data normal from to compass clino tape
   extend right

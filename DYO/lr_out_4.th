@@ -2,7 +2,7 @@ encoding  utf-8
 survey lr_out_4
 input lr_out_4.th2
 centreline
-  declination 1.44 deg
+#  declination 1.44 deg
   team "Mike McCombe"
   team "Richard Frost"
   date 2012.02.14
@@ -79,7 +79,7 @@ endcentreline
 
 centreline
   date 2012.02.14
-   declination 1.44 deg
+#   declination 1.44 deg
   team "Mike McCombe"
   team "Richard Frost"
  data normal from to compass clino tape
@@ -142,7 +142,7 @@ centreline
   24.65 - 44.71 -3.94 1.774
 endcentreline
 map lr_out_4 -proj plan
-  scrap1
+  lrout4SP1
   scrap13
 endmap
 endsurvey

@@ -1,35 +1,17 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 1794.0 1820.91338583
+##XTHERION## xth_me_area_adjust -127.99999999999955 -128.0 1792.0 1820.9133858286
 ##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {917.05102363 1 1.0} {538.54433071 2.10} cloudTherion_p.xvi 0 {}
+##XTHERION## xth_me_image_insert {917.0510236300001 1 1.0} {538.5443307099999 2.10} cloudTherion_p.xvi 0 {}
 
 
 
-scrap scrap1 -scale [-128.0 -128.0 2687.05511811 -128.0 0.0 0.0 71.5024 0.0 m]
-
-line wall:invisible
-  962.0 892.0
-  962.0 892.0 906.0 882.0 876.0 890.0
-  846.0 898.0 798.0 930.0 768.0 948.0
-  738.0 966.0 752.0 1038.0 720.0 1044.0
-  688.0 1050.0 582.0 1052.0 532.0 1064.0
-  482.0 1076.0 378.0 1144.0 378.0 1144.0
-  smooth off
-endline
-
-line wall:invisible
-  338.0 1188.0
-  338.0 1188.0 308.0 1198.0 298.0 1214.0
-  288.0 1230.0 256.0 1254.0 256.0 1254.0
-  smooth off
-  284.0 1298.0
-endline
+scrap cloudSP1 -projection plan -scale [-128.0 -128.0 2687.05511811 -128.0 0.0 0.0 71.5024 0.0 m]
 
 area water
   l28-792-1156
 endarea
 
-line border:invisible -id l28-792-1156 -close on
+line border -id l28-792-1156 -close on -subtype invisible
   1086.0 876.0
   1086.0 876.0 1090.0 900.0 1070.0 940.0
   1050.0 980.0 1004.0 1044.0 974.0 1064.0
@@ -65,14 +47,6 @@ line ceiling-step
   1146.0 716.0 1162.0 752.0 1144.0 772.0
   1126.0 792.0 1092.0 828.0 1074.0 840.0
   1056.0 852.0 962.0 892.0 962.0 892.0
-  smooth off
-endline
-
-line wall:invisible
-  1204.0 544.0
-  1170.0 536.0
-  1170.0 536.0 1168.0 548.0 1160.0 560.0
-  1152.0 572.0 1162.0 604.0 1162.0 604.0
   smooth off
 endline
 
@@ -119,6 +93,7 @@ line wall
   264.0 1452.0 256.0 1412.0 256.0 1412.0
   smooth off
   256.0 1412.0 248.0 1406.0 228.0 1396.0
+  smooth off
 endline
 
 line wall

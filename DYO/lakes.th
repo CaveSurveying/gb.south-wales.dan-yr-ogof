@@ -4,7 +4,7 @@ input lakes.th2
 centreline
   date 2012.07.31
   data normal from to compass clino tape
-  declination 1.38 deg
+#  declination 1.38 deg
   team "Mike McCombe"
   team "Jon Jones"
   extend right
@@ -246,7 +246,7 @@ centreline
   42.17 42.18 355.70 33.51 2.284
   42.18 42.19 287.14 1.67 1.269
   42.19 42.20 304.56 -19.60 4.158
-  42.20 42.3 0.00 0.00 0.000
+  #42.20 42.3 0.00 0.00 0.000
   42.21 42.0 139.28 41.89 2.023
   42.21 - 339.09 6.26 1.276
   42.21 - 328.25 4.86 0.885
@@ -419,7 +419,7 @@ endcentreline
 centreline
   date 2012.07.28
   data normal from to compass clino tape
-  declination 1.38 deg
+#  declination 1.38 deg
   team "Mike McCombe"
   team "Bernie Woodley"
   extend right
@@ -720,10 +720,9 @@ centreline
   42.48 - 146.15 86.10 0.767
 endcentreline
 map lakes
-  scrap1
-  scrap69
-  scrap55
-  scrap111
+  lakesSP1
+  lakesSP2
+  lakesSP3
 endmap
 endsurvey
 
