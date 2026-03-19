@@ -1,0 +1,43 @@
+encoding  utf-8
+source dyo
+cs osgb:SN
+maps off
+#Common features of layout
+text en "line u:ledge" "ledge"
+text en "line u:judson" "Judson & Coase"
+
+layout atlas
+  north grid
+  cs osgb:sn
+  transparency on
+  layers off
+  opacity 50
+  language en
+  debug station-names
+  scale 1 200
+  colour-model rgb
+  symbol-colour area water 0000ff
+  symbol-colour line water-flow 0000ff
+  colour map-fg 100
+  colour map-bg 90
+  symbol-show group cave-centerline
+endlayout
+layout map_layout
+  cs osgb:sn
+  symbol-hide group cave-centerline
+  north grid
+  scale 1 1000
+  transparency on
+  grid bottom
+  grid-coords border
+  colour-model rgb
+  symbol-colour area water 668aff
+  symbol-colour line water-flow 668aff
+  legend on
+  map-header 100 -40 se
+  size 48.3 32.9 cm
+endlayout
+export model -o dyo.lox
+export model -o dyo.3d -format survex
+export atlas -o atlas.pdf -layout atlas
+export map   -proj plan -o map.pdf -layout map_layout

@@ -223,8 +223,8 @@ centreline
   14.11 14.0 0.00 0.00 0.000
 endcentreline
 map boulderMP -proj plan
-  boulderSP2
   boulderSP1
+  boulderSP2
 endmap
 endsurvey
 

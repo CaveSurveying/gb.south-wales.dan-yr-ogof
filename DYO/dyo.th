@@ -297,7 +297,7 @@ input boulder
   ##join strawrh@wigmore:end left@ashfordprices:0
 ### join wigstart@wigmore:end nearleft@boulder:end
 ###  join farleft@boulder:end topleft@boulder3:0
-  join bwest@boulder:0 wigwest@wigmore:end
+#  join bwest@boulder:0 wigwest@wigmore:end
 #  join ll@lr_in_1:end ul@lr_out_1:0
 # join ll@lr_out_2:0 ul@lr_out_1:end
 # join rl@lr_out_2:0 left2@lr_out_1:0
@@ -388,7 +388,7 @@ august14@august14
 august11@august11
  august2@august2
  august@august
- boulderMP@boulder
+ #boulderMP@boulder
  boulder3@boulder3
  boulder4@boulder4
  #S_augustleft@S_augustleft
