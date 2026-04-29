@@ -3,7 +3,7 @@ survey dyo -title "Dan yr Ogof"
 centreline
   cs osgb:sn
 endcentreline
-input surface
+#input surface
 input showcaveTopo4
 input barbarians1
 input barbarians2
@@ -131,7 +131,20 @@ input showcaveTopo10
 input showcaveTopo11
 input showcaveTopo12
 input boulder
+input lower_series/LWS_2026_04_06/LWS_2026_04_06
+input lower_series/LWS2_2026_04_26/LWS2_2026_04_26
+
   centerline
+  # new data added
+  
+  equate 28.8@gphall 1@LWS_2026_04_06
+  equate 11@LWS_2026_04_06 6@LWS2_2026_04_26
+  equate 25@LWS_2026_04_06 1@LWS2_2026_04_26
+  
+
+
+  ### TODO - CLEAN UP ###
+  
      equate 14.0@boulder 1.0@wigmore
      equate 1.24@link2 27.0@longercrawlside
      equate 1.0@gplink 28.8@gphall
@@ -289,6 +302,12 @@ input boulder
      equate 24.87@lr_out_7 5.0@nearend
      equate 43.19@shower2 5.48@nearend ###
    endcenterline
+   
+   # new data added
+   join lh1@LWS_2026_04_06:end rh1@LWS2_2026_04_26:end
+   join lh2@LWS_2026_04_06:0 rh2@LWS2_2026_04_26:end
+   
+   
   join st@ashfordprices:0 st@mainroute:end -smooth on
   join l6-38-306@ashfordprices:end  ap@mainroute:end
   join rh@nomansland:0 rh@gpupper:0

@@ -1,0 +1,61 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -1653.54 -1574.80 6299.21 1338.58
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "LWS2_2026_04_26.ee.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap LWS2_2026_04_26-ee -projection extended
+
+point 57.87764 259.58392 station -name 2
+
+point 297.8982 345.50043 station -name 3
+
+point 412.37158 343.6628 station -name 4
+
+point 681.0558 360.52142 station -name 5
+
+point 934.5189 302.46915 station -name 6
+
+point 1085.9763 353.4777 station -name 7
+
+point 745.6168 338.78384 station -name 8
+
+point 1316.9462 392.319 station -name 9
+
+point 1434.4 392.14578 station -name 10
+
+point 1743.0167 422.49152 station -name 11
+
+point 1929.2699 435.29715 station -name 12
+
+point 2122.4497 455.67725 station -name 13
+
+point 2351.9563 484.9421 station -name 14
+
+point 2671.162 508.2062 station -name 15
+
+point 2923.8035 484.75867 station -name 16
+
+point 2972.468 492.59427 station -name 17
+
+point 3188.4985 494.22217 station -name 18
+
+point 3253.4175 338.04343 station -name 19
+
+point 3396.2651 313.85068 station -name 20
+
+point 3542.2578 123.09707 station -name 21
+
+point 3628.6555 74.91634 station -name 22
+
+point 3667.321 5.030881 station -name 23
+
+point 3852.8816 -27.091227 station -name 24
+
+point 4195.7417 -375.83444 station -name 25
+
+point 4375.5146 -484.42825 station -name 26
+
+point 4577.93 -587.0188 station -name 27
+
+endscrap

@@ -1,0 +1,17 @@
+encoding  utf-8
+# Created with SexyTopo 1.11.1 on 2026-04-26
+
+
+layout local
+  scale 1 75
+  debug off
+  symbol-set BCRA
+  symbol-hide group cave-centreline
+  symbol-hide point station
+endlayout
+
+source "LWS2_2026_04_26.th"
+
+export map -proj plan -layout local -o "LWS2_2026_04_26-plan.pdf"
+
+export map -proj extended -layout local -o "LWS2_2026_04_26-ee.pdf"

@@ -179,7 +179,7 @@ point 590.7237795400001 338.27921260999983 station -name 19.1
 line water-flow -subtype conjectural
 endline
 
-point 655.75 -36.25 label -text "<center>Tube continues <br>(too tight)"
+point 655.75 -36.25 label -text "<center>Tube continues <br>(too tight)" -visibility off
 
 line arrow
 endline

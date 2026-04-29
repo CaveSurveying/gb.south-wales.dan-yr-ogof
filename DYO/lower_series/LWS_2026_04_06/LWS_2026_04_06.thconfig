@@ -1,0 +1,23 @@
+encoding  utf-8
+# Created with SexyTopo 1.10.2 on 2026-04-06
+
+
+layout local
+scale 1 200
+  debug off
+  symbol-colour line water-flow [0 0 100]
+  symbol-colour area water [0 0 100]
+  symbol-hide line survey
+  symbol-hide point station
+  legend on
+  symbol-set BCRA
+  #colour map-fg altitude
+  language en_UK
+  map-header -40 100 ne 
+  
+endlayout
+
+source "LWS_2026_04_06.th"
+
+export map -proj plan -layout local -o "LWS_2026_04_06-plan.pdf"
+export map -proj extended -layout local -o "LWS_2026_04_06-ee.pdf"
