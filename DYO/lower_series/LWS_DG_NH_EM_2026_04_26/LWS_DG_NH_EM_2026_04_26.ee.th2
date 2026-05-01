@@ -1,0 +1,37 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -2047.24 -866.14 7952.76 866.14
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "LWS_DG_NH_EM_2026_04_26.ee.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap LWS_DG_NH_EM_2026_04_26-ee -projection extended
+
+point 443.9271 34.288387 station -name 2
+
+point 1239.8605 65.91651 station -name 3
+
+point 1697.3636 93.70603 station -name 4
+
+point 2050.5574 104.52282 station -name 5
+
+point 2662.813 31.78288 station -name 6
+
+point 2944.8054 60.8919 station -name 7
+
+point 3367.5059 48.326973 station -name 8
+
+point 3669.924 20.4468 station -name 9
+
+point 4292.2676 15.585879 station -name 10
+
+point 4773.937 46.753918 station -name 11
+
+point 4987.5845 11.344237 station -name 12
+
+point 5305.4224 89.34994 station -name 13
+
+point 5888.0503 -71.0505 station -name 14
+
+point 6304.663 9.510302 station -name 15
+
+endscrap
