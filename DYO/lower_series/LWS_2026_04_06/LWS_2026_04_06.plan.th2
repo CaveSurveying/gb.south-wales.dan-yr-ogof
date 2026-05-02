@@ -476,12 +476,12 @@ point 1075.0858 -1433.65 station -name 27
 
 point 1173.532 -1534.1644 station -name 28
 
-endscrap
-
 point 1835.0 -1137.0 label -text "Station marked in red on wall step" -visibility off
 
 point 1248.0 -1526.0 label -text "Station marked in red at top of rope climb" -visibility off
 
 point 34.5 20.5 label -text "Station 1 on large boulder at entrance to lower series<br>marked in pink" -visibility off
+
+endscrap
 
 
