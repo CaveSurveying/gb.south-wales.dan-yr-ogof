@@ -1,5 +1,5 @@
 encoding  utf-8
-survey LWS2_2026_04_26
+survey lower_series -title "Lower Series"
 
 input LWS2_2026_04_26/LWS2_2026_04_26.th
 input LWS_JW_DW_2026_05_01/LWS_JW_DW_2026_05_01.th
@@ -9,24 +9,51 @@ input LWS2_JW_DW_2026_05_01/LWS2_JW_DW_2026_05_01.th
 
 
 
-centreline
+	centreline
+		equate 11@LWS_2026_04_06 6@LWS2_2026_04_26
+		equate 25@LWS_2026_04_06 1@LWS2_2026_04_26
+		equate 25@LWS_2026_04_06 1@LWS_JW_DW_2026_05_01
+		equate 22@LWS_2026_04_06 1@LWS_DG_NH_EM_2026_04_26
+	  
+		# top join past rope climb
+		equate 16@LWS_2026_04_06 1@LWS2_JW_DW_2026_05_01
+	  
+		# bottom join past rope climb
+		equate 18@LWS_2026_04_06 8@LWS2_JW_DW_2026_05_01
+	  
+		# water section + water section back to big chamber
+		equate 11@LWS2_JW_DW_2026_05_01 17@LWS2_JW_DW_2026_05_01
+	endcentreline
+	
+	# join top of rope climb
+    join lh1@LWS_2026_04_06:end rh1@LWS2_2026_04_26:end
+    join lh2@LWS_2026_04_06:0 rh2@LWS2_2026_04_26:end
+	
+	# join lower loop at north of chamber at bottom of rope climb
+	join lh3@LWS_2026_04_06:end rh1@LWS_JW_DW_2026_05_01:0
+	join lh4@LWS_2026_04_06:0 rh2@LWS_JW_DW_2026_05_01:0
+	
+	# join upper loop at east of chamber at bottom of rope climb
+	join lh4@LWS_2026_04_06:end rh3@LWS_JW_DW_2026_05_01:0
+	join lh5@LWS_2026_04_06:0	rh4@LWS_JW_DW_2026_05_01:end
+	
+	# join top of loop west of rope climb
+	join lh6@LWS_2026_04_06:end rh1@LWS2_JW_DW_2026_05_01:0
+	join lh7@LWS_2026_04_06:end	rh2@LWS2_JW_DW_2026_05_01:end
+	
+	# join bottom of loop west of rope climb, which links to chamber below
+	join lh8@LWS_2026_04_06:end rh3@LWS2_JW_DW_2026_05_01:0
+	join lh9@LWS_2026_04_06:end	rh4@LWS2_JW_DW_2026_05_01:end
+	
+	# join rope climb chamber to virgin passage
+	join lh10@LWS_2026_04_06:0 l120--471--801@LWS_DG_NH_EM_2026_04_26:0
+	join lh11@LWS_2026_04_06:end l69--2373--3709@LWS_DG_NH_EM_2026_04_26:end
+	
+	# join presumed tube leading west of top of rope climb 
+	join lh1@LWS2_JW_DW_2026_05_01:end rh3@LWS2_2026_04_26:end
+	join lh2@LWS2_JW_DW_2026_05_01:end rh4@LWS2_2026_04_26:0
+	
+	
 
-  equate 11@LWS_2026_04_06 6@LWS2_2026_04_26
-  equate 25@LWS_2026_04_06 1@LWS2_2026_04_26
-  equate 25@LWS_2026_04_06 1@LWS_JW_DW_2026_05_01
-  equate 22@LWS_2026_04_06 1@LWS_DG_NH_EM_2026_04_26
-  
-  # top join past rope climb
-  equate 16@LWS_2026_04_06 1@LWS2_JW_DW_2026_05_01
-  
-  # bottom join past rope climb
-  equate 18@LWS_2026_04_06 8@LWS2_JW_DW_2026_05_01
-  
-  # water section + water section back to big chamber
-  equate 11@LWS2_JW_DW_2026_05_01 17@LWS2_JW_DW_2026_05_01
-
-  
-
-endcentreline
 endsurvey
 

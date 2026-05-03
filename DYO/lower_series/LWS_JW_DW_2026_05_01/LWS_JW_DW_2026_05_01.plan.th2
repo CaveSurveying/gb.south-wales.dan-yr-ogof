@@ -43,7 +43,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -id rh4
   70.5 -156.5
   70.5 -156.5 47.0 -141.5 50.0 -193.0
   smooth off
@@ -55,7 +55,7 @@ endline
 area sump
 endarea
 
-line wall -reverse on
+line wall -id rh3 -reverse on
   39.0 -39.5
   39.0 -39.5 38.5 -75.04 69.5 -71.5
   smooth off
@@ -73,9 +73,9 @@ point 148.61438 -110.77591 station -name 3
 
 point 212.90552 -262.41382 station -name 24
 
-point -310.57916 -95.068565 label -text " station 24 LWS " -scale xs
+point -310.57916 -95.068565 label -text " station 24 LWS " -scale xs -visibility off
 
-point -334.22195 -110.12891 label -text " red nail polish side of chamber  " -scale xs
+point -334.22195 -110.12891 label -text " red nail polish side of chamber  " -scale xs -visibility off
 
 point -397.33353 -517.10352 label -text " tt " -scale xs
 
@@ -99,19 +99,9 @@ point -184.88164 -288.58792 water-flow -orientation 100.3667 -scale xs
 
 point -155.53523 -295.68326 water-flow -orientation 100.555756 -scale xs
 
-point -79.339714 -165.61148 entrance -orientation 171.87146 -scale xs
-
-point -83.79686 -194.65182 entrance -orientation 162.68173 -scale xs
-
 point -356.09973 -427.18842 water-flow -orientation 59.15326 -scale s
 
 point -279.64767 -344.45782 water-flow -orientation 28.53392 -scale s
-
-point -36.065025 147.48737 entrance -orientation 74.05545 -scale xs
-
-point -32.1989 110.58678 entrance -orientation 85.362595 -scale xs
-
-point 111.13045 91.628876 entrance -orientation 121.2827 -scale xs
 
 point 187.20847 49.57234 water-flow -orientation 178.98085 -scale xs
 
@@ -122,6 +112,13 @@ endscrap
 
 
 scrap lower-section -scale [0 0 787.40 787.40 0 0 10.00 10.00 m]
+
+line slope -reverse on
+  -87.0 -205.0
+  -87.0 -205.0 -72.0 -220.0 -63.0 -204.0
+  orientation 179.5
+  l-size 20.0
+endline
 
 line wall
   116.0 -251.5
@@ -171,21 +168,25 @@ endline
 line wall -reverse on -subtype presumed
   -360.0 -462.25
   -360.0 -462.25 -363.75 -487.5 -374.0 -503.5
+  smooth off
 endline
 
 line wall -subtype presumed
   -54.0 -171.5
   -54.0 -171.5 -71.0 -119.0 -79.0 -107.5
+  smooth off
 endline
 
 line wall -reverse on -subtype presumed
   -103.5 -171.5
   -103.5 -171.5 -110.5 -134.0 -106.0 -111.5
+  smooth off
 endline
 
 line wall -subtype presumed
   -391.5 -446.25
   -391.5 -446.25 -392.25 -470.0 -405.0 -490.25
+  smooth off
   subtype presumed
 endline
 
@@ -222,6 +223,7 @@ line slope
   l-size 35.0
   175.5 -370.5 196.0 -325.5 234.5 -378.0
   orientation 172.3
+  smooth off
   l-size 35.0
 endline
 
@@ -308,26 +310,31 @@ point -82.539406 -257.85434 station -name 10
 line ceiling-step
   -16.0 -281.5
   -16.0 -281.5 -60.0 -256.0 -120.0 -267.5
+  smooth off
 endline
 
 line ceiling-step
   -220.5 -192.0
   -220.5 -192.0 -238.5 -245.0 -226.0 -290.0
+  smooth off
 endline
 
 line ceiling-step -reverse on
   85.0 -328.0
   85.0 -328.0 103.5 -379.5 74.5 -420.5
+  smooth off
 endline
 
 line ceiling-step -reverse on
   257.0 -265.5
   257.0 -265.5 221.5 -322.5 106.0 -298.0
+  smooth off
 endline
 
 line ceiling-step
   386.0 -538.5
   386.0 -538.5 466.0 -676.5 380.5 -785.0
+  smooth off
 endline
 
 point -205.29405 -280.10724 station -name 11
@@ -353,9 +360,9 @@ line ceiling-step
   smooth off
 endline
 
-line wall
-  35.75 35.25
-  35.49 52.04 42.75 47.25 52.25 56.5
+line wall -id rh2
+  25.0 34.5
+  36.0 41.0 42.75 47.25 52.25 56.5
   61.75 65.75 64.0 82.75 79.75 78.75
   95.5 74.75 99.75 65.5 102.25 60.5
   104.75 55.5 112.75 52.0 119.5 49.0
@@ -396,7 +403,7 @@ line wall -reverse on
   smooth off
 endline
 
-line wall -reverse on
+line wall -id rh1 -reverse on
   28.5 206.0
   28.5 206.0 30.0 196.0 59.25 190.75
   78.5 187.29 77.0 172.5 78.5 166.0
