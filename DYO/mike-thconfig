@@ -14,7 +14,7 @@ layout atlas
   opacity 50
   language en
   debug station-names
-  scale 1 200
+  scale 1 500
   colour-model rgb
   symbol-colour area water 0000ff
   symbol-colour line water-flow 0000ff
@@ -22,11 +22,13 @@ layout atlas
   colour map-bg 90
   symbol-show group cave-centerline
 endlayout
+
 layout map_layout
   cs osgb:sn
   symbol-hide group cave-centerline
   north grid
-  scale 1 1000
+  scale 1 500
+  base-scale 1 200
   transparency on
   grid bottom
   grid-coords border
