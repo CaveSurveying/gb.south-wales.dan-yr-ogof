@@ -1,0 +1,13 @@
+encoding  utf-8
+# Created with SexyTopo 1.11.2 on 2026-05-01
+
+
+layout local
+  debug off
+  # map-header 0 0 off
+  # symbol-hide group cave-centreline
+endlayout
+
+source "LWS_TR_JH_2026_05_01.th"
+
+export map -proj plan -layout local -o "LWS_TR_JH_2026_05_01-plan.pdf"

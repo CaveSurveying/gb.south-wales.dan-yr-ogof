@@ -1,0 +1,113 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -1732.28 -1574.80 14094.49 1102.36
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "LWS_TR_JH_2026_05_01.ee.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap LWS_TR_JH_2026_05_01-ee -projection extended
+
+point 431.13385 -93.98865 station -name 2
+
+point 1014.28613 -168.34712 station -name 3
+
+point 1238.725 -153.82693 station -name 4
+
+point 1597.0618 -151.19191 station -name 5
+
+point 1886.1334 70.43182 station -name 6
+
+point 2224.925 69.650345 station -name 7
+
+point 2634.4656 -81.47761 station -name 8
+
+point 3056.4792 -242.98642 station -name 9
+
+point 3391.183 -406.5235 station -name 10
+
+point 3797.396 -509.47018 station -name 11
+
+point 4253.062 -688.0119 station -name 12
+
+point 4861.0376 -615.509 station -name 13
+
+point 5654.842 -499.89944 station -name 14
+
+point 5968.537 -259.83603 station -name 15
+
+point 6346.9893 -366.0361 station -name 16
+
+point 7590.4673 -644.6284 station -name 17
+
+point 8112.827 -613.15985 station -name 18
+
+point 8421.47 -616.534 station -name 19
+
+point 6488.7925 -351.24463 station -name 20
+
+point 6973.9585 -304.61868 station -name 21
+
+point 7240.764 -293.56055 station -name 22
+
+point 7484.6973 -298.7928 station -name 23
+
+point 7861.079 -268.0127 station -name 24
+
+point 8265.562 -235.66109 station -name 25
+
+point 8694.348 -285.32996 station -name 26
+
+point 8947.207 -214.67378 station -name 27
+
+point 9502.727 -338.17142 station -name 28
+
+point 9911.748 -328.56726 station -name 29
+
+point 9825.3 -352.99207 station -name 30
+
+point 10065.671 -339.29453 station -name 31
+
+point 10045.677 -352.89914 station -name 32
+
+point 10268.623 -313.6367 station -name 33
+
+point 10530.083 -300.59662 station -name 34
+
+point 10654.551 -273.78098 station -name 35
+
+point 8951.615 -199.50108 station -name 36
+
+point 9320.711 -112.49081 station -name 37
+
+point 9814.778 -46.13137 station -name 38
+
+point 10111.358 -6.9205923 station -name 39
+
+point 10364.177 10.791001 station -name 40
+
+point 10595.985 42.858734 station -name 41
+
+point 10921.699 69.1246 station -name 42
+
+point 11152.082 128.98297 station -name 43
+
+point 11231.685 294.10385 station -name 44
+
+point 11312.586 207.22546 station -name 45
+
+point 11419.489 195.12747 station -name 46
+
+point 11507.678 194.9883 station -name 47
+
+point 11598.611 201.70396 station -name 48
+
+point 11682.186 193.90237 station -name 49
+
+point 10307.848 -61.444157 station -name 50
+
+point 10865.539 -53.841736 station -name 51
+
+point 11572.983 -120.2089 station -name 52
+
+point 12249.502 -142.1755 station -name 53
+
+endscrap

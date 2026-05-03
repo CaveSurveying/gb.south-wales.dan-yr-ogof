@@ -1,0 +1,17 @@
+# Created with SexyTopo 1.11.2 on 2026-05-02
+
+encoding utf-8
+
+layout local
+  debug off
+  # map-header 0 0 off
+  # symbol-hide group cave-centreline
+endlayout
+
+source "LWS2_JW_DW_2026_05_01.th"
+
+export model -fmt survex -o "LWS2_JW_DW_2026_05_01-th.3d"
+
+export map -proj plan -layout local -o "LWS2_JW_DW_2026_05_01-plan.pdf"
+
+export map -proj extended -layout local -o "LWS2_JW_DW_2026_05_01-ee.pdf"

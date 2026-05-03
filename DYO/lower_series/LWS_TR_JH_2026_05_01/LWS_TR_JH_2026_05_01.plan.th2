@@ -1,0 +1,218 @@
+encoding  utf-8
+
+##XTHERION## xth_me_area_adjust -8818.90 -5354.33 2047.24 2204.72
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "LWS_TR_JH_2026_05_01.plan.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap LWS_TR_JH_2026_05_01-plan -projection plan
+
+point -382.94983 -198.05508 station -name 2
+
+point -494.38416 -770.4614 station -name 3
+
+point -705.8658 -695.3061 station -name 4
+
+point -885.6738 -385.34756 station -name 5
+
+point -1005.4551 -122.26047 station -name 6
+
+point -1341.4711 -78.98179 station -name 7
+
+point -1461.7318 -470.46713 station -name 8
+
+point -1826.2096 -683.191 station -name 9
+
+point -1858.187 -1016.36346 station -name 10
+
+point -2238.5605 -1158.9292 station -name 11
+
+point -2517.3691 -1519.3422 station -name 12
+
+point -3006.2476 -1880.7726 station -name 13
+
+point -3073.3347 -1089.8086 station -name 14
+
+point -3364.1248 -972.1394 station -name 15
+
+point -3732.7546 -1057.8031 station -name 16
+
+point -3570.396 -2290.636 station -name 17
+
+point -3377.282 -1805.2834 station -name 18
+
+point -3081.179 -1892.3671 station -name 19
+
+point -3753.7507 -917.56335 station -name 20
+
+point -4163.433 -1177.4603 station -name 21
+
+point -4268.8135 -932.34814 station -name 22
+
+point -4258.4478 -688.6351 station -name 23
+
+point -4591.5703 -863.8272 station -name 24
+
+point -4578.677 -1268.1042 station -name 25
+
+point -4506.91 -1690.842 station -name 26
+
+point -4348.4077 -1493.8268 station -name 27
+
+point -3894.296 -1813.8024 station -name 28
+
+point -4019.4724 -1424.4066 station -name 29
+
+point -4089.5083 -2070.6008 station -name 30
+
+point -3853.5288 -2116.3386 station -name 31
+
+point -4396.2065 -2020.8777 station -name 32
+
+point -4604.8687 -1942.357 station -name 33
+
+point -4638.9854 -1683.1328 station -name 34
+
+point -4516.322 -1662.0243 station -name 35
+
+point -4729.889 -1562.5173 station -name 36
+
+point -5052.4844 -1741.8602 station -name 37
+
+point -5540.2593 -1820.4614 station -name 38
+
+point -5709.688 -1577.042 station -name 39
+
+point -5638.426 -1334.4745 station -name 40
+
+point -5473.9404 -1171.136 station -name 41
+
+point -5591.157 -867.2447 station -name 42
+
+point -5540.3574 -642.53296 station -name 43
+
+point -5470.792 -603.83997 station -name 44
+
+point -5428.696 -534.7529 station -name 45
+
+point -5444.837 -429.07565 station -name 46
+
+point -5379.386 -369.9702 station -name 47
+
+point -5390.011 -279.65967 station -name 48
+
+point -5327.542 -224.14272 station -name 49
+
+point -5796.529 -2241.7017 station -name 50
+
+point -6318.12 -2439.0884 station -name 51
+
+point -6189.878 -3134.8125 station -name 52
+
+point -6862.4795 -3207.5208 station -name 53
+
+point 119.92886 113.419624 label -text " 1=12 previous " -scale xs
+
+point -470.14328 -851.1691 label -text " 3 NP " -scale xs
+
+point -1274.9492 -351.2402 label -text " 8 np " -scale xs
+
+point -1629.8141 -818.6515 label -text " high level cont " -scale xs
+
+point -2062.7715 -1467.4357 label -text " wfall " -scale xs
+
+point -3395.077 -840.1677 label -text " c3 " -scale m
+
+point -2912.6848 -2020.9182 label -text " 19=13 " -scale m
+
+point -2812.834 -1910.6147 label -text " 13 np " -scale m
+
+point -3921.5867 -1280.0154 label -text " 16np " -scale m
+
+point -5069.599 -671.86755 label -text " crawl ends sand choke " -scale xs
+
+point -6672.7188 -2782.4229 label -text " 53 np " -scale s
+
+point -5771.4946 -616.70703 label -text " cobbled crawl " -scale s
+
+point -2147.1587 -1593.5413 label -text " Washing Machine  " -scale l
+
+point -132.37262 -845.0412 label -text " tight and wet sound of water falling beyond " -scale xs
+
+point -770.47107 -184.43393 label -text " gours " -scale xs
+
+point -914.0899 -69.033264 label -text " flowstone " -scale xs
+
+point -917.5523 -329.40186 entrance -scale m -orientation 145.58481
+
+point -952.01025 -383.98544 entrance -scale m -orientation 137.13448
+
+point -861.07916 -347.5967 entrance -scale m -orientation 141.97662
+
+point -893.62317 -492.19614 stalactite -scale m
+
+point -840.9789 -519.00964 stalactite -scale m
+
+point -805.5634 -470.17065 stalactite -scale m
+
+point -388.30374 -750.71704 stalactite -scale l
+
+point -1246.2418 -138.78365 stalactite -scale l
+
+point -388.30374 -745.8225 stalactite -scale l
+
+point -1229.9315 43.979855 soda-straw -scale l
+
+point -388.30374 -553.26685 soda-straw -scale l
+
+point -388.30374 -571.2166 soda-straw -scale l
+
+point -388.30374 -564.69055 soda-straw -scale l
+
+point -1127.174 161.47205 soda-straw -scale l
+
+point -1843.4666 -201.24576 soda-straw -scale m
+
+point -1765.5248 -183.81601 soda-straw -scale m
+
+point -1687.5824 -219.59361 soda-straw -scale m
+
+point -4247.1772 -1612.1959 entrance -scale m -orientation 109.626236
+
+point -4210.5693 -1581.3529 entrance -scale m -orientation 122.962524
+
+point -5116.797 -1519.545 entrance -scale xl -orientation 177.64023
+
+point -5042.361 -1532.3112 entrance -scale xl -orientation 180.0
+
+endscrap
+
+scrap LWS_2026_05_01PX5 -projection none -scale [0 0 787.40 787.40 0 0 10.00 10.00 m]
+
+point -672.67267 266.5719 station -name 5
+
+endscrap
+
+scrap LWS_2026_05_01PX8 -projection none -scale [0 0 787.40 787.40 0 0 10.00 10.00 m]
+
+point -1843.4664 -300.7836 station -name 8
+
+endscrap
+
+scrap LWS_2026_05_01PX22 -projection none -scale [0 0 787.40 787.40 0 0 10.00 10.00 m]
+
+point -4170.1465 -1447.896 station -name 22
+
+endscrap
+
+scrap LWS_2026_05_01PX222 -projection none -scale [0 0 787.40 787.40 0 0 10.00 10.00 m]
+
+point -3999.197 -713.6256 station -name 22
+
+endscrap
+
+scrap LWS_2026_05_01PX51 -projection none -scale [0 0 787.40 787.40 0 0 10.00 10.00 m]
+
+point -5261.7964 -2709.7258 station -name 51
+
+endscrap
+

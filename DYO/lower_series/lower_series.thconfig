@@ -1,0 +1,13 @@
+encoding  utf-8
+
+layout local
+  scale 1 75
+  debug off
+  symbol-set BCRA
+  symbol-hide group cave-centreline
+  symbol-hide point station
+endlayout
+
+source "lower_series.th"
+
+export map -proj plan -layout local -o "lower_series.pdf"

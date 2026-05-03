@@ -1,0 +1,22 @@
+encoding  utf-8
+survey LWS2_2026_04_26
+
+input LWS2_2026_04_26/LWS2_2026_04_26.th
+input LWS_JW_DW_2026_05_01/LWS_JW_DW_2026_05_01.th
+input LWS_2026_04_06/LWS_2026_04_06.th
+input LWS_DG_NH_EM_2026_04_26/LWS_DG_NH_EM_2026_04_26.th
+input LWS2_JW_DW_2026_05_01/LWS2_JW_DW_2026_05_01.th
+
+
+
+centreline
+
+  equate 11@LWS_2026_04_06 6@LWS2_2026_04_26
+  equate 25@LWS_2026_04_06 1@LWS2_2026_04_26
+  equate 25@LWS_2026_04_06 1@LWS_JW_DW_2026_05_01
+  equate 22@LWS_2026_04_06 1@LWS_DG_NH_EM_2026_04_26
+  equate 16@LWS_2026_04_06 1@LWS2_JW_DW_2026_05_01
+
+endcentreline
+endsurvey
+
