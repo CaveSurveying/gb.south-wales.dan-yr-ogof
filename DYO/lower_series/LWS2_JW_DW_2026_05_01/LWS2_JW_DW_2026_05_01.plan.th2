@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -679.1811 -1387.8425 1387.84258 600.44102
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {323.07 1 1.0} {-250.26999999999998 9} LWS2_JW_DW_2026_05_01.plan.xvi 0 {}
 
 
@@ -17,8 +17,8 @@ line wall -reverse on
 endline
 
 line wall -reverse on
-  307.25 -620.0
-  307.25 -620.0 308.0 -597.0 303.75 -587.0
+  305.0 -609.0
+  305.0 -609.0 308.0 -597.0 303.75 -587.0
   299.5 -577.0 284.25 -531.0 282.0 -510.75
   279.75 -490.5 274.75 -439.25 273.0 -422.5
   271.25 -405.75 265.5 -346.75 263.5 -335.25
