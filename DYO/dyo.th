@@ -131,23 +131,13 @@ input showcaveTopo10
 input showcaveTopo11
 input showcaveTopo12
 input boulder
-#input lower_series/LWS_2026_04_06/LWS_2026_04_06
-#input lower_series/LWS2_2026_04_26/LWS2_2026_04_26
 input lower_series/lower_series.th
 
   centerline
   # new data added
   
-  #equate 28.8@gphall 1@LWS_2026_04_06
-  #equate 11@LWS_2026_04_06 6@LWS2_2026_04_26
-  #equate 25@LWS_2026_04_06 1@LWS2_2026_04_26
-  
   equate 28.8@gphall 1@LWS_2026_04_06.lower_series
   
-  
-  
-
-
   ### TODO - CLEAN UP ###
   
      equate 14.0@boulder 1.0@wigmore
