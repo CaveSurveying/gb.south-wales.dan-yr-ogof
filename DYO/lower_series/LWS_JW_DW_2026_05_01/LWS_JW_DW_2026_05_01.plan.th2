@@ -1,7 +1,21 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -994.1417 -2175.2441 1545.32294 1072.88198
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {588.65 1 1.0} {-776.3800000000001 7} LWS_JW_DW_2026_05_01.plan.xvi 0 {}
+
+
+
+scrap rope-climb-chamber -scale [0 0 787.40 787.40 0 0 10.00 10.00 m]
+
+point -158.68852 26.218105 station -name 18
+
+point -40.58655 -98.26957 station -name 2
+
+point 0.0 0.0 station -name 1
+
+point -276.15375 -116.31524 station -name 12
+
+endscrap
 
 
 
@@ -15,6 +29,7 @@ line pit -reverse on
   184.25 -173.25 181.0 -169.0 185.75 -176.5
   190.5 -184.0 192.25 -213.25 198.0 -218.0
   203.75 -222.75 213.5 -223.5 217.25 -223.5
+  smooth off
 endline
 
 line wall
@@ -25,11 +40,13 @@ line wall
   smooth off
   212.0 -173.5 213.71 -187.65 211.0 -212.0
   209.5 -225.5 222.0 -240.0 229.5 -252.0
+  smooth off
 endline
 
 line wall
   70.5 -156.5
   70.5 -156.5 47.0 -141.5 50.0 -193.0
+  smooth off
 endline
 
 line wall
@@ -41,6 +58,7 @@ endarea
 line wall -reverse on
   39.0 -39.5
   39.0 -39.5 38.5 -75.04 69.5 -71.5
+  smooth off
 endline
 
 line wall
@@ -48,17 +66,10 @@ line wall
   70.5 -156.5 76.5 -156.0 92.5 -171.0
   108.5 -186.0 122.5 -187.5 123.5 -205.0
   124.5 -222.5 115.0 -236.5 116.0 -251.5
+  smooth off
 endline
 
-point -40.58655 -98.26957 station -name 2
-
 point 148.61438 -110.77591 station -name 3
-
-point 0.0 0.0 station -name 1
-
-point -276.15375 -116.31524 station -name 12
-
-point -158.68852 26.218105 station -name 18
 
 point 212.90552 -262.41382 station -name 24
 
@@ -66,17 +77,9 @@ point -310.57916 -95.068565 label -text " station 24 LWS " -scale xs
 
 point -334.22195 -110.12891 label -text " red nail polish side of chamber  " -scale xs
 
-point -403.08353 -505.60352 label -text " tt " -scale xs
+point -397.33353 -517.10352 label -text " tt " -scale xs
 
-point 185.25772 -541.8934 entrance -orientation 113.79863 -scale s
-
-point 238.92992 -402.18707 entrance -orientation 154.34804 -scale s
-
-point 177.37907 -457.8398 entrance -orientation 154.45827 -scale s
-
-point 226.61937 -627.91656 entrance -orientation 65.15016 -scale s
-
-point 128.91702 -387.89468 water-flow -orientation 108.19052 -scale m
+point 119.41702000000001 -385.39468 water-flow -orientation 108.19052 -scale m
 
 point 221.69464 -503.24954 water-flow -orientation 147.72139 -scale m
 
@@ -102,7 +105,7 @@ point -83.79686 -194.65182 entrance -orientation 162.68173 -scale xs
 
 point -356.09973 -427.18842 water-flow -orientation 59.15326 -scale s
 
-point -278.64767 -337.95782 water-flow -orientation 28.53392 -scale s
+point -279.64767 -344.45782 water-flow -orientation 28.53392 -scale s
 
 point -36.065025 147.48737 entrance -orientation 74.05545 -scale xs
 
@@ -132,6 +135,25 @@ line wall
   smooth off
 endline
 
+line pit -close on
+  153.5 -360.5
+  153.5 -360.5 140.5 -396.0 140.0 -416.5
+  139.5 -437.0 140.0 -470.5 148.5 -506.0
+  157.0 -541.5 194.5 -591.0 200.0 -615.0
+  205.5 -639.0 232.5 -679.5 244.0 -689.0
+  255.5 -698.5 311.5 -712.5 332.0 -715.5
+  352.5 -718.5 394.5 -710.5 396.5 -661.0
+  398.5 -611.5 384.5 -590.5 367.0 -580.0
+  349.5 -569.5 301.5 -544.5 294.5 -524.0
+  287.5 -503.5 272.5 -452.0 269.5 -440.0
+  266.5 -428.0 261.0 -398.0 253.0 -381.0
+  245.0 -364.0 242.5 -352.0 228.5 -341.0
+  214.5 -330.0 212.0 -328.5 200.0 -328.5
+  188.0 -328.5 180.5 -331.5 170.0 -341.0
+  159.5 -350.5 153.5 -360.5 153.5 -360.5
+  smooth off
+endline
+
 line wall
   229.5 -252.0
   237.0 -264.0 249.5 -277.0 257.5 -307.0
@@ -143,6 +165,28 @@ line wall
   549.5 -673.5 571.5 -713.5 593.5 -732.0
   615.5 -750.5 653.5 -800.5 662.0 -824.0
   670.5 -847.5 675.0 -913.0 676.0 -927.0
+  smooth off
+endline
+
+line wall -reverse on -subtype presumed
+  -360.0 -462.25
+  -360.0 -462.25 -363.75 -487.5 -374.0 -503.5
+endline
+
+line wall -subtype presumed
+  -54.0 -171.5
+  -54.0 -171.5 -71.0 -119.0 -79.0 -107.5
+endline
+
+line wall -reverse on -subtype presumed
+  -103.5 -171.5
+  -103.5 -171.5 -110.5 -134.0 -106.0 -111.5
+endline
+
+line wall -subtype presumed
+  -391.5 -446.25
+  -391.5 -446.25 -392.25 -470.0 -405.0 -490.25
+  subtype presumed
 endline
 
 line wall
@@ -155,7 +199,7 @@ line wall
   -280.5 -211.5 -284.0 -241.5 -286.5 -251.5
   -289.0 -261.5 -292.5 -311.0 -318.5 -341.5
   -344.5 -372.0 -340.5 -370.0 -363.0 -385.0
-  -385.5 -400.0 -392.25 -442.25 -392.25 -442.25
+  -385.5 -400.0 -391.5 -446.25 -391.5 -446.25
   smooth off
 endline
 
@@ -169,6 +213,16 @@ line wall
   -225.5 -340.5 -229.5 -323.0 -231.5 -312.0
   -233.5 -301.0 -235.0 -257.0 -208.5 -284.5
   -182.0 -312.0 -168.0 -308.0 -152.0 -309.0
+  smooth off
+endline
+
+line slope
+  154.5 -407.5
+  orientation 158.6
+  l-size 35.0
+  175.5 -370.5 196.0 -325.5 234.5 -378.0
+  orientation 172.3
+  l-size 35.0
 endline
 
 line wall -reverse on
@@ -205,6 +259,7 @@ line border -id l75-620--956
   687.5 -934.0 664.0 -947.5 651.0 -946.5
   638.0 -945.5 622.0 -949.5 606.5 -967.0
   591.0 -984.5 540.5 -1009.5 508.0 -1015.0
+  smooth off
 endline
 
 area sump
@@ -223,15 +278,17 @@ endline
 line wall -reverse on
   506.5 -1001.0
   506.5 -1001.0 504.0 -996.0 498.5 -970.0
+  smooth off
 endline
 
 line pit
   -231.0 -173.0
   -231.0 -173.0 -263.5 -182.5 -261.0 -231.0
-  -258.5 -279.5 -267.0 -290.5 -270.5 -316.0
-  -274.0 -341.5 -279.0 -384.0 -281.0 -397.5
-  -283.0 -411.0 -281.0 -462.5 -261.0 -450.0
+  -258.5 -279.5 -265.75 -296.5 -269.25 -322.0
+  -272.75 -347.5 -244.25 -356.25 -276.0 -373.0
+  -288.09 -379.38 -281.0 -462.5 -261.0 -450.0
   -241.0 -437.5 -230.5 -414.0 -225.0 -402.0
+  smooth off
 endline
 
 point 224.0396 -266.5929 station -name 4
@@ -247,6 +304,31 @@ point 548.056 -1000.52454 station -name 8
 point -21.952795 -310.37326 station -name 9
 
 point -82.539406 -257.85434 station -name 10
+
+line ceiling-step
+  -16.0 -281.5
+  -16.0 -281.5 -60.0 -256.0 -120.0 -267.5
+endline
+
+line ceiling-step
+  -220.5 -192.0
+  -220.5 -192.0 -238.5 -245.0 -226.0 -290.0
+endline
+
+line ceiling-step -reverse on
+  85.0 -328.0
+  85.0 -328.0 103.5 -379.5 74.5 -420.5
+endline
+
+line ceiling-step -reverse on
+  257.0 -265.5
+  257.0 -265.5 221.5 -322.5 106.0 -298.0
+endline
+
+line ceiling-step
+  386.0 -538.5
+  386.0 -538.5 466.0 -676.5 380.5 -785.0
+endline
 
 point -205.29405 -280.10724 station -name 11
 
@@ -268,6 +350,7 @@ endline
 line ceiling-step
   185.75 -176.5
   185.75 -176.5 201.0 -176.5 212.0 -173.5
+  smooth off
 endline
 
 line wall
@@ -282,22 +365,26 @@ line wall
   170.0 -62.5 182.5 -98.5 183.0 -112.75
   183.5 -127.0 185.25 -153.75 185.0 -157.75
   184.75 -161.75 185.75 -172.5 185.75 -176.5
+  smooth off
 endline
 
 line wall -reverse on
   216.75 -106.5
   216.75 -106.5 216.25 -134.25 215.75 -143.0
   215.25 -151.75 213.5 -165.25 212.0 -173.5
+  smooth off
 endline
 
 line wall -subtype presumed
   206.5 68.5
   206.5 68.5 229.0 94.25 232.5 112.75
+  smooth off
 endline
 
 line wall -reverse on -subtype presumed
   206.0 88.0
   206.0 88.0 216.75 105.25 219.75 113.0
+  smooth off
 endline
 
 line wall -reverse on
@@ -306,6 +393,7 @@ line wall -reverse on
   211.0 25.75 222.0 0.75 222.5 -9.75
   223.0 -20.25 229.0 -35.0 224.75 -54.0
   220.5 -73.0 218.25 -89.25 216.75 -106.5
+  smooth off
 endline
 
 line wall -reverse on
@@ -319,6 +407,7 @@ line wall -reverse on
   182.5 151.5 190.93 160.31 195.5 126.5
   196.75 117.25 197.25 116.0 201.5 107.0
   205.75 98.0 204.25 92.0 206.0 88.0
+  smooth off
 endline
 
 point 73.73937 149.27 station -name 19
