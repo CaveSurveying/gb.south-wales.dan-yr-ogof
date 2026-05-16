@@ -4,7 +4,19 @@ centreline
   cs osgb:sn
 endcentreline
 #input surface
-input showcaveTopo4
+
+input showcave/showcaveTopo
+input showcave/showcaveTopo2
+input showcave/showcaveTopo3
+input showcave/showcaveTopo4
+input showcave/showcaveTopo5
+input showcave/showcaveTopo6
+input showcave/showcaveTopo8
+input showcave/showcaveTopo9
+input showcave/showcaveTopo10
+input showcave/showcaveTopo11
+input showcave/showcaveTopo12
+
 input barbarians1
 input barbarians2
 input barbarians3
@@ -48,7 +60,6 @@ input lr_in_2
 input lr_in_3
 input lr_in_4
 input longercrawlside
-input wigmore
 input S_boulder2
 input S_pearl2
 input boulder3
@@ -110,28 +121,22 @@ input august11
 input august12
 input august13
 input august14
-input wigmore1a
-input wigmore2a
-input wigmore3
-input wigmore4a
-input wigmore5a
-input wigmore6a
-input wigmore8
-input wigmore9
-input wigmore10
+
+input wigmore_hall/wigmore
+input wigmore_hall/wigmore1a
+input wigmore_hall/wigmore2a
+input wigmore_hall/wigmore3
+input wigmore_hall/wigmore4a
+input wigmore_hall/wigmore5a
+input wigmore_hall/wigmore6a
+input wigmore_hall/wigmore8
+input wigmore_hall/wigmore9
+input wigmore_hall/wigmore10
+
 input cauldron2
-input showcaveTopo
-input showcaveTopo2
-input showcaveTopo3
-input showcaveTopo5
-input showcaveTopo6
-input showcaveTopo8
 input shaver1
 input shaver2
-input showcaveTopo9
-input showcaveTopo10
-input showcaveTopo11
-input showcaveTopo12
+
 input boulder
 input lower_series/lower_series.th
 

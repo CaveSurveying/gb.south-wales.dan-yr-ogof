@@ -20,7 +20,7 @@ input LWS2_JW_DW_2026_05_01/LWS2_JW_DW_2026_05_01.th
     equate 18@LWS_2026_04_06 8@LWS2_JW_DW_2026_05_01
     
     # water section + water section back to big chamber
-    equate 11@LWS2_JW_DW_2026_05_01 17@LWS2_JW_DW_2026_05_01
+    equate 11@LWS_JW_DW_2026_05_01 17@LWS_JW_DW_2026_05_01
   endcentreline
   
   # join top of rope climb
