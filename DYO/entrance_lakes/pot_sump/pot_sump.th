@@ -1,6 +1,6 @@
 encoding  utf-8
-survey lakes
-input lakes.th2
+survey pot_sump
+input pot_sump.th2
 centreline
   date 2012.07.31
   data normal from to compass clino tape

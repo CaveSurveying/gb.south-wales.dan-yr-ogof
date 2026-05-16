@@ -1,6 +1,6 @@
 encoding  utf-8
-survey lakes2
-input lakes2.th2
+survey lakes_1_to_4
+input lakes_1_to_4.th2
 centreline
   date 2012.08.12
 #  declination 1.38 deg
