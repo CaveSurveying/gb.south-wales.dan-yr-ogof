@@ -1,7 +1,7 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 679.181102363 727.0
+##XTHERION## xth_me_area_adjust -128.0 -127.99999999999989 679.1811023628 726.0
 ##XTHERION## xth_me_area_zoom_to 100
-##XTHERION## xth_me_image_insert {380.74440945 1 1.0} {527.04370079 2.33} showcaveTopo2Therion_p.xvi 0 {}
+##XTHERION## xth_me_image_insert {380.74440945000015 1 1.0} {527.04370079 2.33} showcaveTopo2Therion_p.xvi 0 {}
 
 
 
@@ -45,14 +45,14 @@ line wall -id lrh
   smooth off
 endline
 
-line wall:invisible
+line wall
   93.0 165.0
   91.0 154.0 117.0 83.0 125.0 73.0
   133.0 63.0 274.0 22.0 274.0 22.0
   smooth off
 endline
 
-line wall:unsurveyed
+line wall -subtype presumed
   158.0 404.0
   151.0 404.0 139.0 404.0 119.0 395.0
   99.0 386.0 23.0 317.0 23.0 317.0

@@ -1,7 +1,7 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128.0 -128.0 954.771653544 962.5
-##XTHERION## xth_me_area_zoom_to 400
-##XTHERION## xth_me_image_insert {304.84677165 1 1.0} {818.38527559 6.0} showcaveTopo5Therion_p.xvi 0 {}
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {304.84677164999994 1 1.0} {818.38527559 6.0} showcaveTopo5Therion_p.xvi 0 {}
 
 
 
