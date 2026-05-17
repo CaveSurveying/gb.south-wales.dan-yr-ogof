@@ -16,11 +16,20 @@ input showcave/showcaveTopo9
 input showcave/showcaveTopo10
 input showcave/showcaveTopo11
 input showcave/showcaveTopo12
+input showcave/barbarians1
+input showcave/barbarians2
+input showcave/barbarians3
+input showcave/barbarians4
+input showcave/redchamber
+input showcave/cauldron2
 
-input barbarians1
-input barbarians2
-input barbarians3
-input barbarians4
+input entrance_lakes/bypass/bypass
+input entrance_lakes/bypass2/bypass2
+input entrance_lakes/bypass3/bypass3
+input entrance_lakes/bypass4/bypass4
+input entrance_lakes/pot_sump/pot_sump						
+input entrance_lakes/lakes_1_to_4/lakes_1_to_4				
+
   join show4rh@showcaveTopo4:end barb1rh@barbarians1:0
   join show4rh2@showcaveTopo4:0 barb1lh@barbarians1:end
   join barbarians1SP2@barbarians1 barbarians2SP1@barbarians2 -smooth on
@@ -88,19 +97,12 @@ input longerend3
 input nearend
 input corbels
 input shower
-
-input entrance_lakes/pot_sump/pot_sump            ## lake for refactor
-input entrance_lakes/lakes_1_to_4/lakes_1_to_4        ## lake for refactor
-                
+						
 #input S_augustright
 #input S_augustleft
 input S_potsump
-input showcave/redchamber
+
 #input S_belowwigmore
-input bypass4
-input bypass2
-input bypass
-input bypass3
 input bypassbits
 input siphon1
 input siphon2
@@ -133,7 +135,7 @@ input wigmore_hall/wigmore8
 input wigmore_hall/wigmore9
 input wigmore_hall/wigmore10
 
-input cauldron2
+
 input shaver1
 input shaver2
 
@@ -146,7 +148,7 @@ input lower_series/lower_series.th
   equate 28.8@gphall 1@LWS_2026_04_06.lower_series
   
   ### TODO - CLEAN UP ###
-  
+	
      equate 14.0@boulder 1.0@wigmore
      equate 1.24@link2 27.0@longercrawlside
      equate 1.0@gplink 28.8@gphall
@@ -171,9 +173,9 @@ input lower_series/lower_series.th
      equate 12.8@solstice 15.8@ashfordprices
      equate  9.22@wigmore 15.0@ashfordprices
      equate 32.0@boulder4 1.0@wigmore
-   
-     equate 42.0@pot_sump 1.0@wigmore        ## lake for refactor
-   
+	 
+     equate 42.0@pot_sump 1.0@wigmore				## lake for refactor
+	 
 #     equate 32.8@boulder4 31.6@mudhall2
      equate 31.7@mudhall2 23.0@mudhall
      equate 23.0@mudhall 22.11@boulder3
@@ -209,7 +211,7 @@ input lower_series/lower_series.th
 #     equate 28.19@gphall 1009.23@J_day4
 #     equate 1010.0@J_flabbergasm 1009.14@J_day4
      equate 35.0@corbels 9.26@wigmore
-   
+	 
 
 # Remove mainroute from survey
 
@@ -220,23 +222,23 @@ input lower_series/lower_series.th
 
     equate 41.1@shower 16.29@mainroute
     equate 43.9@shower2 16.12@mainroute
-    equate 1.1@S_potsump 42.36@pot_sump          ## lake for refactor
-    equate 42.46@pot_sump 1.33@lakes_1_to_4        ## lake for refactor
-    equate 1.0@black 1.33@lakes_1_to_4            ## lake for refactor
-    equate 1.2a@lakes_1_to_4 34.8@redchamber      ## lake for refactor
+    equate 1.1@S_potsump 42.36@pot_sump					## lake for refactor
+    equate 42.46@pot_sump 1.33@lakes_1_to_4				## lake for refactor
+    equate 1.0@black 1.33@lakes_1_to_4				    ## lake for refactor
+    equate 1.2a@lakes_1_to_4 34.8@redchamber			## lake for refactor
 
-    equate 1.10@lakes_1_to_4 2.0@bypass          ## lake for refactor
+    equate 1.10@lakes_1_to_4 2.0@bypass					## lake for refactor
     equate 2.3@bypass 2.3@bypass2
-    equate 2.30@bypass2 1.14@lakes_1_to_4          ## lake for refactor
+    equate 2.30@bypass2 1.14@lakes_1_to_4			    ## lake for refactor
     equate 2.24@bypass2 2.24@bypass3
     equate 2.9@bypass2 2.9@bypass3
     equate 2.40@bypass3 2.0@bypass
     equate 2.24@bypass4 2.24@bypass2
     equate 2.2@bypass 1.0@bypassbits
     equate 14.11@bypass4 1.1@bypassbits
-   
-    equate 1.28@lakes_1_to_4 1.0@siphon1          ## lake for refactor
-   
+	 
+    equate 1.28@lakes_1_to_4 1.0@siphon1					## lake for refactor
+	 
      equate 1.5@black2  1.5@black
      equate 1.16@black2 42.31@pot_sump
      equate 1.13@black2 1.3@black
@@ -269,17 +271,17 @@ input lower_series/lower_series.th
      equate 11.6@wigmore8 1.0@wigmore6a
      equate 1.0@wigmore9 1.10@wigmore6a
      equate 1.34@wigmore9 1.34@wigmore10
-   
-    equate 1.7@lakes_1_to_4 2.0@showcaveTopo            ## lake for refactor
+	 
+    equate 1.7@lakes_1_to_4 2.0@showcaveTopo						## lake for refactor
     
-  equate 1.0@cauldron2 2.0@showcaveTopo
+	equate 1.0@cauldron2 2.0@showcaveTopo
      equate 1.11@cauldron2 4.33@showcaveTopo3
      equate  2.34@showcaveTopo 2.34@showcaveTopo2
      equate  3.5@showcaveTopo2 3.5@showcaveTopo3
-   
-     equate  1.0@lakes_1_to_4 4.34@showcaveTopo3          ## lake for refactor
+	 
+     equate  1.0@lakes_1_to_4 4.34@showcaveTopo3					## lake for refactor
      
-   equate 2.34@showcaveTopo 5.0@showcaveTopo4
+	 equate 2.34@showcaveTopo 5.0@showcaveTopo4
      equate 2.11@showcaveTopo 2.11@showcaveTopo5
      equate 2.7@showcaveTopo 2.7@showcaveTopo6
      equate 7.6@showcaveTopo6 7.6@showcaveTopo8
@@ -330,10 +332,10 @@ input lower_series/lower_series.th
 # join left3@lr_out_1:end sl@lr_out_1:0
 # join ur@lr_out_1:end sr@lr_out_1:0
 # join sw@boulder4:end sw@wigmore:end
-# join lowereast@boulder:0 lowereast@pot_sump:end      ## lake for refactor
+# join lowereast@boulder:0 lowereast@pot_sump:end	    ## lake for refactor
 # join rhw@S_boulder2:0 rhw@S_augustright:end
-# join trw@S_boulder2:0 trw@S_augustright:0        ## lake for refactor
-# join bll@black:end bls@pot_sump:0            ## lake for refactor
+# join trw@S_boulder2:0 trw@S_augustright:0				## lake for refactor
+# join bll@black:end bls@pot_sump:0						## lake for refactor
 # join lh1@showcaveTopo6:0 lh1@showcaveTopo8:end
 # join lh1@showcaveTopo11:end lh1@showcaveTopo4:0
 # join rh1@showcaveTopo11:0 lh2@showcaveTopo4:end
@@ -357,14 +359,14 @@ input lower_series/lower_series.th
   join rh@lr_out_7:end rh@lr_out_8:0
   join lh@lr_out_7:end lh@lr_out_8:0
   join sw@boulder4:0 lowside@wigmore:0
-  join bpfar@bypass2:end bpfar@lakes_1_to_4:end        ## lake for refactor
-  join rw3@bypass2:end bpfarright@lakes_1_to_4:0      ## lake for refactor
-  join bpnear@bypass:0 bpfarright@lakes_1_to_4:end      ## lake for refactor
-  join bll@pot_sump:end bll@lakes_1_to_4:end        ## lake for refactor
-  join blr@pot_sump:end blr@lakes_1_to_4:0          ## lake for refactor
-  join ssl@lakes_1_to_4:0 ssl@siphon1:end          ## lake for refactor
-  join ssr@siphon1:0 ssr@lakes_1_to_4:end          ## lake for refactor
-  join blr@pot_sump:0 blr@black:end              ## lake for refactor
+  join bpfar@bypass2:end bpfar@lakes_1_to_4:end				## lake for refactor
+  join rw3@bypass2:end bpfarright@lakes_1_to_4:0			## lake for refactor
+  join bpnear@bypass:0 bpfarright@lakes_1_to_4:end			## lake for refactor
+  join bll@pot_sump:end bll@lakes_1_to_4:end				## lake for refactor
+  join blr@pot_sump:end blr@lakes_1_to_4:0					## lake for refactor
+  join ssl@lakes_1_to_4:0 ssl@siphon1:end					## lake for refactor
+  join ssr@siphon1:0 ssr@lakes_1_to_4:end					## lake for refactor
+  join blr@pot_sump:0 blr@black:end							## lake for refactor
   join bpnear@bypass:end bplower@bypass3:end
   join bll@black:0 blw@black2:0
   join linkr@showcaveTopo:end linkr@showcaveTopo3:0
@@ -408,7 +410,7 @@ map mainlayer -proj plan
  black2top@black2
  alfrebag@alfrebag
  alf2MP1@alfrebag2
- pot_sump@pot_sump        ## lake for refactor
+ pot_sump@pot_sump				## lake for refactor
 august10@august10
 august9@august9
 august12@august12
@@ -472,7 +474,7 @@ monk2@monk2
  initials2@initials2
    black@black
   black2@black2
- lakes_1_to_4@lakes_1_to_4            ## lake for refactor
+ lakes_1_to_4@lakes_1_to_4						## lake for refactor
  siphon1@siphon1
  siphon2@siphon2
  redchamber@redchamber
