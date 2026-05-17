@@ -1,6 +1,6 @@
 encoding  utf-8
 survey showcaveTopo11
-input showcavetopo11.th2
+input showcaveTopo11.th2
 centreline
   date 2013.03.02
   team "Mike McCombe"

@@ -39,7 +39,7 @@ layout map_layout
   map-header 100 -40 se
   size 48.3 32.9 cm
 endlayout
-export model -o dyo.lox
-export model -o dyo.3d -format survex
-export atlas -o atlas.pdf -layout atlas
+#export model -o dyo.lox
+#export model -o dyo.3d -format survex
+#export atlas -o atlas.pdf -layout atlas
 export map -proj plan -o map.pdf -layout map_layout

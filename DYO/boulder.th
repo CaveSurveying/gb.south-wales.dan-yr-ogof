@@ -1,7 +1,7 @@
 encoding  utf-8
 survey boulder 
 input boulder.th2
-centreline
+centreline 
 #declination 1.71 deg
 team "Mike McCombe"
   date 2010.06.27

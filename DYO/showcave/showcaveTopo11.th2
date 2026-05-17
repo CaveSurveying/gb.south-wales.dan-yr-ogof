@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -127.99999999999909 1663.4330708678 1599.0
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_adjust -128.0 -127.99999999999909 1680.0 1612.0
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {122.56055117999995 1 1.0} {31.373070870000447 5.4} showcaveTopo11Therion_p.xvi 0 {}
 
 
@@ -399,6 +399,7 @@ line wall
   smooth off
   651.0 660.0 665.0 693.0 676.0 700.0
   687.0 707.0 700.0 721.0 713.0 728.0
+  smooth off
 endline
 
 line wall

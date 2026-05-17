@@ -5,7 +5,7 @@ centreline
   date 2013.06.08
   team "Mike McCombe"
   team "Jon Jones"
-#  declination 1.25 deg
+#  declination 1.25 deg 
   data normal from to compass clino tape
   extend right
   1.0 - 54.97 5.39 2.065
