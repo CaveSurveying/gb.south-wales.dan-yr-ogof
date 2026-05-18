@@ -1,0 +1,43 @@
+encoding  utf-8
+
+survey august6
+input august6.th2
+centreline
+  date 2015.04.18
+  team "Mike McCombe"
+  team "Jon Jones"
+  data normal from to compass clino tape
+endcentreline
+
+centreline
+  date 2015.02.11
+  team "Mike McCombe"
+  team "Jon Jones"
+  data normal from to compass clino tape
+  extend right
+  8.11 - 346.98 30.30 0.636
+  8.11 - 1.26 21.67 1.562
+  8.11 - 27.40 29.34 0.424
+  8.11 - 23.79 25.00 1.952
+  8.11 8.12 16.03 13.79 3.504
+  8.12 - 157.85 86.38 0.697
+  8.12 - 101.70 21.78 0.596
+  8.12 - 272.42 11.49 0.522
+  8.12 - 233.89 2.59 0.620
+  8.12 - 201.61 7.06 1.083
+  8.12 - 338.13 4.89 1.031
+  8.12 - 348.36 5.90 1.002
+  8.12 - 1.92 2.97 1.314
+  8.12 - 11.55 -3.08 2.551
+  8.12 - 275.81 8.62 0.534
+  8.12 - 63.32 17.24 0.641
+  8.12 - 34.10 9.62 1.460
+  8.12 - 178.41 7.85 1.663
+  8.12 - 186.69 -4.40 2.344
+  8.12 8.13 13.11 -4.79 4.777
+endcentreline
+map august6
+  august6SP1
+endmap
+endsurvey
+

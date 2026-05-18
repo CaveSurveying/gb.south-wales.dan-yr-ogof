@@ -5,36 +5,71 @@ centreline
 endcentreline
 #input surface
 
-input showcave/showcaveTopo
-input showcave/showcaveTopo2
-input showcave/showcaveTopo3
-input showcave/showcaveTopo4
-input showcave/showcaveTopo5
-input showcave/showcaveTopo6
-input showcave/showcaveTopo8
-input showcave/showcaveTopo9
-input showcave/showcaveTopo10
-input showcave/showcaveTopo11
-input showcave/showcaveTopo12
-input showcave/barbarians1
-input showcave/barbarians2
-input showcave/barbarians3
-input showcave/barbarians4
-input showcave/redchamber
-input showcave/cauldron2
+input showcave/showcaveTopo/showcaveTopo
+input showcave/showcaveTopo2/showcaveTopo2
+input showcave/showcaveTopo3/showcaveTopo3
+input showcave/showcaveTopo4/showcaveTopo4
+input showcave/showcaveTopo5/showcaveTopo5
+input showcave/showcaveTopo6/showcaveTopo6
+input showcave/showcaveTopo8/showcaveTopo8
+input showcave/showcaveTopo9/showcaveTopo9
+input showcave/showcaveTopo10/showcaveTopo10
+input showcave/showcaveTopo11/showcaveTopo11
+input showcave/showcaveTopo12/showcaveTopo12
+input showcave/barbarians1/barbarians1
+input showcave/barbarians2/barbarians2
+input showcave/barbarians3/barbarians3
+input showcave/barbarians4/barbarians4
+input showcave/redchamber/redchamber
+input showcave/cauldron2/cauldron2
 
 input entrance_lakes/bypass/bypass
 input entrance_lakes/bypass2/bypass2
 input entrance_lakes/bypass3/bypass3
 input entrance_lakes/bypass4/bypass4
 input entrance_lakes/pot_sump/pot_sump						
-input entrance_lakes/lakes_1_to_4/lakes_1_to_4				
+input entrance_lakes/lakes_1_to_4/lakes_1_to_4
+
+input 1937_series/august_series/august
+input 1937_series/august_series/august2
+input 1937_series/august_series/august3
+input 1937_series/august_series/august4
+input 1937_series/august_series/august5
+input 1937_series/august_series/august6
+input 1937_series/august_series/august7
+input 1937_series/august_series/august8
+input 1937_series/august_series/august9
+input 1937_series/august_series/august10
+input 1937_series/august_series/august11
+input 1937_series/august_series/august12
+input 1937_series/august_series/august13
+input 1937_series/august_series/august14
+
+input 1937_series/wigmore_hall/wigmore
+input 1937_series/wigmore_hall/wigmore1a
+input 1937_series/wigmore_hall/wigmore2a
+input 1937_series/wigmore_hall/wigmore3
+input 1937_series/wigmore_hall/wigmore4a
+input 1937_series/wigmore_hall/wigmore5a
+input 1937_series/wigmore_hall/wigmore6a
+input 1937_series/wigmore_hall/wigmore8
+input 1937_series/wigmore_hall/wigmore9
+input 1937_series/wigmore_hall/wigmore10
+
+input 1937_series/boulder_chamber/boulder
+input 1937_series/boulder_chamber/S_boulder2
+input 1937_series/boulder_chamber/boulder3
+input 1937_series/boulder_chamber/boulder4
+
+input hanger/hanger1/hanger1
+input hanger/hanger2/hanger2
 
   join show4rh@showcaveTopo4:end barb1rh@barbarians1:0
   join show4rh2@showcaveTopo4:0 barb1lh@barbarians1:end
   join barbarians1SP2@barbarians1 barbarians2SP1@barbarians2 -smooth on
   join barbarians1SP2@barbarians1 barbarians3SP1@barbarians3 -smooth on
   join barbarians2SP1@barbarians2 barbarians4SP1@barbarians4
+
 centerline
      equate 5.23@showcaveTopo4 1.0@barbarians1
      equate 1.9@barbarians1 1.9@barbarians2
@@ -69,10 +104,7 @@ input lr_in_2
 input lr_in_3
 input lr_in_4
 input longercrawlside
-input S_boulder2
-input S_pearl2
-input boulder3
-input boulder4
+
 input mudhall
 input mudhall2
 input gpupper
@@ -89,15 +121,14 @@ input cloud
 input cloud2
 input cloud3
 input cloud4
-input hanger1
-input hanger2
 input longerend
 input longerend2
 input longerend3
 input nearend
 input corbels
 input shower
-						
+
+input S_pearl2
 #input S_augustright
 #input S_augustleft
 input S_potsump
@@ -109,37 +140,10 @@ input siphon2
 input black
 input black2
 input shower2
-input august
-input august2
-input august3
-input august4
-input august5
-input august6
-input august7
-input august8
-input august9
-input august10
-input august11
-input august12
-input august13
-input august14
-
-input wigmore_hall/wigmore
-input wigmore_hall/wigmore1a
-input wigmore_hall/wigmore2a
-input wigmore_hall/wigmore3
-input wigmore_hall/wigmore4a
-input wigmore_hall/wigmore5a
-input wigmore_hall/wigmore6a
-input wigmore_hall/wigmore8
-input wigmore_hall/wigmore9
-input wigmore_hall/wigmore10
-
 
 input shaver1
 input shaver2
 
-input boulder
 input lower_series/lower_series.th
 
   centerline

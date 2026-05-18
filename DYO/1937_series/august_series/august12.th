@@ -1,0 +1,28 @@
+encoding  utf-8
+survey august12
+input august12.th2
+centreline
+  date 2015.05.16
+#  declination 0.83 deg
+  team "Mike McCombe"
+  team "Jon Jones"
+  data normal from to compass clino tape
+  extend right
+  1.25 15.0 0.00 0.00 0.000
+  15.0 - 315.93 14.94 3.277
+  15.0 15.1 165.84 -34.55 0.875
+  15.1 - 111.44 3.21 1.878
+  15.1 - 82.59 -1.61 1.960
+  15.1 - 123.58 0.57 1.714
+  1.27 - 90.29 1.60 0.966
+  1.27 - 82.03 0.56 1.830
+  1.27 - 70.78 1.78 2.577
+  1.27 - 59.68 0.61 1.493
+  1.27 - 38.26 1.27 0.723
+  1.27 - 353.82 12.25 0.297
+endcentreline
+map august12 -proj plan
+  scrap1
+endmap
+endsurvey
+

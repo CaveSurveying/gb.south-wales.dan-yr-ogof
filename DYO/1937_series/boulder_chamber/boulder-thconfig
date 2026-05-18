@@ -1,0 +1,131 @@
+encoding  utf-8
+source bouldermain
+#Common features of layout
+layout dyo_layout
+  symbol-show group cave-centerline
+  scale 1 500
+  transparency on
+  opacity 50
+  language en
+  statistics topo-length on
+  statistics explo-length on
+  legend on
+  map-header 130  -25 se
+  doc-title "Dan yr Ogof"
+  map-comment "Passage layers above and below Boulder Chamber"
+  layers off
+  symbol-assign point station:temporary SKBB
+  #Redefine symbols etc.
+  code mpost
+  verbatimtex \def\thheightpos{C}\def\thheightneg{P} etex
+  def l_u_ledge (expr P) =
+    T:=identity;
+    pickup PenD;
+    thdraw P withcolor (1.0, 0.0, 1.0);
+  enddef;
+  def l_u_judson (expr P) =
+    T:=identity;
+    pickup PenD;
+    thdraw P withcolor (0.1, 0.3, 0.1);
+  enddef;
+  def l_u_ledge (expr P) =
+    T:=identity;
+    pickup PenD;
+    thdraw P withcolor (1.0, 0.0, 1.0);
+  enddef;
+  initsymbol("l_u_ledge");
+  initsymbol("l_u_judson");
+ def l_survey_cave (expr p) =
+  pickup PenC ;
+  draw p withcolor 0.5green;
+  enddef;
+    def a_water (expr p) =
+      T:=identity;
+      thfill p withcolor (0.6, 0.6, 0.8);
+    enddef;
+def l_waterflow_permanent (expr Path) =
+  path ppp;
+  T:=identity;
+  cas := 0;
+  dlzka := arclength Path;
+  mojkrok:=adjust_step(dlzka, 0.5u);
+    pickup PenD;  
+    vardef azim = 50 + 15*normaldeviate enddef;
+    az1 := azim;
+    sgn := 1;
+    ppp := point 0 of Path;
+    forever:
+        t1 := arctime cas of Path;
+        t2 := arctime (cas+mojkrok) of Path;
+        if cas+1.1*mojkrok > dlzka:
+            az2 := 0;
+        else:
+            az2 := azim;
+        fi;
+        d1 := angle(thdir(Path,t1)) + sgn * az1;
+        d2 := angle(thdir(Path,t2)) - sgn * az2;
+        ppp := ppp & (point t1 of Path){dir d1} .. {dir d2}(point t2 of Path);
+        az1 := az2;
+        sgn := -1 * sgn;
+        cas := cas + mojkrok;
+        exitif cas > dlzka + mojkrok/3;     % for rounding errors
+    endfor;
+%    drawarrow ppp;
+    thdraw ppp withcolor 0.9blue;
+    thdrawoptions();
+    oldahlength:=ahlength;
+    ahlength:=ahlength*optical_zoom;
+    thdraw arrowhead ppp;
+    thfill arrowhead ppp;
+    ahlength:=oldahlength;
+enddef;
+def a_blocks (expr p) =
+      distance:=1.8;
+      T:=identity;
+      pickup PenA;
+      path q, qq; q = bbox p;
+      picture tmp_pic; 
+      uu := max(u/2, (xpart urcorner q - xpart llcorner q)/100, (ypart urcorner q - ypart     llcorner q)/100);
+      tmp_pic := image(
+        for i = xpart llcorner q step distance*uu until xpart urcorner q:
+          for j = ypart llcorner q step distance*uu until ypart urcorner q:
+            qq := punked (((-.5uu,-.5uu)--(.5uu,-.5uu)--(.5uu,.5uu)--(-.5uu,.5uu)--cycle) 
+          randomized (uu/2))
+                 rotated uniformdeviate(360) 
+                 shifted ((i,j) randomized 1.0uu);
+      if xpart (p intersectiontimes qq) < 0:
+        thclean qq;
+        thdraw qq  ;
+      fi;
+          endfor;  
+        endfor;
+      );
+      clip tmp_pic to p;
+      draw tmp_pic withpen PenD;
+    enddef;   
+    endcode
+endlayout
+text en "line u:ledge" "ledge"
+text en "line u:judson" "Judson & Coase"
+layout my_layout
+  copy dyo_layout
+  debug  station-names
+endlayout 
+layout atlas
+copy dyo_layout
+  symbol-show group cave-centerline
+  debug  station-names
+scale 1 200
+colour map-fg 100
+colour map-bg 90
+  transparency on
+  opacity 70
+  language en
+  statistics topo-length on
+  statistics explo-length on
+  legend on
+endlayout
+select mainmap@dyo
+export map   -o boulder.pdf   -layout my_layout
+export model -o boulder.3d -format survex
+export atlas -o boulder-atlas.pdf -layout atlas

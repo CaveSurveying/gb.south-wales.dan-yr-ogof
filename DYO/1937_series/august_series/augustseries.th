@@ -1,0 +1,138 @@
+encoding  utf-8
+survey dyo -title "Dan yr Ogof, August Series"
+input boulder
+input wigmore
+input S_boulder2
+#input S_pearl2
+input boulder3
+input boulder4
+input mudhall
+input mudhall2
+#input S_augustright
+#input S_augustleft
+input august
+input august2
+input august3
+input august4
+input august5
+input august6
+input august7
+input august8
+input august9
+input august10
+input august11
+input august12
+input august13
+input august14
+input wigmore1a
+input wigmore2a
+input wigmore3
+input wigmore4a
+input wigmore5a
+input wigmore6a
+input wigmore8
+input wigmore9
+input wigmore10
+   centerline
+#     equate 14.23@bypass4 14.23@alfrebag
+#     equate 1.30@alfrebag 3.0@alfrebag2
+#     equate 19.10@lr_in_1 27.0@longercrawlside
+# Join in re-survey of Shower Aven to Longer Crawl link 
+#     equate 19.0@lr_in_1 5.3@link
+#     equate 19.10@lr_in_1 5.16@link
+#     equate 5.0@link 20.0@longcrawl
+#     equate 5.0@link 6.27@shower3
+#     equate 6.0@shower3 16.0@mainroute
+#     equate 43.19@shower2 5.48@nearend
+#     equate 5.48@nearend 6.8@shower3
+#     equate 6.0@shower3 6.28@shower3
+# End of re-survey     
+#     equate  16.0@mainroute 15.6@ashfordprices
+#     equate  19.0@lr_in_1 16.28@mainroute
+#     equate  20.0@longcrawl 16.23@mainroute
+#     equate  21.0@nomansland 20.29@longcrawl
+#     equate 12.8@solstice 15.8@ashfordprices
+#     equate  9.22@wigmore 15.0@ashfordprices
+     equate 14.0@boulder 1.0@wigmore
+     equate 32.0@boulder4 1.0@wigmore
+#     equate 42.0@lakes 1.0@wigmore
+     equate 32.8@boulder4 31.6@mudhall2
+     equate 31.7@mudhall2 23.0@mudhall
+     equate 23.0@mudhall 22.11@boulder3
+     equate 32.9@boulder4 22.11@boulder3
+     equate 22.7@boulder3 32.5@boulder4
+     equate 9.4@wigmore 32.5@boulder4
+     equate 1.0@boulder3 1.0@wigmore
+     equate 1000.12@S_boulder2 1.6@august
+#     equate 1000.6@S_boulder2 31.0@mudhall2
+#     equate 1000.13@S_boulder2 1.8@S_augustright
+#     equate 1000.12@S_boulder2 1.4@S_augustleft
+     equate 1.0@august 31.0@mudhall2
+     equate 1.8@august 1.8@august2
+     equate 1.5@august 1.5@august2
+     equate 1.25@august 1.25@august3
+     equate 2.19@august2 2.19@august4
+     equate 2.32@august4 2.32@august5
+     equate 8.11@august5 8.11@august6
+     equate 8.12@august6 8.12@august7
+     equate 1.31@august3 1.31@august8
+     equate 1.35@august3 13.0@august11
+     equate 1.35@august3 12.0@august10
+     equate 1.41@august3 1.41@august9
+     equate 11.1@august9 11.1@august14
+     equate 1.33@august13 1.33@august3
+     equate 1.25@august12 1.25@august3
+     equate 1.27@august12 1.27@august3
+     equate 1.0@wigmore 1.0@wigmore1a
+     equate 1.0@wigmore 1.0@wigmore2a
+     equate 1.9@wigmore1a 17.5@august14
+     equate 18.4@wigmore2a 18.4@wigmore3
+     equate 19.20@wigmore3 20.0@wigmore4a
+     equate 20.3@wigmore4a 20.3@wigmore5a
+     equate 1.14@wigmore5a 11.1@wigmore8
+     equate 11.6@wigmore8 1.0@wigmore6a
+     equate 1.0@wigmore9 1.10@wigmore6a
+     equate 1.34@wigmore9 1.34@wigmore10
+   endcenterline
+     join wl1@wigmore1a:0 wl1@wigmore:end -smooth on
+     join wr1@wigmore1a:end wr1@wigmore:end -smooth on
+     join wig4lh@wigmore4a:end wig3lh@wigmore3:0 -smooth on
+
+map main -proj plan
+  mainlayer
+endmap
+map mainlayer
+ august10@august10
+ august9@august9
+ august12@august12
+ august13@august13
+ august14@august14
+ august7@august7
+ august6@august6
+ august5@august5
+ august4@august4
+ august3@august3
+ august8@august8
+ august11@august11
+ august2@august2
+ august@august
+ mudhall2@mudhall2
+ wigmore1a@wigmore1a
+ wigmore@wigmore
+
+ #S_augustleft@S_augustleft
+ #S_augustright@S_augustright
+ boulder@boulder
+ boulder3@boulder3
+ boulder4@boulder4
+ wigmore8@wigmore8
+ wigmore5a@wigmore5a
+ wigmore3@wigmore3
+ wigmore2a@wigmore2a
+ wigmore4a@wigmore4a
+ wigmore6a@wigmore6a
+ wigmore9@wigmore9
+ wigmore10@wigmore10
+endmap
+endsurvey
+
