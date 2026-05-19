@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 1781.54330709 3198.86614174
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -128.0 -128.00000000000045 1781.5433070884 3198.8661417355997
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {1461.33677166 1 1.0} {2457.27858268 12.0} solsticeTherion_p.xvi 0 {}
 
 
@@ -53,6 +53,7 @@ line wall
   754.0 194.0 820.0 228.0 820.0 228.0
   smooth off
   820.0 228.0 850.0 246.0 859.0 245.0
+  smooth off
 endline
 
 point 705.54677166 167.27858268 station -name 12.20
@@ -72,6 +73,11 @@ point 477.67677166 333.34858268 station -name 12.14
 point 372.04677166 341.49858268 station -name 12.12
 
 point 352.47677166 315.03858268 station -name 12.11
+
+line pit -reverse on -clip off -outline in
+  346.0 337.0
+  346.0 337.0 352.95 336.08 352.47677166 315.03858268
+endline
 
 point 173.81677166 374.24858268 station -name 12.10
 
