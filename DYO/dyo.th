@@ -23,12 +23,17 @@ input showcave/barbarians4/barbarians4
 input showcave/redchamber/redchamber
 input showcave/cauldron2/cauldron2
 
+input entrance_lakes/lakes_1_to_4/lakes_1_to_4
 input entrance_lakes/bypass/bypass
 input entrance_lakes/bypass2/bypass2
 input entrance_lakes/bypass3/bypass3
 input entrance_lakes/bypass4/bypass4
+
+input entrance_lakes/alfrebag/alfrebag
+input entrance_lakes/alfrebag2/alfrebag2
+
 input entrance_lakes/pot_sump/pot_sump						
-input entrance_lakes/lakes_1_to_4/lakes_1_to_4
+input entrance_lakes/pot_sump/S_potsump
 
 input 1937_series/august_series/august
 input 1937_series/august_series/august2
@@ -61,6 +66,8 @@ input 1937_series/boulder_chamber/S_boulder2
 input 1937_series/boulder_chamber/boulder3
 input 1937_series/boulder_chamber/boulder4
 
+input 1937_series/corbels_chamber/corbels
+
 input 1937_series/ashford_prices_hall/ashfordprices
 input 1937_series/ashford_prices_hall/solstice
 
@@ -85,8 +92,7 @@ centerline
      equate 1.9@barbarians2 1.15@barbarians3
      equate 1.14@barbarians2 1.14@barbarians4
 endcenterline
-input alfrebag
-input alfrebag2
+
 input maindrag
 input mainroute
 
@@ -132,13 +138,10 @@ input longerend
 input longerend2
 input longerend3
 input nearend
-input corbels
-
 
 input S_pearl2
 #input S_augustright
 #input S_augustleft
-input S_potsump
 
 #input S_belowwigmore
 input bypassbits
