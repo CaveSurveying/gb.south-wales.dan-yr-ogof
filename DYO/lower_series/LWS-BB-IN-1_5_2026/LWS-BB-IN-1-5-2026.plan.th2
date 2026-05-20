@@ -361,13 +361,6 @@ endline
 line wall -visibility off
 endline
 
-line wall -reverse on -visibility off
-  -350.0 -34.0
-  -300.0 -29.0
-  -299.0 -124.0
-  -349.0 -119.0
-endline
-
 area pebbles
   l146--758-140
 endarea
@@ -553,9 +546,9 @@ line section -direction both
 endline
 
 line wall
-  -350.0 -34.0
-  -350.0 -34.0 -363.5 -34.0 -373.5 -24.0
-  -383.5 -14.0 -385.0 -1.5 -395.5 12.5
+  -322.0 -16.0
+  -322.0 -16.0 -335.35 -37.38 -350.0 -34.0
+  -376.0 -28.0 -385.0 -1.5 -395.5 12.5
   -406.0 26.5 -479.5 110.0 -487.5 118.0
   -495.5 126.0 -571.0 188.5 -590.5 195.0
   -610.0 201.5 -645.5 201.0 -651.5 219.0
@@ -569,7 +562,7 @@ line section -reverse on -direction both
   smooth off
 endline
 
-line wall
+line wall -reverse on
   -349.0 -119.0
   -349.0 -119.0 -369.0 -111.0 -380.0 -146.0
   -391.0 -181.0 -395.0 -171.0 -411.0 -170.0

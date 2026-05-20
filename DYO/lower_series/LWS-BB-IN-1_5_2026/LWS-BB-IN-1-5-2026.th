@@ -1,27 +1,10 @@
 encoding  utf-8
 survey LWS-BB-IN-1-5-2026
-# Created with SexyTopo 1.11.2 on 2026-05-01
 
 input "LWS-BB-IN-1-5-2026.plan.th2"
-#input "LWS-BB-IN-1-5-2026.ee.th2"
-
-map m1p -projection plan
-LWS-BB-IN-1-5-2026-plan
-endmap
-
-
-#date 2026.05.01
-#instrument inst ""
-#team "Buck Blake" notes
-#team "Isaac Neale" instruments
-
 
 #Comment from SexyTopo trip information
 #LWs-BB-IN-1-5-2026
-
-equate 17 22
-
-centreline
 #data passage station ignoreall
 #4  stn red np labelled 4 on Lh wall
 #6  temp
@@ -29,6 +12,13 @@ centreline
 #14  rnp RH wall labelled 14
 #17  rnp on roof step LH
 #25  rnp on pebble in bank
+
+centreline
+date 2026.05.01
+team "Buck Blake" notes
+team "Isaac Neale" instruments
+
+equate 17 22
 
 data normal from to tape compass clino ignoreall
 1  2  6.523  257.49  44.32  
