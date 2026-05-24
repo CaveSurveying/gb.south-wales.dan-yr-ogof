@@ -5,6 +5,7 @@ centreline
 endcentreline
 #input surface
 
+# Input files for showcave
 input showcave/showcaveTopo/showcaveTopo
 input showcave/showcaveTopo2/showcaveTopo2
 input showcave/showcaveTopo3/showcaveTopo3
@@ -23,6 +24,7 @@ input showcave/barbarians4/barbarians4
 input showcave/redchamber/redchamber
 input showcave/cauldron2/cauldron2
 
+# Input files for entrance lakes and bypasses
 input entrance_lakes/lakes_1_to_4/lakes_1_to_4
 input entrance_lakes/bypass/bypass
 input entrance_lakes/bypass2/bypass2
@@ -35,6 +37,7 @@ input entrance_lakes/alfrebag2/alfrebag2
 input entrance_lakes/pot_sump/pot_sump						
 input entrance_lakes/pot_sump/S_potsump
 
+# Input files for August Series
 input 1937_series/august_series/august
 input 1937_series/august_series/august2
 input 1937_series/august_series/august3
@@ -50,6 +53,7 @@ input 1937_series/august_series/august12
 input 1937_series/august_series/august13
 input 1937_series/august_series/august14
 
+# Input files for Wigmore Hall
 input 1937_series/wigmore_hall/wigmore
 input 1937_series/wigmore_hall/wigmore1a
 input 1937_series/wigmore_hall/wigmore2a
@@ -68,15 +72,41 @@ input 1937_series/boulder_chamber/boulder4
 
 input 1937_series/corbels_chamber/corbels
 
+# Input files for Ashford Price's Hall + bits that connect
 input 1937_series/ashford_prices_hall/ashfordprices
 input 1937_series/ashford_prices_hall/solstice
 
+
+# Input files for shower aven and start of long crawl
+input 1937_series/shower_aven/mainroute
 input 1937_series/shower_aven/shower
 input 1937_series/shower_aven/shower2
 input 1937_series/shower_aven/shower3
+input 1937_series/long_crawl/longcrawl
+
+# Input files for longer crawl
+input 1937_series/longer_crawl/lr_out_1
+input 1937_series/longer_crawl/lr_out_2
+input 1937_series/longer_crawl/lr_out_3
+input 1937_series/longer_crawl/lr_out_4
+input 1937_series/longer_crawl/lr_out_6
+input 1937_series/longer_crawl/lr_out_7
+input 1937_series/longer_crawl/lr_out_8
+input 1937_series/longer_crawl/lr_out_9
+input 1937_series/longer_crawl/lr_out_10
+input 1937_series/longer_crawl/lr_in_1
+input 1937_series/longer_crawl/lr_in_2
+input 1937_series/longer_crawl/lr_in_3
+input 1937_series/longer_crawl/lr_in_4
+input 1937_series/longer_crawl/longercrawlside
+input 1937_series/longer_crawl/longerend
+input 1937_series/longer_crawl/longerend2
+input 1937_series/longer_crawl/longerend3
 
 input hanger/hanger1/hanger1
 input hanger/hanger2/hanger2
+
+
 
 
 
@@ -94,29 +124,15 @@ centerline
 endcenterline
 
 input maindrag
-input mainroute
 
-input lr_in_1
 input link
-input lr_out_1
-input lr_out_2
-input lr_out_3
-input lr_out_4
-input lr_out_6
-input lr_out_7
-input lr_out_8
-input lr_out_9
-input lr_out_10
+
 input initials
 input initials2
-input longcrawl
+
 input nomansland
 input link2
 input gplink
-input lr_in_2
-input lr_in_3
-input lr_in_4
-input longercrawlside
 
 input mudhall
 input mudhall2
@@ -134,9 +150,6 @@ input cloud
 input cloud2
 input cloud3
 input cloud4
-input longerend
-input longerend2
-input longerend3
 input nearend
 
 input S_pearl2
@@ -182,7 +195,7 @@ input lower_series/lower_series.th
 # End of re-survey     
      equate  6.0@shower3 15.6@ashfordprices
 #    equate  19.0@lr_in_1 16.28@mainroute
-#    equate  20.0@longcrawl 16.23@mainroute
+     equate  20.0@longcrawl 16.23@mainroute
      equate  21.0@nomansland 20.29@longcrawl
      equate 12.8@solstice 15.8@ashfordprices
      equate  9.22@wigmore 15.0@ashfordprices
@@ -234,8 +247,10 @@ input lower_series/lower_series.th
 #   equate 1000.12@S_boulder2 1.4@S_augustleft
 #   equate 1.1@S_belowwigmore 1.0@wigmore
 
-    equate 41.1@shower 16.29@mainroute
-    equate 43.9@shower2 16.12@mainroute
+    equate 41.1@shower 16.29@mainroute				## temp remove shower stuff
+    equate 43.9@shower2 16.12@mainroute				## temp remove shower stuff
+	
+	
     equate 1.1@S_potsump 42.36@pot_sump					## lake for refactor
     equate 42.46@pot_sump 1.33@lakes_1_to_4				## lake for refactor
     equate 1.0@black 1.33@lakes_1_to_4				    ## lake for refactor

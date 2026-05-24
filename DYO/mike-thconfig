@@ -24,6 +24,7 @@ layout atlas
 endlayout
 
 layout map_layout
+  colour map-fg altitude
   cs osgb:sn
   symbol-hide group cave-centerline
   north grid
