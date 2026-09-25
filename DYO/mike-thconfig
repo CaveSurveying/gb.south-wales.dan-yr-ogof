@@ -28,7 +28,7 @@ layout map_layout
   cs osgb:sn
   symbol-hide group cave-centerline
   north grid
-  scale 1 500
+  scale 1 1500
   base-scale 1 200
   transparency on
   grid bottom
@@ -39,6 +39,7 @@ layout map_layout
   legend on
   map-header 100 -40 se
   size 48.3 32.9 cm
+  symbol-show group cave-centerline
 endlayout
 
 lookup altitude:banded -title "Altitude bands"
@@ -51,6 +52,6 @@ lookup altitude:banded -title "Altitude bands"
 endlookup
 
 #export model -o dyo.lox
-#export model -o dyo.3d -format survex
+export model -o dyo.3d -format survex
 #export atlas -o atlas.pdf -layout atlas
 export map -proj plan -o map.pdf -layout map_layout

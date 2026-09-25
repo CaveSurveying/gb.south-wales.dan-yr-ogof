@@ -37,8 +37,8 @@ input entrance_lakes/alfrebag2/alfrebag2
 input entrance_lakes/pot_sump/pot_sump            
 input entrance_lakes/pot_sump/S_potsump
 
-input entrance_lakes/black/black
-input entrance_lakes/black2/black2
+input black
+input black2
 
 # Input files for August Series
 input 1937_series/august_series/august
@@ -376,7 +376,7 @@ input lower_series/lower_series.th
 # join wr1@wigmore1a:end wr1@wigmore:end -smooth on
 # join syl@siphon2:0 syl@siphon1:end
 
-	
+  
   join link-wall1@boulder3:0 lw1@wigmore1a:end
   join link-wall1@boulder3:end lw2@boulder:end
   join rw1@wigmore1a:0 rw2@boulder3:end
