@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 876.031496062992 1748.0
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_adjust -128.0 -128.0 876.031496062992 1751.0
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {595.2755905511809 1 1.0} {30.70866141732283 1.0} wigmore1aTherion_p.xvi 0 {}
 
 
@@ -79,10 +79,10 @@ line wall
   smooth off
 endline
 
-line wall
-  565.0 136.0
-  554.0 148.0
-  554.0 148.0 582.0 170.0 587.0 176.0
+line wall -id rw1
+  596.0 143.0
+  561.0 155.0
+  561.0 155.0 582.0 170.0 587.0 176.0
   592.0 182.0 605.0 205.0 605.0 205.0
   smooth off
   566.0 217.0
@@ -99,6 +99,7 @@ line wall
   346.0 411.0 353.0 443.0 358.0 452.0
   363.0 461.0 373.0 476.0 377.0 485.0
   381.0 494.0 385.0 507.0 388.0 515.0
+  smooth off
 endline
 
 line ceiling-step
@@ -259,15 +260,6 @@ line ceiling-step
   smooth off
 endline
 
-line ceiling-step -close on -reverse on
-  212.0 517.0
-  212.0 517.0 248.0 514.0 261.0 511.0
-  274.0 508.0 319.0 494.0 328.0 493.0
-  337.0 492.0 373.0 481.0 373.0 481.0
-  smooth off
-  212.0 517.0
-endline
-
 line ceiling-step -reverse on
   229.0 676.0
   229.0 676.0 249.0 677.0 265.0 674.0
@@ -285,6 +277,7 @@ line ceiling-step
   232.0 692.0 250.0 704.0 269.0 709.0
   288.0 714.0 312.0 715.0 325.0 714.0
   338.0 713.0 366.48 712.86 376.0 707.0
+  smooth off
 endline
 
 line ceiling-step -close on -reverse on
@@ -306,7 +299,7 @@ line ceiling-step -close on
   smooth off
 endline
 
-line wall
+line wall -id lw1
   391.0 163.0
   391.0 163.0 403.0 182.0 411.0 182.0
   419.0 182.0 436.0 180.0 441.0 174.0
@@ -324,8 +317,8 @@ line wall
 endline
 
 line wall
-  285.0 1501.0
-  285.0 1501.0 291.0 1435.0 294.0 1423.0
+  273.0 1503.0
+  273.0 1503.0 291.0 1435.0 294.0 1423.0
   297.0 1411.0 332.0 1311.0 335.0 1302.0
   338.0 1293.0 363.0 1258.0 371.0 1258.0
   379.0 1258.0 440.0 1286.0 443.0 1283.0
@@ -338,6 +331,16 @@ endline
 point 595.2755905511809 30.70866141732283 station -name 1.0
 
 point 447.51559055118094 189.44866141732285 station -name 1.1
+
+line wall -reverse on -subtype presumed
+  254.0 217.0
+  193.0 147.0
+endline
+
+line wall -subtype presumed
+  245.0 369.0
+  147.0 330.0
+endline
 
 point 313.2255905511809 295.6686614173228 station -name 1.2
 
