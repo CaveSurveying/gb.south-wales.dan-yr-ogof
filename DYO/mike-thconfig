@@ -7,6 +7,7 @@ text en "line u:ledge" "ledge"
 text en "line u:judson" "Judson & Coase"
 
 layout atlas
+  symbol-set BCRA
   north grid
   cs osgb:sn
   transparency on
@@ -24,6 +25,7 @@ layout atlas
 endlayout
 
 layout map_layout
+  symbol-set BCRA
   colour map-fg altitude:banded
   cs osgb:sn
   symbol-hide group cave-centerline
@@ -37,7 +39,7 @@ layout map_layout
   symbol-colour area water 668aff
   symbol-colour line water-flow 668aff
   legend on
-  map-header 100 -40 se
+  #map-header 100 -40 se
   size 48.3 32.9 cm
   symbol-show group cave-centerline
 endlayout

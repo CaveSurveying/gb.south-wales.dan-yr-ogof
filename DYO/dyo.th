@@ -3,7 +3,15 @@ survey dyo -title "Dan yr Ogof"
 centreline
   cs osgb:sn
 endcentreline
+
+# Deprecated for now
 #input surface
+#input S_augustright
+#input S_augustleft
+#input S_belowwigmore
+#input S_longer
+#input J_day4
+#input J_flabbergasm
 
 # Input files for showcave
 input showcave/showcaveTopo/showcaveTopo
@@ -26,19 +34,21 @@ input showcave/cauldron2/cauldron2
 
 # Input files for entrance lakes and bypasses
 input entrance_lakes/lakes_1_to_4/lakes_1_to_4
-input entrance_lakes/bypass/bypass
-input entrance_lakes/bypass2/bypass2
-input entrance_lakes/bypass3/bypass3
-input entrance_lakes/bypass4/bypass4
-
+input entrance_lakes/bypass_passage/bypass
+input entrance_lakes/bypass_passage/bypass2
+input entrance_lakes/bypass_passage/bypass3
+input entrance_lakes/bypass_passage/bypass4
+input entrance_lakes/bypass_passage/bypassbits
+input entrance_lakes/syphon_series/siphon1
+input entrance_lakes/syphon_series/siphon2
 input entrance_lakes/alfrebag/alfrebag
-input entrance_lakes/alfrebag2/alfrebag2
-
+input entrance_lakes/alfrebag/alfrebag2
 input entrance_lakes/pot_sump/pot_sump            
 input entrance_lakes/pot_sump/S_potsump
-
-input black
-input black2
+input entrance_lakes/pot_sump/black
+input entrance_lakes/pot_sump/black2
+input entrance_lakes/shaver/shaver1
+input entrance_lakes/shaver/shaver2
 
 # Input files for August Series
 input 1937_series/august_series/august
@@ -55,6 +65,7 @@ input 1937_series/august_series/august11
 input 1937_series/august_series/august12
 input 1937_series/august_series/august13
 input 1937_series/august_series/august14
+input 1937_series/august_series/S_pearl2
 
 # Input files for Wigmore Hall
 input 1937_series/wigmore_hall/wigmore
@@ -68,16 +79,23 @@ input 1937_series/wigmore_hall/wigmore8
 input 1937_series/wigmore_hall/wigmore9
 input 1937_series/wigmore_hall/wigmore10
 
+# Input files for Mud Hall
+input 1937_series/mud_hall/mudhall
+input 1937_series/mud_hall/mudhall2
+
+# Input files for Boulder Chamber
 input 1937_series/boulder_chamber/boulder
 input 1937_series/boulder_chamber/S_boulder2
 input 1937_series/boulder_chamber/boulder3
 input 1937_series/boulder_chamber/boulder4
 
+# Input files for Corbels Chamber
 input 1937_series/corbels_chamber/corbels
 
 # Input files for Ashford Price's Hall + bits that connect
 input 1937_series/ashford_prices_hall/ashfordprices
 input 1937_series/ashford_prices_hall/solstice
+input 1937_series/ashford_prices_hall/maindrag
 
 
 # Input files for shower aven and start of long crawl
@@ -86,6 +104,7 @@ input 1937_series/shower_aven/shower
 input 1937_series/shower_aven/shower2
 input 1937_series/shower_aven/shower3
 input 1937_series/long_crawl/longcrawl
+
 
 # Input files for longer crawl
 input 1937_series/longer_crawl/lr_out_1
@@ -105,12 +124,38 @@ input 1937_series/longer_crawl/longercrawlside
 input 1937_series/longer_crawl/longerend
 input 1937_series/longer_crawl/longerend2
 input 1937_series/longer_crawl/longerend3
+input 1937_series/longer_crawl/link
+input 1937_series/longer_crawl/link2
+input 1937_series/longer_crawl/initials
+input 1937_series/longer_crawl/initials2
+input 1937_series/longer_crawl/nearend
 
-input hanger/hanger1/hanger1
-input hanger/hanger2/hanger2
+# Input files for Gerrard Platten Hall
+input DYO_II/gerrard_platten_hall/gplink
+input DYO_II/gerrard_platten_hall/gpupper
+input DYO_II/gerrard_platten_hall/gphall
+input DYO_II/gerrard_platten_hall/gpside
 
+# Input files for No Mans Land just off GPH
+input DYO_II/no_mans_land/nomansland
 
+# Input files for Flabbergasm Oxbow and grand canyon
+input DYO_II/flabbergasm_oxbow/flabbergasm
+input DYO_II/grand_canyon/canyon
 
+# Input files for Monk Hall
+input DYO_II/monk_hall/monk
+input DYO_II/monk_hall/monk2
+
+# Input files for Cloud Chamber
+input DYO_II/cloud_chamber/cloud
+input DYO_II/cloud_chamber/cloud2
+input DYO_II/cloud_chamber/cloud3
+input DYO_II/cloud_chamber/cloud4
+
+# Input files for hanger passage
+input DYO_II/hanger_passage/hanger1
+input DYO_II/hanger_passage/hanger2
 
 
   join show4rh@showcaveTopo4:end barb1rh@barbarians1:0
@@ -126,46 +171,10 @@ centerline
      equate 1.14@barbarians2 1.14@barbarians4
 endcenterline
 
-input maindrag
 
-input link
 
-input initials
-input initials2
 
-input nomansland
-input link2
-input gplink
 
-input mudhall
-input mudhall2
-input gpupper
-input gphall
-input gpside
-#input S_longer
-#input J_day4
-#input J_flabbergasm
-input flabbergasm
-input canyon
-input monk
-input monk2
-input cloud
-input cloud2
-input cloud3
-input cloud4
-input nearend
-
-input S_pearl2
-#input S_augustright
-#input S_augustleft
-
-#input S_belowwigmore
-input bypassbits
-input siphon1
-input siphon2
-
-input shaver1
-input shaver2
 
 input lower_series/lower_series.th
 

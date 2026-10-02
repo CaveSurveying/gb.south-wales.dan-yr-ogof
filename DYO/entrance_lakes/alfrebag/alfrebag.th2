@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 1112.25196851 928.25
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -128.0 -128.00000000000006 1112.2519685050001 929.0
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {533.62417323 1 1.0} {758.03047244 1.0} alfrebagTherion_p.xvi 0 {}
 
 
@@ -66,7 +66,7 @@ area water
   l46-164-178
 endarea
 
-line border:invisible -id l46-164-178 -close on
+line border -id l46-164-178 -close on -subtype invisible
   106.0 180.25
   108.5 173.5 118.25 156.75 120.75 154.25
   123.25 151.75 130.25 141.5 135.25 137.75
