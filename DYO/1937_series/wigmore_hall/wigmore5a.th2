@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -129.0 -129.0 234.25 250.5
+##XTHERION## xth_me_area_adjust -128.0 -128.0 282.0 250.25
 ##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {83.62 1 1.0} {84.88354330708694 1.12} wigmore5aTherion_p.xvi 0 {}
 
@@ -7,7 +7,7 @@ encoding  utf-8
 
 scrap scrap1 -scale [-128.0 -128.0 324.8503937007874 -128.0 0.0 0.0 11.5024 0.0 m]
 
-point 94.0 55.5 label -text "c4"
+point 152.75 58.5 label -text "c4"
 
 point 87.5 76.5 stalagmite
 

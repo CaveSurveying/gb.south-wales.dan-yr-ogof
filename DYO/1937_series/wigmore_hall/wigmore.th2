@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -131.44827586206895 4025.6377952798002 8671.3070866234
-##XTHERION## xth_me_area_zoom_to 58
+##XTHERION## xth_me_area_adjust -128.0 -128.0 4025.6377952798002 8671.3070866234
+##XTHERION## xth_me_area_zoom_to 232
 ##XTHERION## xth_me_image_insert {2951.88976378 1 1.0} {3740.15748032 1.0} WigmoreTherion_p.xvi 0 {}
 
 
@@ -210,29 +210,11 @@ endscrap
 
 scrap scrap105 -scale [-128.0 -128.0 553.196850395 -128.0 0.0 0.0 17.3024 0.0 m]
 
-area blocks
-  l125-1982-2905
-endarea
-
-line border -id l125-1982-2905 -close on -subtype invisible
-  1908.0 2988.0
-  1908.0 2988.0 1911.5 2880.5 1913.0 2881.5
-  1914.5 2882.5 2035.5 2892.5 2035.5 2892.5
-  smooth off
-  2072.0 2936.0
-  1908.0 2988.0
-endline
-
-line wall -id bside2
-  1908.0 2988.0
-  1908.0 2988.0 2062.0 2938.0 2080.0 2952.0
-  2098.0 2966.0 2116.0 2974.0 2116.0 2974.0
-  smooth off
-endline
-
-line wall:invisible -id bside
+line wall -reverse on
   1913.0 2881.5
-  1908.0 2988.0
+  1913.0 2881.5 1916.81 2882.33 1924.1379310344826 2904.7413793103447
+  1931.47 2927.16 1937.5 2954.74 1952.5862068965516 2956.0344827586205
+  1967.67 2957.33 2003.45 2954.31 2007.7586206896551 2954.310344827586
 endline
 
 line wall

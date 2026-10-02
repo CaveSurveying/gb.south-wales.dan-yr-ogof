@@ -381,7 +381,6 @@ input lower_series/lower_series.th
   join link-wall1@boulder3:end lw2@boulder:end
   join rw1@wigmore1a:0 rw2@boulder3:end
   join lw1@boulder3:0 lw2@boulder:0
-  join lw1@boulder3:end lw0@boulder4:end
   join rw1@boulder3:0 rw0@boulder4:0
   
   join st@ashfordprices:0 st@mainroute:end -smooth on
