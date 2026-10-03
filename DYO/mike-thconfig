@@ -26,7 +26,7 @@ endlayout
 
 layout map_layout
   symbol-set BCRA
-  colour map-fg altitude:banded
+  colour map-fg altitude
   cs osgb:sn
   symbol-hide group cave-centerline
   north grid
@@ -44,14 +44,7 @@ layout map_layout
   symbol-show group cave-centerline
 endlayout
 
-lookup altitude:banded -title "Altitude bands"
- [260 270] [100 0 0]   "260 to 270 m"
- [250 260] [100 60 0]  "250 to 260 m"
- [240 250] [100 100 0] "240 to 250 m"
- [230 240] [0 100 0]   "230 to 240 m"
- [220 230] [0 100 100] "220 to 230 m"
- [210 220] [0 0 100]   "210 to 220 m"
-endlookup
+
 
 #export model -o dyo.lox
 export model -o dyo.3d -format survex

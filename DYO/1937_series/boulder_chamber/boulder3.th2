@@ -35,6 +35,12 @@ line wall -id link-wall1
   smooth off
 endline
 
+line slope -reverse on
+  1095.0 1335.0
+  1095.0 1335.0 1110.0 1088.0 893.0 1056.0
+  l-size 70.0
+endline
+
 line wall -id rw2
   1180.0 927.0
   1180.0 927.0 1184.0 952.0 1184.0 958.0

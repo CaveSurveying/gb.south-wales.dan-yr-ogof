@@ -829,11 +829,11 @@ centreline
   19.56 - 234.52 -7.09 2.139
   19.56 - 230.05 -6.91 2.652
 endcentreline
-map lr_in_1 -proj plan
-  lrin1SP1
+#map lr_in_1 -proj plan
+  #lrin1SP1
 #  lrin1SP4 duplicated by lr_in_2
-  lrin1SP2
-  lrin1SP3
-endmap
+#  lrin1SP2
+#  lrin1SP3
+#endmap
 endsurvey
 
