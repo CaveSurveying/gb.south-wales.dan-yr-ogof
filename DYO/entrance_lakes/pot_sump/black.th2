@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 797.291338583 1702.80314961
+##XTHERION## xth_me_area_adjust -128.0 -128.0 797.2913385834 1702.803149608
 ##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {181.88976378 1 1.0} {19.6850393701 1.0} blackTherion_p.xvi 0 {}
 
@@ -120,8 +120,9 @@ endline
 line wall
   176.0 488.5
   176.0 488.5 161.5 474.5 151.0 445.5
-  140.5 416.5 138.0 381.0 134.5 365.5
-  131.0 350.0 128.0 303.5 124.5 294.5
+  140.5 416.5 138.36 418.32 137.0 402.5
+  135.5 385.0 134.5 383.0 131.0 374.0
+  smooth off
 endline
 
 line wall -id bll
@@ -170,4 +171,5 @@ point 131.80976378 265.74503937 station -name 1.1
 point 181.88976378 19.6850393701 station -name 1.0
 
 endscrap
+
 

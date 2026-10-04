@@ -18,6 +18,11 @@ layout atlas
   scale 1 1500
   colour-model rgb
   symbol-colour area water 0000ff
+select mainlayer@dyo
+select bypass3@bypass3.dyo
+select alf2MP1@alfrebag2.dyo
+select alf2MP1@alfrebag2.dyo
+select alf2MP1@alfrebag2.dyo
   symbol-colour line water-flow 0000ff
   colour map-fg 100
   colour map-bg 90
