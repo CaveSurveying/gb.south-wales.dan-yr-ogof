@@ -1,7 +1,7 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128.0 -128.0 587.5 466.0
 ##XTHERION## xth_me_area_zoom_to 200
-##XTHERION## xth_me_image_insert {78.78125985 1 1.0} {31.4976378 30.18} lr_out_9Therion_p.xvi 0 {}
+##XTHERION## xth_me_image_insert {78.78125985000042 1 1.0} {31.49763780000012 30.18} lr_out_9Therion_p.xvi 0 {}
 
 
 
@@ -87,8 +87,8 @@ line wall -id l17-430-240
 endline
 
 line wall -id l16-457-248
-  75.5 22.0
-  75.5 22.0 80.0 35.0 81.5 40.0
+  78.0 34.0
+  78.0 34.0 80.0 35.0 81.5 40.0
   83.0 45.0 89.5 72.5 92.5 76.5
   95.5 80.5 106.66 90.03 110.0 93.0
   114.5 97.0 114.5 97.0 119.0 96.0

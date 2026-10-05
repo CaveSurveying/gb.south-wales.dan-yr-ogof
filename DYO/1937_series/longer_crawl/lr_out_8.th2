@@ -1,7 +1,7 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 364.220472441 954.771653544
-##XTHERION## xth_me_area_zoom_to 100
-##XTHERION## xth_me_image_insert {45.42858268 1 1.0} {19.68133859 30.0} lr_out_8Therion_p.xvi 0 {}
+##XTHERION## xth_me_area_adjust -128.0000000000009 -128.0 364.2204724411991 954.7716535442
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {45.428582679999636 1 1.0} {19.681338589999996 30.0} lr_out_8Therion_p.xvi 0 {}
 
 
 
@@ -46,28 +46,14 @@ endline
 line ceiling-step
   195.0 744.0
   195.0 744.0 205.24 757.5 205.11858268 767.75133859
-  205.0 778.0 211.0 807.0 211.0 807.0
+  205.0 778.0 212.5 823.0 212.5 823.0
   smooth off
 endline
 
-line wall:unsurveyed
-  173.0 799.0
-  173.0 799.0 186.0 799.0 189.0 796.0
-  192.0 793.0 197.0 777.0 197.0 777.0
-  smooth off
-  197.0 777.0 188.0 755.0 184.0 749.0
-  180.0 743.0 173.0 722.0 173.0 722.0
-  smooth off
-  146.0 706.0
-  135.0 704.0
-endline
-
-line wall:unsurveyed
+line wall -reverse on -subtype presumed
   195.0 744.0
-  195.0 744.0 181.0 722.0 179.0 717.0
-  177.0 712.0 168.0 698.0 163.0 697.0
-  158.0 696.0 139.0 690.0 139.0 690.0
-  smooth off
+  195.0 744.0 188.5 738.0 178.0 729.5
+  166.69 720.34 159.5 721.0 151.5 717.5
 endline
 
 line wall -id rh
@@ -101,6 +87,7 @@ line wall -id rh
   218.0 638.0 206.0 689.0 206.0 696.0
   206.0 703.0 209.0 733.0 211.0 739.0
   213.0 745.0 218.0 756.0 221.0 762.0
+  smooth off
 endline
 
 point 205.11858268 767.75133859 station -name 30.17

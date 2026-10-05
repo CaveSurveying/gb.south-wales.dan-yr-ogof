@@ -7,7 +7,7 @@ encoding  utf-8
 
 scrap scrap1 -scale [-128.0 -128.0 600.440944882 -128.0 0.0 0.0 18.5024 0.0 m]
 
-line floor-step -reverse on -outline in -clip off
+line floor-step -reverse on
   725.5 914.0
   725.5 914.0 714.0 911.5 708.0 911.0
   703.89 910.66 687.0 914.5 687.0 914.5
