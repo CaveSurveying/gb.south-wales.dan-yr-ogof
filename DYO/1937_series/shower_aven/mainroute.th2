@@ -155,8 +155,8 @@ line arrow
 endline
 
 line label -text "<centre>Shower<br>Aven"
-  587.0 392.25
-  629.25 392.75
+  596.0 392.0
+  637.75 393.25
 endline
 
 line wall
