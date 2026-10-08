@@ -449,6 +449,10 @@ input lower_series/lower_series.th
   join cclw2@cloud2:0 ccmw2@cloud3:end
   join cclw1@cloud2:end cclw1@cloud3:0
   
+  join august9SP1@august9 scrap1@august14
+  join scrap70@august3 scrap1a@august3
+  
+  
  
 
 map main -proj plan
