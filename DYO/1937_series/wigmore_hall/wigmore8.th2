@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap scrap1 -scale [-128.0 -128.0 403.59055118110234 -128.0 0.0 0.0 13.5024 0.0 m]
+scrap wigmore8SP1 -scale [-128.0 -128.0 403.59055118110234 -128.0 0.0 0.0 13.5024 0.0 m]
 
 area water
   l11-45-307
@@ -38,6 +38,7 @@ line wall
   smooth off
   83.0 144.0 75.0 164.0 73.0 177.0
   71.0 190.0 78.0 208.0 79.0 215.0
+  smooth off
 endline
 
 line wall
