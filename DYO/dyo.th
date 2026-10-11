@@ -456,6 +456,18 @@ input lower_series/lower_series.th
   join scrap1@black scrap1@black2
   join lakesSP2@pot_sump wigmore2aSP1@wigmore2a
   
+  #######################################
+  #        JOINS FOR AUGUST SERIES		#
+  #######################################
+  join august9SP1@august9 scrap1@august14
+  join scrap70@august3 scrap1a@august3
+  join august3SP4@august3 scrap1@august11
+  join scrap1@august11 august3SP1@august3
+  join august3SP1@august3 scrap1@august10  
+  join lw1@august3:0 lw1@august9:end
+  join rw1@august3:end rw1@august9:0
+  join augustSP1@august scrap1@mudhall2
+  
   
   #######################################
   #        JOINS FOR WIGMORE SERIES		#
@@ -468,16 +480,17 @@ input lower_series/lower_series.th
  
  
   #######################################
-  #        JOINS FOR AUGUST SERIES		#
+  #       JOINS FOR BOULDER SERIES		#
   #######################################
-  join august9SP1@august9 scrap1@august14
-  join scrap70@august3 scrap1a@august3
-  join august3SP4@august3 scrap1@august11
-  join scrap1@august11 august3SP1@august3
-  join august3SP1@august3 scrap1@august10  
-  join lw1@august3:0 lw1@august9:end
-  join rw1@august3:end rw1@august9:0
-  join augustSP1@august scrap1@mudhall2
+  join boulder4SP2@boulder4 scrap167@wigmore
+  
+  
+  #######################################
+  #        JOINS FOR A-P Hall    		#
+  #######################################
+  join scrap1@maindrag scrap167@wigmore
+  join wigSP1@wigmore scrap1@maindrag
+  join scrap1@ashfordprices wigSP1@wigmore
   
   
   #######################################
