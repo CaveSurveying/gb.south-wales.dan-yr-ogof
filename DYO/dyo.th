@@ -483,6 +483,8 @@ input lower_series/lower_series.th
   #       JOINS FOR BOULDER SERIES		#
   #######################################
   join boulder4SP2@boulder4 scrap167@wigmore
+  join lw1@pot_sump:end lw1@boulder:0
+  join rw1@pot_sump:end rw1@boulder:0
   
   
   #######################################

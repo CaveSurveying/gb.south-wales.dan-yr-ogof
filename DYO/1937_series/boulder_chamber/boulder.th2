@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128.00000000000006 -127.99999999999996 1860.2834645688 1348.4724409462
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {997.083464568 1 1.0} {1041.06614173 14.0} boulderTherion_p0.xvi 0 {}
 
 
@@ -90,9 +90,9 @@ line wall
   smooth off
 endline
 
-line wall
-  914.5 732.0
-  915.5 721.0 917.0 698.0 917.0 698.0
+line wall -id lw1
+  915.0 717.0
+  916.0 706.0 917.0 698.0 917.0 698.0
   smooth off
   761.0 687.0
   759.0 656.0
@@ -114,15 +114,15 @@ line wall
   smooth off
 endline
 
-line wall -reverse on
-  1049.0 775.0
-  1050.0 768.0 1050.5 741.0 1043.0 697.0
+line wall -id rw1 -reverse on
+  1042.0 717.0
+  1042.0 691.0 1039.0 683.0 1034.0 662.0
   smooth off
 endline
 
 line wall -id lowereast -reverse on
-  1043.0 697.0
-  1035.0 661.0 1022.0 619.0 1022.0 610.0
+  1034.0 662.0
+  1026.0 626.0 1022.0 619.0 1022.0 610.0
   1022.0 601.0 1021.0 576.0 1021.0 576.0
   smooth off
   1021.0 576.0 1004.0 553.0 992.0 539.0
