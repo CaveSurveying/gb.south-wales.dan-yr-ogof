@@ -399,12 +399,8 @@ input lower_series/lower_series.th
   join gpback@gphall:0 gpback@gpupper:0
   join gpback@gpupper:end lh@nomansland:0
   join far@gpupper:0 far@gphall:0
-  join lh@lr_out_3:0 lh@lr_out_1:end
-  join rh@lr_out_3:0 rh@lr_out_1:end
   join lrout3SP1@lr_out_3 lrout4SP1@lr_out_4
   join right@lr_out_3:end right@lr_out_4:0
-  join rh@lr_out_7:end rh@lr_out_8:0
-  join lh@lr_out_7:end lh@lr_out_8:0
   join sw@boulder4:0 lowside@wigmore:0
   join bpfar@bypass2:end bpfar@lakes_1_to_4:end        ## lake for refactor
   join rw3@bypass2:end bpfarright@lakes_1_to_4:0      ## lake for refactor
@@ -443,6 +439,9 @@ input lower_series/lower_series.th
   
   join hanger1SP1@hanger1 hanger2SP1@hanger2
   
+  #######################################
+  #      JOINS FOR CLOUD CHAMBER		#
+  #######################################
   
   join ccrw1@cloud2:0 ccrw1@cloud3:end
   join ccrw2@cloud2:end ccmw2@cloud3:0
@@ -501,6 +500,16 @@ input lower_series/lower_series.th
   #        JOINS FOR SHOWER AVEN		#
   #######################################
   join mainrtSP1@mainroute scrap1@shower2
+  
+  
+  #######################################
+  #         JOINS LONGER CRAWL		    #
+  #######################################
+  join scrap1@initials scrap1@initials2
+  join scrap1@lr_out_8 scrap1@lr_out_9
+  join rh@lr_out_7:end rh@lr_out_8:0
+  join lh@lr_out_7:end lh@lr_out_8:0
+  join lrout1SP2@lr_out_1 lrout3SP1@lr_out_3
 
 
 map main -proj plan

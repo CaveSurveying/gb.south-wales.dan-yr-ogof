@@ -50,10 +50,16 @@ line ceiling-step
   smooth off
 endline
 
+line wall -reverse on -visibility off
+  151.5 717.5
+  155.0 761.0
+endline
+
 line wall -reverse on -subtype presumed
   195.0 744.0
   195.0 744.0 188.5 738.0 178.0 729.5
   166.69 720.34 159.5 721.0 151.5 717.5
+  smooth off
 endline
 
 line wall -id rh
