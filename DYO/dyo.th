@@ -85,7 +85,7 @@ input 1937_series/mud_hall/mudhall2
 
 # Input files for Boulder Chamber
 input 1937_series/boulder_chamber/boulder
-input 1937_series/boulder_chamber/S_boulder2
+#input 1937_series/boulder_chamber/S_boulder2
 input 1937_series/boulder_chamber/boulder3
 input 1937_series/boulder_chamber/boulder4
 
@@ -231,7 +231,7 @@ input lower_series/lower_series.th
      equate 19.10@lr_in_2 19.10@lr_in_1
      equate 28.0@gphall 20.29@longcrawl
      equate 24.26@lr_out_1 24.26@lr_out_3
-  equate 1000.12@S_boulder2 1.6@august
+ # equate 1000.12@S_boulder2 1.6@august
 #     equate 1000.6@S_boulder2 31.0@mudhall2
      equate 22.12@boulder3 1004.2@S_pearl2
      equate 24.53@lr_out_3 24.53@lr_out_4
@@ -483,6 +483,8 @@ input lower_series/lower_series.th
   #       JOINS FOR BOULDER SERIES		#
   #######################################
   join boulder4SP2@boulder4 scrap167@wigmore
+  join boulder4SP2@boulder4 boulder3SP1@boulder3
+  join boulder4SP1@boulder4 boulderSP2@boulder
   join lw1@pot_sump:end lw1@boulder:0
   join rw1@pot_sump:end rw1@boulder:0
   
@@ -511,7 +513,7 @@ map mainlayer -proj plan
  ashfordprices@ashfordprices
  S_potsump@S_potsump
  S_pearl2@S_pearl2
- S_boulder2@S_boulder2
+ #S_boulder2@S_boulder2
  black2top@black2
  alfrebag@alfrebag
  alf2MP1@alfrebag2

@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128.0 -128.0 2096.5039370100003 2844.5354330738
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {1564.29133858 1 1.0} {2664.21259843 1.0} boulder4Therion_p.xvi 0 {}
 
 
@@ -1135,7 +1135,7 @@ line wall -reverse on
   867.0 1910.98 864.0 1966.0 864.0 1966.0
   smooth off
   864.0 1966.0 861.0 2010.0 861.0 2016.0
-  861.0 2022.0 864.0 2105.0 864.0 2105.0
+  861.0 2022.0 868.0 2102.0 868.0 2102.0
   smooth off
 endline
 

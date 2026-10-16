@@ -26,6 +26,8 @@ input LWS-BB-IN-1_5_2026/LWS-BB-IN-1-5-2026.th
     
     # water section + water section back to big chamber
     equate 11@LWS_JW_DW_2026_05_01 17@LWS_JW_DW_2026_05_01
+	
+	equate 15@LWS_DG_NH_EM_2026_04_26 12@LWS_DG_NH_EM_2026_04_26
   endcentreline
   
   ### WALL JOINS ###
