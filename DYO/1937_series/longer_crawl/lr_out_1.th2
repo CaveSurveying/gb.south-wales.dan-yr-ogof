@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128.0000000000009 -128.0000000000009 572.0 1542.0
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {63.38527559999966 1 1.0} {114.16937008999957 24.0} lr_out_1Therion_p.xvi 0 {}
 
 
@@ -139,7 +139,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -id rw1
   125.0 202.5
   130.5 215.0
   130.5 215.0 145.0 215.5 148.5 217.5
@@ -180,7 +180,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -id lw1
   154.5 267.0
   154.5 267.0 147.97 270.46 139.0 258.5
   136.0 254.5 134.0 248.5 131.5 246.0
