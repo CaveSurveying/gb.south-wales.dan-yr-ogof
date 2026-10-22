@@ -413,6 +413,23 @@ input lower_series/lower_series.th
   join blr@pot_sump:0 blr@black:end              ## lake for refactor
   join bpnear@bypass:end bplower@bypass3:end
   join bll@black:0 blw@black2:0
+
+  join rw2@bypass2:0 rhu@bypass4:0  
+  join rw1@bypass2:end lhu@bypass4:end
+  join rw2@bypass2:end abl@bypass4:end
+  join rw3@bypass2:0 abr@bypass4:0
+  join hanger1SP1@hanger1 hanger2SP1@hanger2
+  
+  #######################################
+  #      JOINS FOR SHOW CAVE 	        #
+  #######################################
+  join lh1@showcaveTopo:0 rh1@showcaveTopo9:end
+  join lh2@showcaveTopo:end lh1@showcaveTopo9:0
+  join rh1@showcaveTopo6:end rh@showcaveTopo10:0
+  join rh2@showcaveTopo6:0 lh@showcaveTopo10:end
+  join rh1@showcaveTopo:end rh1@showcaveTopo6:0
+  join rh2@showcaveTopo:0 lh1@showcaveTopo6:end
+  join rh3@showcaveTopo6:end rh1@showcaveTopo8:0
   join linkr@showcaveTopo:end linkr@showcaveTopo3:0
   join linkl@showcaveTopo:0 linkl@showcaveTopo3:end
   join linkl@showcaveTopo:end linkl@showcaveTopo3:0
@@ -422,28 +439,18 @@ input lower_series/lower_series.th
   join lw@showcaveTopo2:end ew@showcaveTopo:0
   join lhw@showcaveTopo5:end lhw@showcaveTopo:0
   join rhw@showcaveTopo5:0 rhw@showcaveTopo:end
-  join rw2@bypass2:0 rhu@bypass4:0  
-  join rw1@bypass2:end lhu@bypass4:end
-  join rw2@bypass2:end abl@bypass4:end
-  join rw3@bypass2:0 abr@bypass4:0
-  
-  join lh1@showcaveTopo:0 rh1@showcaveTopo9:end
-  join lh2@showcaveTopo:end lh1@showcaveTopo9:0
-  join rh1@showcaveTopo6:end rh@showcaveTopo10:0
-  join rh2@showcaveTopo6:0 lh@showcaveTopo10:end
-  join rh1@showcaveTopo:end rh1@showcaveTopo6:0
-  join rh2@showcaveTopo:0 lh1@showcaveTopo6:end
-  join rh3@showcaveTopo6:end rh1@showcaveTopo8:0
-  
   join rh3@showcaveTopo:end lh2@lakes_1_to_4:end
   join rh1@showcaveTopo:0 lh1@lakes_1_to_4:0
+  join showcavetopo11SP3@showcaveTopo11 showcaveTopo4SP2@showcaveTopo4
+  join showcaveTopo4SP1@showcaveTopo4 barbarians1SP1@barbarians1
+
   
-  join hanger1SP1@hanger1 hanger2SP1@hanger2
+  
   
   #######################################
-  #      JOINS FOR CLOUD CHAMBER    #
+  #      JOINS FOR CLOUD CHAMBER        #
   #######################################
-  
+ 
   join ccrw1@cloud2:0 ccrw1@cloud3:end
   join ccrw2@cloud2:end ccmw2@cloud3:0
   join cclw2@cloud2:0 ccmw2@cloud3:end
