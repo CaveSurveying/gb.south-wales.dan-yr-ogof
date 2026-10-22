@@ -178,7 +178,8 @@ endcenterline
 
 input lower_series/lower_series.th
 
-  centerline
+	centerline
+	
   # new data added
   
   equate 28.8@gphall 1@LWS_2026_04_06.lower_series
@@ -193,7 +194,7 @@ input lower_series/lower_series.th
      equate 1.30@alfrebag 3.0@alfrebag2
      equate 19.10@lr_in_1 27.0@longercrawlside
    
-# Join in re-survey of Shower Aven to Longer Crawl link 
+	# Join in re-survey of Shower Aven to Longer Crawl link 
      equate 19.0@lr_in_1 5.3@link
      equate 19.10@lr_in_1 5.16@link
      equate 5.0@link 20.0@longcrawl
@@ -222,7 +223,6 @@ input lower_series/lower_series.th
      equate 22.7@boulder3 32.5@boulder4
      equate 9.4@wigmore 32.5@boulder4
 #     equate 4.0@boulder2 1.0@wigmore
-###     equate 19.10@lr_out_1 19.10@lr_in_1
      equate 1.0@boulder3 1.0@wigmore
      equate 24.0@lr_out_1 19.14@lr_in_1
      equate 24.1@lr_out_1 24.1@lr_out_2
@@ -245,148 +245,109 @@ input lower_series/lower_series.th
      equate 30.17@lr_out_9 30.17@lr_out_8
 #     equate 1005.42@S_longer 24.48@lr_out_3
 #    equate 1005.20@S_longer 5.20@nearend
-
      equate 24.86@lr_out_7 24.86@lr_out_10
 #     equate 28.19@gphall 1009.23@J_day4
 #     equate 1010.0@J_flabbergasm 1009.14@J_day4
      equate 35.0@corbels 9.26@wigmore
-   
+ 
 
 # Remove mainroute from survey
 
-#   equate 41.0@shower 43.19@shower2
-#   equate 1000.13@S_boulder2 1.8@S_augustright
-#   equate 1000.12@S_boulder2 1.4@S_augustleft
-#   equate 1.1@S_belowwigmore 1.0@wigmore
-
-    equate 41.1@shower 16.29@mainroute        ## temp remove shower stuff
-    equate 43.9@shower2 16.12@mainroute        ## temp remove shower stuff
-  
-  
-    equate 1.1@S_potsump 42.36@pot_sump          ## lake for refactor
-    equate 42.46@pot_sump 1.33@lakes_1_to_4        ## lake for refactor
-    equate 1.0@black 1.33@lakes_1_to_4            ## lake for refactor
-    equate 1.2a@lakes_1_to_4 34.8@redchamber      ## lake for refactor
-
-    equate 1.10@lakes_1_to_4 2.0@bypass          ## lake for refactor
-    equate 2.3@bypass 2.3@bypass2
-    equate 2.30@bypass2 1.14@lakes_1_to_4          ## lake for refactor
-    equate 2.24@bypass2 2.24@bypass3
-    equate 2.9@bypass2 2.9@bypass3
-    equate 2.40@bypass3 2.0@bypass
-    equate 2.24@bypass4 2.24@bypass2
-    equate 2.2@bypass 1.0@bypassbits
-    equate 14.11@bypass4 1.1@bypassbits
-   
-    equate 1.28@lakes_1_to_4 1.0@siphon1          ## lake for refactor
-   
-     equate 1.5@black2  1.5@black
-     equate 1.16@black2 42.31@pot_sump
-     equate 1.13@black2 1.3@black
-     equate 1.5@siphon1 1.5@siphon2
-     equate 41.0@shower 43.0@shower2
-     equate 1.0@august 31.0@mudhall2
-     equate 1.8@august 1.8@august2
-     equate 1.5@august 1.5@august2
-     equate 1.25@august 1.25@august3
-     equate 2.19@august2 2.19@august4
-     equate 2.32@august4 2.32@august5
-     equate 8.11@august5 8.11@august6
-     equate 8.12@august6 8.12@august7
-     equate 1.31@august3 1.31@august8
-     equate 1.35@august3 13.0@august11
-     equate 1.35@august3 12.0@august10
-     equate 1.41@august3 1.41@august9
-     equate 11.1@august9 11.1@august14
-     equate 1.33@august13 1.33@august3
-     equate 1.25@august12 1.25@august3
-     equate 1.27@august12 1.27@august3
-     equate 9.18@wigmore 1.0@maindrag
-     equate 1.0@wigmore 1.0@wigmore1a
-     equate 1.0@wigmore 1.0@wigmore2a
-     equate 1.9@wigmore1a 17.5@august14
-     equate 18.4@wigmore2a 18.4@wigmore3
-     equate 19.20@wigmore3 20.0@wigmore4a
-     equate 20.3@wigmore4a 20.3@wigmore5a
-     equate 1.14@wigmore5a 11.1@wigmore8
-     equate 11.6@wigmore8 1.0@wigmore6a
-     equate 1.0@wigmore9 1.10@wigmore6a
-     equate 1.34@wigmore9 1.34@wigmore10
-   
-    equate 1.7@lakes_1_to_4 2.0@showcaveTopo            ## lake for refactor
-    
-  equate 1.0@cauldron2 2.0@showcaveTopo
-     equate 1.11@cauldron2 4.33@showcaveTopo3
-     equate  2.34@showcaveTopo 2.34@showcaveTopo2
-     equate  3.5@showcaveTopo2 3.5@showcaveTopo3
-   
-     equate  1.0@lakes_1_to_4 4.34@showcaveTopo3          ## lake for refactor
-     
-   equate 2.34@showcaveTopo 5.0@showcaveTopo4
-     equate 2.11@showcaveTopo 2.11@showcaveTopo5
-     equate 2.7@showcaveTopo 2.7@showcaveTopo6
-     equate 7.6@showcaveTopo6 7.6@showcaveTopo8
-     equate 10.12@showcaveTopo8 4.0@shaver1
-     equate 4.4@shaver1 4.4@shaver2
-     equate 6.5@showcaveTopo5 6.5@showcaveTopo9
-     equate 6.18@showcaveTopo9 2.21@showcaveTopo
-     equate 1.0@flabbergasm 28.10@gphall
-     equate 1.16@flabbergasm 28.18@gphall
-     equate 1.14@flabbergasm 1.0@canyon
-     equate 7.2@showcaveTopo6 7.2@showcaveTopo10
-     equate 5.4@showcaveTopo4 5.4@showcaveTopo11
-     equate 5.14@showcaveTopo4 16.25@showcaveTopo11
-     equate 6.18@showcaveTopo12 16.18@showcaveTopo11
-     equate 6.18@showcaveTopo12 6.20@showcaveTopo12
-     equate 1.21@canyon 1.0@monk
-     equate 1.0@monk 2.0@longerend
-     equate 1.16@monk 1.16@longerend2
-     equate 1.16@monk2 1.16@canyon
-     equate 2.0@monk2 2.0@cloud
-     equate 2.0@cloud 2.18@cloud
-     equate 2.11@cloud 2.11@cloud2
-     equate 3.7@cloud3 3.7@cloud2
-     equate 3.8@cloud3 3.8@cloud2
-     equate 3.32@cloud3 3.32@cloud4
-     equate 3.33@cloud3 3.33@cloud4
-     equate 3.14@cloud2 8.0@hanger1
-     equate 8.10@hanger1 8.10@hanger2
-     equate 3.6@longerend2 3.7@longerend2
-     equate 3.9@longerend2 4.11@longerend3
-     equate 26.10@lr_in_4 4.0@longerend3
-     equate 2.1@longerend 1.20@canyon
-     equate 24.87@lr_out_7 5.0@nearend
-     equate 43.19@shower2 5.48@nearend ###
-   endcenterline
-   
-# join first@longcrawl:0 last@mainroute:end -smooth on
-# join strawrh@wigmore:end left@ashfordprices:0
-# join wigstart@wigmore:end nearleft@boulder:end
-# join farleft@boulder:end topleft@boulder3:0
-# join bwest@boulder:0 wigwest@wigmore:end
-# join ll@lr_in_1:end ul@lr_out_1:0
-# join ll@lr_out_2:0 ul@lr_out_1:end
-# join rl@lr_out_2:0 left2@lr_out_1:0
-# join rl@lr_out_2:end left2@lr_out_1:end
-# join ll@lr_out_2:end left3@lr_out_1:0
-# join lr@lr_in_1:0 ur@lr_out_1:0
-# join left3@lr_out_1:end sl@lr_out_1:0
-# join ur@lr_out_1:end sr@lr_out_1:0
-# join sw@boulder4:end sw@wigmore:end
-# join lowereast@boulder:0 lowereast@pot_sump:end      ## lake for refactor
-# join rhw@S_boulder2:0 rhw@S_augustright:end
-# join trw@S_boulder2:0 trw@S_augustright:0        ## lake for refactor
-# join bll@black:end bls@pot_sump:0            ## lake for refactor
-# join lh1@showcaveTopo6:0 lh1@showcaveTopo8:end
-# join lh1@showcaveTopo11:end lh1@showcaveTopo4:0
-# join rh1@showcaveTopo11:0 lh2@showcaveTopo4:end
-# join nrh1@showcaveTopo11:0 lh3@showcaveTopo4:end
-# join nlh1@showcaveTopo11:end lh2@showcaveTopo4:0
-# join wl1@wigmore1a:0 wl1@wigmore:end -smooth on
-# join wr1@wigmore1a:end wr1@wigmore:end -smooth on
-# join syl@siphon2:0 syl@siphon1:end
-
-  
+#   	equate 41.0@shower 43.19@shower2
+#   	equate 1000.13@S_boulder2 1.8@S_augustright
+#   	equate 1000.12@S_boulder2 1.4@S_augustleft
+#   	equate 1.1@S_belowwigmore 1.0@wigmore
+		equate 41.1@shower 16.29@mainroute        ## temp remove shower stuff
+		equate 43.9@shower2 16.12@mainroute        ## temp remove shower stuff
+		equate 1.1@S_potsump 42.36@pot_sump          ## lake for refactor
+		equate 42.46@pot_sump 1.33@lakes_1_to_4        ## lake for refactor
+		equate 1.0@black 1.33@lakes_1_to_4            ## lake for refactor
+		equate 1.2a@lakes_1_to_4 34.8@redchamber      ## lake for refactor
+		equate 1.10@lakes_1_to_4 2.0@bypass          ## lake for refactor
+		equate 2.3@bypass 2.3@bypass2
+		equate 2.30@bypass2 1.14@lakes_1_to_4          ## lake for refactor
+		equate 2.24@bypass2 2.24@bypass3
+		equate 2.9@bypass2 2.9@bypass3
+		equate 2.40@bypass3 2.0@bypass
+		equate 2.24@bypass4 2.24@bypass2
+		equate 2.2@bypass 1.0@bypassbits
+		equate 14.11@bypass4 1.1@bypassbits
+		equate 1.28@lakes_1_to_4 1.0@siphon1          ## lake for refactor
+		equate 1.5@black2  1.5@black
+		equate 1.16@black2 42.31@pot_sump
+		equate 1.13@black2 1.3@black
+		equate 1.5@siphon1 1.5@siphon2
+		equate 41.0@shower 43.0@shower2
+		equate 1.0@august 31.0@mudhall2
+		equate 1.8@august 1.8@august2
+		equate 1.5@august 1.5@august2
+		equate 1.25@august 1.25@august3
+		equate 2.19@august2 2.19@august4
+		equate 2.32@august4 2.32@august5
+		equate 8.11@august5 8.11@august6
+		equate 8.12@august6 8.12@august7
+		equate 1.31@august3 1.31@august8
+		equate 1.35@august3 13.0@august11
+		equate 1.35@august3 12.0@august10
+		equate 1.41@august3 1.41@august9
+		equate 11.1@august9 11.1@august14
+		equate 1.33@august13 1.33@august3
+		equate 1.25@august12 1.25@august3
+		equate 1.27@august12 1.27@august3
+		equate 9.18@wigmore 1.0@maindrag
+		equate 1.0@wigmore 1.0@wigmore1a
+		equate 1.0@wigmore 1.0@wigmore2a
+		equate 1.9@wigmore1a 17.5@august14
+		equate 18.4@wigmore2a 18.4@wigmore3
+		equate 19.20@wigmore3 20.0@wigmore4a
+		equate 20.3@wigmore4a 20.3@wigmore5a
+		equate 1.14@wigmore5a 11.1@wigmore8
+		equate 11.6@wigmore8 1.0@wigmore6a
+		equate 1.0@wigmore9 1.10@wigmore6a
+		equate 1.34@wigmore9 1.34@wigmore10
+		equate 1.7@lakes_1_to_4 2.0@showcaveTopo            ## lake for refactor
+		equate 1.0@cauldron2 2.0@showcaveTopo
+		equate 1.11@cauldron2 4.33@showcaveTopo3
+		equate  2.34@showcaveTopo 2.34@showcaveTopo2
+		equate  3.5@showcaveTopo2 3.5@showcaveTopo3
+		equate  1.0@lakes_1_to_4 4.34@showcaveTopo3          ## lake for refactor
+		equate 2.34@showcaveTopo 5.0@showcaveTopo4
+		equate 2.11@showcaveTopo 2.11@showcaveTopo5
+		equate 2.7@showcaveTopo 2.7@showcaveTopo6
+		equate 7.6@showcaveTopo6 7.6@showcaveTopo8
+		equate 10.12@showcaveTopo8 4.0@shaver1
+		equate 4.4@shaver1 4.4@shaver2
+		equate 6.5@showcaveTopo5 6.5@showcaveTopo9
+		equate 6.18@showcaveTopo9 2.21@showcaveTopo
+		equate 1.0@flabbergasm 28.10@gphall
+		equate 1.16@flabbergasm 28.18@gphall
+		equate 1.14@flabbergasm 1.0@canyon
+		equate 7.2@showcaveTopo6 7.2@showcaveTopo10
+		equate 5.4@showcaveTopo4 5.4@showcaveTopo11
+		equate 5.14@showcaveTopo4 16.25@showcaveTopo11
+		equate 6.18@showcaveTopo12 16.18@showcaveTopo11
+		equate 6.18@showcaveTopo12 6.20@showcaveTopo12
+		equate 1.21@canyon 1.0@monk
+		equate 1.0@monk 2.0@longerend
+		equate 1.16@monk 1.16@longerend2
+		equate 1.16@monk2 1.16@canyon
+		equate 2.0@monk2 2.0@cloud
+		equate 2.0@cloud 2.18@cloud
+		equate 2.11@cloud 2.11@cloud2
+		equate 3.7@cloud3 3.7@cloud2
+		equate 3.8@cloud3 3.8@cloud2
+		equate 3.32@cloud3 3.32@cloud4
+		equate 3.33@cloud3 3.33@cloud4
+		equate 3.14@cloud2 8.0@hanger1
+		equate 8.10@hanger1 8.10@hanger2
+		equate 3.6@longerend2 3.7@longerend2
+		equate 3.9@longerend2 4.11@longerend3
+		equate 26.10@lr_in_4 4.0@longerend3
+		equate 2.1@longerend 1.20@canyon
+		equate 24.87@lr_out_7 5.0@nearend
+		equate 43.19@shower2 5.48@nearend ###
+	endcenterline
+ 
   join link-wall1@boulder3:0 lw1@wigmore1a:end
   join link-wall1@boulder3:end lw2@boulder:end
   join rw1@wigmore1a:0 rw2@boulder3:end
@@ -403,6 +364,20 @@ input lower_series/lower_series.th
   join lrout3SP1@lr_out_3 lrout4SP1@lr_out_4
   join right@lr_out_3:end right@lr_out_4:0
   join sw@boulder4:0 lowside@wigmore:0
+
+  join bpnear@bypass:end bplower@bypass3:end
+  join bll@black:0 blw@black2:0
+
+
+  join hanger1SP1@hanger1 hanger2SP1@hanger2
+  
+  #######################################
+  #      JOINS FOR ENTRANCE LAKES 	    #
+  #######################################
+  join rw2@bypass2:0 rhu@bypass4:0  
+  join rw1@bypass2:end lhu@bypass4:end
+  join rw2@bypass2:end abl@bypass4:end
+  join rw3@bypass2:0 abr@bypass4:0
   join bpfar@bypass2:end bpfar@lakes_1_to_4:end        ## lake for refactor
   join rw3@bypass2:end bpfarright@lakes_1_to_4:0      ## lake for refactor
   join bpnear@bypass:0 bpfarright@lakes_1_to_4:end      ## lake for refactor
@@ -411,14 +386,8 @@ input lower_series/lower_series.th
   join ssl@lakes_1_to_4:0 ssl@siphon1:end          ## lake for refactor
   join ssr@siphon1:0 ssr@lakes_1_to_4:end          ## lake for refactor
   join blr@pot_sump:0 blr@black:end              ## lake for refactor
-  join bpnear@bypass:end bplower@bypass3:end
-  join bll@black:0 blw@black2:0
-
-  join rw2@bypass2:0 rhu@bypass4:0  
-  join rw1@bypass2:end lhu@bypass4:end
-  join rw2@bypass2:end abl@bypass4:end
-  join rw3@bypass2:0 abr@bypass4:0
-  join hanger1SP1@hanger1 hanger2SP1@hanger2
+  
+  
   
   #######################################
   #      JOINS FOR SHOW CAVE 	        #
@@ -445,12 +414,9 @@ input lower_series/lower_series.th
   join showcaveTopo4SP1@showcaveTopo4 barbarians1SP1@barbarians1
 
   
-  
-  
   #######################################
   #      JOINS FOR CLOUD CHAMBER        #
   #######################################
- 
   join ccrw1@cloud2:0 ccrw1@cloud3:end
   join ccrw2@cloud2:end ccmw2@cloud3:0
   join cclw2@cloud2:0 ccmw2@cloud3:end
@@ -497,7 +463,7 @@ input lower_series/lower_series.th
  
  
   #######################################
-  #       JOINS FOR BOULDER SERIES    #
+  #       JOINS FOR BOULDER SERIES      #
   #######################################
   join boulder4SP2@boulder4 scrap167@wigmore
   join boulder4SP2@boulder4 boulder3SP1@boulder3
@@ -507,7 +473,7 @@ input lower_series/lower_series.th
   
   
   #######################################
-  #        JOINS FOR A-P Hall        #
+  #        JOINS FOR A-P Hall           #
   #######################################
   join scrap1@maindrag scrap167@wigmore
   join wigSP1@wigmore scrap1@maindrag
@@ -515,13 +481,13 @@ input lower_series/lower_series.th
   
   
   #######################################
-  #        JOINS FOR SHOWER AVEN    #
+  #        JOINS FOR SHOWER AVEN        #
   #######################################
   join mainrtSP1@mainroute scrap1@shower2
   
   
   #######################################
-  #         JOINS LONGER CRAWL        #
+  #         JOINS LONGER CRAWL          #
   #######################################
   join scrap1@initials scrap1@initials2
   join scrap1@lr_out_8 scrap1@lr_out_9
