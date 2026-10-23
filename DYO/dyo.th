@@ -404,14 +404,21 @@ input lower_series/lower_series.th
   join linkl@showcaveTopo:end linkl@showcaveTopo3:0
   join linkm@showcaveTopo:0 shortl@showcaveTopo3:end
   join lrh@showcaveTopo2:end backr@showcaveTopo:end
-  join rw@showcaveTopo4:end rw@showcaveTopo2:0
-  join lw@showcaveTopo2:end ew@showcaveTopo:0
+  
   join lhw@showcaveTopo5:end lhw@showcaveTopo:0
   join rhw@showcaveTopo5:0 rhw@showcaveTopo:end
   join rh3@showcaveTopo:end lh2@lakes_1_to_4:end
   join rh1@showcaveTopo:0 lh1@lakes_1_to_4:0
+  
+  join ew2@showcaveTopo:end lw@showcaveTopo2:0
+  join rw1@showcaveTopo:end rw2@showcaveTopo4:end
+  join lw1@showcaveTopo4:end ew@showcaveTopo:0
+  join lw@showcaveTopo2:end ew1@showcaveTopo4:end
+  join tw1@showcaveTopo4:end rw@showcaveTopo2:0
+  
   join showcavetopo11SP3@showcaveTopo11 showcaveTopo4SP2@showcaveTopo4
   join showcaveTopo4SP1@showcaveTopo4 barbarians1SP1@barbarians1
+  
 
   
   #######################################

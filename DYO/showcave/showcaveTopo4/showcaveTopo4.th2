@@ -1,7 +1,8 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 5055.0 4868.0
+##XTHERION## xth_me_area_adjust -3728.0 -408.0 5055.0 4868.0
 ##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {208.700787402 1 1.0} {517.598425197 5.0} showcaveTopo4Therion_p.xvi 0 {}
+##XTHERION## xth_me_image_insert {-3283.503937008 1 1.0} {1468.42519685 2.0} ../showcaveTopo/showcaveTopoTherion_p.xvi 0 {}
 
 
 
@@ -200,9 +201,40 @@ line border
   1350.0 1070.0
 endline
 
-line wall -id rw
+line wall -id rw2 -reverse on
+  207.0 247.0
+  207.0 247.0 192.0 246.0 191.0 218.0
+  190.0 190.0 180.0 172.0 179.0 167.0
+  smooth off
+endline
+
+line wall -id ew1 -reverse on
+  102.0 375.0
+  102.0 375.0 88.0 383.0 70.0 387.0
+  smooth off
+endline
+
+line wall -id lw1
+  102.0 375.0
+  102.0 375.0 107.76 285.86 105.0 273.0
+  102.0 259.0 100.0 242.0 101.0 235.0
+  101.51 231.43 98.0 216.0 97.0 204.0
+  smooth off
+endline
+
+line wall -id tw1
+  343.0 411.0
+  342.0 415.0 312.0 481.0 304.0 488.0
+  296.0 495.0 284.0 514.0 273.0 523.0
+  262.0 532.0 240.86 558.3 231.0 560.0
+  202.0 565.0 133.0 568.0 133.0 568.0
+  smooth off
+  79.0 563.0
+endline
+
+line wall
   373.0 333.0
-  220.0 540.0
+  343.0 411.0
 endline
 
 line wall -id lh1
@@ -313,7 +345,7 @@ line section -direction both
   1093.0 905.0
 endline
 
-line wall
+line wall -id rw1
   207.0 247.0
   207.0 247.0 250.0 143.0 257.0 130.0
   264.0 117.0 317.0 20.0 317.0 20.0
