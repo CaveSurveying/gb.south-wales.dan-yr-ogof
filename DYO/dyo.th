@@ -404,20 +404,26 @@ input lower_series/lower_series.th
   join linkl@showcaveTopo:end linkl@showcaveTopo3:0
   join linkm@showcaveTopo:0 shortl@showcaveTopo3:end
   join lrh@showcaveTopo2:end backr@showcaveTopo:end
-  
   join lhw@showcaveTopo5:end lhw@showcaveTopo:0
   join rhw@showcaveTopo5:0 rhw@showcaveTopo:end
-  join rh3@showcaveTopo:end lh2@lakes_1_to_4:end
+  #join rh3@showcaveTopo:end lh2@lakes_1_to_4:end
   join rh1@showcaveTopo:0 lh1@lakes_1_to_4:0
-  
   join ew2@showcaveTopo:end lw@showcaveTopo2:0
   join rw1@showcaveTopo:end rw2@showcaveTopo4:end
   join lw1@showcaveTopo4:end ew@showcaveTopo:0
   join lw@showcaveTopo2:end ew1@showcaveTopo4:end
   join tw1@showcaveTopo4:end rw@showcaveTopo2:0
-  
   join showcavetopo11SP3@showcaveTopo11 showcaveTopo4SP2@showcaveTopo4
   join showcaveTopo4SP1@showcaveTopo4 barbarians1SP1@barbarians1
+  join lh1@showcaveTopo6:0 rw@showcaveTopo8:end
+  join scrap1@shaver1 showcavetopo8SP1@showcaveTopo8
+  join scrap1@shaver1 scrap1@shaver2
+  join scrap1@showcaveTopo5 scrap1@showcaveTopo9
+  join lakes2SP1@lakes_1_to_4 showcavetopo3SP1@showcaveTopo3
+  join rh3@showcaveTopo:end rh4@lakes_1_to_4:end
+  join bpnear@bypass:end handrailup1@lakes_1_to_4
+  join scrap1@bypass3 bypass2SP1@bypass2
+  
   
 
   
@@ -520,7 +526,6 @@ map mainlayer -proj plan
  ashfordprices@ashfordprices
  S_potsump@S_potsump
  S_pearl2@S_pearl2
- #S_boulder2@S_boulder2
  black2top@black2
  alfrebag@alfrebag
  alf2MP1@alfrebag2
@@ -542,8 +547,6 @@ august11@august11
  #boulderMP@boulder
  boulder3@boulder3
  boulder4@boulder4
- #S_augustleft@S_augustleft
- #S_augustright@S_augustright
  corbels@corbels
  longercrawlside@longercrawlside
  lr_in_1@lr_in_1
@@ -561,7 +564,6 @@ august11@august11
  lr_out_9@lr_out_9
  lr_out_10@lr_out_10
  nearend@nearend
- #S_longer@S_longer
  mainroute@mainroute
  shower@shower
  shower2@shower2
@@ -611,7 +613,6 @@ monk2@monk2
  barbarians1MP@barbarians1
  showcaveTopo4MP@showcaveTopo4
  showcaveTopo3@showcaveTopo3
- showcaveTopo9@showcaveTopo9
  showcaveTopo2@showcaveTopo2
  showcaveTopo6@showcaveTopo6
  showcaveTopo10@showcaveTopo10
@@ -623,6 +624,7 @@ monk2@monk2
  showcaveTopo@showcaveTopo
  showcaveTopo11@showcaveTopo11
  showcaveTopo12@showcaveTopo12
+ showcaveTopo9@showcaveTopo9
 endmap
 
 map bypassplan -proj plan

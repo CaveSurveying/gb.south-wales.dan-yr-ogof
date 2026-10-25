@@ -1,7 +1,7 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128.0 -128.0 521.700787402 894.0
 ##XTHERION## xth_me_area_zoom_to 100
-##XTHERION## xth_me_image_insert {185.790236221 1 1.0} {19.681496064 1.10} bypassTherion_p.xvi 0 {}
+##XTHERION## xth_me_image_insert {185.790236221 1 1.0} {19.681496064000044 1.10} bypassTherion_p.xvi 0 {}
 
 
 
@@ -56,7 +56,7 @@ line floor-step -reverse on
   smooth off
 endline
 
-line wall -id bpnear
+line wall -id bpnear -reverse on
   51.0 202.0
   51.0 202.0 43.0 208.0 38.0 219.0
   33.0 230.0 24.0 280.0 24.0 287.0
@@ -78,6 +78,7 @@ line wall -id bpnear
   114.0 488.0 116.0 424.0 117.0 412.0
   118.0 400.0 114.0 316.0 120.0 303.0
   126.0 290.0 124.0 271.0 133.0 264.0
+  smooth off
 endline
 
 point 97.200236221 654.761496064 station -name 2.2

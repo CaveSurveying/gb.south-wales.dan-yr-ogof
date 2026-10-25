@@ -1,7 +1,7 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 483.0 355.5
+##XTHERION## xth_me_area_adjust -149.75 -128.0 483.25 353.25
 ##XTHERION## xth_me_area_zoom_to 400
-##XTHERION## xth_me_image_insert {353.736062992 1 1.0} {60.47 12.0} showcaveTopo10Therion_p.xvi 0 {}
+##XTHERION## xth_me_image_insert {353.736062992 1 1.0} {60.47000000000003 12.0} showcaveTopo10Therion_p.xvi 0 {}
 
 
 
@@ -27,47 +27,15 @@ line wall -id lh
   smooth off
 endline
 
-point 49.5 199.25 label -text Dig
+point -20.5 170.25 dig -scale L
 
-line rock-border -close on
-  27.25 201.5
-  24.0 202.25
-  23.5 199.0
-  26.75 196.5
-  27.25 201.5
-endline
-
-line rock-border -close on
-  29.75 216.25
-  27.0 216.25
-  26.75 213.25
-  30.25 212.5
-  29.75 216.25
-endline
-
-line rock-border -close on
-  30.25 210.25
-  25.75 211.0
-  24.5 207.0
-  27.5 204.75
-  30.25 210.25
-endline
-
-line rock-border -close on
-  36.0 222.0
-  32.0 221.5
-  31.0 218.25
-  34.75 217.25
-  36.0 222.0
-endline
-
-line wall:invisible
+line wall -subtype debris
   48.0 222.5
-  48.0 222.5 42.5 226.5 39.0 226.25
-  35.5 226.0 33.25 225.0 29.5 223.25
-  25.75 221.5 26.5 221.0 24.5 217.0
-  22.5 213.0 21.0 205.75 21.0 202.75
-  21.0 199.75 22.5 196.75 22.5 196.75
+  48.0 222.5 42.0 224.25 39.5 224.25
+  37.0 224.25 31.25 224.25 29.0 221.25
+  26.75 218.25 24.5 215.5 23.75 213.5
+  23.0 211.5 22.75 209.5 23.75 207.0
+  24.75 204.5 22.5 196.75 22.5 196.75
   smooth off
 endline
 
