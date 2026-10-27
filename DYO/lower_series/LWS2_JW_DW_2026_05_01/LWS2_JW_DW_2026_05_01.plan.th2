@@ -12,7 +12,7 @@ endline
 
 line wall -id rh2 -reverse on
   157.0 -231.0
-  157.0 -231.0 122.0 -236.5 123.0 -269.0
+  157.0 -231.0 144.0 -244.0 123.0 -269.0
   smooth off
 endline
 
