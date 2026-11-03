@@ -60,8 +60,8 @@ input LWS_TP_JW_VA_2026_10_31/LWS_TP_JW_VA_2026_10_31.th
   join lh9@LWS_2026_04_06:end  rh4@LWS2_JW_DW_2026_05_01:end
   
   # join rope climb chamber to virgin passage
-  join lh10@LWS_2026_04_06:0 l120--471--801@LWS_DG_NH_EM_2026_04_26:0
-  join lh11@LWS_2026_04_06:end l69--2373--3709@LWS_DG_NH_EM_2026_04_26:end
+  #join lh10@LWS_2026_04_06:0 l120--471--801@LWS_DG_NH_EM_2026_04_26:0
+  #join lh11@LWS_2026_04_06:end l69--2373--3709@LWS_DG_NH_EM_2026_04_26:end
   
   # join presumed tube leading west of top of rope climb 
   join lh1@LWS2_JW_DW_2026_05_01:end rh3@LWS2_2026_04_26:end
