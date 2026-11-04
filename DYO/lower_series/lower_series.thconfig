@@ -6,6 +6,7 @@ layout local
   symbol-set BCRA
   symbol-hide group cave-centreline
   symbol-hide point station
+  colour map-fg altitude
 endlayout
 
 source "lower_series.th"

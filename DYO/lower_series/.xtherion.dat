@@ -8,14 +8,14 @@ xth_cp_data_tree_insert 411 18 2 LWS_DG_NH_EM_2026_04_26 LWS_DG_NH_EM_2026_04_26
 xth_cp_data_tree_insert 493 18 2 LWS2_JW_DW_2026_05_01 LWS2_JW_DW_2026_05_01.lower_series "" "" "length: 28.61m (surface 0.00m, duplicated 0.00m)\nvertical range: 4.54m (from 13@LWS2_JW_DW_2026_05_01.lower_series at 6.26m to 7@LWS2_JW_DW_2026_05_01.lower_series at 1.72m)\nnorth-south range: 8.60m (from 1@LWS2_JW_DW_2026_05_01.lower_series at -8.60m to 6@LWS2_JW_DW_2026_05_01.lower_series at -17.20m)\neast-west range: 10.28m (from 13@LWS2_JW_DW_2026_05_01.lower_series at 12.29m to 1@LWS2_JW_DW_2026_05_01.lower_series at 2.01m)\nnumber of shots: 117\nnumber of stations: 118"
 xth_cp_data_tree_insert 548 18 2 LWS-BB-IN-1-5-2026 LWS-BB-IN-1-5-2026.lower_series "" "" "length: 100.28m (surface 0.00m, duplicated 0.00m)\nvertical range: 8.97m (from 2@LWS-BB-IN-1-5-2026.lower_series at 9.44m to 25@LWS-BB-IN-1-5-2026.lower_series at 0.47m)\nnorth-south range: 45.43m (from 3@LWS-BB-IN-1-5-2026.lower_series at 10.15m to 26@LWS-BB-IN-1-5-2026.lower_series at -35.28m)\neast-west range: 42.63m (from 1@LWS-BB-IN-1-5-2026.lower_series at -28.06m to 26@LWS-BB-IN-1-5-2026.lower_series at -70.69m)\nnumber of shots: 301\nnumber of stations: 302"
 xth_cp_data_tree_insert 669 18 2 LWS_TR_JH_2026_05_01 LWS_TR_JH_2026_05_01.lower_series "" "" "length: 250.50m (surface 0.00m, duplicated 0.00m)\nvertical range: 12.48m (from 44@LWS_TR_JH_2026_05_01.lower_series at 4.15m to 12@LWS_TR_JH_2026_05_01.lower_series at -8.33m)\nnorth-south range: 40.73m (from 1@LWS_TR_JH_2026_05_01.lower_series at -64.14m to 53@LWS_TR_JH_2026_05_01.lower_series at -104.87m)\neast-west range: 87.16m (from 1@LWS_TR_JH_2026_05_01.lower_series at -31.25m to 53@LWS_TR_JH_2026_05_01.lower_series at -118.41m)\nnumber of shots: 285\nnumber of stations: 286"
-xth_cp_data_tree_insert 852 18 2 LWS_TP_JW_VA_2026_10_31 LWS_TP_JW_VA_2026_10_31.lower_series "" "" "length: 296.70m (surface 0.00m, duplicated 0.00m)\nvertical range: 6.64m (from 12@LWS_TP_JW_VA_2026_10_31.lower_series at 0.27m to 33@LWS_TP_JW_VA_2026_10_31.lower_series at -6.37m)\nnorth-south range: 138.04m (from 1@LWS_TP_JW_VA_2026_10_31.lower_series at -85.67m to 49@LWS_TP_JW_VA_2026_10_31.lower_series at -223.71m)\neast-west range: 124.91m (from 1@LWS_TP_JW_VA_2026_10_31.lower_series at -95.20m to 50@LWS_TP_JW_VA_2026_10_31.lower_series at -220.11m)\nnumber of shots: 360\nnumber of stations: 361"
+xth_cp_data_tree_insert 855 18 2 LWS_TP_JW_VA_2026_10_31 LWS_TP_JW_VA_2026_10_31.lower_series "" "" "length: 296.70m (surface 0.00m, duplicated 0.00m)\nvertical range: 6.64m (from 12@LWS_TP_JW_VA_2026_10_31.lower_series at 0.27m to 33@LWS_TP_JW_VA_2026_10_31.lower_series at -6.37m)\nnorth-south range: 138.04m (from 1@LWS_TP_JW_VA_2026_10_31.lower_series at -85.67m to 49@LWS_TP_JW_VA_2026_10_31.lower_series at -223.71m)\neast-west range: 124.91m (from 1@LWS_TP_JW_VA_2026_10_31.lower_series at -95.20m to 50@LWS_TP_JW_VA_2026_10_31.lower_series at -220.11m)\nnumber of shots: 360\nnumber of stations: 361"
 xth_cp_data_tree_create
 set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
 xth_cp_map_tree_insert projection 0 p2 {} 0 none {} {} {}
 xth_cp_map_tree_insert projection 0 p3 {} 0 extended {} {} {}
 xth_cp_map_tree_create
-xth_cp_comp_stat 1008 50
+xth_cp_comp_stat 1008 51
 set xth(th_exit_state) 2
-set xth(th_exit_number) 1793749393
+set xth(th_exit_number) 1793752023
 

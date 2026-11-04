@@ -29,11 +29,11 @@ input LWS_TP_JW_VA_2026_10_31/LWS_TP_JW_VA_2026_10_31.th
     # water section + water section back to big chamber
     equate 11@LWS_JW_DW_2026_05_01 17@LWS_JW_DW_2026_05_01
   
-  equate 15@LWS_DG_NH_EM_2026_04_26 12@LWS_DG_NH_EM_2026_04_26
-  
-  equate 1@LWS_TR_JH_2026_05_01 12@LWS_DG_NH_EM_2026_04_26
-  
-  equate 53@LWS_TR_JH_2026_05_01 8@LWS_TP_JW_VA_2026_10_31
+	equate 15@LWS_DG_NH_EM_2026_04_26 12@LWS_DG_NH_EM_2026_04_26
+	  
+	equate 1@LWS_TR_JH_2026_05_01 12@LWS_DG_NH_EM_2026_04_26
+	  
+	equate 53@LWS_TR_JH_2026_05_01 8@LWS_TP_JW_VA_2026_10_31
   endcentreline
   
   ### WALL JOINS ###
@@ -66,6 +66,7 @@ input LWS_TP_JW_VA_2026_10_31/LWS_TP_JW_VA_2026_10_31.th
   # join presumed tube leading west of top of rope climb 
   join lh1@LWS2_JW_DW_2026_05_01:end rh3@LWS2_2026_04_26:end
   join lh2@LWS2_JW_DW_2026_05_01:end rh4@LWS2_2026_04_26:0
+ 
   
 endsurvey
 
