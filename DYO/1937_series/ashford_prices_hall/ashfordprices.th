@@ -336,8 +336,6 @@ centreline
 endcentreline
 map ashfordprices -proj plan
   scrap1
-  scrap2
-  scrap3
 endmap
 endsurvey
 

@@ -1,7 +1,7 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -994.1417 -2175.2441 1545.32294 1072.88198
-##XTHERION## xth_me_area_zoom_to 200
-##XTHERION## xth_me_image_insert {588.65 1 1.0} {-776.3800000000001 7} LWS_JW_DW_2026_05_01.plan.xvi 0 {}
+##XTHERION## xth_me_area_adjust -994.1417 -2174.7441 1545.32294 1073.38198
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {588.65 1 1.0} {-775.8800000000001 7} LWS_JW_DW_2026_05_01.plan.xvi 0 {}
 
 
 
@@ -32,9 +32,9 @@ line pit -reverse on
   smooth off
 endline
 
-line wall
-  69.5 -71.5
-  69.5 -71.5 125.5 -62.5 136.0 -68.0
+line wall -reverse on
+  92.0 -66.0
+  92.0 -66.0 125.5 -62.5 136.0 -68.0
   146.5 -73.5 174.5 -83.0 189.0 -111.5
   203.5 -140.0 212.0 -173.5 212.0 -173.5
   smooth off
@@ -44,8 +44,8 @@ line wall
 endline
 
 line wall -id rh4
-  70.5 -156.5
-  70.5 -156.5 47.0 -141.5 50.0 -193.0
+  77.5 -160.5
+  77.5 -160.5 67.5 -160.0 61.0 -160.0
   smooth off
 endline
 
@@ -56,15 +56,15 @@ area sump
 endarea
 
 line wall -id rh3 -reverse on
-  39.0 -39.5
-  39.0 -39.5 38.5 -75.04 69.5 -71.5
+  58.5 -66.0
+  58.5 -66.0 90.0 -64.5 94.0 -65.0
   smooth off
 endline
 
 line wall
-  70.5 -156.5
-  70.5 -156.5 76.5 -156.0 92.5 -171.0
-  108.5 -186.0 122.5 -187.5 123.5 -205.0
+  77.5 -160.5
+  77.5 -160.5 85.42 -164.1 96.0 -173.5
+  109.5 -185.5 122.59 -189.02 123.5 -205.0
   124.5 -222.5 115.0 -236.5 116.0 -251.5
   smooth off
 endline
@@ -91,21 +91,100 @@ point 510.66394 -839.7951 water-flow -orientation 151.88074 -scale l
 
 point 698.58136 -1177.8224 water-flow -orientation 150.96442 -scale l
 
-point -104.26505 -301.39252 water-flow -orientation 133.15775 -scale xs
+point -87.26505 -315.39252 water-flow -orientation 133.15775 -scale m
 
-point -5.824528 -364.4757 water-flow -orientation 104.185165 -scale xs
+point -5.824528 -364.4757 water-flow -orientation 104.185165 -scale m
 
-point -184.88164 -288.58792 water-flow -orientation 100.3667 -scale xs
-
-point -155.53523 -295.68326 water-flow -orientation 100.555756 -scale xs
+point -155.53523 -295.68326 water-flow -orientation 100.555756 -scale m
 
 point -356.09973 -427.18842 water-flow -orientation 59.15326 -scale s
 
-point -279.64767 -344.45782 water-flow -orientation 28.53392 -scale s
+point -279.64767 -344.45782 water-flow -orientation 28.53392 -scale m
 
-point 187.20847 49.57234 water-flow -orientation 178.98085 -scale xs
+endscrap
 
-point 198.4204 -132.20934 water-flow -orientation 186.2925 -scale xs
+
+
+scrap lower-section-small -scale [0 0 787.40 787.40 0 0 10.00 10.00 m]
+
+point 187.20847 49.57234 water-flow -orientation 178.98085 -scale m
+
+point 198.4204 -132.20934 water-flow -orientation 186.2925 -scale m
+
+point 210.29062 -110.24679 station -name 23
+
+point 219.51976 98.04111 water-flow -orientation 212.5 -scale xs
+
+point 186.65926 23.61047 station -name 22
+
+point 153.67737 65.104126 station -name 21
+
+point 78.82689 96.38991 station -name 20
+
+point 73.73937 149.27 station -name 19
+
+line wall -id rh1 -reverse on
+  26.5 201.0
+  26.5 201.0 47.68 192.83 59.25 190.75
+  78.5 187.29 77.0 172.5 78.5 166.0
+  80.0 159.5 79.0 153.0 94.0 147.0
+  109.0 141.0 107.0 140.0 116.0 131.0
+  125.0 122.0 129.5 121.5 139.5 118.5
+  149.5 115.5 165.5 113.5 174.0 132.5
+  182.5 151.5 190.93 160.31 195.5 126.5
+  196.75 117.25 197.25 116.0 201.5 107.0
+  205.75 98.0 204.25 92.0 206.0 88.0
+  smooth off
+endline
+
+line wall -subtype presumed
+  206.5 68.5
+  206.5 68.5 229.0 94.25 232.5 112.75
+  smooth off
+endline
+
+line wall -reverse on -subtype presumed
+  206.0 88.0
+  206.0 88.0 216.75 105.25 219.75 113.0
+  smooth off
+endline
+
+line wall -reverse on
+  206.5 68.5
+  206.5 68.5 206.5 52.25 208.75 39.0
+  211.0 25.75 222.0 0.75 222.5 -9.75
+  223.0 -20.25 229.0 -35.0 224.75 -54.0
+  220.5 -73.0 218.25 -89.25 216.75 -106.5
+  smooth off
+endline
+
+line ceiling-step -outline in -clip off
+  185.75 -176.5
+  185.75 -176.5 201.0 -176.5 212.0 -173.5
+  smooth off
+endline
+
+line wall -id rh2
+  25.0 34.5
+  36.0 41.0 42.75 47.25 52.25 56.5
+  61.75 65.75 64.0 82.75 79.75 78.75
+  95.5 74.75 99.75 65.5 102.25 60.5
+  104.75 55.5 112.75 52.0 119.5 49.0
+  126.25 46.0 145.75 46.25 154.0 41.75
+  162.25 37.25 171.25 16.5 170.5 -0.0
+  169.75 -16.5 168.0 -33.5 169.0 -48.0
+  170.0 -62.5 182.5 -98.5 183.0 -112.75
+  183.5 -127.0 185.25 -153.75 185.0 -157.75
+  184.75 -161.75 185.75 -172.5 185.75 -176.5
+  smooth off
+endline
+
+line wall -reverse on
+  216.75 -106.5
+  216.75 -106.5 216.25 -134.25 215.75 -143.0
+  215.25 -151.75 213.5 -165.25 212.0 -173.5
+  smooth off
+endline
 
 endscrap
 
@@ -117,6 +196,7 @@ line slope -reverse on
   -87.0 -205.0
   -87.0 -205.0 -72.0 -220.0 -63.0 -204.0
   orientation 179.5
+  smooth off
   l-size 20.0
 endline
 
@@ -349,83 +429,8 @@ point -206.40208 -270.28906 station -name 17
 
 point -268.4248 -225.70494 station -name 13
 
-point 219.51976 98.04111 water-flow -orientation 212.5 -scale xs
-
 line wall
 endline
-
-line ceiling-step
-  185.75 -176.5
-  185.75 -176.5 201.0 -176.5 212.0 -173.5
-  smooth off
-endline
-
-line wall -id rh2
-  25.0 34.5
-  36.0 41.0 42.75 47.25 52.25 56.5
-  61.75 65.75 64.0 82.75 79.75 78.75
-  95.5 74.75 99.75 65.5 102.25 60.5
-  104.75 55.5 112.75 52.0 119.5 49.0
-  126.25 46.0 145.75 46.25 154.0 41.75
-  162.25 37.25 171.25 16.5 170.5 -0.0
-  169.75 -16.5 168.0 -33.5 169.0 -48.0
-  170.0 -62.5 182.5 -98.5 183.0 -112.75
-  183.5 -127.0 185.25 -153.75 185.0 -157.75
-  184.75 -161.75 185.75 -172.5 185.75 -176.5
-  smooth off
-endline
-
-line wall -reverse on
-  216.75 -106.5
-  216.75 -106.5 216.25 -134.25 215.75 -143.0
-  215.25 -151.75 213.5 -165.25 212.0 -173.5
-  smooth off
-endline
-
-line wall -subtype presumed
-  206.5 68.5
-  206.5 68.5 229.0 94.25 232.5 112.75
-  smooth off
-endline
-
-line wall -reverse on -subtype presumed
-  206.0 88.0
-  206.0 88.0 216.75 105.25 219.75 113.0
-  smooth off
-endline
-
-line wall -reverse on
-  206.5 68.5
-  206.5 68.5 206.5 52.25 208.75 39.0
-  211.0 25.75 222.0 0.75 222.5 -9.75
-  223.0 -20.25 229.0 -35.0 224.75 -54.0
-  220.5 -73.0 218.25 -89.25 216.75 -106.5
-  smooth off
-endline
-
-line wall -id rh1 -reverse on
-  28.5 206.0
-  28.5 206.0 30.0 196.0 59.25 190.75
-  78.5 187.29 77.0 172.5 78.5 166.0
-  80.0 159.5 79.0 153.0 94.0 147.0
-  109.0 141.0 107.0 140.0 116.0 131.0
-  125.0 122.0 129.5 121.5 139.5 118.5
-  149.5 115.5 165.5 113.5 174.0 132.5
-  182.5 151.5 190.93 160.31 195.5 126.5
-  196.75 117.25 197.25 116.0 201.5 107.0
-  205.75 98.0 204.25 92.0 206.0 88.0
-  smooth off
-endline
-
-point 73.73937 149.27 station -name 19
-
-point 78.82689 96.38991 station -name 20
-
-point 153.67737 65.104126 station -name 21
-
-point 186.65926 23.61047 station -name 22
-
-point 210.29062 -110.24679 station -name 23
 
 endscrap
 
