@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128.0 -128.0000000000009 2923.2755905542 1820.913385828599
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {343.34551181999996 1 1.0} {889.766063 25.0} gpupperTherion_p.xvi 0 {}
 
 
@@ -104,6 +104,8 @@ line ceiling-step
   1614.0 1143.0 1606.0 1094.0 1606.0 1094.0
   smooth off
 endline
+
+point 2620.0 1338.0 label -text "Gerard Plattern Hall" -scale XL
 
 line wall -reverse on
   1841.0 1426.5

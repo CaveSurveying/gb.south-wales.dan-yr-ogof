@@ -43,6 +43,12 @@ layout map_layout
   size 48.3 32.9 cm
   symbol-show group cave-centerline
   
+  legend-width 20 cm
+  
+  code metapost
+    fonts_setup(16,20,26,36,48)
+  endcode
+  
   code tex-map
 	\legendtextheadersize={\size[52]}
   endcode

@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -127.99999999999955 1748.0 2912.0
+##XTHERION## xth_me_area_adjust -128.0 -132.0 1748.0 2912.0
 ##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {1513.02968504 1 1.0} {2715.62503938 15.0} AshfordPrices_th_p0.xvi 0 {}
 
@@ -128,7 +128,7 @@ point 909.08968504 641.10503938 station -name 15.8
 
 point 378.02968504 366.81503938 station -name 15.10
 
-point 522.0 558.0 label -text "Ashford Price's Hall"
+point 938.0 1.0 label -text "Ashford Price's Hall" -scale XL
 
 line wall -reverse on
   1107.5 672.0

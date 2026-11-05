@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 4025.6377952798002 8671.3070866234
-##XTHERION## xth_me_area_zoom_to 116
+##XTHERION## xth_me_area_adjust -128.0 -138.3448275862069 4025.6377952798002 8671.3070866234
+##XTHERION## xth_me_area_zoom_to 29
 ##XTHERION## xth_me_image_insert {2951.88976378 1 1.0} {3740.15748032 1.0} WigmoreTherion_p.xvi 0 {}
 
 
@@ -394,12 +394,7 @@ point 2188.22976378 6852.127480319999 station -name 6.0
 
 point 2029.79976378 6741.13748032 station -name 6.1
 
-line label -text "Wigmore Hall"
-  2692.0 5450.0
-  2680.0 5526.0 2680.0 5692.0 2664.0 5796.0
-  2648.0 5900.0 2680.0 6012.0 2632.0 6128.0
-  smooth off
-endline
+point 2193.103448275862 5437.931034482758 label -text "Wigmore<br>Hall" -scale XL
 
 point 2161.0 6831.25 height -value  +2
 

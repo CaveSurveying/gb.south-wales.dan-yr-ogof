@@ -7,6 +7,8 @@ encoding  utf-8
 
 scrap LWS_DG_NH_EM_2026_04_26-plan -projection plan -scale [-4960.63 -5590.55 2755.91 -5590.55 0.0 0.0 196.000116 0.0 m]
 
+point -316.0 -2598.0 label -text "Virgin Passage" -scale XL
+
 line wall
   -57.0 1.0
   -57.0 1.0 -55.0 -33.0 -55.0 -49.0
@@ -686,15 +688,15 @@ point -2592.0908 -3589.9321 station -name 14
 
 point -2201.5283 -3444.9233 station -name 15
 
-point 471.53024 -442.61307 label -text " c1 " -scale m
+point 471.53024 -442.61307 label -text " c1 " -scale m -visibility off
 
-point 619.3625 -889.7904 label -text [Passage continues down holes<br>often sumps] -scale m
+point 619.3625 -889.7904 label -text [Passage continues down holes<br>often sumps] -scale m -visibility off
 
-point -59.760986 -1101.0363 label -text " c2 " -scale m
+point -59.760986 -1101.0363 label -text " c2 " -scale s -visibility off
 
-point -2636.3562 -2910.3333 label -text [Continues up slope] -scale m
+point -2636.3562 -2910.3333 label -text [Continues up slope] -scale m -visibility off
 
-point -2061.3389 -4080.252 label -text [Passage continues towards<br>washing machine] -scale m
+point -2061.3389 -4080.252 label -text [Passage continues towards<br>washing machine] -scale m -visibility off
 
 endscrap
 

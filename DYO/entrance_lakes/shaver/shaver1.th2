@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 799.5 794.25
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_adjust -128.0 -150.5 800.5 795.0
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {19.687165354331 1 1.0} {665.4289763779527 4.0} ../temp/shaver1Therion_p.xvi 0 {}
 ##XTHERION## xth_me_image_insert {19.687165354331 1 1.0} {665.4289763779527 4.0} shaver1Therion_p.xvi 0 {}
 
@@ -88,6 +88,7 @@ line wall
   164.0 556.5 163.5 550.25 164.5 547.0
   165.5 543.75 166.25 536.25 166.75 532.0
   167.25 527.75 166.75 507.0 166.0 501.0
+  smooth off
 endline
 
 line wall
@@ -125,7 +126,7 @@ endscrap
 
 scrap scrap17 -scale [-128.0 -128.0 797.2913385826771 -128.0 0.0 0.0 23.502399999999998 0.0 m]
 
-point 661.0 93.5 label -text "Continues"
+point 576.0 -20.0 label -text "Continues" -scale M
 
 line wall
   555.25 202.5

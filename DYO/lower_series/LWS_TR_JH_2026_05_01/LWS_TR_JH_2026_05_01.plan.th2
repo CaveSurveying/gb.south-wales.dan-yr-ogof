@@ -456,9 +456,9 @@ point -4591.5703 -863.8272 station -name 24
 
 point -4578.677 -1268.1042 station -name 25
 
-point -466.14328 -899.1691 label -text " 3 NP " -scale xs
+point -466.14328 -899.1691 label -text " 3 NP " -scale xs -visibility off
 
-point -1264.9492 -357.2402 label -text " 8 np " -scale xs
+point -1264.9492 -357.2402 label -text " 8 np " -scale xs -visibility off
 
 area water
   l136--3472--2322
@@ -482,23 +482,23 @@ line border -id l136--3472--2322 -close on -visibility off
   -3350.0 -2248.0
 endline
 
-point -1555.8141 -822.6515 label -text " high level cont " -scale xs
+point -1555.8141 -822.6515 label -text " high level cont " -scale xs -visibility off
 
-point -2062.7715 -1467.4357 label -text " wfall " -scale xs
+point -2062.7715 -1467.4357 label -text " wfall " -scale xs -visibility off
 
-point -3395.077 -840.1677 label -text " c3 " -scale m
+point -3395.077 -840.1677 label -text " c3 " -scale m -visibility off
 
-point -2912.6848 -2020.9182 label -text " 19=13 " -scale m
+point -2912.6848 -2020.9182 label -text " 19=13 " -scale m -visibility off
 
-point -2812.834 -1910.6147 label -text " 13 np " -scale m
+point -2812.834 -1910.6147 label -text " 13 np " -scale m -visibility off
 
-point -3921.5867 -1280.0154 label -text " 16np " -scale m
+point -3921.5867 -1280.0154 label -text " 16np " -scale m -visibility off
 
-point -5021.599 -1235.86755 label -text " crawl ends sand choke " -scale xs
+point -5021.599 -1235.86755 label -text " crawl ends sand choke " -scale xs -visibility off
 
-point -6672.7188 -2782.4229 label -text " 53 np " -scale s
+point -6672.7188 -2782.4229 label -text " 53 np " -scale s -visibility off
 
-point -5829.4946 -616.70703 label -text " cobbled crawl " -scale s
+point -5829.4946 -616.70703 label -text " cobbled crawl " -scale s -visibility off
 
 line floor-step -reverse on
   -3570.0 -902.0
@@ -510,13 +510,16 @@ line floor-step -reverse on
   -3518.0 -1148.0
 endline
 
-point -1907.1587 -1623.5413 label -text " Washing Machine  " -scale XL
+line wall
+endline
 
-point -132.37262 -845.0412 label -text " tight and wet sound of water falling beyond " -scale xs
+point -1339.1587 -1575.5413 label -text "Washing Machine  " -scale L
 
-point -770.47107 -184.43393 label -text " gours " -scale xs
+point -132.37262 -845.0412 label -text " tight and wet sound of water falling beyond " -scale xs -visibility off
 
-point -914.0899 -69.033264 label -text " flowstone " -scale xs
+point -770.47107 -184.43393 label -text " gours " -scale xs -visibility off
+
+point -914.0899 -69.033264 label -text " flowstone " -scale xs -visibility off
 
 point -926.01025 -385.98544 entrance -orientation 140.6 -scale m
 
@@ -808,6 +811,24 @@ line border -id l144--6328--2966 -close on -reverse on -visibility off
   -6536.0 -3300.0 -6578.0 -3312.0 -6592.0 -3320.0
   -6606.0 -3328.0 -6712.0 -3180.0 -6712.0 -3180.0
   smooth off
+endline
+
+area water
+  l139--5236--78
+endarea
+
+line border -id l139--5236--78 -close on
+  -5336.0 30.0
+  -5344.0 28.0 -5396.0 -6.0 -5396.0 -6.0
+  smooth off
+  -5420.0 -102.0
+  -5418.0 -156.0
+  -5418.0 -156.0 -5368.0 -164.0 -5342.0 -168.0
+  -5316.0 -172.0 -5288.0 -178.0 -5274.0 -176.0
+  -5260.0 -174.0 -5244.0 -180.0 -5242.0 -158.0
+  -5240.0 -136.0 -5230.0 -114.0 -5234.0 -96.0
+  -5238.0 -78.0 -5236.0 -50.0 -5248.0 -40.0
+  -5260.0 -30.0 -5328.0 32.0 -5336.0 30.0
 endline
 
 line wall
