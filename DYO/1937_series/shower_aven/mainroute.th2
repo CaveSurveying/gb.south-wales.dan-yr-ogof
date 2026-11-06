@@ -147,7 +147,7 @@ point 174.5 379.25 station
 line label -text "<centre>Shower<br>Aven"
 endline
 
-point 94.25 431.5 label -text "Cattle Trough"
+point 66.75 425.0 label -text "Cattle Trough" -scale xs
 
 line arrow
   95.25 404.25
@@ -285,6 +285,12 @@ endscrap
 
 
 
+scrap scrap51 -scale [-128.0 -128.0 1214.61417323 -128.0 0.0 0.0 34.1024 0.0 m]
+
+endscrap
+
+
+
 scrap scrap40 -scale [-128.0 -128.0 1214.61417323 -128.0 0.0 0.0 34.1024 0.0 m]
 
 line pit
@@ -293,7 +299,7 @@ line pit
   smooth off
 endline
 
-line wall -reverse on
+line wall -id curw -reverse on
   61.25 211.0
   61.25 211.0 54.25 213.5 51.0 212.5
   47.75 211.5 45.75 204.75 47.25 203.0
@@ -309,7 +315,7 @@ endline
 
 point 60.97236221 182.31291339 station -name 16.23
 
-line wall -reverse on
+line wall -id culw -reverse on
   4.75 130.0
   4.75 130.0 7.94 143.88 13.0 154.0
   15.0 158.0 19.0 171.0 19.75 178.0

@@ -1,0 +1,68 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -173.4760000000001 -183.31599999999997 1637.639 978.194
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {1371.85 1 1.0} {712.4 16.0} shower3Therion_p.xvi 0 {}
+
+
+
+scrap scrap1 -projection plan -scale [-128.0 -128.0 1472.04000000 -128.0 0.0 0.0 40.6410 0.0 m]
+
+point 1371.85000000 712.40000000 station -name 6.0
+
+point 1195.86000000 704.53000000 station -name 6.1
+
+point 1083.85000000 658.46000000 station -name 6.2
+
+point 993.70000000 679.72000000 station -name 6.3
+
+point 986.61000000 587.79000000 station -name 6.4
+
+point 980.51000000 669.09000000 station -name 6.5
+
+point 908.46000000 574.80000000 station -name 6.6
+
+point 824.01000000 449.21000000 station -name 6.7
+
+point 794.29000000 484.05000000 station -name 6.8
+
+point 692.52000000 448.62000000 station -name 6.9
+
+point 687.40000000 354.13000000 station -name 6.10
+
+point 541.93000000 347.83000000 station -name 6.11
+
+point 555.90000000 353.15000000 station -name 6.12
+
+point 516.93000000 336.22000000 station -name 6.13
+
+point 414.96000000 353.35000000 station -name 6.14
+
+point 380.51000000 407.09000000 station -name 6.15
+
+point 321.45000000 372.64000000 station -name 6.16
+
+point 289.17000000 344.68000000 station -name 6.17
+
+point 242.91000000 415.55000000 station -name 6.18
+
+point 234.84000000 394.68000000 station -name 6.19
+
+point 240.35000000 291.73000000 station -name 6.20
+
+point 222.04000000 283.66000000 station -name 6.21
+
+point 230.71000000 234.84000000 station -name 6.22
+
+point 175.19000000 181.69000000 station -name 6.23
+
+point 127.36000000 144.68000000 station -name 6.24
+
+point 109.45000000 154.53000000 station -name 6.25
+
+point 111.41000000 104.92000000 station -name 6.26
+
+point 109.84000000 108.86000000 station -name 6.27
+
+endscrap
+
+

@@ -95,14 +95,14 @@ endscrap
 
 scrap lrout1SP3 -projection plan -scale [-128.0 -128.0 521.700787402 -128.0 0.0 0.0 16.5024 0.0 m]
 
-point 197.0 535.5 label -text "Boulder-filled tube in roof"
+point 197.0 535.5 label -text "Boulder-filled tube in roof" -visibility off
 
-line arrow
+line arrow -visibility off
   198.0 511.0
   336.0 443.5
 endline
 
-line pit-chimney -close on
+line ceiling-step -close on
   355.0 444.5
   355.0 444.5 357.0 440.5 354.0 439.0
   351.0 437.5 348.5 436.0 346.0 436.0
@@ -137,6 +137,11 @@ line wall
   361.5 515.0 359.0 538.0 359.0 543.0
   359.0 548.0 355.0 570.0 355.0 570.0
   smooth off
+endline
+
+line pit -reverse on -clip off -outline out
+  106.0 208.5
+  106.0 208.5 117.0 211.75 125.0 202.5
 endline
 
 line wall -id rw1

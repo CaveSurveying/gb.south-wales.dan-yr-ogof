@@ -1,5 +1,6 @@
 encoding  utf-8
 survey shower3
+input shower3.th2
 centreline
   date 2013.08.25
   team "Mike McCombe"
@@ -296,8 +297,8 @@ centreline
   6.27 6.26 159.03 -80.69 1.353
   6.1 6.28 87.50 -0.37 8.959
 endcentreline
-#map shower3 -proj plan
-#  scrap1
-#endmap
+map shower3 -proj plan
+  scrap1
+endmap
 endsurvey
 

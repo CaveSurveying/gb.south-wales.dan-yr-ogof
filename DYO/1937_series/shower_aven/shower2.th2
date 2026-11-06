@@ -74,9 +74,9 @@ line wall -reverse on -subtype blocks
   smooth off
 endline
 
-line wall -reverse on
-  524.0 213.0
-  524.0 213.0 512.0 224.5 498.5 237.5
+line wall -id w1 -reverse on
+  540.0 202.5
+  540.0 202.5 512.0 224.5 498.5 237.5
   485.0 250.5 465.5 274.0 462.5 280.0
   459.5 286.0 439.0 320.0 437.0 323.0
   435.0 326.0 422.5 340.5 422.5 340.5
@@ -91,7 +91,7 @@ line wall -reverse on
   smooth off
 endline
 
-line wall -reverse on
+line wall -id w2 -reverse on
   759.0 172.0
   759.0 172.0 739.0 177.0 732.5 182.0
   726.0 187.0 721.0 200.5 705.0 200.5
@@ -118,7 +118,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -id w3
   968.0 220.0
   959.2 221.96 921.5 220.0 917.0 219.0
   912.5 218.0 883.0 220.5 876.5 217.5
@@ -147,21 +147,17 @@ line wall -close on -reverse on
   smooth off
 endline
 
-line wall
-  1094.0 271.5
-  1094.0 271.5 1107.46 280.63 1110.5 280.5
+line wall -id w4
+  1013.0 211.5
+  1013.0 211.5 1054.5 248.5 1060.5 251.5
+  1066.5 254.5 1083.0 258.0 1083.0 258.0
+  smooth off
+  1083.0 258.0 1087.5 268.5 1091.0 271.0
+  1094.5 273.5 1102.5 278.0 1106.5 279.5
   smooth off
 endline
 
-line wall
-  1012.0 211.5
-  1017.5 217.0 1054.5 249.5 1060.5 251.5
-  1066.5 253.5 1083.0 258.0 1083.0 258.0
-  smooth off
-  1094.0 271.5
-endline
-
-line wall -reverse on
+line wall -id w6 -reverse on
   1033.5 473.0
   1033.5 473.0 1077.0 467.5 1089.5 467.5
   1102.0 467.5 1166.5 468.0 1160.5 506.5
@@ -176,7 +172,7 @@ line wall -reverse on
   1281.0 496.0
 endline
 
-line wall
+line wall -id w5
   356.5 385.0
   360.5 376.0
   360.5 376.0 379.5 378.0 383.0 378.0

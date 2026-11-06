@@ -497,7 +497,10 @@ input lower_series/lower_series.th
   #        JOINS FOR SHOWER AVEN        #
   #######################################
   join mainrtSP1@mainroute scrap1@shower2
-  
+  join w1@shower2:0 sh-aven-part1@shower:end
+  join w2@shower2:end sh-aven-part1@shower:0
+  join w2@shower2:0 lh2@shower:0
+  join w3@shower2:end rh2@shower:0
   
   #######################################
   #         JOINS LONGER CRAWL          #
@@ -515,6 +518,15 @@ input lower_series/lower_series.th
   join lrin4SP1@lr_in_4 scrap1@longerend3
   join scrap1@longerend3 scrap1@longerend2
   join scrap1@longerend2 monkSP1@monk
+  
+  
+  #######################################
+  #           JOINS LONG CRAWL          #
+  #######################################
+  join culw@mainroute:0 first@longcrawl:0
+  join curw@mainroute:end second@longcrawl:0
+  join linktop@link:end lw1@lr_in_1:end
+  join linktop@link:0 rw1@lr_in_1:0
 
 map main -proj plan
   mainlayer

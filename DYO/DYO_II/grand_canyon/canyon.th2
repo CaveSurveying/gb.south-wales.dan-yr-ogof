@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128.0 -128.0 4537.4488189024 5009.8897637848
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {3572.0472441 1 1.0} {4574.80314961 1.0} canyonTherion_p.xvi 0 {}
 
 
@@ -303,6 +303,8 @@ point 1964.0 2982.0 soda-straw
 point 1972.0 2942.0 soda-straw
 
 point 1984.0 2902.0 soda-straw
+
+point 2804.0 4492.0 label -text "Grand Canyon" -scale XL
 
 line wall
   3602.0 3927.0

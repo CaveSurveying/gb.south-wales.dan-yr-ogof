@@ -27,7 +27,7 @@ line wall
   189.0 210.5
 endline
 
-line wall -reverse on
+line wall -id second -reverse on
   376.5 631.0
   376.5 631.0 376.75 632.75 377.5 622.5
   smooth off
