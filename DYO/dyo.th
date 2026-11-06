@@ -99,10 +99,10 @@ input 1937_series/ashford_prices_hall/maindrag
 
 
 # Input files for shower aven and start of long crawl
-input 1937_series/shower_aven/mainroute
 input 1937_series/shower_aven/shower
 input 1937_series/shower_aven/shower2
 input 1937_series/shower_aven/shower3
+input 1937_series/shower_aven/mainroute    # reference only: tied at 16.0 for drawing the Ashford Price's end
 input 1937_series/long_crawl/longcrawl
 
 
@@ -197,9 +197,10 @@ input lower_series/lower_series.th
 	# Join in re-survey of Shower Aven to Longer Crawl link 
      equate 19.0@lr_in_1 5.3@link
      equate 19.10@lr_in_1 5.16@link
-     equate 5.0@link 20.0@longcrawl
-     equate 5.0@link 6.27@shower3
-     equate 6.0@shower3 16.0@mainroute ###
+#    equate 5.0@link 20.0@longcrawl
+     equate 16.23@link 20.0@longcrawl   # longcrawl 20.0 was tied to old mainroute 16.23
+#    equate 5.0@link 6.27@shower3
+     equate 16.23@link 6.27@shower3     # link starts at old mainroute 16.23, 1.8 m ESE of 5.0@link
      #equate 43.19@shower2 5.48@nearend        #### ADDED FOR DEBUG!
      equate 5.48@nearend 6.8@shower3        #### REMOVING FOR DEBUG!
      equate 6.0@shower3 6.28@shower3
@@ -207,8 +208,8 @@ input lower_series/lower_series.th
 # End of re-survey
      
      equate  6.0@shower3 15.6@ashfordprices
-#    equate  19.0@lr_in_1 16.28@mainroute
-     equate  20.0@longcrawl 16.23@mainroute       #### REMOVING FOR DEBUG!
+     equate  16.0@mainroute 6.0@shower3     # tie at Ashford Price's end
+     equate  16.16@mainroute 43.15@shower2  # second tie for mainroute
      equate  21.0@nomansland 20.29@longcrawl
      equate 12.8@solstice 15.8@ashfordprices
      equate  9.22@wigmore 15.0@ashfordprices
@@ -251,14 +252,10 @@ input lower_series/lower_series.th
      equate 35.0@corbels 9.26@wigmore
  
 
-# Remove mainroute from survey
-
 #   	equate 41.0@shower 43.19@shower2
 #   	equate 1000.13@S_boulder2 1.8@S_augustright
 #   	equate 1000.12@S_boulder2 1.4@S_augustleft
 #   	equate 1.1@S_belowwigmore 1.0@wigmore
-		equate 41.1@shower 16.29@mainroute        ## temp remove shower stuff
-		equate 43.9@shower2 16.12@mainroute        ## temp remove shower stuff
 		equate 1.1@S_potsump 42.36@pot_sump          ## lake for refactor
 		equate 42.46@pot_sump 1.33@lakes_1_to_4        ## lake for refactor
 		equate 1.0@black 1.33@lakes_1_to_4            ## lake for refactor
@@ -345,7 +342,13 @@ input lower_series/lower_series.th
 		equate 26.10@lr_in_4 4.0@longerend3
 		equate 2.1@longerend 1.20@canyon
 		equate 24.87@lr_out_7 5.0@nearend
-		equate 43.19@shower2 5.48@nearend ###
+#		equate 43.19@shower2 5.48@nearend ###   replaced by connecting leg below
+		# Tie shower2 to shower3: offset of 43.19@shower2 -> 6.8@shower3 taken from the
+		# old mainroute survey (shower+shower2 fitted on 16.12 & 16.29, shower3 on 16.0 & 16.23).
+		# Bearing is in shower3's frame, so it carries shower3's date for the same declination.
+		date 2013.08.25
+		data normal from to length compass clino
+		43.19@shower2 6.8@shower3 0.95 144.0 -1.2
 	endcenterline
  
   join link-wall1@boulder3:0 lw1@wigmore1a:end
@@ -354,9 +357,9 @@ input lower_series/lower_series.th
   join lw1@boulder3:0 lw2@boulder:0
   join rw1@boulder3:0 rw0@boulder4:0
   
+  join rh@nomansland:0 rh@gpupper:0
   join st@ashfordprices:0 st@mainroute:end -smooth on
   join l6-38-306@ashfordprices:end  ap@mainroute:end
-  join rh@nomansland:0 rh@gpupper:0
   join strawlh@wigmore:0 st@ashfordprices:end
   join gpback@gphall:0 gpback@gpupper:0
   join gpback@gpupper:end lh@nomansland:0
@@ -496,7 +499,6 @@ input lower_series/lower_series.th
   #######################################
   #        JOINS FOR SHOWER AVEN        #
   #######################################
-  join mainrtSP1@mainroute scrap1@shower2
   join w1@shower2:0 sh-aven-part1@shower:end
   join w2@shower2:end sh-aven-part1@shower:0
   join w2@shower2:0 lh2@shower:0
@@ -523,8 +525,7 @@ input lower_series/lower_series.th
   #######################################
   #           JOINS LONG CRAWL          #
   #######################################
-  join culw@mainroute:0 first@longcrawl:0
-  join curw@mainroute:end second@longcrawl:0
+  join scrap2@link scrap1@longcrawl
   join linktop@link:end lw1@lr_in_1:end
   join linktop@link:0 rw1@lr_in_1:0
 
@@ -576,9 +577,10 @@ august11@august11
  lr_out_9@lr_out_9
  lr_out_10@lr_out_10
  nearend@nearend
- mainroute@mainroute
  shower@shower
  shower2@shower2
+ shower3@shower3
+ mainroute@mainroute
  mudhall2@mudhall2
  longcrawl@longcrawl
  gphall@gphall
