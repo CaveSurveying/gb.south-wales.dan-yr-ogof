@@ -53,6 +53,22 @@ layout map_layout
 	\legendtextheadersize={\size[52]}
   endcode
   
+   code metapost
+		% Redefine standard water areas
+		def a_water (expr P) =
+		  T:=identity;
+		  thclean P;
+		  thfill P withcolor (0.8, 0.9, 1.0); % Lighter blue RGB
+		enddef;
+
+		% Redefine sump areas
+		def a_sump (expr P) =
+		  T:=identity;
+		  thclean P;
+		  thfill P withcolor (0.3, 0.5, 0.8); % Darker blue RGB
+		enddef;
+	endcode
+  
   code metapost
 	def s_northarrow (expr rot) =
 	  scale_value = 0.5;
