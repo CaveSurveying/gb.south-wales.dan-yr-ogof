@@ -8,9 +8,12 @@ input "LWS_THIXOTROPIC_DW_DG_LK_2026_11_08.ee.th2"
 
 centreline
 date 2026.11.08
-instrument insts "SAP6_AA"
-
 explo-date 2026.11.08
+
+instrument insts "SAP6_AA"
+team "Lainya Knopik" notes
+team "Dylan Wase" instruments
+team "Dan Gorst" dog
 
 data normal from to tape compass clino ignoreall
 1	-	4.962	337.52	22.05	
