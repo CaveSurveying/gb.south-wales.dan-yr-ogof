@@ -81,23 +81,23 @@ line ceiling-step -id l31--1256--1584 -close on
   -1256.0 -1573.5 -1253.5 -1597.5 -1256.0 -1607.0
 endline
 
-point -961.0 -708.0 label -text "c1" -scale xs
+point -961.0 -708.0 label -text "c1" -scale xs -visibility off
 
-point -864.0 -964.0 label -text "passage continues" -scale xs
+point -864.0 -964.0 label -text "passage continues" -scale xs -visibility off
 
-point -1412.912 -1545.6011 label -text " chimney " -scale xs
+point -1412.912 -1545.6011 label -text " chimney " -scale xs -visibility off
 
-point -1129.1968 -2014.9844 label -text " chimney c3 " -scale xs
+point -1129.1968 -2014.9844 label -text " chimney c3 " -scale xs -visibility off
 
 point -656.0 427.0 label -text "tt" -scale xs
 
-point -1614.0 -1442.0 label -text "passage continues" -scale xs
+point -1614.0 -1442.0 label -text "passage continues" -scale xs -visibility off
 
-point -3921.0 -3424.0 label -text "passage continues" -scale xs
+point -3921.0 -3424.0 label -text "passage continues" -scale xs -visibility off
 
-point -2586.8918 -2908.4844 label -text "raspberry mud along<br>this passage" -scale xs
+point -2586.8918 -2908.4844 label -text "raspberry mud along<br>this passage" -scale xs -visibility off
 
-point -2006.1293 -3083.908 label -text " c3 to higher phreatic<br>level (rig a handline) " -scale xs
+point -2006.1293 -3083.908 label -text " c3 to higher phreatic<br>level (rig a handline) " -scale xs -visibility off
 
 area pebbles
   l160--2569--3019
@@ -263,6 +263,7 @@ line wall
   -2393.0 -2960.0 -2486.5 -3016.5 -2499.5 -3025.5
   -2512.5 -3034.5 -2539.5 -3059.5 -2563.0 -3076.0
   -2586.5 -3092.5 -2652.5 -3102.5 -2667.5 -3112.5
+  smooth off
 endline
 
 line wall -close on -visibility on
@@ -560,7 +561,7 @@ point -3353.9482 -3392.4683 station -name 26
 
 point -3326.0 -3587.5 section -scrap LWS-BB-IN-1-5-2026-xs8
 
-area clay
+area water
   l157--2867--3145
 endarea
 
@@ -573,6 +574,7 @@ line wall
   -3162.5 -3361.0 -3028.0 -3360.5 -2973.5 -3355.0
   -2919.0 -3349.5 -2806.0 -3328.5 -2765.0 -3324.5
   -2724.0 -3320.5 -2651.5 -3326.5 -2631.0 -3324.0
+  smooth off
 endline
 
 line wall
