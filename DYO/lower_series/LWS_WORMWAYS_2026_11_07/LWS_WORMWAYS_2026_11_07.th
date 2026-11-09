@@ -18,6 +18,7 @@ team "James Waite" dog
 equate 19 15
 equate 6 11
 equate 29 38 
+equate 17 13
 
 data normal from to tape compass clino ignoreall
 1	-	0.186	82.12	26.09	

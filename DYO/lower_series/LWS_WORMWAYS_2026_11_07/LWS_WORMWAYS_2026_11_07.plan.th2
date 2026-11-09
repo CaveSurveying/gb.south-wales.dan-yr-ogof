@@ -107,7 +107,7 @@ point 2031.9872 5576.589 section -scrap LWS_WORMWAYS_2026_11_07PX39
 
 point 4148.208 5256.3433 station -name 44
 
-point -430.89417 3506.2363 label -text " horrible mud " -scale s
+point -430.89417 3506.2363 label -text " horrible mud " -scale s -visibility off
 
 point 4241.8516 5803.0015 label -text " red nail polish, 25 " -scale xs
 
