@@ -1,0 +1,97 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -1653.54 -1496.06 11732.28 1259.84
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "LWS_WORMWAYS_2026_11_07.ee.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap LWS_WORMWAYS_2026_11_07-ee -projection extended
+
+point 0.0 0.0 station -name 1
+
+point 541.0915 31.27575 station -name 2
+
+point 944.1369 47.843452 station -name 3
+
+point 1444.2982 78.537224 station -name 4
+
+point 1828.4862 81.485466 station -name 5
+
+point 2129.9812 116.91573 station -name 6
+
+point 2487.705 139.32347 station -name 7
+
+point 3207.1577 203.50375 station -name 8
+
+point 3417.324 189.14195 station -name 9
+
+point 4563.601 119.79824 station -name 10
+
+point 4796.6953 153.2722 station -name 11
+
+point 3737.8838 217.49034 station -name 12
+
+point 4246.3594 216.14766 station -name 13
+
+point 4509.29 271.97748 station -name 14
+
+point 4745.4663 291.81265 station -name 15
+
+point 5016.852 274.0187 station -name 16
+
+point 5255.6406 226.53201 station -name 17
+
+point 5357.9736 297.3074 station -name 18
+
+point 5607.256 299.429 station -name 19
+
+point 5603.135 313.09485 station -name 20
+
+point 5964.391 293.54327 station -name 21
+
+point 6242.2036 322.75342 station -name 22
+
+point 6306.184 123.123146 station -name 23
+
+point 7654.345 114.45133 station -name 24
+
+point 8480.069 159.07751 station -name 25
+
+point 9325.099 187.63112 station -name 26
+
+point 9950.101 204.23236 station -name 27
+
+point 10059.941 184.78622 station -name 28
+
+point 6028.3066 342.4801 station -name 29
+
+point 3983.5867 202.79771 station -name 30
+
+point 4523.2847 194.36572 station -name 31
+
+point 4692.752 233.7749 station -name 32
+
+point 4891.311 252.31148 station -name 33
+
+point 5172.2803 292.33716 station -name 34
+
+point 5768.342 312.54645 station -name 35
+
+point 5930.0967 334.8205 station -name 36
+
+point 6181.049 362.19196 station -name 37
+
+point 6734.3735 340.40103 station -name 38
+
+point 6920.738 377.25626 station -name 39
+
+point 7448.8154 391.43637 station -name 40
+
+point 7985.591 398.68555 station -name 41
+
+point 8752.41 396.07376 station -name 42
+
+point 9176.982 402.40585 station -name 43
+
+point 9185.009 421.06793 station -name 44
+
+endscrap

@@ -1,0 +1,17 @@
+encoding  utf-8
+# Created with SexyTopo 1.14.0 on 2026-11-08
+
+
+layout local
+  debug off
+  # map-header 0 0 off
+  # symbol-hide group cave-centreline
+endlayout
+
+source "LWS_WORMWAYS_2026_11_07.th"
+
+export model -fmt survex -o "LWS_WORMWAYS_2026_11_07-th.3d"
+
+export map -proj plan -layout local -o "LWS_WORMWAYS_2026_11_07-plan.pdf"
+
+export map -proj extended -layout local -o "LWS_WORMWAYS_2026_11_07-ee.pdf"

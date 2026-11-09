@@ -6,9 +6,10 @@ input LWS_JW_DW_2026_05_01/LWS_JW_DW_2026_05_01.th
 input LWS_2026_04_06/LWS_2026_04_06.th
 input LWS_DG_NH_EM_2026_04_26/LWS_DG_NH_EM_2026_04_26.th
 input LWS2_JW_DW_2026_05_01/LWS2_JW_DW_2026_05_01.th
-input LWS-BB-IN-1_5_2026/LWS-BB-IN-1-5-2026.th
+input LWS-BB-IN-1-5-2026/LWS-BB-IN-1-5-2026.th
 input LWS_TR_JH_2026_05_01/LWS_TR_JH_2026_05_01.th
 input LWS_TP_JW_VA_2026_10_31/LWS_TP_JW_VA_2026_10_31.th
+input LWS_WORMWAYS_2026_11_07/LWS_WORMWAYS_2026_11_07.th
 
 ### CONNECT CENTRELINE ###
 
@@ -28,18 +29,21 @@ input LWS_TP_JW_VA_2026_10_31/LWS_TP_JW_VA_2026_10_31.th
     
     # water section + water section back to big chamber
     equate 11@LWS_JW_DW_2026_05_01 17@LWS_JW_DW_2026_05_01
-	equate 15@LWS_DG_NH_EM_2026_04_26 12@LWS_DG_NH_EM_2026_04_26
-	equate 1@LWS_TR_JH_2026_05_01 12@LWS_DG_NH_EM_2026_04_26
-	equate 53@LWS_TR_JH_2026_05_01 8@LWS_TP_JW_VA_2026_10_31
-	equate 28@LWS_2026_04_06 6@LWS2_2026_04_26
-	
-	# Loop closures in LWS_LWS_TR_JH_2026_05_01
-	equate 13@LWS_TR_JH_2026_05_01 19@LWS_TR_JH_2026_05_01
-	equate 26@LWS_TR_JH_2026_05_01 35@LWS_TR_JH_2026_05_01
-	
-	# Loop closures in LWS_TP_JW_VA_2026_10_31
-	equate 21@LWS_TP_JW_VA_2026_10_31 8@LWS_TP_JW_VA_2026_10_31
-	
+  equate 15@LWS_DG_NH_EM_2026_04_26 12@LWS_DG_NH_EM_2026_04_26
+  equate 1@LWS_TR_JH_2026_05_01 12@LWS_DG_NH_EM_2026_04_26
+  equate 53@LWS_TR_JH_2026_05_01 8@LWS_TP_JW_VA_2026_10_31
+  equate 28@LWS_2026_04_06 6@LWS2_2026_04_26
+  
+  # Loop closures in LWS_LWS_TR_JH_2026_05_01
+  equate 13@LWS_TR_JH_2026_05_01 19@LWS_TR_JH_2026_05_01
+  equate 26@LWS_TR_JH_2026_05_01 35@LWS_TR_JH_2026_05_01
+  
+  # Loop closures in LWS_TP_JW_VA_2026_10_31
+  equate 21@LWS_TP_JW_VA_2026_10_31 8@LWS_TP_JW_VA_2026_10_31
+  
+  equate 28@LWS_WORMWAYS_2026_11_07 25@LWS-BB-IN-1-5-2026
+  equate 1@LWS_WORMWAYS_2026_11_07 10@LWS_TP_JW_VA_2026_10_31
+  
   endcentreline
   
   ### WALL JOINS ###
@@ -69,6 +73,9 @@ input LWS_TP_JW_VA_2026_10_31/LWS_TP_JW_VA_2026_10_31.th
   join lh1@LWS2_JW_DW_2026_05_01:end rh3@LWS2_2026_04_26:end
   join lh2@LWS2_JW_DW_2026_05_01:end rh4@LWS2_2026_04_26:0
   
+  # join buck + issac rope climb up to the main lower series path
+  join LWS-BB-IN-1-5-2026-SC1@LWS-BB-IN-1-5-2026 lws_2026_04_06_plan@LWS_2026_04_06
+  
   # join rope climb chamber to virgin passage
   join lower-loop@LWS_2026_04_06 LWS_DG_NH_EM_2026_04_26-plan@LWS_DG_NH_EM_2026_04_26
   
@@ -78,7 +85,11 @@ input LWS_TP_JW_VA_2026_10_31/LWS_TP_JW_VA_2026_10_31.th
   # join end of washing machine to bakerloo straight
   join LWS_TR_JH_2026_05_01-SC2@LWS_TR_JH_2026_05_01 LWS_TP_JW_VA_2026_10_31-SC1@LWS_TP_JW_VA_2026_10_31
   
+  # join buck+issacs rope climb tube to the wormways
+  join LWS_WORMWAYS_2026_11_07-SC1@LWS_WORMWAYS_2026_11_07 LWS-BB-IN-1-5-2026-SC2@LWS-BB-IN-1-5-2026
   
+  # join wormway to passage near washing machine
+  join LWS_WORMWAYS_2026_11_07-SC1@LWS_WORMWAYS_2026_11_07 LWS_TP_JW_VA_2026_10_31-SC1@LWS_TP_JW_VA_2026_10_31
   
 
  

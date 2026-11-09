@@ -4,8 +4,6 @@ layout local
   scale 1 100
   debug off
   symbol-set BCRA
-  symbol-hide group cave-centreline
-  symbol-hide point station
   colour map-fg altitude
 endlayout
 

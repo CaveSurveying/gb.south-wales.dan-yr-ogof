@@ -321,6 +321,7 @@ scrap lakesSP2 -projection plan -scale [-128.0 -128.0 3238.23622048 -128.0 0.0 0
 line pit -reverse on
   450.5 212.5
   450.5 212.5 439.0 182.0 449.5 131.5
+  smooth off
 endline
 
 line wall -id lw1
@@ -576,19 +577,6 @@ line ceiling-step -reverse on
   smooth off
 endline
 
-line floor-step -reverse on
-  586.0 686.0
-  586.0 686.0 584.5 703.5 583.0 714.5
-  581.5 725.5 580.0 740.0 572.0 743.5
-  564.0 747.0 549.5 748.5 542.0 749.0
-  534.5 749.5 524.0 750.5 516.0 751.0
-  508.0 751.5 499.5 755.0 490.5 754.5
-  481.5 754.0 474.0 752.0 468.5 747.5
-  463.0 743.0 462.0 739.0 457.0 731.5
-  452.0 724.0 445.0 713.0 445.0 713.0
-  smooth off
-endline
-
 line floor-step
 endline
 
@@ -606,6 +594,10 @@ line wall
   468.0 228.5 450.5 212.5 450.5 212.5
   smooth off
 endline
+
+point 541.1803937010001 180.195354331 station -name 42.23
+
+point 512.870393701 318.775354331 station -name 42.22
 
 line wall -id rw1 -reverse on
   521.5 379.0
@@ -856,6 +848,8 @@ line water-flow
 endline
 
 point 576.8103937010001 417.045354331 station -name 42.16
+
+point 592.360393701 639.015354331 station -name 42.17
 
 line wall
   511.0 230.0

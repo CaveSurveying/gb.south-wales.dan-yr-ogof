@@ -304,7 +304,7 @@ point 1972.0 2942.0 soda-straw
 
 point 1984.0 2902.0 soda-straw
 
-point 2804.0 4492.0 label -text "Grand Canyon" -scale XL
+point 1508.0 3448.0 label -text "Grand Canyon" -scale XL
 
 line wall
   3602.0 3927.0
