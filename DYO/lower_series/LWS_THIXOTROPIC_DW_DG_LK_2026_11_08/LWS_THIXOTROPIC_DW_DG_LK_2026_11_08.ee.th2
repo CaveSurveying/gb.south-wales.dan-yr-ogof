@@ -1,10 +1,10 @@
 encoding utf-8
 
 ##XTHERION## xth_me_area_adjust -1653.54 -236.22 15905.51 708.66
-##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "THIXOTROPIC_DW_DG_LK_2026_11_08.ee.xvi" 0 {}
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "LWS_THIXOTROPIC_DW_DG_LK_2026_11_08.ee.xvi" 0 {}
 ##XTHERION## xth_me_area_zoom_to 25
 
-scrap THIXOTROPIC_DW_DG_LK_2026_11_08-ee -projection extended
+scrap LWS_THIXOTROPIC_DW_DG_LK_2026_11_08-ee -projection extended
 
 point 0.0 0.0 station -name 1
 

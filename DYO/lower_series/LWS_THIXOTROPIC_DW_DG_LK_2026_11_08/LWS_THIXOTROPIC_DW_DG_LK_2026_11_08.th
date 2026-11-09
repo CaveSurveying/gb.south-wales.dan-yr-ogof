@@ -1,9 +1,9 @@
 encoding utf-8
-survey THIXOTROPIC_DW_DG_LK_2026_11_08
+survey LWS_THIXOTROPIC_DW_DG_LK_2026_11_08
 # Created with SexyTopo 1.14.0 on 2026-11-09
 
-input "THIXOTROPIC_DW_DG_LK_2026_11_08.plan.th2"
-input "THIXOTROPIC_DW_DG_LK_2026_11_08.ee.th2"
+input "LWS_THIXOTROPIC_DW_DG_LK_2026_11_08.plan.th2"
+input "LWS_THIXOTROPIC_DW_DG_LK_2026_11_08.ee.th2"
 
 
 centreline

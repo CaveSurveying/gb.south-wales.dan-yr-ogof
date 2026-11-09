@@ -1,7 +1,7 @@
 {
   "sexyTopoVersionName": "1.14.0",
   "sexyTopoVersionCode": 101,
-  "name": "THIXOTROPIC_DW_DG_LK_2026_11_08",
+  "name": "LWS_THIXOTROPIC_DW_DG_LK_2026_11_08",
   "active-station": "29",
   "connections": {}
 }
