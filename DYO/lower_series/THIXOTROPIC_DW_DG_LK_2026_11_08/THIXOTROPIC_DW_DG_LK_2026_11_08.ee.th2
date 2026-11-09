@@ -1,0 +1,67 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -1653.54 -236.22 15905.51 708.66
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "THIXOTROPIC_DW_DG_LK_2026_11_08.ee.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap THIXOTROPIC_DW_DG_LK_2026_11_08-ee -projection extended
+
+point 0.0 0.0 station -name 1
+
+point 394.28372 161.53125 station -name 2
+
+point 1055.4884 239.84795 station -name 3
+
+point 1829.9337 170.33171 station -name 4
+
+point 2228.7317 243.52568 station -name 5
+
+point 2943.3032 150.68622 station -name 6
+
+point 3848.6365 218.90933 station -name 7
+
+point 4788.6655 232.76643 station -name 8
+
+point 5031.538 196.68466 station -name 9
+
+point 5524.5654 188.39581 station -name 10
+
+point 5630.6943 201.01219 station -name 11
+
+point 5882.2246 275.435 station -name 12
+
+point 5993.2583 268.7694 station -name 13
+
+point 6223.665 284.52728 station -name 14
+
+point 6394.4307 288.56384 station -name 15
+
+point 6561.7197 305.1604 station -name 16
+
+point 5657.2446 250.67183 station -name 17
+
+point 6228.849 222.80757 station -name 18
+
+point 7285.5757 175.85182 station -name 19
+
+point 8374.889 254.5548 station -name 20
+
+point 8802.672 265.60925 station -name 21
+
+point 9666.616 222.09004 station -name 22
+
+point 10437.852 230.93436 station -name 23
+
+point 11056.726 221.187 station -name 24
+
+point 11797.11 262.71692 station -name 25
+
+point 12226.816 300.5114 station -name 26
+
+point 12513.747 259.904 station -name 27
+
+point 13251.516 283.21097 station -name 28
+
+point 14223.407 374.48087 station -name 29
+
+endscrap

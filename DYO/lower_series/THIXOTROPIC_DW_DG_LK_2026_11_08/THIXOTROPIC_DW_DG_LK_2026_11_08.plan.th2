@@ -1,0 +1,153 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -11811.02 -4803.15 2125.98 2755.91
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "THIXOTROPIC_DW_DG_LK_2026_11_08.plan.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap THIXOTROPIC_DW_DG_LK_2026_11_08-plan -projection plan
+
+point 0.0 0.0 station -name 1
+
+point -123.015945 374.6021 station -name 2
+
+point -189.5484 1032.4509 station -name 3
+
+point -868.0528 659.0914 station -name 4
+
+point -866.1026 121.38968 section -scrap THIXOTROPIC_DW_DG_LK_2026_11_08PX4
+
+point -1255.6127 753.0977 station -name 5
+
+point -1896.2957 436.65204 station -name 6
+
+point -1791.0427 -258.50595 section -scrap THIXOTROPIC_DW_DG_LK_2026_11_08PX6
+
+point -2796.9866 345.08804 station -name 7
+
+point -3376.7295 -394.87988 station -name 8
+
+point -3300.4177 -164.30768 station -name 9
+
+point -3567.5078 -578.7216 station -name 10
+
+point -3530.98 -678.3667 station -name 11
+
+point -3233.4182 -784.16516 section -scrap THIXOTROPIC_DW_DG_LK_2026_11_08PX11
+
+point -3760.9136 -780.33777 station -name 12
+
+point -3744.2092 -890.1077 station -name 13
+
+point -3942.3267 -1007.7376 station -name 14
+
+point -3959.731 -891.3515 section -scrap THIXOTROPIC_DW_DG_LK_2026_11_08PX14
+
+point -4049.17 -1140.9497 station -name 15
+
+point -4215.6504 -1157.3755 station -name 16
+
+point -3849.4114 -464.49924 station -name 17
+
+point -4042.1096 207.169 section -scrap THIXOTROPIC_DW_DG_LK_2026_11_08PX17
+
+point -4409.31 -579.5875 station -name 18
+
+point -5449.342 -766.68066 station -name 19
+
+point -6405.0073 -1289.4677 station -name 20
+
+point -6754.4146 -1536.2732 station -name 21
+
+point -7395.5337 -2115.3806 station -name 22
+
+point -7617.434 -1857.0718 section -scrap THIXOTROPIC_DW_DG_LK_2026_11_08PX22
+
+point -8016.927 -2572.1895 station -name 23
+
+point -8095.162 -3064.901 section -scrap THIXOTROPIC_DW_DG_LK_2026_11_08PX23
+
+point -8618.607 -2717.0508 station -name 24
+
+point -9305.882 -2992.4126 station -name 25
+
+point -9731.73 -2934.9697 station -name 26
+
+point -9679.445 -2652.843 station -name 27
+
+point -9345.003 -2553.5828 section -scrap THIXOTROPIC_DW_DG_LK_2026_11_08PX27
+
+point -9622.095 -1917.3071 station -name 28
+
+point -9913.806 -990.22656 station -name 29
+
+point 87.18006 680.7295 water-flow -scale l -orientation 218.99518
+
+point -451.60376 860.22876 stalactite -scale l
+
+point -3555.9966 -278.35574 soda-straw -scale xl
+
+point -3475.4944 -302.14548 stalactite -scale m
+
+point -3310.0515 -53.399303 water-flow -scale l -orientation 187.83612
+
+point -3290.1147 195.52328 water-flow -scale l -orientation 178.02124
+
+point -3709.5554 -363.1565 water-flow -scale l -orientation 251.0834
+
+point -4099.1787 -488.1894 water-flow -scale l -orientation 233.99454
+
+point -4545.643 -701.0894 water-flow -scale xl -orientation 253.07639
+
+point -5813.264 -916.6586 water-flow -scale xl -orientation 241.79565
+
+point -6257.1875 -1255.4669 water-flow -scale xl -orientation 221.08891
+
+point -6869.488 -1636.698 water-flow -scale xl -orientation 230.75893
+
+point -7552.3613 -2330.6382 water-flow -scale l -orientation 234.7222
+
+point -8233.906 -2620.4983 water-flow -scale l -orientation 261.0409
+
+point -9154.652 -2903.776 water-flow -scale xl -orientation 273.59204
+
+point -9677.03 -2080.6243 water-flow -scale xl -orientation 182.92747
+
+point -9765.258 -2666.641 water-flow -scale xl -orientation 166.41008
+
+point -9867.155 -1152.7334 water-flow -scale xl -orientation 155.61188
+
+point -9970.977 -1016.6452 curtain -scale m
+
+endscrap
+
+scrap THIXOTROPIC_DW_DG_LK_2026_11_08PX4 -projection none -scale [0 0 787.40 787.40 0 0 10.00 10.00 m]
+
+endscrap
+
+scrap THIXOTROPIC_DW_DG_LK_2026_11_08PX6 -projection none -scale [0 0 787.40 787.40 0 0 10.00 10.00 m]
+
+endscrap
+
+scrap THIXOTROPIC_DW_DG_LK_2026_11_08PX11 -projection none -scale [0 0 787.40 787.40 0 0 10.00 10.00 m]
+
+endscrap
+
+scrap THIXOTROPIC_DW_DG_LK_2026_11_08PX14 -projection none -scale [0 0 787.40 787.40 0 0 10.00 10.00 m]
+
+endscrap
+
+scrap THIXOTROPIC_DW_DG_LK_2026_11_08PX17 -projection none -scale [0 0 787.40 787.40 0 0 10.00 10.00 m]
+
+endscrap
+
+scrap THIXOTROPIC_DW_DG_LK_2026_11_08PX22 -projection none -scale [0 0 787.40 787.40 0 0 10.00 10.00 m]
+
+endscrap
+
+scrap THIXOTROPIC_DW_DG_LK_2026_11_08PX23 -projection none -scale [0 0 787.40 787.40 0 0 10.00 10.00 m]
+
+endscrap
+
+scrap THIXOTROPIC_DW_DG_LK_2026_11_08PX27 -projection none -scale [0 0 787.40 787.40 0 0 10.00 10.00 m]
+
+endscrap
