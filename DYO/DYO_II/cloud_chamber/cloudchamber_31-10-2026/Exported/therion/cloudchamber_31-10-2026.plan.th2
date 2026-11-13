@@ -1,0 +1,444 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -7637.80 -5118.11 4015.75 3937.01
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "cloudchamber_31-10-2026.plan.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap cloudchamber_31-10-2026-plan -projection plan
+
+point 202.8749 -412.17987 station -name 2
+
+point 1533.4485 89.85185 station -name 3
+
+point -571.2102 -293.6799 station -name 4
+
+point -448.36713 -493.3464 station -name 5
+
+point -238.78152 -826.24445 station -name 6
+
+point 119.54606 -1798.8037 station -name 7
+
+point 855.6535 -1625.8441 station -name 8
+
+point 1267.1517 -1715.4689 station -name 9
+
+point 1465.6552 -1190.7465 station -name 10
+
+point 1929.3772 -920.63354 station -name 11
+
+point -906.52844 362.44876 station -name 12
+
+point -1987.1194 674.84125 station -name 13
+
+point -1153.6183 1041.0543 station -name 14
+
+point -904.0389 1367.8055 station -name 15
+
+point -1553.7235 1343.3302 station -name 16
+
+point -381.13013 938.09265 station -name 17
+
+point -591.4636 357.93445 station -name 18
+
+point -960.87915 356.5994 station -name 19
+
+point -3013.4307 -264.75818 station -name 20
+
+point -3621.398 -1191.6462 station -name 21
+
+point -3595.922 -2049.164 station -name 22
+
+point -3554.0952 -2185.453 station -name 23
+
+point -4157.0464 -2773.8884 station -name 24
+
+point -4639.776 -1961.0172 station -name 25
+
+point -5272.428 -2501.382 station -name 26
+
+point -5773.676 -2335.9824 station -name 27
+
+point 1683.3441 29.348463 label -text " passage taped off " -scale xs
+
+point 242.83167 156.02667 label -text " half metre etep " -scale xs
+
+point -874.7368 -809.8257 label -text " hex " -scale m
+
+point -181.37126 -783.0168 label -text " old red stn " -scale xs
+
+point -1165.5032 -990.51587 label -text " this side taped off " -scale m
+
+point 1476.5571 -1299.6571 label -text " peak of
+mud mass " -scale xs
+
+point 2255.8948 -784.9085 label -text " small curtains " -scale s
+
+point 2008.403 -522.12213 label -text " blind hole " -scale s
+
+point -972.52594 1151.2488 label -text " half metre step " -scale s
+
+point -850.8909 1327.6865 label -text " rock in puddle " -scale s
+
+point -471.96432 612.9289 label -text " c2 " -scale m
+
+point -1736.565 -123.53777 label -text " mud choke " -scale m
+
+point -3621.2915 -1261.7683 label -text " old red np " -scale xs
+
+point -2566.823 -994.7963 label -text " dead end hole " -scale s
+
+point -3543.665 -1334.9438 label -text " step " -scale s
+
+point -3647.2197 -3249.2852 label -text " choke " -scale m
+
+point -5068.9463 -3480.397 label -text " assume ends in choke
+but tape blocks " -scale m
+
+point -4811.5186 -2422.609 label -text " c2 " -scale s
+
+point 1585.131 124.23583 label -text " num red " -scale xs
+
+point 2436.6978 -1024.6089 label -text " maybe continues but muddy
+slope impassable without rope " -scale m
+
+point -5709.8037 -2301.1814 label -text " numbered red np " -scale xs
+
+point -3479.5625 -2146.0615 label -text " old red np " -scale xs
+
+point -954.5351 249.58806 label -text " 19=12 " -scale xs
+
+point -295.8052 -140.13283 soda-straw -scale l
+
+point -190.00613 -184.76682 sand -scale l
+
+point -13.12331 -169.88882 sand -scale l
+
+point -30.338821 90.22818 entrance -scale m -orientation 19.592285
+
+point -8.436376 175.8468 entrance -scale m -orientation 22.750977
+
+point 478.79047 -224.90201 soda-straw -scale l
+
+point 346.34973 -158.40019 sand -scale xl
+
+point 404.6633 -320.38245 sand -scale xl
+
+point 644.397 -147.60146 sand -scale xl
+
+point 922.6673 -122.06701 sand -scale xl
+
+point 1250.1007 8.463822 sand -scale xl
+
+point 1431.5165 -13.659921 sand -scale xl
+
+point -747.9579 138.16489 stalagmite -scale m
+
+point -450.30902 -75.26908 sand -scale xl
+
+point -700.514 -69.40496 sand -scale xl
+
+point -377.98416 239.44179 sand -scale xl
+
+point -581.2757 339.1328 sand -scale xl
+
+point -704.4234 540.4696 sand -scale xl
+
+point -564.29865 135.61662 soda-straw -scale xl
+
+point -982.7698 -399.63815 sand -scale xl
+
+point -803.8402 -519.4872 sand -scale xl
+
+point -759.95184 -411.45425 sand -scale xl
+
+point -624.9107 -489.10287 sand -scale xl
+
+point -643.4789 -683.2246 sand -scale xl
+
+point -451.04523 -716.9848 sand -scale xl
+
+point -447.66922 -879.03424 sand -scale xl
+
+point -570.8942 -909.4186 sand -scale xl
+
+point -1011.466 -619.07996 clay -scale xl
+
+point -898.369 -615.704 clay -scale xl
+
+point -922.0012 -821.6418 clay -scale xl
+
+point -749.8238 -823.3297 clay -scale xl
+
+point -758.26385 -1003.9472 clay -scale xl
+
+point -560.10876 -1201.5984 clay -scale l
+
+point -349.91995 -1089.8314 clay -scale l
+
+point -311.5522 -1430.1371 clay -scale l
+
+point -186.4398 -1249.9752 clay -scale l
+
+point 60.448536 -1496.8636 clay -scale l
+
+point -66.331955 -1710.3888 clay -scale l
+
+point 190.56546 -1663.6802 clay -scale l
+
+point 397.41788 -1458.4958 clay -scale l
+
+point 295.65976 -1186.585 clay -scale l
+
+point 377.3999 -1768.7745 clay -scale l
+
+point 562.5662 -1525.2224 clay -scale l
+
+point 387.715 -1320.7556 entrance -scale l -orientation 300.5297
+
+point 75.282524 -1647.3181 entrance -scale l -orientation 313.72696
+
+point -169.63936 -1460.4866 entrance -scale l -orientation 294.3411
+
+point 76.85256 -1127.6442 entrance -scale l -orientation 288.8247
+
+point -417.7013 -1215.5647 entrance -scale l -orientation 297.47443
+
+point -309.37045 -1003.61304 entrance -scale l -orientation 301.6075
+
+point 519.59595 -1776.0591 entrance -scale l -orientation 276.98105
+
+point 601.2366 -1542.1273 entrance -scale l -orientation 284.62088
+
+point 951.3493 -1890.67 entrance -scale l -orientation 306.52887
+
+point 1081.6604 -1922.0704 clay -scale l
+
+point 838.3084 -1931.4905 clay -scale l
+
+point 1014.14984 -1592.3678 clay -scale l
+
+point 786.49805 -1549.9774 clay -scale l
+
+point 1034.56 -1402.3962 clay -scale l
+
+point 1381.5326 -1614.3479 clay -scale l
+
+point 1271.6317 -1438.5066 clay -scale l
+
+point 1158.591 -1713.2587 clay -scale l
+
+point 1180.5712 -1248.5352 clay -scale l
+
+point 1408.2229 -1336.4558 clay -scale l
+
+point 1384.6726 -1256.3851 entrance -scale l -orientation 228.50354
+
+point 1406.6528 -1119.7941 soda-straw -scale l
+
+point 1558.5 -1510.804 soda-straw -scale l
+
+point 1501.4108 -1619.9076 soda-straw -scale l
+
+point 1417.6799 -1709.9814 soda-straw -scale l
+
+point 1552.1566 -1551.4006 pillar -scale l
+
+point 1569.9176 -1380.1332 soda-straw -scale l
+
+point 1577.5297 -1253.2684 soda-straw -scale l
+
+point 1297.1587 -1349.6857 entrance -scale l -orientation 218.6598
+
+point 1193.1295 -1490.5056 entrance -scale l -orientation 213.69006
+
+point 1094.175 -1594.5347 entrance -scale l -orientation 208.17859
+
+point 1045.9666 -1451.1774 entrance -scale l -orientation 305.09583
+
+point 1132.2345 -1343.3425 entrance -scale l -orientation 302.00537
+
+point 1262.9052 -1248.1938 entrance -scale l -orientation 306.46924
+
+point 1290.8154 -1547.5946 entrance -scale l -orientation 160.20113
+
+point 1389.7699 -1508.2666 entrance -scale l -orientation 145.49147
+
+point 1440.5157 -1451.1774 entrance -scale l -orientation 119.35776
+
+point 1219.7711 -672.2281 soda-straw -scale l
+
+point 1826.26 -796.03174 entrance -scale l -orientation 45.0
+
+point 1930.5404 -823.8399 entrance -scale l -orientation 7.1250153
+
+point 2079.3135 -882.23676 entrance -scale l -orientation 270.0
+
+point 1891.609 -953.14746 entrance -scale l -orientation 251.56505
+
+point 1758.1302 -969.8323 entrance -scale l -orientation 250.23283
+
+point 1637.165 -1043.5237 entrance -scale l -orientation 229.53778
+
+point 1655.2404 -916.9969 clay -scale l
+
+point 1532.8848 -1097.7494 clay -scale l
+
+point 1815.1368 -1032.4004 clay -scale l
+
+point 1331.2762 -1163.0984 clay -scale l
+
+point 1954.1772 -737.6348 soda-straw -scale l
+
+point 2109.9023 -903.0928 soda-straw -scale l
+
+point 2013.9646 -933.6817 soda-straw -scale l
+
+point 1973.643 -915.6065 stalagmite -scale l
+
+point 2082.0945 -878.06555 stalagmite -scale l
+
+point 1922.198 -709.8267 entrance -scale l -orientation 12.528809
+
+point -953.34326 419.5224 soda-straw -scale xl
+
+point -1149.6919 557.19214 soda-straw -scale xl
+
+point -1628.8202 1425.2616 sand -scale l
+
+point -1735.7522 1430.6082 sand -scale l
+
+point -1591.394 1592.3427 sand -scale l
+
+point -1926.8928 1512.1433 sand -scale l
+
+point -1976.3488 1641.7981 sand -scale l
+
+point -1706.3458 1593.6787 sand -scale l
+
+point -1711.6924 1375.8052 sand -scale l
+
+point -1844.0206 1649.818 soda-straw -scale l
+
+point -1664.9098 1589.6688 soda-straw -scale l
+
+point -1556.1857 272.5741 soda-straw -scale xl
+
+point -1625.8165 195.84445 stalagmite -scale l
+
+point -1500.3241 279.506 stalagmite -scale l
+
+point -2959.094 -993.6689 soda-straw -scale xl
+
+point -3024.0637 -1366.2537 pillar -scale xl
+
+point -3006.1328 -1204.8766 soda-straw -scale xl
+
+point -3048.7188 -1451.4249 soda-straw -scale xl
+
+point -3044.236 -1601.5951 soda-straw -scale xl
+
+point -3596.4875 -2046.8668 stalagmite -scale m
+
+point -3133.7263 -1755.712 soda-straw -scale xl
+
+point -3007.8218 -1940.8657 soda-straw -scale xl
+
+point -4071.8389 -1701.4004 sand -scale xl
+
+point -4326.1167 -1842.1172 sand -scale xl
+
+point -4121.213 -2224.768 sand -scale xl
+
+point -3852.123 -2101.3323 sand -scale xl
+
+point -3894.091 -2844.4158 entrance -scale xl -orientation 344.84595
+
+point -3612.6577 -2669.1372 entrance -scale xl -orientation 350.2176
+
+point -4520.5566 -2405.0435 soda-straw -scale xl
+
+point -4503.462 -2131.5273 soda-straw -scale xl
+
+point -4532.767 -2278.0537 soda-straw -scale xl
+
+point -4234.83 -2348.875 soda-straw -scale xl
+
+point -4366.7036 -2346.4329 soda-straw -scale xl
+
+point -4698.8306 -2395.275 soda-straw -scale xl
+
+point -4874.662 -2473.4224 soda-straw -scale xl
+
+point -4645.9062 -2430.2563 pillar -scale l
+
+point -4993.3975 -3257.6252 clay -scale xl
+
+point -4913.9746 -3160.768 clay -scale xl
+
+point -4780.312 -3048.4138 clay -scale xl
+
+point -4962.4033 -3201.4482 soda-straw -scale xl
+
+point -5086.3804 -3298.3057 soda-straw -scale xl
+
+point -4795.809 -3089.0938 soda-straw -scale xl
+
+point -4962.4033 -2577.6877 soda-straw -scale xl
+
+point -5037.952 -2709.4136 soda-straw -scale xl
+
+point -4594.346 -2560.2537 sand -scale xl
+
+point -4760.9404 -2678.4194 sand -scale xl
+
+point -4879.1064 -2821.7678 sand -scale xl
+
+point -4956.5923 -2937.9966 sand -scale xl
+
+point -5055.8784 -2845.4446 stalagmite -scale l
+
+point -5014.7676 -2789.0642 stalagmite -scale l
+
+point -5114.6074 -2816.0798 stalagmite -scale l
+
+point -5083.6396 -2941.7932 entrance -scale xl -orientation 356.26862
+
+point -5096.4604 -2705.892 entrance -scale xl -orientation 0.0
+
+endscrap
+
+scrap cloudchamber_31-10-2026PX3 -projection none -scale [0 0 787.40 787.40 0 0 10.00 10.00 m]
+
+point 1458.3735 703.32294 station -name 3
+
+endscrap
+
+scrap cloudchamber_31-10-2026PX5 -projection none -scale [0 0 787.40 787.40 0 0 10.00 10.00 m]
+
+point -2171.0952 -823.1142 station -name 5
+
+endscrap
+
+scrap cloudchamber_31-10-2026PX7 -projection none -scale [0 0 787.40 787.40 0 0 10.00 10.00 m]
+
+point -174.7627 -2310.928 station -name 7
+
+endscrap
+
+scrap cloudchamber_31-10-2026PX10 -projection none -scale [0 0 787.40 787.40 0 0 10.00 10.00 m]
+
+point 1087.8318 -679.83997 station -name 10
+
+endscrap
+
+scrap cloudchamber_31-10-2026PX16 -projection none -scale [0 0 787.40 787.40 0 0 10.00 10.00 m]
+
+point -1248.252 2111.2925 station -name 16
+
+endscrap
+
+scrap cloudchamber_31-10-2026PX20 -projection none -scale [0 0 787.40 787.40 0 0 10.00 10.00 m]
+
+point -4236.0796 778.90247 station -name 20
+
+endscrap
