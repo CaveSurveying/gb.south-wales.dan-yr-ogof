@@ -1,0 +1,17 @@
+# Created with SexyTopo 1.11.2 on 2026-11-12
+
+encoding utf-8
+
+layout local
+  debug off
+  # map-header 0 0 off
+  # symbol-hide group cave-centreline
+endlayout
+
+source "CLOUDCHAMBER_BB_JH_LB_31_10_2026.th"
+
+export model -fmt survex -o "CLOUDCHAMBER_BB_JH_LB_31_10_2026-th.3d"
+
+export map -proj plan -layout local -o "CLOUDCHAMBER_BB_JH_LB_31_10_2026-plan.pdf"
+
+export map -proj extended -layout local -o "CLOUDCHAMBER_BB_JH_LB_31_10_2026-ee.pdf"

@@ -152,6 +152,7 @@ input DYO_II/cloud_chamber/cloud
 input DYO_II/cloud_chamber/cloud2
 input DYO_II/cloud_chamber/cloud3
 input DYO_II/cloud_chamber/cloud4
+input DYO_II/cloud_chamber/CLOUDCHAMBER_BB_JH_LB_31_10_2026/CLOUDCHAMBER_BB_JH_LB_31_10_2026.th
 
 # Input files for hanger passage
 input DYO_II/hanger_passage/hanger1
@@ -183,6 +184,9 @@ input lower_series/lower_series.th
   # new data added
   
   equate 28.8@gphall 1@LWS_2026_04_06.lower_series
+  equate 1.16@canyon 1@CLOUDCHAMBER_BB_JH_LB_31_10_2026
+  
+  
   
   ### TODO - CLEAN UP ###
     

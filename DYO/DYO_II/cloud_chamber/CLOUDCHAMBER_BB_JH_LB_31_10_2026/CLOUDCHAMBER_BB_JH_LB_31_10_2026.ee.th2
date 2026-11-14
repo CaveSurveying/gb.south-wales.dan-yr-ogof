@@ -1,0 +1,150 @@
+encoding  utf-8
+
+##XTHERION## xth_me_area_adjust -5984.25 -1968.50 9921.26 2283.46
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "CLOUDCHAMBER_BB_JH_LB_31_10_2026.ee.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap CLOUDCHAMBER_BB_JH_LB_31_10_2026-ee -projection extended
+
+point -459.4023 68.54773 station -name 2
+
+point -1881.5353 163.14183 station -name 3
+
+point 642.2842 42.381844 station -name 4
+
+point 407.85483 132.20882 station -name 5
+
+point 14.4755745 229.0251 station -name 6
+
+point -1021.99457 519.9859 station -name 7
+
+point -1778.1488 792.4743 station -name 8
+
+point -2199.294 869.96484 station -name 9
+
+point -2760.3086 1048.1613 station -name 10
+
+point -3296.964 1286.0247 station -name 11
+
+point 1379.131 -22.052128 station -name 12
+
+point 2503.9712 12.810601 station -name 13
+
+point 656.9406 -153.277 station -name 14
+
+point 245.77611 -261.61032 station -name 15
+
+point 895.92163 -254.55869 station -name 16
+
+point -431.04498 -149.22003 station -name 17
+
+point 186.06415 4.8979154 station -name 18
+
+point 555.48206 -26.00995 station -name 19
+
+point 3895.4316 34.35519 station -name 20
+
+point 5003.9194 69.8143 station -name 21
+
+point 5861.816 67.21581 station -name 22
+
+point 6004.3784 119.92479 station -name 23
+
+point 6778.3774 364.6744 station -name 24
+
+point 6909.3853 91.377365 station -name 25
+
+point 7741.3965 205.21797 station -name 26
+
+point 8269.229 201.11557 station -name 27
+
+point -6.9073806 -105.89855 label -text " orange and black connect " -scale xs
+
+point -3724.1921 1295.5598 label -text " maybe continuation but would require traverse line " -scale xs
+
+point -3439.2988 850.5934 label -text " blind " -scale xs
+
+point -3324.8237 847.0026 label -text " ? " -scale xs
+
+point -3790.9849 -1047.5751 label -text " close " -scale xl
+
+point -3799.4062 30.387218 label -text " far " -scale xl
+
+point 6358.3286 689.4265 label -text " cloud chamber " -scale l
+
+point -2689.0002 1092.4114 soda-straw -scale l
+
+point -2553.1775 1064.7438 soda-straw -scale l
+
+point -2422.385 1042.1066 soda-straw -scale l
+
+point -2276.5012 1023.2423 soda-straw -scale l
+
+point -3453.4468 1367.1667 soda-straw -scale l
+
+point -3370.2634 1339.4391 soda-straw -scale l
+
+point 580.36694 412.71512 soda-straw -scale xl
+
+point 777.8757 401.63986 soda-straw -scale xl
+
+point 945.85046 362.87646 soda-straw -scale xl
+
+point -576.7463 240.09915 soda-straw -scale l
+
+point 2529.9663 85.23265 soda-straw -scale xl
+
+point 4994.1826 138.41704 soda-straw -scale xl
+
+point 5245.3315 123.643654 soda-straw -scale xl
+
+point 5508.3 73.41385 soda-straw -scale xl
+
+point 5836.2705 111.824844 soda-straw -scale xl
+
+point 5995.824 144.32652 soda-straw -scale xl
+
+point 5989.9146 466.38834 soda-straw -scale xl
+
+point 6078.5557 466.38834 soda-straw -scale xl
+
+point 6214.4717 487.07123 soda-straw -scale xl
+
+point 6314.9316 478.20715 soda-straw -scale xl
+
+point 6450.847 516.61816 soda-straw -scale xl
+
+point 6574.9443 513.6636 soda-straw -scale xl
+
+point 6687.223 498.89 soda-straw -scale xl
+
+point 6834.9575 549.1198 soda-straw -scale xl
+
+point 7765.309 362.00967 water-flow -scale l -orientation 227.72632
+
+point 7683.833 260.16467 water-flow -scale l -orientation 194.53445
+
+point 7677.0435 154.24593 water-flow -scale l -orientation 176.63354
+
+point 7605.073 79.55964 water-flow -scale l -orientation 257.90524
+
+point 7374.2246 65.98029 water-flow -scale l -orientation 263.6598
+
+point 7186.8296 45.611313 water-flow -scale l -orientation 260.53766
+
+point 6966.844 22.526388 water-flow -scale l -orientation 267.75427
+
+point 6693.9 11.662987 water-flow -scale l -orientation 263.4537
+
+point 6510.579 4.8732758 water-flow -scale l -orientation 270.0
+
+point 6298.7417 8.947117 water-flow -scale l -orientation 262.46057
+
+point 6081.472 -3.2743318 water-flow -scale l -orientation 271.20605
+
+point 5904.941 -7.3480983 water-flow -scale l -orientation 249.8637
+
+point 5777.2954 -25.001211 water-flow -scale l -orientation 264.98688
+
+endscrap
+

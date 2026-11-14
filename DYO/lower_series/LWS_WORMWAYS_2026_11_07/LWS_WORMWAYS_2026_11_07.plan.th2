@@ -719,9 +719,9 @@ line wall -reverse on
   smooth off
 endline
 
-point 1006.0 4706.0 gradient -orientation 31.7 -scale xs
+point 1006.0 4706.0 gradient -orientation 215.2 -scale xs
 
-point 933.0 4663.0 gradient -orientation 33.3 -scale xs
+point 933.0 4663.0 gradient -orientation 220.3 -scale xs
 
 line wall -reverse on
   1140.0 4712.0

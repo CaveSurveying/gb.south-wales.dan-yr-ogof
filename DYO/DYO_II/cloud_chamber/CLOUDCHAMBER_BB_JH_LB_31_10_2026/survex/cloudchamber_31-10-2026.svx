@@ -1,11 +1,11 @@
-*begin cloudchamber_31-10-2026
+*begin CLOUDCHAMBER_BB_JH_LB_31_10_2026
 ; Created with SexyTopo on 2026-11-12
 
 *date 2026.10.31
 ;*instrument inst "DYO SAP6" (calibrated in situ)
-*team "Buck" notes
+*team "Buck Blake" notes
 *team "James Hallihan" insts
-*team "Lara" dog
+*team "Lara Bartleet" dog
 
 ;stns marked with red np
 
@@ -350,4 +350,4 @@
 27	..	0.745	156.58	47.56	
 27	..	3.002	159.27	-48.66	
 
-*end cloudchamber_31-10-2026
+*end CLOUDCHAMBER_BB_JH_LB_31_10_2026
