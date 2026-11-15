@@ -1,0 +1,9 @@
+.DS_Store
+__pycache__/
+# what's built from the data: made again by every build
+/build/
+/site/
+/lidar/
+/.venv/
+thconfig.web
+therion.log

@@ -1,0 +1,27 @@
+# Build Dan yr Ogof's 3D view with cave-viewer (its shared workflow) on every push, pull
+# request and run by hand. Not published: the DYOcatchment data has no stated licence, so the
+# site is kept as the run's artifact ("site"), to download and look at. To publish it once the
+# Cave Registry says it may be, set deploy: true and Pages' source to GitHub Actions (a public
+# repository, or a plan with Pages for private ones).
+name: Build the 3D view
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  site:
+    uses: CaveSurveying/cave-viewer/.github/workflows/build.yml@v0.7.1
+    with:
+      config: caves.json
+      apt-packages: survex subversion
+      therion-image: ghcr.io/paperclipmonkey/therion:6.4.0
+      deploy: false

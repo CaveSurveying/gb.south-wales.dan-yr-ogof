@@ -1,0 +1,50 @@
+{
+  "_comment": "Dan yr Ogof's 3D view, built by cave-viewer (https://github.com/CaveSurveying/cave-viewer) from the Therion project in DYO/. Its options are cave-viewer's caveviewer/schema.json.",
+  "work": "build",
+  "site": {
+    "title": "Dan yr Ogof in 3D",
+    "footer": "{credits}."
+  },
+  "caves": [
+    {
+      "id": "dyo",
+      "name": "Dan yr Ogof",
+      "area": "Upper Tawe, Brecon Beacons",
+      "path": "3d",
+      "page": ".",
+      "credit": "the Dan yr Ogof resurvey, from the Cave Registry Data Archive's <a href=\"https://www.cave-registry.org.uk/svn/DYOcatchment/\">DYOcatchment</a> dataset",
+      "notice": "Only the DistoX resurvey so far is here, not the whole cave.",
+      "grid": {
+        "offset": [200000, 200000],
+        "_comment": "Therion's export is on the SN 100 km square of the National Grid"
+      },
+      "survey": {
+        "type": "therion",
+        "checkout": ".",
+        "dir": "DYO",
+        "source": "dyo.th",
+        "from": "Cave Registry Data Archive, DYOcatchment"
+      },
+      "data": {
+        "url": "https://www.cave-registry.org.uk/svn/DYOcatchment/",
+        "label": "the Cave Registry Data Archive (SVN)"
+      },
+      "entrances": {
+        "dyo.showcaveTopo4.5.26": "Show cave entrance"
+      },
+      "terrain": {
+        "type": "wales",
+        "step": 2,
+        "margin": 250,
+        "align": 50,
+        "cache": "lidar"
+      },
+      "drawn": {
+        "type": "therion-svg"
+      },
+      "walls": {
+        "type": "therion"
+      }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+# Therion's plan needs "north grid" for the drawn survey, which DYO's own layout
+# doesn't set: cave-viewer reads this file from beside the project folder.
+layout common
+  north grid
+endlayout
