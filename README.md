@@ -1,14 +1,15 @@
 # Dan yr Ogof
 
+## **[Open the 3D view →](https://cavesurveying.github.io/gb.south-wales.dan-yr-ogof/)**
+
 The survey of **Dan yr Ogof**, in the Upper Tawe valley, Brecon Beacons: the Cave Registry Data
 Archive's **DYOcatchment** Therion project (the DistoX resurvey so far), with its Subversion
 history, and the cave in 3D under the Welsh Government's LiDAR, built from it by
 [cave-viewer](https://github.com/CaveSurveying/cave-viewer).
 
-**This repository is private, and the site isn't published.** The DYOcatchment data doesn't
-state a licence, so nothing built from it goes public until the Cave Registry
-(data@cave-registry.org.uk) and the surveyors say it may. The build is kept as each run's
-artifact to download and look at instead (below).
+The DYOcatchment data doesn't state a licence of its own: the survey and its drawings are the
+surveyors' (named in the survey files), and the Cave Registry (data@cave-registry.org.uk) holds
+the archive. Ask them before reusing it.
 
 ## Where the data comes from
 
@@ -33,19 +34,13 @@ python3 tools/svn_sync.py
 
 ## The 3D view
 
-Built on every push and pull request ([`.github/workflows/build.yml`](.github/workflows/build.yml),
-cave-viewer's shared workflow) from [`caves.json`](caves.json): the Therion project in `DYO/`
+Built on every push and pull request, and published to
+[GitHub Pages](https://cavesurveying.github.io/gb.south-wales.dan-yr-ogof/) from `main`
+([`.github/workflows/build.yml`](.github/workflows/build.yml), cave-viewer's shared workflow),
+from [`caves.json`](caves.json): the Therion project in `DYO/`
 (`dyo.th`), on the SN square of the National Grid, under the Welsh Government's 1 m LiDAR, with
 the plan Therion draws and the passage walls from the drawings. [`common_layout.th`](common_layout.th)
 gives Therion's plan the "north grid" cave-viewer needs to place it.
-
-To look at a build: the run's page in the Actions tab, the **github-pages** artifact (a tar
-of the site); unpack it and serve it:
-
-```bash
-mkdir site && tar -xf artifact.tar -C site
-python3 -m http.server -d site     # then open http://localhost:8000
-```
 
 To build it yourself (Therion, Survex and Subversion installed):
 
