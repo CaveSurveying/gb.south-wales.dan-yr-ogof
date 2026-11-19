@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap CLOUDCHAMBER_BB_JH_LB_31_10_2026-plan -projection plan -scale [-7637.80 -5118.11 4015.75 -5118.11 0.0 0.0 296.00016999999997 0.0 m]
+scrap CLOUDCHAMBER_BB_JH_LB_31_10_2026-SC1 -projection plan -scale [-7637.80 -5118.11 4015.75 -5118.11 0.0 0.0 296.00016999999997 0.0 m]
 
 point 202.8749 -412.17987 station -name 2
 
@@ -61,56 +61,37 @@ point -5773.676 -2335.9824 station -name 27
 
 point 1683.3441 29.348463 label -text " passage taped off " -scale xs -visibility off
 
-line wall
-  1042.0 -208.0
-  1042.0 -208.0 1214.0 -150.0 1324.0 -124.0
-  1434.0 -98.0 1505.49 -90.93 1568.0 -82.0
-  1638.0 -72.0 1614.1 -68.24 1638.0 -58.0
-  smooth off
-endline
+point 242.83167 156.02667 label -text " half metre etep " -scale xs -visibility off
 
-line wall
-  978.0 62.0
-  978.0 62.0 1202.0 104.0 1266.0 114.0
-  1343.49 126.11 1428.0 128.0 1470.0 136.0
-  smooth off
-endline
+point -874.7368 -809.8257 label -text " hex " -scale m -visibility off
 
-line wall -close off
-  978.0 62.0
-endline
+point -181.37126 -783.0168 label -text " old red stn " -scale xs -visibility off
 
-point 242.83167 156.02667 label -text " half metre etep " -scale xs
+point -1165.5032 -990.51587 label -text " this side taped off " -scale m -visibility off
 
-point -874.7368 -809.8257 label -text " hex " -scale m
+point 1476.5571 -1299.6571 label -text " peak of mud mass " -scale xs -visibility off
 
-point -181.37126 -783.0168 label -text " old red stn " -scale xs
+point 2255.8948 -784.9085 label -text " small curtains " -scale s -visibility off
 
-point -1165.5032 -990.51587 label -text " this side taped off " -scale m
+point 2008.403 -522.12213 label -text " blind hole " -scale s -visibility off
 
-point 1476.5571 -1299.6571 label -text " peak of mud mass " -scale xs
+point -972.52594 1151.2488 label -text " half metre step " -scale s -visibility off
 
-point 2255.8948 -784.9085 label -text " small curtains " -scale s
+point -850.8909 1327.6865 label -text " rock in puddle " -scale s -visibility off
 
-point 2008.403 -522.12213 label -text " blind hole " -scale s
+point -471.96432 612.9289 label -text " c2 " -scale m -visibility off
 
-point -972.52594 1151.2488 label -text " half metre step " -scale s
+point -1736.565 -123.53777 label -text " mud choke " -scale m -visibility off
 
-point -850.8909 1327.6865 label -text " rock in puddle " -scale s
+point -3621.2915 -1261.7683 label -text " old red np " -scale xs -visibility off
 
-point -471.96432 612.9289 label -text " c2 " -scale m
+point -2566.823 -994.7963 label -text " dead end hole " -scale s -visibility off
 
-point -1736.565 -123.53777 label -text " mud choke " -scale m
+point -3543.665 -1334.9438 label -text " step " -scale s -visibility off
 
-point -3621.2915 -1261.7683 label -text " old red np " -scale xs
+point -3647.2197 -3249.2852 label -text " choke " -scale m -visibility off
 
-point -2566.823 -994.7963 label -text " dead end hole " -scale s
-
-point -3543.665 -1334.9438 label -text " step " -scale s
-
-point -3647.2197 -3249.2852 label -text " choke " -scale m
-
-point -5068.9463 -3480.397 label -text " assume ends in choke but tape blocks " -scale m
+point -5068.9463 -3480.397 label -text " assume ends in choke but tape blocks " -scale m -visibility off
 
 area clay
   l160--4744--2972
@@ -130,17 +111,17 @@ line border -id l160--4744--2972 -close on -visibility off
   smooth off
 endline
 
-point -4793.5186 -2402.609 label -text " c2 " -scale s
+point -4793.5186 -2402.609 label -text " c2 " -scale s -visibility off
 
 point 1585.131 124.23583 label -text " num red " -scale xs -visibility off
 
-point 2436.6978 -1024.6089 label -text " maybe continues but muddy slope impassable without rope " -scale m
+point 2436.6978 -1024.6089 label -text " maybe continues but muddy slope impassable without rope " -scale m -visibility off
 
-point -5709.8037 -2301.1814 label -text " numbered red np " -scale xs
+point -5709.8037 -2301.1814 label -text " numbered red np " -scale xs -visibility off
 
-point -3479.5625 -2146.0615 label -text " old red np " -scale xs
+point -3479.5625 -2146.0615 label -text " old red np " -scale xs -visibility off
 
-point -954.5351 249.58806 label -text " 19=12 " -scale xs
+point -954.5351 249.58806 label -text " 19=12 " -scale xs -visibility off
 
 line wall
   -3056.0 -1858.0
@@ -173,6 +154,7 @@ line wall
   -5280.0 -2848.0 -5224.0 -2904.0 -5208.0 -2924.0
   -5192.0 -2944.0 -5176.0 -3028.0 -5192.0 -3112.0
   -5208.0 -3196.0 -5270.0 -3318.0 -5266.0 -3340.0
+  smooth off
 endline
 
 line pit -reverse on
@@ -181,6 +163,7 @@ line pit -reverse on
   -3616.0 -1380.0 -3574.0 -1300.0 -3574.0 -1262.0
   -3574.0 -1224.0 -3610.0 -1202.0 -3644.0 -1180.0
   -3678.0 -1158.0 -3730.0 -1138.0 -3752.0 -1140.0
+  smooth off
 endline
 
 line rock-border -close on
@@ -215,6 +198,7 @@ line wall -subtype debris
   -5266.0 -3340.0
   -5262.0 -3362.0 -5224.0 -3420.0 -5138.0 -3398.0
   -5052.0 -3376.0 -4960.0 -3346.0 -4932.0 -3322.0
+  smooth off
 endline
 
 line wall
@@ -224,6 +208,7 @@ line wall
   -4542.0 -3036.0 -4470.0 -2998.0 -4396.0 -3002.0
   -4322.0 -3006.0 -4256.0 -3034.0 -4192.0 -3036.0
   -4128.0 -3038.0 -4150.0 -3000.0 -4058.0 -3036.0
+  smooth off
 endline
 
 line wall -subtype debris
@@ -232,13 +217,14 @@ line wall -subtype debris
   -3776.0 -3162.0 -3666.0 -3160.0 -3610.0 -3138.0
   -3554.0 -3116.0 -3446.0 -3002.0 -3418.0 -2956.0
   -3390.0 -2910.0 -3354.0 -2788.0 -3340.0 -2738.0
+  smooth off
 endline
 
 line wall
   -3340.0 -2738.0
   -3326.0 -2688.0 -3230.0 -2470.0 -3184.0 -2424.0
   -3138.0 -2378.0 -3090.29 -2302.86 -3078.0 -2266.0
-  -3068.0 -2236.0 -3062.0 -2196.0 -2998.0 -2158.0
+  -3068.0 -2236.0 -3068.0 -2210.0 -3004.0 -2172.0
   smooth off
 endline
 
@@ -335,6 +321,7 @@ line pit
   1678.0 -814.0 1790.0 -883.0 1858.0 -888.0
   1926.0 -893.0 1998.0 -898.0 2074.0 -830.0
   2150.0 -762.0 2137.0 -716.0 2144.0 -660.0
+  smooth off
 endline
 
 area sand
@@ -396,6 +383,7 @@ line ceiling-step -reverse on
   -1656.0 268.0 -1614.0 332.0 -1550.0 344.0
   -1486.0 356.0 -1436.0 346.0 -1412.0 338.0
   -1388.0 330.0 -1272.0 262.0 -1270.0 192.0
+  smooth off
 endline
 
 line wall -reverse on
@@ -498,10 +486,10 @@ line wall -reverse on
   -896.0 1484.0 -866.0 1432.0 -836.0 1418.0
   -806.0 1404.0 -742.0 1380.0 -696.0 1366.0
   -650.0 1352.0 -516.0 1342.0 -482.0 1332.0
-  -448.0 1322.0 -220.0 1254.0 -120.0 1244.0
-  -20.0 1234.0 -10.0 1228.0 46.0 1238.0
-  102.0 1248.0 148.0 1260.0 196.0 1272.0
-  244.0 1284.0 284.0 1330.0 396.0 1284.0
+  -448.0 1322.0 -310.0 1276.0 -210.0 1266.0
+  -110.0 1256.0 -62.0 1238.0 -6.0 1248.0
+  50.0 1258.0 78.0 1256.0 126.0 1268.0
+  174.0 1280.0 250.0 1298.0 320.0 1264.0
   smooth off
 endline
 
@@ -521,8 +509,8 @@ line wall
 endline
 
 line wall -reverse on
-  402.0 424.0
-  402.0 424.0 304.0 432.0 244.0 400.0
+  386.0 426.0
+  386.0 426.0 304.0 432.0 244.0 400.0
   184.0 368.0 76.0 300.0 76.0 300.0
   smooth off
 endline
@@ -554,7 +542,7 @@ line border -id l147--614-454 -close on -visibility off
   -960.0 770.0
 endline
 
-line border -id l145--1202-842 -close on -visibility on
+line border -id l145--1202-842 -close on -reverse on -visibility off
   -1408.0 822.0
   -1408.0 822.0 -1504.0 888.0 -1510.0 900.0
   -1516.0 912.0 -1524.0 924.0 -1524.0 924.0
@@ -797,18 +785,21 @@ point -5056.0 -2872.0 stalagmite
 line water-flow
   -5644.0 -2462.0
   -5620.0 -2454.0 -5432.0 -2402.0 -5372.0 -2356.0
+  smooth off
 endline
 
 line water-flow
   -5336.0 -2336.0
   -5276.0 -2290.0 -5116.0 -2188.0 -5068.0 -2164.0
   -5020.0 -2140.0 -4850.0 -2052.0 -4772.0 -2052.0
+  smooth off
 endline
 
 line water-flow
   -4724.0 -2048.0
   -4646.0 -2048.0 -4486.0 -2064.0 -4432.0 -2062.0
   -4378.0 -2060.0 -4170.0 -2040.0 -4104.0 -2010.0
+  smooth off
 endline
 
 line water-flow
@@ -816,6 +807,7 @@ line water-flow
   -3992.0 -1948.0 -3842.0 -1828.0 -3828.0 -1818.0
   -3814.0 -1808.0 -3746.0 -1746.0 -3680.0 -1734.0
   -3614.0 -1722.0 -3536.0 -1720.0 -3520.0 -1720.0
+  smooth off
 endline
 
 point -5072.0 -3310.0 soda-straw
@@ -856,6 +848,7 @@ line pit
   -1562.0 474.0 -1478.0 546.0 -1424.0 544.0
   -1370.0 542.0 -1264.0 534.0 -1232.0 502.0
   -1200.0 470.0 -1182.0 448.0 -1178.0 436.0
+  smooth off
 endline
 
 area blocks
@@ -882,7 +875,7 @@ endline
 
 point -3028.0 -1364.0 pillar
 
-line border -id l196--3004--964 -close on
+line border -id l196--3004--964 -close on -visibility off
   -3044.0 -1112.0
   -3056.0 -1098.0 -3080.0 -946.0 -3076.0 -912.0
   -3072.0 -878.0 -3062.0 -844.0 -3040.0 -824.0
@@ -903,6 +896,7 @@ line pit -reverse on
   -3596.0 -1808.0 -3684.0 -1798.0 -3734.0 -1834.0
   -3784.0 -1870.0 -3888.0 -1958.0 -3918.0 -1970.0
   -3948.0 -1982.0 -4136.0 -2082.0 -4238.0 -2112.0
+  smooth off
 endline
 
 line water-flow
@@ -910,18 +904,21 @@ line water-flow
   -5072.0 -2470.0 -5084.0 -2400.0 -5090.0 -2384.0
   -5096.0 -2368.0 -5102.0 -2344.0 -5092.0 -2306.0
   -5082.0 -2268.0 -5064.0 -2222.0 -5042.0 -2196.0
+  smooth off
 endline
 
 line water-flow
   -5100.0 -2882.0
   -5102.0 -2840.0 -5132.0 -2814.0 -5132.0 -2782.0
   -5132.0 -2750.0 -5108.0 -2634.0 -5094.0 -2570.0
+  smooth off
 endline
 
 line water-flow
   -5126.0 -3280.0
   -5110.0 -3254.0 -5060.0 -3188.0 -5058.0 -3144.0
   -5056.0 -3100.0 -5090.0 -3020.0 -5094.0 -2994.0
+  smooth off
 endline
 
 point -4948.0 -3112.0 soda-straw
@@ -945,8 +942,6 @@ point -4510.0 -2410.0 soda-straw
 point -4414.0 -2318.0 soda-straw
 
 point -4202.0 -2344.0 soda-straw
-
-point -2994.0 -1952.0 soda-straw
 
 point -3150.0 -1794.0 soda-straw
 

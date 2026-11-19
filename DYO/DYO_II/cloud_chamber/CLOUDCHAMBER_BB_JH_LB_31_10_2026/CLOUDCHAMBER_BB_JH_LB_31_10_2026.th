@@ -6,15 +6,13 @@ input "CLOUDCHAMBER_BB_JH_LB_31_10_2026.plan.th2"
 input "CLOUDCHAMBER_BB_JH_LB_31_10_2026.ee.th2"
 
 
-#date 2026.10.31
-#instrument inst ""
-
-
 centreline
 date 2026.10.31
 team "Buck Blake" notes
 team "James Hallihan" instruments
 team "Lara Bartleet" dog
+
+equate 12 19
 
 data normal from to tape compass clino ignoreall
 1  2  5.899  153.79  8.49  
