@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -156.25 -186.5 442.9606299216 521.7007874019996
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {213.3828346500004 1 1.0} {143.69598425999993 29.0} initialsTherion_p0.xvi 0 {}
 
 
@@ -35,13 +35,6 @@ line wall -reverse on -subtype presumed
   smooth off
 endline
 
-point -27.0 367.0 label -text "Initials"
-
-line arrow
-  9.0 344.5
-  131.0 273.5
-endline
-
 line wall
   204.0 60.0
   204.0 60.0 220.0 86.0 224.0 112.0
@@ -51,6 +44,7 @@ line wall
   200.5 191.0 197.0 200.0 196.0 205.5
   195.0 211.0 189.5 230.5 187.5 233.5
   185.5 236.5 186.75 280.25 184.75 295.25
+  smooth off
 endline
 
 line wall
@@ -77,6 +71,7 @@ line wall
   smooth off
   173.58283465 207.24598426 172.75 237.75 172.25 243.0
   171.75 248.25 160.0 287.75 159.5 296.75
+  smooth off
 endline
 
 point 184.64283465 273.62598426 station -name 29.3

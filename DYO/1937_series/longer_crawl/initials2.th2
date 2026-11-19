@@ -81,14 +81,7 @@ point 279.21472442 190.24031496 station -name 29.7
 
 point 354.52472442 63.98031496 station -name 29.6
 
-point -184.5 353.0 label -text "Continues"
-
-line arrow
-  -38.0 315.5
-  -100.5 314.5
-endline
-
-line wall:unsurveyed
+line wall -subtype presumed
   42.5 297.0
   41.5 310.0
   41.5 310.0 45.5 321.0 42.0 324.0
@@ -98,7 +91,7 @@ line wall:unsurveyed
   smooth off
 endline
 
-line wall:unsurveyed
+line wall -reverse on -subtype presumed
   20.5 295.0
   20.5 312.5
   20.5 312.5 5.5 309.5 -1.5 309.5

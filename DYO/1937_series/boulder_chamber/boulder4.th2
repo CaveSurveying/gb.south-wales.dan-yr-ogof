@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128.0 -128.0 2096.5039370100003 2844.5354330738
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {1564.29133858 1 1.0} {2664.21259843 1.0} boulder4Therion_p.xvi 0 {}
 
 
@@ -879,7 +879,7 @@ line pit -close on
   1073.0 2071.5 1045.5 2074.0 1034.5 2071.0
 endline
 
-point 1500.0 1097.0 label -text "Lavatory Dan"
+point 1500.0 1097.0 label -text "Lavatory Dan" -scale m
 
 line arrow
   1428.0 1107.0

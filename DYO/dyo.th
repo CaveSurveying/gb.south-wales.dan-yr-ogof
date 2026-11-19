@@ -331,7 +331,7 @@ input lower_series/lower_series.th
 		equate 1.21@canyon 1.0@monk
 		equate 1.0@monk 2.0@longerend
 		equate 1.16@monk 1.16@longerend2
-		equate 1.16@monk2 1.16@canyon
+		equate 1.16@monk2 1.16@canyon 		
 		equate 2.0@monk2 2.0@cloud
 		equate 2.0@cloud 2.18@cloud
 		equate 2.11@cloud 2.11@cloud2

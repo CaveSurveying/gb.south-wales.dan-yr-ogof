@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.000000003 2108.0 1400.0
+##XTHERION## xth_me_area_adjust -128.0 -128.00000000300008 2108.0 1398.0
 ##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {1063.89433071 1 1.0} {1164.92149606 1007.2} S_pearl2Therion_p.xvi 0 {}
 
@@ -234,7 +234,7 @@ line wall
   805.0 1075.0
 endline
 
-point 1559.25 1223.0 label -text "Christmas<br>Chamber"
+point 1533.25 1157.0 label -text "Christmas<br>Chamber" -scale m
 
 line wall
   1090.0 717.0

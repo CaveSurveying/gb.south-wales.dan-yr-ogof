@@ -1,16 +1,11 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -127.99999999999989 -128.00000000000034 1308.0 2372.0944881913997
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_adjust -127.99999999999989 -128.00000000000034 1314.0 2372.0944881913997
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {750.31850394 1 1.0} {2058.14480315 31.0} mudhall2Therion_p.xvi 0 {}
 
 
 
 scrap scrap1 -scale [-128.0 -128.0 1269.73228347 -128.0 0.0 0.0 35.5024000001 0.0 m]
-
-line label -text "Mud Hall"
-  422.0 464.0
-  740.0 376.0
-endline
 
 line pit
 endline
@@ -711,6 +706,8 @@ line wall -id l6-744-117 -reverse on
   smooth off
   664.0 50.0
 endline
+
+point 1148.0 18.0 label -text "Mud Hall" -scale XL
 
 line wall -reverse on
   1128.0 1587.0

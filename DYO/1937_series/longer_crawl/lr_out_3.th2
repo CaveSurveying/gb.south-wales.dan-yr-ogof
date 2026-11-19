@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -127.99999999999909 -128.0 637.0 1947.0
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_adjust -127.99999999999909 -128.0 644.0 1980.0
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {117.8391338600004 1 1.0} {169.37125984999966 24.27} lr_out_3Therion_p.xvi 0 {}
 
 
@@ -72,16 +72,9 @@ line u:ledge
   smooth off
 endline
 
-point 189.0 1621.0 label -text "Helictites"
+point 187.0 1469.5 helictite
 
-line arrow
-  193.0 1593.5
-  190.0 1490.0
-endline
-
-point 187.0 1464.0 helictite
-
-point 330.0 1816.5 label -text "Initials<br>Chamber"
+point 248.0 1842.5 label -text "Initials<br>Chamber" -scale L
 
 area water
   l47-150-659
