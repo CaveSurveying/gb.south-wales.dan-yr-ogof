@@ -19,7 +19,7 @@ concurrency:
 
 jobs:
   site:
-    uses: CaveSurveying/cave-viewer/.github/workflows/build.yml@v0.7.1
+    uses: CaveSurveying/cave-viewer/.github/workflows/build.yml@v0.7.2
     with:
       config: caves.json
       apt-packages: survex subversion
