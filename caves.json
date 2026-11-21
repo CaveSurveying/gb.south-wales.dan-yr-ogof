@@ -15,7 +15,8 @@
       "credit": "the Dan yr Ogof resurvey, from the Cave Registry Data Archive's <a href=\"https://www.cave-registry.org.uk/svn/DYOcatchment/\">DYOcatchment</a> dataset",
       "access": {"url": "https://cambriancavingcouncil.org.uk/restricted%20access%20caves.html", "label": "Caving Wales' (the Cambrian Caving Council's) access contacts for restricted caves"},
       "registry": {"url": "https://www.cambriancavingcouncil.org.uk/registry/ccr_registry_view.php?ID=288", "label": "the Cambrian Cave Registry"},
-      "notice": "Only the DistoX resurvey so far is here, not the whole cave.",
+      "notice": "Only the DistoX resurvey so far is here, not the whole cave. The routes are worked out by computer from the survey&rsquo;s centreline: they show which passages join, not how to get through them. They don&rsquo;t know about the pitches, squeezes, climbs, water or digs on the way, so they&rsquo;re no guide for a trip.",
+      "features": {"directions": false},
       "grid": {
         "offset": [200000, 200000],
         "_comment": "Therion's export is on the SN 100 km square of the National Grid"
