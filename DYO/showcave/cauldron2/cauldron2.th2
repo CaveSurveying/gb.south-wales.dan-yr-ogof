@@ -1,0 +1,109 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -286.0 -410.0 1070.0 1750.0
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {-1.0 1.0} cauldron2_plan.xvi 0 {}
+
+# cauldron2 - converted from PocketTopo export (2014.03.22, Mike McCombe & Jon Jones)
+# 1 metre = 20 units. Line types by PocketTopo pen colour:
+#   black -> wall, brown -> floor-step, blue -> water-flow, green -> rock-border
+# Station 1.0 = "existing station", station 1.11 = "old station" (from PocketTopo comments)
+
+
+
+
+scrap cauldron2_plan -projection plan -scale [0 0 20 0 0 0 1 0 m]
+
+point 0 0 station -name 1.0
+
+point 34.52 60.46 station -name 1.1
+
+point 15.82 125.06 station -name 1.2
+
+point 85.94 204.96 station -name 1.3
+
+point 138 254.8 station -name 1.4
+
+point 78.34 305.92 station -name 1.5
+
+point -0.86 289.18 station -name 1.6
+
+point 211.1 268.56 station -name 1.7
+
+point 262.06 350.7 station -name 1.8
+
+point 195.14 396 station -name 1.9
+
+point 237.92 407.28 station -name 1.10
+
+point 330.34 170.72 station -name 1.11
+
+point 438.5 189.64 station -name 1.12
+
+point 501.83 336.8 section -scrap cauldron2_xs_1_12
+
+point 174.96 563.5 section -scrap cauldron2_xs_1_7
+
+point -130.62 130.14 section -scrap cauldron2_xs_1_2
+
+endscrap
+
+
+
+scrap cauldron2_elev -projection extended -scale [0 0 20 0 0 0 1 0 m]
+
+point 0 0 station -name 1.0
+
+point 69.62 -12.32 station -name 1.1
+
+point 136.88 -16.54 station -name 1.2
+
+point 243.2 12.84 station -name 1.3
+
+point 315.28 9.24 station -name 1.4
+
+point 393.84 69.54 station -name 1.5
+
+point 474.8 98.1 station -name 1.6
+
+point 531.76 92.22 station -name 1.7
+
+point 628.44 109.2 station -name 1.8
+
+point 709.24 93.34 station -name 1.9
+
+point 753.48 102.62 station -name 1.10
+
+point 820.94 131.74 station -name 1.11
+
+point 930.76 94.2 station -name 1.12
+
+endscrap
+
+# cross-section at station 1.12
+
+
+
+
+scrap cauldron2_xs_1_12 -projection none -scale [0 0 20 0 0 0 1 0 m]
+
+endscrap
+
+# cross-section at station 1.7
+
+
+
+
+scrap cauldron2_xs_1_7 -projection none -scale [0 0 20 0 0 0 1 0 m]
+
+endscrap
+
+# cross-section at station 1.2
+
+
+
+
+scrap cauldron2_xs_1_2 -projection none -scale [0 0 20 0 0 0 1 0 m]
+
+endscrap
+
+

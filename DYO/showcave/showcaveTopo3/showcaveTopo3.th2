@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128.0 -128.0 4616.1889763828 4734.2992126034
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {3478.27204725 1 1.0} {266.84669291 2.24} showcaveTopo3Therion_p.xvi 0 {}
 
 
@@ -258,6 +258,7 @@ line wall -reverse on
   1781.0 1702.0
   1781.0 1702.0 1768.0 1703.0 1753.0 1705.0
   1738.0 1707.0 1729.0 1705.0 1714.0 1711.0
+  smooth off
 endline
 
 line wall -id l33-3604-818
@@ -370,7 +371,54 @@ area water
   l13-4149-511
 endarea
 
-line border:invisible -id l13-4149-511 -close on
+line border -subtype invisible
+  3401.0 462.0
+  3372.5 415.0
+endline
+
+line border -subtype invisible
+  3411.5 457.0
+  3382.0 406.5
+endline
+
+line border -subtype invisible
+  3421.0 452.5
+  3394.5 403.5
+endline
+
+line border -subtype invisible
+  3428.5 443.5
+  3405.0 403.5
+endline
+
+line border -subtype invisible
+  3437.5 434.5
+  3413.0 394.0
+endline
+
+line border -subtype invisible
+endline
+
+line border -subtype invisible
+  4022.5 802.5
+  4011.5 761.0
+  4022.5 752.5
+  4037.5 797.5
+  4055.5 791.5
+  4037.5 739.5
+  4050.0 730.0
+  4067.5 786.0
+endline
+
+line border -close on -subtype invisible
+  4010.0 806.5
+  4003.0 769.0
+  4059.0 722.0
+  4078.0 782.5
+  4010.0 806.5
+endline
+
+line border -id l13-4149-511 -close on -subtype invisible
   4098.0 447.0
   4098.0 447.0 4134.0 465.0 4140.0 486.0
   4146.0 507.0 4153.0 531.0 4155.0 542.0
@@ -400,6 +448,125 @@ line wall -close on -outline in
   4011.0 703.0 4026.0 673.0 4025.0 668.0
   4024.0 663.0 4018.0 628.0 4018.0 628.0
   smooth off
+endline
+
+line border
+endline
+
+line border
+  4236.0 570.0
+  4281.5 602.0
+endline
+
+line border
+  4257.0 544.0
+  4294.0 572.0
+endline
+
+line border
+  4265.0 534.0
+  4298.5 559.5
+endline
+
+line border
+  4250.5 552.5
+  4290.0 581.0
+endline
+
+line border
+  4243.0 561.5
+  4285.5 593.0
+endline
+
+line border
+  4229.5 578.5
+  4277.0 613.5
+endline
+
+line border
+endline
+
+line border
+  4221.0 587.0
+  4274.5 623.5
+endline
+
+line border -close on
+  4214.5 595.0
+  4271.0 527.5
+  4302.5 547.5
+  4270.0 634.0
+  4214.5 595.0
+endline
+
+line border
+endline
+
+line border
+  4175.5 127.5
+  4209.5 103.5
+endline
+
+line border
+  4183.0 136.5
+  4216.5 115.0
+endline
+
+line border
+  4190.0 145.5
+  4222.0 126.5
+endline
+
+line border
+  4198.0 156.5
+  4229.0 137.0
+endline
+
+line border
+  4123.5 160.0
+  4154.5 139.0
+endline
+
+line border
+  4158.0 201.0
+  4188.0 177.0
+endline
+
+line border
+  4136.0 174.0
+  4165.5 152.0
+endline
+
+line border
+  4147.0 189.0
+  4177.0 164.5
+endline
+
+line border
+  4167.0 216.0
+  4198.5 189.5
+endline
+
+line border
+  4221.5 213.5
+  4190.0 241.5
+endline
+
+line border
+  4179.0 229.0
+  4209.5 202.0
+endline
+
+line border -close on -reverse on
+  4231.0 224.5
+  4154.5 139.0
+  4175.5 127.5
+  4204.5 165.5
+  4234.5 145.0
+  4194.0 79.5
+  4106.0 137.5
+  4199.5 254.0
+  4231.0 224.5
 endline
 
 line wall

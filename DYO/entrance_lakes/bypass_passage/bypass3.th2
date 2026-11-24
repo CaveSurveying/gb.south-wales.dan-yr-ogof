@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -963.0 -358.0 886.700787402 2496.4251968532
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {384.764488189 1 1.0} {1197.59976378 2.9} bypass3Therion_p.xvi 0 {}
 ##XTHERION## xth_me_image_insert {550.790236221 0 1.0} {74.68149606399993 1.10} bypassTherion_p.xvi 0 {}
 ##XTHERION## xth_me_image_insert {518.77472441 0 1.0} {843.661732284 2.4} bypass2Therion_p.xvi 0 {}
@@ -159,12 +159,13 @@ line wall -reverse on
   smooth off
 endline
 
-line wall
+line wall -subtype underlying
   486.0 307.0
-  486.0 307.0 497.0 266.0 475.5 223.5
+  486.0 307.0 493.0 174.5 395.0 166.5
+  smooth off
 endline
 
-line wall -reverse on -clip off
+line wall -reverse on -clip off -subtype underlying
   636.0 293.5
   634.5 285.5 624.0 260.5 619.5 253.0
   615.0 245.5 594.0 177.0 594.0 177.0
